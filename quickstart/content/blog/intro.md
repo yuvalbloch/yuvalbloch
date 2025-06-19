@@ -25,3 +25,40 @@ But there's a catch: Seeing life this way—through the **prism of complex syst
 So, in this blog, I'll do my best to reveal the wonder of the living patterns that emerge from chaos everywhere—from the microbes in your gut to the interplay of vegetation and climate across continents—without needing you to know any math.
 
 Because once you begin to see the world not as a mechanical clock but as a living, adaptive, ever-evolving symphony, **your appreciation for life in all its forms becomes truly unconditional.**
+
+
+<h3 style="font-size: 1.3em; margin-bottom: 0.4em;">📬 Subscribe</h3>
+<p style="font-size: 0.9em; margin-bottom: 0.8em;">
+💡 Essays on life, chaos, and the quiet order beneath it all.  
+Get them by email—about once a week
+</p>
+
+<form
+  action="https://buttondown.email/api/emails/embed-subscribe/yuval"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.email/yuval', 'popupwindow')"
+  style="display: flex; flex-direction: column; gap: 0.5em; max-width: 300px; font-size: 0.9em;"
+>
+  <input
+    type="email"
+    name="email"
+    id="bd-email"
+    required
+    placeholder="your@email.com"
+    style="padding: 0.4em; border: 1px solid #ccc; border-radius: 4px; font-size: 0.9em;"
+  />
+
+  <input
+    type="submit"
+    value="Join"
+    style="padding: 0.4em; background-color: #222; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.9em;"
+  />
+
+  <p style="margin: 0; font-size: 0.75em; color: #777;">
+    <a href="https://buttondown.email/refer/yuval" target="_blank" style="text-decoration: none; color: inherit;">
+      Powered by Buttondown
+    </a>
+  </p>
+</form>
+

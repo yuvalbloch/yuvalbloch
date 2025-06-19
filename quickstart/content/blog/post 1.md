@@ -156,3 +156,34 @@ Through the lens of complexity, we’ll explore how markets behave like living s
 
 **See you then.**
 
+
+### 📬 Subscribe
+
+<form
+  action="https://buttondown.email/api/emails/embed-subscribe/yuval"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.email/yuval', 'popupwindow')"
+  style="display: flex; flex-direction: column; gap: 0.5em; max-width: 300px; font-size: 0.9em;"
+>
+  <input
+    type="email"
+    name="email"
+    id="bd-email"
+    required
+    placeholder="your@email.com"
+    style="padding: 0.4em; border: 1px solid #ccc; border-radius: 4px; font-size: 0.9em;"
+  />
+
+  <input
+    type="submit"
+    value="Join"
+    style="padding: 0.4em; background-color: #222; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.9em;"
+  />
+
+  <p style="margin: 0; font-size: 0.75em; color: #777;">
+    <a href="https://buttondown.email/refer/yuval" target="_blank" style="text-decoration: none; color: inherit;">
+      Powered by Buttondown
+    </a>
+  </p>
+</form>
