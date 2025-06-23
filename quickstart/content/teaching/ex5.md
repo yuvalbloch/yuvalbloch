@@ -1,7 +1,6 @@
 ---
-
-title: "Python Functions: Biological Exercises in Hebrew"
-description: "A practical guide with **hands-on tasks** for defining, calling, and mastering functions in Python, focusing on real-world applications in biology."
+title: "פונקציות פייתון - דוגמאות מדינימיקה של אוכלוסיות"
+description: "תרגול מעשי בפונקציות פייתון לפתרון בעיות ביולוגיות: מודלים של דינמיקת אוכלוסייה וסימולציות של חיידקים. חומרים בעברית."
 ---
 # 🧬 תרגיל 5 - פוקציות 
 

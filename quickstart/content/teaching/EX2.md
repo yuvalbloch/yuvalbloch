@@ -1,6 +1,6 @@
 ---
-title: "Python Data Structures: Biological Examples (in Hebrew)"
-description: "A practical guide with **hands-on tasks** for using lists, dictionaries, tuples, and nested data structures in Python, focusing on real-world applications in biology. writed in Hebrew"
+title: " מבני נתונים בפייתון"
+description: "תרגול מעשי במבני נתונים בפייתון (רשימות, מילונים, סטים וזוגות) עם דוגמאות ממחקר אקולוגי וביולוגי. החומרים בעברית."
 ---
 
 # 🔬 תרגול במבני נתונים

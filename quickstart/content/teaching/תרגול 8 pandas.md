@@ -1,9 +1,8 @@
 ---
-title: "Pandas for Biologists: Data Manipulation Exercises (in Hebrew)" 
-description: "A practical guide with **hands-on tasks** for mastering data manipulation and analysis using Pandas DataFrames in Python, with a focus on biological datasets."
+title: "Pandas תרגול ניתוח נתונים דרך ספריית "
+description: "בתרגול הזה נדגים כיצד ניתן להשתשמש בספריית פנדה כדי לנתח טבלאות נתונים גדולות בביולוגיה"
 ---
 
-title: "Pandas for Biologists: Data Manipulation Exercises" description: "A practical guide with **hands-on tasks** for mastering data manipulation and analysis using Pandas DataFrames in Python, with a focus on biological datasets."
 ### הערה חשובה! – יש להריץ בקובץ ה־main בלבד
 
 בשבוע הבא בתרגול תשתמשו בפונקציות שתכתבו הפעם, דרך `import` של קובץ הקוד שאתם כותבים עכשיו אל הקוד שתכתבו בשבוע הבא.  
@@ -30,7 +29,7 @@ if __name__ == "__main__":
 
 ### א. טעינת הנתונים וניתוח ראשוני
 
-1. הורידו את קובץ הנתונים `iris.csv` מאתר הקורס וייבאו אותו באמצעות `pandas.read_csv`.
+1. הורידו את קובץ הנתונים `iris.csv` מאתר kaggle או מכל מקור אחר וייבאו אותו באמצעות `pandas.read_csv`.
     
 2. הציגו את חמש השורות הראשונות של הטבלה בעזרת `df.head`.
     
