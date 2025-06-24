@@ -2,18 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Acadmic Portfolio</title>
-    <link>https://yuvalbloch.com/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Acadmic Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Jun 2025 12:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yuvalbloch.com/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Post</title>
-      <link>https://yuvalbloch.com/posts/first-post/</link>
-      <pubDate>Tue, 03 Jun 2025 12:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/posts/first-post/</guid>
-      <description>&lt;h1 id=&#34;yuval-bloch&#34;&gt;yuval bloch&lt;/h1&gt;&#xA;&lt;p&gt;computational biology&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://yuvalbloch.com/assets/me.jpeg&#34; alt=&#34;Me&#34;&gt;&lt;/p&gt;</description>
-    </item>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

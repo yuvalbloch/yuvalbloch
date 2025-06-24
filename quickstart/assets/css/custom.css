@@ -1,17 +1,16 @@
+/* Custom CSS for Ananke Theme */
 
-
-
-
-
+/* Existing styles you provided earlier */
 .navbar .navbar-item.is-button:hover {
   background-color: #ff8f00 !important;
 }
 .circular-img {
   border-radius: 50%;
   display: block;
-  max-width: 200px; /* optional: adjust size */
-  margin: auto;     /* center horizontally */
+  max-width: 200px;
+  margin: auto;
 }
+/* This hides the header area completely on the homepage. Keep if intended. */
 body[data-page="home"] header.cover {
   display: none !important;
 }
@@ -47,18 +46,96 @@ main.main-content,
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 12px;
 }
+
+
+/* --- START of NEW/MODIFIED header specific rules --- */
+
+/* Base header.cover style: Defines its fixed, small height and layout */
 header.cover {
-  height: 40px !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  background: none !important;
-  box-shadow: none !important;
+  /* Remove any conflicting height rules you had previously (e.g., 10px, 40px) */
+  height: 40px !important; /* Your desired fixed small header height */
+  padding: 0 !important;   /* Remove all internal padding */
+  margin: 0 !important;    /* Remove all external margins */
+  background: none !important; /* Ensure no background that conflicts with text color */
+  background-image: none !important; /* Remove any default background image */
+  box-shadow: none !important; /* No shadow */
+
+  /* Flexbox for vertical and horizontal centering of content (the page title/desc block) */
+  display: flex !important;
+  align-items: center !important;   /* Vertically center */
+  justify-content: center !important; /* Horizontally center */
+  overflow: hidden;                 /* Crucial: Hide any content that extends beyond 40px height */
+  position: relative; /* Needed if you want to z-index the nav later, but not strictly for this problem */
 }
-header.cover {
-  height: 10px !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  background: none !important;
-  background-image: none !important;
-  box-shadow: none !important;
+
+/* Style for the div containing the page-specific title (<h1>) and description (<h2>) */
+/* This is: <div class="tc-l pv4 pv6-l ph3 ph4-ns"> */
+header.cover .tc-l {
+  padding: 0 !important; /* Override Ananke's default padding on this div */
+  margin: 0 !important;  /* Override Ananke's default margin on this div */
+  text-align: center !important; /* Ensure text inside is centered */
+  width: 100%; /* Make sure it takes full width for text wrapping */
+  
+  /* Make this a flex container to stack H1 and H2 tightly */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items within this column */
+  justify-content: center;
 }
+
+/* Style for the H1 (Page Title) */
+/* HTML: <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title"> */
+header.cover h1.f2,
+header.cover h1.f-subheadline-l {
+  font-size: 1.1rem !important; /* Drastically reduced font size */
+  line-height: 1 !important;    /* Minimal line height */
+  margin: 0 !important;         /* Remove all margins */
+  padding: 0 !important;        /* Remove all paddings */
+  color: #333 !important;       /* **CHANGE THIS:** Set a color that contrasts with your page background */
+                                /* If your page background is white, use a dark color like #333. */
+                                /* If you add a dark background to header.cover, then white is fine. */
+  white-space: nowrap;          /* Force title to a single line */
+  overflow: hidden;             /* Hide overflow */
+  text-overflow: ellipsis;      /* Add "..." if title is too long */
+  max-width: 90%;               /* Limit horizontal width for ellipsis to kick in */
+}
+
+/* Style for the H2 (Page Description) */
+/* HTML: <h2 class="fw1 f5 f3-l white-80 measure-wide-l center mt3"> */
+header.cover h2.fw1,
+header.cover h2.f5,
+header.cover h2.f3-l {
+  /* For a header height of 40px, the description will almost certainly not fit. */
+  /* It's highly recommended to hide it unless you increase the header height. */
+  display: none !important; /* **RECOMMENDED:** Hide the description */
+}
+
+/* MEDIA QUERIES for responsive adjustments, keeping header small */
+
+/* For screens up to 768px (tablets) */
+@media (max-width: 768px) {
+  header.cover {
+    height: 40px !important; /* Maintain fixed height */
+  }
+
+  header.cover h1.f2,
+  header.cover h1.f-subheadline-l {
+    font-size: 1rem !important; /* Slightly smaller title */
+    line-height: 1 !important;
+  }
+}
+
+/* For screens up to 480px (mobile) */
+@media (max-width: 480px) {
+  header.cover {
+    height: 35px !important; /* Potentially even smaller for mobile */
+  }
+
+  header.cover h1.f2,
+  header.cover h1.f-subheadline-l {
+    font-size: 0.9rem !important; /* Even tinier title for mobile */
+    line-height: 1 !important;
+  }
+}
+
+/* --- END of NEW/MODIFIED header specific rules --- */

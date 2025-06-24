@@ -1,7 +1,11 @@
 ---
+lang: "he"
 title: "Pandas תרגול ניתוח נתונים דרך ספריית "
 description: "בתרגול הזה נדגים כיצד ניתן להשתשמש בספריית פנדה כדי לנתח טבלאות נתונים גדולות בביולוגיה"
+omit_header_text: true
+language_direction: "rtl"
 ---
+<div class="hebrew-text-rtl">
 
 ### הערה חשובה! – יש להריץ בקובץ ה־main בלבד
 
@@ -271,3 +275,5 @@ overall_feature_accuracy(iris)
 3. עבור איזה מין יחס האורך בין **מקור (culmen)** ל־**סנפיר (flipper)** הוא הגבוה ביותר בממוצע?
 
 
+```
+</div>

@@ -55,7 +55,7 @@
   </head>
 
   {{- $environment := hugo.Environment | compare.Default "production" -}}
-  <body class="{{ if .IsHome }}homepage {{ end }}ma0 {{ $.Param "body_classes"  | compare.Default "avenir bg-near-white"}} {{ $environment }}">
+<body {{ if .Params.language_direction }}dir="{{ .Params.language_direction }}"{{ else }}dir="ltr"{{ end }} {{ if .IsHome }}data-page="home"{{ end }}>
 
     {{ block "header" . }}{{ partials.Include "site-header.html" .}}{{ end }}
     <main class="pb7" role="main">

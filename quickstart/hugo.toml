@@ -7,10 +7,11 @@ googleAnalytics = "G-G88CJRGNM1"
 
 [params]
   author = "yuval bloch"
-  description = "Welcome to my academic portfolio!"
+  description = "academic portfolio of computinal ecolgist"
   custom_css = ["custom.css"]
   mainSections = ["posts"]
   ananke.show_recent_posts = true
+  omit_header_text = false 
   summaryLength = 10  # reduce to 25 words instead of 70
 
 
@@ -74,5 +75,11 @@ googleAnalytics = "G-G88CJRGNM1"
   profilelink = "https://www.linkedin.com/in/yuval-bloch-191041192/"
   rel = "noopener"
 
-
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-us"
+    weight = 1
+    # REMOVE contentDir = "content" if it was here.
+    # Content will be identified by 'lang: "en"' or by being the default.
 

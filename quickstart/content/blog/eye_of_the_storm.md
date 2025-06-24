@@ -1,9 +1,11 @@
 ---
+lang: "en"
 title: "The Eye of the Storm: Understanding Our Minds During Struggles"
 date: 2025-06-19
 description: "In times of conflict, learning to navigate our internal landscape is crucial. This post explores how complexity theory illuminates the mind's self-organizing nature, the power of attention, and strategies for emotional resilience amidst chaos."
 tags: [complex-systems, mind, brain, emotions, neuroplasticity, DMN, mindfulness, emotional-regulation, resilience]
 featured_image: /assets/mind.jpeg
+omit_header_text: true
 ---
 
 This morning, the stark reality of war struck close to home. Beersheba, a city that until now had remained relatively peaceful compared to central Israel, was hit by a bombing at our main hospital. The shockwave I felt  from the public shelter near my apartment served as a cruel reminder of humanity's darkest capacities. This experience profoundly underscores the urgent importance of learning to manage our emotions in such circumstances—a challenge that, as I'll argue, complexity theory can illuminate.

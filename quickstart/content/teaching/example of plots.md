@@ -1,7 +1,8 @@
 ---
+lang: "en"
 title: "Common Plot Types in Data Visualization"
 description: "A quick reference guide showcasing essential plot types used in data analysis and visualization."
-
+omit_header_text: true
 paginate: false
 ---
 <style>

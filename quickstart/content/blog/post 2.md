@@ -1,8 +1,10 @@
 ---
+lang: "en"
 title: "Empathy in the Emergent Storm: A Complex Systems Perspective on Conflict"
 date: 2025-06-15
 description: "In a world reeling from conflict, discover how the lens of complex systems reveals the true nature of war, why regimes fall, and how we can cultivate empathy—even in chaos."
 tags: [complex-systems, conflict, empathy, war, emergence, predictability, social-networks, geopolitics]
+omit_header_text: true
 featured_image: /assets/image_post_2.jpeg
 ---
 

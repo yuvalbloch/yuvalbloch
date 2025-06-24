@@ -1,3 +1,5 @@
+/* Custom CSS for Ananke Theme */
+
 /* === Navbar === */
 .navbar-brand img {
   max-height: 2.5rem; /* ~40px, but relative */
@@ -8,24 +10,37 @@
 /* Common header settings */
 header.cover {
   background-position: center 10% !important;
-  background-size: cover !important;
   box-shadow: none !important;
 }
 
 /* Homepage header background */
-body.homepage {
+body[data-page="home"] {
   background: url('/assets/image_for_top1.png') no-repeat center 10% fixed;
   background-size: cover;
   margin: 0;
   padding: 0;
 }
 
-/* Shrink the dark overlay on homepage and other pages */
-body.homepage header.cover .bg-black-60 {
-  height: 15vh !important;
+/* Header overlay container for homepage (contains nav and title) */
+body[data-page="home"] header.cover .bg-black-60 {
+  height: 15vh !important; /* Smaller height for homepage header */
+  display: flex !important;
+  flex-direction: column !important; /* Stack nav and title vertically */
+  justify-content: flex-start !important; /* Align content to the top */
+  align-items: center !important; /* Center horizontally */
+  overflow: hidden; /* Prevent content overflow */
+  padding: 0 !important; /* Remove internal padding */
 }
-body:not(.homepage) header.cover .bg-black-60 {
-  height: 45vh !important;
+
+/* Header overlay container for non-homepage (contains nav and title) */
+body:not([data-page="home"]) header.cover .bg-black-60 {
+  height: 45vh !important; /* Larger height for non-homepage header */
+  display: flex !important;
+  flex-direction: column !important; /* Stack nav and title vertically */
+  justify-content: flex-start !important; /* Align content to the top */
+  align-items: center !important; /* Center horizontally */
+  overflow: hidden;
+  padding: 0 !important;
 }
 
 /* === Page Image Styling === */
@@ -41,23 +56,23 @@ header > div img {
 /* === Layout Width and Text Alignment === */
 
 /* Apply only to non-home pages */
-body:not(.homepage) main,
-body:not(.homepage) .section,
-body:not(.homepage) .article,
-body:not(.homepage) .content,
-body:not(.homepage) .nested-copy-line-height,
-body:not(.homepage) .measure-wide {
+body:not([data-page="home"]) main,
+body:not([data-page="home"]) .section,
+body:not([data-page="home"]) .article,
+body:not([data-page="home"]) .content,
+body:not([data-page="home"]) .nested-copy-line-height,
+body:not([data-page="home"]) .measure-wide {
   max-width: 90%;
   padding-left: 1rem;
   padding-right: 1rem;
   margin: 0 auto;
 }
 
-body:not(.homepage) .center,
-body:not(.homepage) .tc,
-body:not(.homepage) .measure,
-body:not(.homepage) .measure-wide,
-body:not(.homepage) .nested-copy-line-height {
+body:not([data-page="home"]) .center,
+body:not([data-page="home"]) .tc,
+body:not([data-page="home"]) .measure,
+body:not([data-page="home"]) .measure-wide,
+body:not([data-page="home"]) .nested-copy-line-height {
   text-align: left !important;
   margin-left: 0 !important;
   margin-right: 0 !important;
@@ -73,12 +88,15 @@ body:not(.homepage) .nested-copy-line-height {
     max-height: 2rem;
   }
 
-  body.homepage header.cover .bg-black-60,
-  body:not(.homepage) header.cover .bg-black-60 {
-    height: 20vh !important;
+  /* Adjust .bg-black-60 height for smaller screens (maintain vh) */
+  body[data-page="home"] header.cover .bg-black-60,
+  body:not([data-page="home"]) header.cover .bg-black-60 {
+    height: 20vh !important; /* Example smaller height for mobile */
+    flex-direction: column !important;
+    justify-content: flex-start !important;
   }
 }
-.shadow-hover, 
+.shadow-hover,
 .shadow-hover * {
   margin: 0 !important;
   padding: 0 !important;
@@ -88,7 +106,6 @@ body:not(.homepage) .nested-copy-line-height {
 .card-text {
   padding: 1rem !important;
 }
-
 
 /* Widen post content on single post pages */
 .single article,
@@ -130,13 +147,101 @@ body:not(.homepage) .nested-copy-line-height {
   }
 }
 
+/* --- Start of Header Title Specific Styling (pre-RTL, pre-transparency changes) --- */
+
+/* Allow navbar to retain its original styling and size */
+header.cover nav.pv3 {
+  width: 100%; /* Ensure it takes full width within flex column */
+}
+
+/* Style for the div containing the page-specific title (<h1>) and description (<h2>) */
+header.cover .tc-l {
+  padding-top: 0 !important; /* Move title closer to nav */
+  padding-bottom: 0 !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  margin: 0 !important;
+  text-align: center !important;
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+/* Style for the H1 (Page Title) - Georgia font and white color are here */
+header.cover h1.f2,
+header.cover h1.f-subheadline-l {
+  font-size: 4rem !important; /* Adjusted font size for larger header */
+  line-height: 1.2 !important;
+  margin: 0.5rem 0 !important;
+  padding: 0 !important;
+  color: white !important; /* Make title white */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 90%;
+  display: block !important;
+  font-family: Georgia, serif !important; /* Set font to Georgia */
+}
+
+/* Style for the H2 (Page Description) */
+header.cover h2.fw1,
+header.cover h2.f5,
+header.cover h2.f3-l {
+  display: none !important; /* Keep the description hidden */
+}
+
+/* Conditional visibility for H1 based on screen size */
 @media screen and (max-width: 768px) {
-  header .lh-title,
-  header .measure-wide-l {
-    display: none !important;
+  header.cover h1.f2,
+  header.cover h1.f-subheadline-l {
+    display: none !important; /* Hide title on tablets and smaller */
   }
 }
-  header .lh-title,
-  header .measure-wide-l {
-    display: none !important;
-  }
+
+/* --- Hebrew (RTL) Text Alignment --- */
+.hebrew-text-rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.hebrew-text-rtl h1,
+.hebrew-text-rtl h2,
+.hebrew-text-rtl h3,
+.hebrew-text-rtl h4,
+.hebrew-text-rtl h5,
+.hebrew-text-rtl h6,
+.hebrew-text-rtl p,
+.hebrew-text-rtl blockquote,
+.hebrew-text-rtl table {
+  text-align: right;
+}
+
+.hebrew-text-rtl ul,
+.hebrew-text-rtl ol {
+  padding-right: 20px;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.hebrew-text-rtl ul li,
+.hebrew-text-rtl ol li {
+  text-align: right;
+}
+
+.hebrew-text-rtl figure {
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
+}
+.hebrew-text-rtl figcaption {
+    text-align: right;
+}
+
+/* --- END of NEW rules --- */
+/* --- End of Header Title Specific Styling --- */
