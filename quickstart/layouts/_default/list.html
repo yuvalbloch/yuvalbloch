@@ -5,9 +5,8 @@
     </section>
     <section class="flex-ns mt1 flex-wrap justify-around">
       {{ range .Paginator.Pages }}
-      <div class="w-100 w-20-l mb4 relative bg-white">
-        {{ .Render "summary" }}
-        </div>
+      <div class="w-100 w-33-l mb4 relative bg-white"> {{ .Render "summary" }}
+      </div>
       {{ end }}
     </section>
     {{- template "_internal/pagination.html" . -}}

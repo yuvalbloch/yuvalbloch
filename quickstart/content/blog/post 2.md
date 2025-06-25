@@ -1,9 +1,19 @@
 ---
-lang: "en"
+lang: en
 title: "Empathy in the Emergent Storm: A Complex Systems Perspective on Conflict"
 date: 2025-06-15
-description: "In a world reeling from conflict, discover how the lens of complex systems reveals the true nature of war, why regimes fall, and how we can cultivate empathy—even in chaos."
-tags: [complex-systems, conflict, empathy, war, emergence, predictability, social-networks, geopolitics]
+description: Confronting the fragility of existence, this post explores the profound connection between life, entropy, and the search for meaning. From the microscopic dance of cells to the grand scale of planetary systems, uncover how impermanence can paradoxically enrich our understanding of being.
+tags:
+  - impermanence
+  - entropy
+  - meaning-of-life
+  - complexity-theory
+  - spirituality
+  - mortality
+  - gaia-hypothesis
+  - cellular-computation
+  - neuroscience
+  - philosophy-of-science
 omit_header_text: true
 featured_image: /assets/image_post_2.jpeg
 ---

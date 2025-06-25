@@ -78,7 +78,36 @@ body:not([data-page="home"]) .nested-copy-line-height {
   margin-right: 0 !important;
 }
 
-/* === Responsive Adjustments === */
+/* =========================================== */
+/* === Space Between Post Blocks on Blog List Page === */
+/* This targets the individual post card wrapper divs shown in your HTML. */
+/* The !important flag is used to ensure it overrides Tachyons' default 'mb4' (margin-bottom: 2rem). */
+.flex-ns.mt1.flex-wrap.justify-around > .w-100.w-20-l.mb4.relative.bg-white {
+    margin-bottom: 3.5rem !important; /* Adjust this value (e.g., 3.5rem, 4rem) for desired spacing */
+    /* You could also add a subtle border-bottom if you want more visual separation, e.g., */
+    /* border-bottom: 1px solid #eee; */
+    /* padding-bottom: 1.5rem; */
+}
+
+/* To avoid extra space after the very last card (optional, depending on layout) */
+/* This specifically targets the very last card in the overall list */
+.flex-ns.mt1.flex-wrap.justify-around > .w-100.w-20-l.mb4.relative.bg-white:last-child {
+    margin-bottom: 0 !important;
+}
+
+/* Responsive adjustment for mobile (stacked cards) */
+@media screen and (max-width: 768px) {
+    .flex-ns.mt1.flex-wrap.justify-around > .w-100.w-20-l.mb4.relative.bg-white {
+        margin-bottom: 2.5rem !important; /* Slightly less vertical space on smaller screens */
+    }
+    .flex-ns.mt1.flex-wrap.justify-around > .w-100.w-20-l.mb4.relative.bg-white:last-child {
+        margin-bottom: 0 !important;
+    }
+}
+/* =========================================== */
+
+
+/* === Responsive Adjustments (existing, ensures mobile adjustments come after general ones) === */
 @media screen and (max-width: 768px) {
   header.cover {
     background-position: center 15% !important;
@@ -241,6 +270,55 @@ header.cover h2.f3-l {
 }
 .hebrew-text-rtl figcaption {
     text-align: right;
+}
+
+/* =========================================== */
+/* === Post Card Styling on Blog List Page === */
+
+/* Target the individual post card wrapper div (the outer box) */
+.flex-ns.mt1.flex-wrap.justify-around > div {
+    /* Horizontal spacing *between* cards on the same row */
+    /* This distributes extra horizontal space around the cards if they don't fill 100% exactly */
+    /* and can add a bit more specific gutter between them */
+    padding: 0 0.75rem; /* Add some left/right padding to create horizontal "gutters" */
+    box-sizing: border-box; /* Ensures padding is included in the element's total width */
+}
+
+/* Target the inner shadow-hover div for internal padding and vertical margins */
+.w-100.mb4.bg-white.shadow-hover {
+    /* Vertical spacing *between rows* of cards */
+    /* This overrides the 'mb4' from Tachyons to create more space below each card */
+    margin-bottom: 3.5rem !important; /* Adjust for desired vertical gap between rows */
+    /* Internal padding *inside* the white card box, around its content (image/text) */
+    /* You already have .card-text doing 1rem padding for text. This is for the whole card. */
+    /* If your image goes edge-to-edge, this outer padding applies *around* the image and text area. */
+    /* If you want internal padding around the image, you'll need to apply it to the <a> or a wrapper. */
+}
+
+/* Ensure the very last card doesn't have an extra large bottom margin */
+.flex-ns.mt1.flex-wrap.justify-around > div:last-child > .w-100.mb4.bg-white.shadow-hover {
+    margin-bottom: 0 !important;
+}
+
+/* Responsive adjustments for mobile (stacked cards) */
+@media screen and (max-width: 768px) {
+    /* For full-width cards on mobile, remove horizontal padding from the outer div */
+    .flex-ns.mt1.flex-wrap.justify-around > div {
+        padding: 0; /* Remove horizontal padding on mobile for full width */
+    }
+    
+    /* Adjust vertical spacing for mobile cards */
+    .w-100.mb4.bg-white.shadow-hover {
+        margin-bottom: 2.5rem !important; /* Less vertical space on smaller screens */
+    }
+    .flex-ns.mt1.flex-wrap.justify-around > div:last-child > .w-100.mb4.bg-white.shadow-hover {
+        margin-bottom: 0 !important;
+    }
+}
+
+/* ... (Your existing CSS code for .card-text and other elements) ... */
+.card-text {
+  padding: 1rem !important; /* This is already good for padding *inside* the text area */
 }
 
 /* --- END of NEW rules --- */
