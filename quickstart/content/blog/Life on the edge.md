@@ -100,6 +100,9 @@ It may feel counterintuitive—how do organisms without brains perform computati
 
 A perfect example is the slime mold _Physarum polycephalum_. Despite having no brain, it grows toward food sources in a way that optimally solves spatial problems. On a map of food sites, it constructs networks that rival human transport systems—many studies have shown it can outperform most metro networks, with Tokyo being a rare exception. This mold isn't learning in a neural sense—it is learned through evolution and computes via distributed cellular processes.
 <figure> <img src="/assets/mold.jpg" alt="Slime mold creating optimal networks" style="max-width:100%; height:auto; display:block; margin: 0 auto; border-radius: 12px;"> <figcaption style="font-size: 0.9em; color: #666; margin-top: 0.8rem; line-height: 1.5; padding: 0 1rem; text-align: center;">Physarum polycephalum, a simple mold with no brain, capable of designing traffic systems better than most governments. </figcaption> </figure>
+
+
+
 ###  A Leap in Memory & Computation: The Nervous System
 
 But about 500 million years ago, a revolutionary shift occurred: individual organisms gained the ability to remember and compute internally via **nervous systems**. Neurons enabled entities to form dynamic memory rules and behavioral computations, enabling anticipatory responses and learning.
