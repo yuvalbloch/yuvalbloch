@@ -2,161 +2,164 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://yuvalbloch.com/</loc>
+    <lastmod>2025-07-07T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yuvalbloch.com/research/sensitivity-to-land-configuration/</loc>
+    <lastmod>2025-07-07T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://yuvalbloch.com/tags/assembly-theory/</loc>
     <lastmod>2025-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/assembly-theory/</loc>
+    <loc>https://yuvalbloch.com/tags/complexity/</loc>
     <lastmod>2025-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/complexity/</loc>
+    <loc>https://yuvalbloch.com/tags/fluidity/</loc>
     <lastmod>2025-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/fluidity/</loc>
+    <loc>https://yuvalbloch.com/tags/identity/</loc>
     <lastmod>2025-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/identity/</loc>
+    <loc>https://yuvalbloch.com/tags/memory/</loc>
     <lastmod>2025-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/memory/</loc>
+    <loc>https://yuvalbloch.com/tags/neuroplasticity/</loc>
     <lastmod>2025-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/neuroplasticity/</loc>
+    <loc>https://yuvalbloch.com/tags/personal-growth/</loc>
     <lastmod>2025-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/personal-growth/</loc>
+    <loc>https://yuvalbloch.com/tags/philosophy-of-mind/</loc>
     <lastmod>2025-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/philosophy-of-mind/</loc>
+    <loc>https://yuvalbloch.com/tags/pride/</loc>
     <lastmod>2025-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/pride/</loc>
+    <loc>https://yuvalbloch.com/tags/queer-theory/</loc>
     <lastmod>2025-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/queer-theory/</loc>
+    <loc>https://yuvalbloch.com/tags/</loc>
     <lastmod>2025-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://yuvalbloch.com/blog/identity/</loc>
     <lastmod>2025-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/identity/</loc>
+    <loc>https://yuvalbloch.com/blog/</loc>
     <lastmod>2025-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-07-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/cellular-computation/</loc>
+    <loc>https://yuvalbloch.com/tags/cellular-computation/</loc>
     <lastmod>2025-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/complexity-theory/</loc>
+    <loc>https://yuvalbloch.com/tags/complexity-theory/</loc>
     <lastmod>2025-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/entropy/</loc>
+    <loc>https://yuvalbloch.com/tags/entropy/</loc>
     <lastmod>2025-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/gaia-hypothesis/</loc>
+    <loc>https://yuvalbloch.com/tags/gaia-hypothesis/</loc>
     <lastmod>2025-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/impermanence/</loc>
+    <loc>https://yuvalbloch.com/tags/impermanence/</loc>
     <lastmod>2025-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/life-on-the-edge/</loc>
+    <loc>https://yuvalbloch.com/blog/life-on-the-edge/</loc>
     <lastmod>2025-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/meaning-of-life/</loc>
+    <loc>https://yuvalbloch.com/tags/meaning-of-life/</loc>
     <lastmod>2025-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mortality/</loc>
+    <loc>https://yuvalbloch.com/tags/mortality/</loc>
     <lastmod>2025-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/neuroscience/</loc>
+    <loc>https://yuvalbloch.com/tags/neuroscience/</loc>
     <lastmod>2025-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/philosophy-of-science/</loc>
+    <loc>https://yuvalbloch.com/tags/philosophy-of-science/</loc>
     <lastmod>2025-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/spirituality/</loc>
+    <loc>https://yuvalbloch.com/tags/spirituality/</loc>
     <lastmod>2025-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/brain/</loc>
+    <loc>https://yuvalbloch.com/tags/brain/</loc>
     <lastmod>2025-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/complex-systems/</loc>
+    <loc>https://yuvalbloch.com/tags/complex-systems/</loc>
     <lastmod>2025-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/dmn/</loc>
+    <loc>https://yuvalbloch.com/tags/dmn/</loc>
     <lastmod>2025-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/emotional-regulation/</loc>
+    <loc>https://yuvalbloch.com/tags/emotional-regulation/</loc>
     <lastmod>2025-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/emotions/</loc>
+    <loc>https://yuvalbloch.com/tags/emotions/</loc>
     <lastmod>2025-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mind/</loc>
+    <loc>https://yuvalbloch.com/tags/mind/</loc>
     <lastmod>2025-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mindfulness/</loc>
+    <loc>https://yuvalbloch.com/tags/mindfulness/</loc>
     <lastmod>2025-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/resilience/</loc>
+    <loc>https://yuvalbloch.com/tags/resilience/</loc>
     <lastmod>2025-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/eye_of_the_storm/</loc>
+    <loc>https://yuvalbloch.com/blog/eye_of_the_storm/</loc>
     <lastmod>2025-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/post-2/</loc>
+    <loc>https://yuvalbloch.com/blog/post-2/</loc>
     <lastmod>2025-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/research/senstiviy1/</loc>
+    <loc>https://yuvalbloch.com/research/senstiviy1/</loc>
     <lastmod>2025-06-09T10:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/emergence/</loc>
+    <loc>https://yuvalbloch.com/tags/emergence/</loc>
     <lastmod>2025-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/life/</loc>
+    <loc>https://yuvalbloch.com/tags/life/</loc>
     <lastmod>2025-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/love/</loc>
+    <loc>https://yuvalbloch.com/tags/love/</loc>
     <lastmod>2025-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/philosophy/</loc>
+    <loc>https://yuvalbloch.com/tags/philosophy/</loc>
     <lastmod>2025-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/science/</loc>
+    <loc>https://yuvalbloch.com/tags/science/</loc>
     <lastmod>2025-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/post-1/</loc>
+    <loc>https://yuvalbloch.com/blog/post-1/</loc>
     <lastmod>2025-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/unpredictability/</loc>
+    <loc>https://yuvalbloch.com/tags/unpredictability/</loc>
     <lastmod>2025-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/research/tick-population-model/</loc>
+    <loc>https://yuvalbloch.com/research/tick-population-model/</loc>
     <lastmod>2025-06-05T18:31:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://yuvalbloch.com/about/</loc>
     <lastmod>2025-06-03T18:31:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/presentations/</loc>
+    <loc>https://yuvalbloch.com/presentations/</loc>
     <lastmod>2025-06-03T18:31:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/research/</loc>
+    <loc>https://yuvalbloch.com/research/</loc>
     <lastmod>2025-06-03T18:31:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/teaching/</loc>
+    <loc>https://yuvalbloch.com/teaching/</loc>
     <lastmod>2025-06-03T18:31:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/intro/</loc>
+    <loc>https://yuvalbloch.com/blog/intro/</loc>
     <lastmod>2025-06-03T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/teaching/ex2/</loc>
+    <loc>https://yuvalbloch.com/teaching/ex2/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://yuvalbloch.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/teaching/example-of-plots/</loc>
+    <loc>https://yuvalbloch.com/teaching/example-of-plots/</loc>
   </url><url>
-    <loc>http://localhost:1313/teaching/%D7%AA%D7%A8%D7%92%D7%95%D7%9C-8-pandas/</loc>
+    <loc>https://yuvalbloch.com/teaching/%D7%AA%D7%A8%D7%92%D7%95%D7%9C-8-pandas/</loc>
   </url><url>
-    <loc>http://localhost:1313/teaching/ex5/</loc>
+    <loc>https://yuvalbloch.com/teaching/ex5/</loc>
   </url>
 </urlset>

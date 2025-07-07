@@ -6,8 +6,15 @@
     <description>Recent content in Research on Acadmic Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Jun 2025 10:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 07 Jul 2025 10:00:00 +0300</lastBuildDate>
     <atom:link href="https://yuvalbloch.com/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sensitivity to Land Configuration</title>
+      <link>https://yuvalbloch.com/research/sensitivity-to-land-configuration/</link>
+      <pubDate>Mon, 07 Jul 2025 10:00:00 +0300</pubDate>
+      <guid>https://yuvalbloch.com/research/sensitivity-to-land-configuration/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Natural populations are influenced not only by the &lt;strong&gt;amount&lt;/strong&gt; of available habitat but also by its &lt;strong&gt;spatial configuration&lt;/strong&gt;. Factors such as &lt;strong&gt;edge effects&lt;/strong&gt;, &lt;strong&gt;habitat fragmentation&lt;/strong&gt;, and &lt;strong&gt;patch isolation&lt;/strong&gt; are critical in shaping population dynamics. These spatial processes are fundamental in ecology, and it&amp;rsquo;s essential that my model captures them accurately.&lt;/p&gt;&#xA;&lt;p&gt;While the total amount of habitat is relatively easy to quantify, capturing spatial configuration is far more complex. Traditional models often rely on a &lt;strong&gt;binary landscape&lt;/strong&gt;, classifying areas as either suitable or unsuitable for the organism. Metrics like &lt;strong&gt;edge length&lt;/strong&gt;, &lt;strong&gt;connectivity&lt;/strong&gt;, and &lt;strong&gt;mean patch size&lt;/strong&gt; are often used in these models. However, in my system, the landscape consists of multiple land cover types, each offering varying degrees of suitability for ticks. This complexity demands a more nuanced and flexible approach.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Finding Viable Parameter Spaces with Sensitivity Analysis</title>
       <link>https://yuvalbloch.com/research/senstiviy1/</link>
