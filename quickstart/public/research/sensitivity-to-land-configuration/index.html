@@ -66,7 +66,7 @@
   <meta itemprop="description" content="To ensure that my model accurately captures the impact of land configuration, I incorporate the diamond-square algorithm and the concept of fractal dimensionality. While these tools are unconventional for this purpose, they provide a robust and meaningful way to model spatial complexity and the effects of landscape structure.">
   <meta itemprop="datePublished" content="2025-07-07T10:00:00+03:00">
   <meta itemprop="dateModified" content="2025-07-07T10:00:00+03:00">
-  <meta itemprop="wordCount" content="1289">
+  <meta itemprop="wordCount" content="1282">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Sensitivity to Land Configuration">
   <meta name="twitter:description" content="To ensure that my model accurately captures the impact of land configuration, I incorporate the diamond-square algorithm and the concept of fractal dimensionality. While these tools are unconventional for this purpose, they provide a robust and meaningful way to model spatial complexity and the effects of landscape structure.">
@@ -275,12 +275,12 @@ x = (1 + 2 + 3 + 4) / 4 + random offset = 3 + random offset
 </code></pre><p>The random offset introduces variability, and as the algorithm progresses, its magnitude decreases, typically scaled by (2^{-H}), where <strong>H</strong> is the <strong>Hurst exponent</strong> that controls the roughness of the landscape.</p>
 <h4 id="step-2-square-step">Step 2: Square Step</h4>
 <pre tabindex="0"><code>
-1 ? 2  
+1  ?  2  
 ? 3.5 y  
-3 ? 4
-</code></pre><p>After the diamond step, we move on to the <strong>square step</strong>, where we calculate the midpoints of the edges of the squares formed. For example, to calculate the midpoint at position <code>y</code> (the edge of the square formed by positions 2, 3, 5, and <code>x</code>), we average the values of the surrounding points and add another random displacement:</p>
+3  ?  4
+</code></pre><p>After the diamond step, we move on to the <strong>square step</strong>, where we calculate the midpoints of the edges of the squares formed. For example, to calculate the midpoint at position <code>y</code> we average the values of the surrounding points and add another random displacement:</p>
 <pre tabindex="0"><code>
-y = (2 + 3 + 5 + x) / 4 + random offset
+y = (2 + 3.5 + 4 ) / 3 + random offset
 </code></pre><p>The square step is applied to all edge midpoints in the grid. At each step, a random offset is added, and its magnitude decreases with each iteration, according to (2^{-H}). The value of <strong>H</strong> influences the surface roughness:</p>
 <ul>
 <li><strong>Low H values</strong> produce jagged, fragmented patterns (more irregular).</li>
@@ -289,11 +289,11 @@ y = (2 + 3 + 5 + x) / 4 + random offset
 <p>This iterative process continues, refining the grid until the desired level of complexity is reached.</p>
 <hr>
 <h2 id="discretizing-the-gradient">Discretizing the Gradient</h2>
-<p>Once the fractal landscape is generated, I convert the continuous values into a <strong>discrete land-use map</strong>. For example, land-use types are assigned as follows:</p>
+<p>Once the fractal landscape is generated, I convert the continuous values into a <strong>discrete land-use map</strong>. For example, in the last line of the figure land-use types are assigned as follows:</p>
 <ul>
-<li>The top 5% of values become <strong>villages</strong>,</li>
+<li>The top 10% of values become <strong>villages</strong>,</li>
 <li>The next 30% become <strong>agriculture</strong>,</li>
-<li>The next 35% is <strong>secondary forest</strong>,</li>
+<li>The next 30% is <strong>secondary forest</strong>,</li>
 <li>The lowest 30% is <strong>semi-intact forest</strong>.</li>
 </ul>
 <p>In the generated maps, <strong>high H values</strong> lead to <strong>spatially clustered patches</strong> of the same land-use type, while <strong>low H values</strong> result in more scattered and mixed distributions.</p>
@@ -310,7 +310,7 @@ y = (2 + 3 + 5 + x) / 4 + random offset
 <p>Below is a plot of the <strong>average tick abundance</strong> in each land-use type as a function of the <strong>H value</strong> used to generate the map. As expected, the <strong>total tick population increases with H</strong>, likely due to reduced fragmentation and better connectivity of suitable habitat.</p>
 <p>Interestingly, the <strong>average number of ticks in villages</strong> decreases as H increases. This result aligns with the <strong>edge effect hypothesis</strong>: in fragmented landscapes (low H), ticks spill over into marginal patches, while in aggregated landscapes (high H), the boundaries between suitable and unsuitable land-use types are reduced, leading to lower tick numbers in marginal areas.</p>
 <div>
-  <figure style="flex: 1; min-width: 480px; max-width: 480px; text-align: center;">
+  <figure style="flex: 1; min-width: 480px; max-width: 800px; text-align: center;">
     <img src="/assets/ticks_in_land_use.svg" alt="Tick Population in Land Use" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
       <strong>Figure 3.</strong> <br> Tick abundance as a function of H, both in average and in each land-use type.

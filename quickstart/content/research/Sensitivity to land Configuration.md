@@ -99,17 +99,17 @@ The random offset introduces variability, and as the algorithm progresses, its m
 
 ```
 
-1 ? 2  
+1  ?  2  
 ? 3.5 y  
-3 ? 4
+3  ?  4
 
 ```
 
-After the diamond step, we move on to the **square step**, where we calculate the midpoints of the edges of the squares formed. For example, to calculate the midpoint at position `y` (the edge of the square formed by positions 2, 3, 5, and `x`), we average the values of the surrounding points and add another random displacement:
+After the diamond step, we move on to the **square step**, where we calculate the midpoints of the edges of the squares formed. For example, to calculate the midpoint at position `y` we average the values of the surrounding points and add another random displacement:
 
 ```
 
-y = (2 + 3 + 5 + x) / 4 + random offset
+y = (2 + 3.5 + 4 ) / 3 + random offset
 
 ```
 
@@ -124,11 +124,11 @@ This iterative process continues, refining the grid until the desired level of c
 
 ## Discretizing the Gradient
 
-Once the fractal landscape is generated, I convert the continuous values into a **discrete land-use map**. For example, land-use types are assigned as follows:
+Once the fractal landscape is generated, I convert the continuous values into a **discrete land-use map**. For example, in the last line of the figure land-use types are assigned as follows:
 
-- The top 5% of values become **villages**,
+- The top 10% of values become **villages**,
 - The next 30% become **agriculture**,
-- The next 35% is **secondary forest**,
+- The next 30% is **secondary forest**,
 - The lowest 30% is **semi-intact forest**.
 
 In the generated maps, **high H values** lead to **spatially clustered patches** of the same land-use type, while **low H values** result in more scattered and mixed distributions.
@@ -151,7 +151,7 @@ Below is a plot of the **average tick abundance** in each land-use type as a fun
 Interestingly, the **average number of ticks in villages** decreases as H increases. This result aligns with the **edge effect hypothesis**: in fragmented landscapes (low H), ticks spill over into marginal patches, while in aggregated landscapes (high H), the boundaries between suitable and unsuitable land-use types are reduced, leading to lower tick numbers in marginal areas.
 
 <div>
-  <figure style="flex: 1; min-width: 480px; max-width: 480px; text-align: center;">
+  <figure style="flex: 1; min-width: 480px; max-width: 800px; text-align: center;">
     <img src="/assets/ticks_in_land_use.svg" alt="Tick Population in Land Use" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
       <strong>Figure 3.</strong> <br> Tick abundance as a function of H, both in average and in each land-use type.
