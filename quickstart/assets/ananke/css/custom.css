@@ -321,5 +321,17 @@ header.cover h2.f3-l {
   padding: 1rem !important; /* This is already good for padding *inside* the text area */
 }
 
+
+/* Target images inside blog post cards or articles */
+article img, 
+.post img, 
+figure img {
+  height: 200px;        /* fixed height for uniformity, adjust as needed */
+  width: 100%;          /* make image fill width of container */
+  object-fit: cover;    /* maintain aspect ratio, crop if needed */
+  border-radius: 12px;  /* keep your rounded corners */
+  display: block;
+  margin: 0 auto;
+}
 /* --- END of NEW rules --- */
 /* --- End of Header Title Specific Styling --- */
