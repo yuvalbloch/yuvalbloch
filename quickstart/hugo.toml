@@ -83,3 +83,11 @@ googleAnalytics = "G-G88CJRGNM1"
     # REMOVE contentDir = "content" if it was here.
     # Content will be identified by 'lang: "en"' or by being the default.
 
+[outputFormats.RobotsTXT]
+mediaType = "text/plain"
+baseName = "robots"
+isPlainText = true
+notAlternative = true
+
+[outputs]
+home = ["HTML", "RSS", "RobotsTXT", "Sitemap"]
