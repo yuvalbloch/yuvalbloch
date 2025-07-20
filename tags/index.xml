@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Acadmic Portfolio</title>
+    <title>Tags on Complexity &amp; Ecology Research</title>
     <link>https://yuvalbloch.com/tags/</link>
-    <description>Recent content in Tags on Acadmic Portfolio</description>
+    <description>Recent content in Tags on Complexity &amp; Ecology Research</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 14 Jul 2025 00:00:00 +0000</lastBuildDate>
@@ -30,6 +30,13 @@
       <description></description>
     </item>
     <item>
+      <title>Chaos-Theory</title>
+      <link>https://yuvalbloch.com/tags/chaos-theory/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/tags/chaos-theory/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Complexity</title>
       <link>https://yuvalbloch.com/tags/complexity/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
@@ -37,10 +44,24 @@
       <description></description>
     </item>
     <item>
+      <title>Complexity-Science</title>
+      <link>https://yuvalbloch.com/tags/complexity-science/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/tags/complexity-science/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Curiosity</title>
       <link>https://yuvalbloch.com/tags/curiosity/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://yuvalbloch.com/tags/curiosity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Decentralized-Systems</title>
+      <link>https://yuvalbloch.com/tags/decentralized-systems/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/tags/decentralized-systems/</guid>
       <description></description>
     </item>
     <item>
@@ -58,6 +79,13 @@
       <description></description>
     </item>
     <item>
+      <title>Foundation</title>
+      <link>https://yuvalbloch.com/tags/foundation/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/tags/foundation/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Innovation</title>
       <link>https://yuvalbloch.com/tags/innovation/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
@@ -65,10 +93,52 @@
       <description></description>
     </item>
     <item>
+      <title>Isaac-Asimov</title>
+      <link>https://yuvalbloch.com/tags/isaac-asimov/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/tags/isaac-asimov/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Network-Theory</title>
+      <link>https://yuvalbloch.com/tags/network-theory/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/tags/network-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Predictability</title>
+      <link>https://yuvalbloch.com/tags/predictability/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/tags/predictability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Psychohistory</title>
+      <link>https://yuvalbloch.com/tags/psychohistory/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/tags/psychohistory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Science-Fiction</title>
+      <link>https://yuvalbloch.com/tags/science-fiction/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/tags/science-fiction/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Soviet Computing</title>
       <link>https://yuvalbloch.com/tags/soviet-computing/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://yuvalbloch.com/tags/soviet-computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Urban-Scaling-Laws</title>
+      <link>https://yuvalbloch.com/tags/urban-scaling-laws/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/tags/urban-scaling-laws/</guid>
       <description></description>
     </item>
     <item>
