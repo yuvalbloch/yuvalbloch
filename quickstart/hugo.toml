@@ -1,13 +1,13 @@
 baseURL = "https://yuvalbloch.com/"
 languageCode = "en-us"
-title = "Acadmic Portfolio"
+title = "Complexity & Ecology Research"
 theme = "ananke"
 googleAnalytics = "G-G88CJRGNM1"
 
 
 [params]
   author = "yuval bloch"
-  description = "academic portfolio of computinal ecolgist"
+  description = "Exploring the dynamics of ecological systems and biological complexity to uncover the hidden patterns shaping our world."
   custom_css = ["custom.css"]
   mainSections = ["posts"]
   ananke.show_recent_posts = true
