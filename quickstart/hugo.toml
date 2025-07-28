@@ -89,5 +89,10 @@ baseName = "robots"
 isPlainText = true
 notAlternative = true
 
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
 [outputs]
 home = ["HTML", "RSS", "RobotsTXT", "Sitemap"]
