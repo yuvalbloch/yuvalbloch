@@ -1,30 +1,117 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
-    <loc>https://yuvalbloch.com/blog/</loc>
-    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://yuvalbloch.com/about/</loc>
-    <lastmod>2025-06-03T18:31:05+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://yuvalbloch.com/presentations/</loc>
-    <lastmod>2025-06-03T18:31:05+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://yuvalbloch.com/research/</loc>
-    <lastmod>2025-06-03T18:31:05+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://yuvalbloch.com/teaching/</loc>
-    <lastmod>2025-06-03T18:31:05+03:00</lastmod>
+    <loc>https://yuvalbloch.com/blog/building_worlds/</loc>
+    <lastmod>2025-07-27T00:00:00&#43;00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/blog/curiosity/</loc>
+    <lastmod>2025-07-14T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/blog/asimovs-_foundation_-revisited/</loc>
+    <lastmod>2025-07-14T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/research/sensitivity-to-land-configuration/</loc>
+    <lastmod>2025-07-07T10:00:00&#43;03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/blog/identity/</loc>
+    <lastmod>2025-07-03T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/blog/life-on-the-edge/</loc>
+    <lastmod>2025-06-25T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/blog/eye_of_the_storm/</loc>
+    <lastmod>2025-06-19T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/blog/post-2/</loc>
+    <lastmod>2025-06-15T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/research/senstiviy1/</loc>
+    <lastmod>2025-06-09T10:00:00&#43;03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/blog/post-1/</loc>
+    <lastmod>2025-06-06T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/research/tick-population-model/</loc>
+    <lastmod>2025-06-05T18:31:05&#43;03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/blog/intro/</loc>
+    <lastmod>2025-06-03T12:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/teaching/ex2/</loc>
+    <lastmod>0001-01-01T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/teaching/example-of-plots/</loc>
+    <lastmod>0001-01-01T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/teaching/%D7%AA%D7%A8%D7%92%D7%95%D7%9C-8-pandas/</loc>
+    <lastmod>0001-01-01T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/teaching/ex5/</loc>
+    <lastmod>0001-01-01T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
 </urlset>
