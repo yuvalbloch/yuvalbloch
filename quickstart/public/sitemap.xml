@@ -87,28 +87,35 @@
   </url>
   
   <url>
-    <loc>https://yuvalbloch.com/teaching/ex2/</loc>
+    <loc>https://yuvalbloch.com/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/ex2/</loc>
     <lastmod>0001-01-01T00:00:00&#43;00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yuvalbloch.com/teaching/example-of-plots/</loc>
+    <loc>https://yuvalbloch.com/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/example-of-plots/</loc>
     <lastmod>0001-01-01T00:00:00&#43;00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yuvalbloch.com/teaching/%D7%AA%D7%A8%D7%92%D7%95%D7%9C-8-pandas/</loc>
+    <loc>https://yuvalbloch.com/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/%D7%AA%D7%A8%D7%92%D7%95%D7%9C-8-pandas/</loc>
     <lastmod>0001-01-01T00:00:00&#43;00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yuvalbloch.com/teaching/ex5/</loc>
+    <loc>https://yuvalbloch.com/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/%D7%A1%D7%98%D7%98%D7%99%D7%A1%D7%98%D7%99%D7%A7%D7%94-%D7%91%D7%90%D7%9E%D7%A6%D7%A2%D7%95%D7%AA-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F/</loc>
+    <lastmod>0001-01-01T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/ex5/</loc>
     <lastmod>0001-01-01T00:00:00&#43;00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
