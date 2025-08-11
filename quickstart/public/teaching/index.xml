@@ -2,11 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teaching on Complexity &amp; Ecology Research</title>
-    <link>https://yuvalbloch.com/teaching/</link>
+    <link>http://localhost:1313/teaching/</link>
     <description>Recent content in Teaching on Complexity &amp; Ecology Research</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://yuvalbloch.com/teaching/index.xml" rel="self" type="application/rss+xml" />
+
   </channel>
 </rss>

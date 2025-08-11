@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Rent-Seeking, Complexity, and the Fall of Empires | Complexity &amp; Ecology Research</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Every dominant empire in history—from Song China to the British Empire—has peaked at a global economic share of roughly 15-25%. This post dives into the data and theories explaining this recurring ceiling, revealing how systems of growth inevitably turn into engines of decline.">
+    <meta name="generator" content="Hugo 0.147.7">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    <meta name="author" content="yuval bloch">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+  
+
+
+    
+<script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[','\\]']],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/blog/cycles-of-power/">
+    
+
+    
+    <meta property="og:title" content="Rent-Seeking, Complexity, and the Fall of Empires" />
+<meta property="og:description" content="Every dominant empire in history—from Song China to the British Empire—has peaked at a global economic share of roughly 15-25%. This post dives into the data and theories explaining this recurring ceiling, revealing how systems of growth inevitably turn into engines of decline." />
+<meta property="og:image" content="/images/social-preview.png" />
+<meta property="og:url" content="http://localhost:1313/blog/cycles-of-power/" />
+<meta name="twitter:card" content="summary_large_image" />
+  <meta itemprop="name" content="Rent-Seeking, Complexity, and the Fall of Empires">
+  <meta itemprop="description" content="Every dominant empire in history—from Song China to the British Empire—has peaked at a global economic share of roughly 15-25%. This post dives into the data and theories explaining this recurring ceiling, revealing how systems of growth inevitably turn into engines of decline.">
+  <meta itemprop="wordCount" content="1554">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Rent-Seeking, Complexity, and the Fall of Empires">
+  <meta name="twitter:description" content="Every dominant empire in history—from Song China to the British Empire—has peaked at a global economic share of roughly 15-25%. This post dives into the data and theories explaining this recurring ceiling, revealing how systems of growth inevitably turn into engines of decline.">
+
+    
+  </head><body dir="ltr" >
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('http://localhost:1313/assets/posts/empire/fall_of_rome.jpeg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Complexity &amp; Ecology Research
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/" title="Home page">
+              Home
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/research/" title="Research page">
+              Research
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/presentations/" title="Presentations page">
+              Presentations
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/blog/" title="Blog page">
+              Blog
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/teaching/" title="teaching page">
+              teaching
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"><a href="https://github.com/yuvalbloch" target="_blank" rel="noopener me noopener"
+        class="ananke-social-link link-transition github link dib z-999 pt3 pt0-l mr1"
+        title="follow on GitHub - Opens in a new window"
+        aria-label="follow on GitHub - Opens in a new window">
+      <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+            
+          </span>
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+</a><a href="https://www.linkedin.com/in/yuval-bloch-191041192/" target="_blank" rel="noopener noopener"
+        class="ananke-social-link link-transition linkedin link dib z-999 pt3 pt0-l mr1"
+        title="follow on LinkedIn - Opens in a new window"
+        aria-label="follow on LinkedIn - Opens in a new window">
+      <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+            
+          </span>
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+</a></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Rent-Seeking, Complexity, and the Fall of Empires</div>
+          
+            <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Every dominant empire in history—from Song China to the British Empire—has peaked at a global economic share of roughly 15-25%. This post dives into the data and theories explaining this recurring ceiling, revealing how systems of growth inevitably turn into engines of decline.
+            </div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Uncharted Life
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Rent-Seeking, Complexity, and the Fall of Empires</h1>
+      
+      <p class="tracked"><strong>yuval bloch</strong>
+      </p>
+      
+      
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100"><h3 id="the-long-shadow-of-babylon">The Long Shadow of Babylon</h3>
+<p>The idea that an empire&rsquo;s fall can be anticipated is not new. Over 2,500 years ago, Daniel&rsquo;s prophecy foretold the rise of four beasts from a chaotic sea—each representing a great empire destined to dominate and then decline. His message was clear: Babylon&rsquo;s reign would not last, nor would any that followed.</p>
+<p>This historical pattern has been repeatedly affirmed. But why do empires fall? Why has no civilization sustained supremacy forever? In this post, I will explore two powerful, complementary theories that explain this recurring cycle of rise and collapse, then examine them at work through a journey through history.</p>
+<p>This is a natural follow-up to my earlier post, <a href="https://yuvalbloch.com/blog/asimovs-_foundation_-revisited/">  Asimov&rsquo;s <em>Foundation</em> Revisited  </a> which explored Asimov&rsquo;s imaginary future theory of &ldquo;psychohistory&rdquo; and its prediction of the galactic empire&rsquo;s end.</p>
+<h3 id="measuring-the-arc-of-empire">Measuring the Arc of Empire</h3>
+<p>For this analysis, I utilize measurement of each civilization&rsquo;s share of the <strong>global economy</strong> using <strong>purchasing power parity (PPP)</strong>, which allows for more accurate comparisons across centuries. The data comes from the Maddison Project and Our World in Data, cross-checked against other historical sources.
+<em><strong>Resources</strong></em></p>
+<ul>
+<li>
+<p><strong><a href="https://www.rug.nl/ggdc/historicaldevelopment/maddison/?lang=en">Maddison Project Database</a></strong> This dataset from the University of Groningen covers historical GDP and population data, including PPP (Purchasing Power Parity) for various countries.</p>
+</li>
+<li>
+<p><strong><a href="https://ourworldindata.org/grapher/global-gdp-over-the-long-run">Our World in Data: Global GDP over the Long Run</a></strong> This page visualizes and summarizes global GDP and economic size across history, using data from the Maddison Project.</p>
+</li>
+</ul>
+<p>&laquo;div style=&ldquo;display: flex; justify-content: space-around; align-items: flex-start; gap: 20px;&quot;&gt;
+<figure style="flex: 1;">
+<img src="/posts/empire/data_before.png" alt="Data before 1820" style="max-width: 100%; height: auto; border-radius: 12px;">
+</figure>
+<figure style="flex: 1;">
+<img src="/posts/empire/data_after_1820.png" alt="Data after 1820" style="max-width: 100%; height: auto; border-radius: 12px;">
+</figure></p>
+</div>
+<figcaption style="font-size: 0.9em; color: #666; margin-top: 0.8rem; line-height: 1.5; padding: 0 1rem; text-align: center;">
+    Many empires throughout history gained major control of the economy, yet none dominated more than 30% of the global economy.
+</figcaption>
+<p><strong>How Empires Rise: Power Laws and Positive Feedback</strong></p>
+<p>A glance at the 2020 PPP data reveals a familiar pattern: a few countries dominate, while most remain small. This long-tailed distribution isn&rsquo;t the result of chance; it reflects a &ldquo;<strong>rich get richer</strong>&rdquo; dynamic. Early advantages in geography, trade, or military capacity can trigger self-reinforcing growth—a phenomenon seen across complex systems from ecosystems to scientific citations.</p>
+<p>In empire-building, early momentum compounds: more territory brings more wealth, which funds more armies, which secure more territory. In theory, such a system could grow without limit. In reality, history tells us that empires always peak, and the peak is strikingly consistent.</p>
+<p><strong>The Limits of Dominance</strong></p>
+<p>Even across wildly different cultures and technologies, no empire in the last two millennia has sustained more than roughly <strong>15–25% of global PPP</strong> for long. Whether Rome, Song China, the Mughals, Britain, or the United States, the trajectory is similar: rapid ascent, a plateau within that range, then gradual or sudden decline.</p>
+<p>Why? Two complementary theories help explain this recurring pattern.</p>
+<ol>
+<li>
+<p><strong>Rent-Seeking and Internal Decay</strong> During the early expansionary phase, wealth flows into the empire through conquest, trade, and innovation. The elites who drive this phase—merchants, generals, inventors—are outward-looking, bringing in new resources and ideas. But as frontiers close, opportunities for external gain diminish. Power shifts to those who can extract wealth from within—bureaucrats, court elites, and political operators. These <strong>rent-seeking groups</strong> build systems to preserve their privileges, often blocking innovation and reform. Competition turns zero-sum, and the state becomes less an engine for expansion and more a prize to be fought over.</p>
+</li>
+<li>
+<p><strong>Complexity and Fragility</strong> In his work on societal collapse, Joseph Tainter argues that small states are simple, with few layers of governance. As an empire absorbs others, complexity grows: emperors over kings, kings over governors, governors over local officials. Initially, this complexity brings benefits, including better defense, integrated markets, and shared infrastructure. But each new layer adds costs. Eventually, the benefits of added complexity no longer outweigh the burdens—more taxes, more administration, more inefficiency. When this happens, citizens become overburdened, and the system faces &ldquo;<strong>rapid simplification,</strong>&rdquo; often breaking into smaller political units.</p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=ddmQhIiVM48&amp;list=PL7D613ABAE66E3452">see more in this playlist</a></p>
+</li>
+</ol>
+<hr>
+<h3 id="a-journey-through-history">A Journey Through History</h3>
+<p><strong>The Roman Empire: Strength from the Frontier</strong></p>
+<p>The Roman Empire was characterized by multiple elite classes: the landed aristocracy, the merchant elite, and the military elite. In the early days of the Republic, each group had access to sources of power and wealth beyond Rome&rsquo;s borders. Landowners could boost agricultural productivity with innovative techniques. Merchants tapped into the vast Mediterranean network, opening new trade routes. Military commanders earned riches through conquest, distributing plunder to their troops in exchange for loyalty.</p>
+<p>By the first century CE, however, those external opportunities had dried up. Provinces were more valuable for their tax income than for discovery. The noble class turned its focus inward, vying for high-ranking government positions. Meanwhile, military commanders, unable to gain prestige through foreign conquest, began to seek power from within. This shift sparked internal competition, civil wars, and rampant corruption. As the empire became less a vehicle for expansion and more a prize to be seized, it ultimately collapsed under its own weight.</p>
+<p><strong>Song China: The Scholar-Elite&rsquo;s Paradox</strong></p>
+<p>Nearly a millennium later, Zhao Kuangyin, the founder of the Song Dynasty, was acutely aware of the danger of ambitious generals. To prevent the warlordism he had witnessed firsthand, he curtailed the military elite&rsquo;s power and established a new ruling class of <strong>scholar-officials</strong>, selected through rigorous civil service examinations.</p>
+<p>At first, this strategy worked. The scholar-bureaucrats focused on internal development, technological innovation, and cultural flourishing. Under their stewardship, China experienced remarkable growth, eventually accounting for 24% of the world&rsquo;s GDP (PPP). The institutional system it built endured for centuries, and China remained the world&rsquo;s leading economic power until around 1700.</p>
+<p>Yet the seeds of decline were already planted. Over time, success depended less on genuine merit and more on mastering the nuances of Confucian philosophy and the stylistic preferences of examiners. This fostered a vast and lucrative exam-preparation industry. Wealthy families could secure advantages for their sons, turning the scholar-official class into a de facto corporate elite. Once entrenched, this elite used its position to extract immense wealth—often ten to fifty times their official salary through corruption. To preserve the status quo, the exams focused more on rigid structure and less on creative content, creating a generation of conformist officials who lacked the creativity vital to lead their country in a changing world.
+hear more on the rise of the <a href="https://www.youtube.com/watch?v=yvF-NE2mtmk&amp;t=2s">exams in the Song Dynasty</a>
+and how they become too structure in the Ming Dynasty with the <a href="https://www.youtube.com/watch?v=n2xAv4fP-L8&amp;t=616s">four legged essay</a></p>
+<p><strong>The Mughal Empire: Proto-Global Prosperity Derailed from Within</strong></p>
+<p>Mughal India boasted a thriving proto-industrial economy. By the 17th and early 18th centuries, it accounted for roughly 25–28% of global industrial output, primarily due to the production of textiles, shipbuilding, and ironworking. This placed Mughal India among the world&rsquo;s economic giants. However, wealth did not translate into sustained innovation or inclusive institutions. As elites drew power inward, the nation became fractured, making it easy prey for the newly rising British Empire.</p>
+<p><a href="https://www.youtube.com/watch?v=uO8dCaD4WSk">The History of the Mughal Empire</a></p>
+<p><strong>The British Empire: The Cost of a Grand Social Game</strong></p>
+<p>After taking control of India from the Mughals, the British Empire&rsquo;s wealth grew significantly, fueling widespread corruption within the East India Company. This new wealth intensified competition among the elite. This competition often manifested in extravagant displays of status, such as competing for higher-status marriages, luxurious clothing, and lavish balls—the kind of scenes we see in shows like <em>Bridgerton</em>. The resources once used for expansion and improving farming and trade were now diverted to these zero-sum social competitions. The empire&rsquo;s ruling class became increasingly concerned with preserving its social standing and less with the empire&rsquo;s long-term health.</p>
+<p><strong>The USA: The Power and Limitations of Private Enterprise</strong></p>
+<p>Like the Song dynasty before it, the USA has a unique trait built to safeguard it from the fate of all empires: <strong>decentralization</strong>. By placing power in private hands, the system ensures that when corruption takes hold in one company, it can be replaced, keeping the entire system safe.</p>
+<p>Armed with this power, the USA rose to new heights between 1944 and 1970, when it started with 50% of nominal GDP and 25% of global PPP. During this period, it landed a man on the moon, rebuilt West Germany, and led to the creation of NATO.</p>
+<p>However, no one is safe. After 1970, companies became experts in using subsidies and regulations to suppress competition. The growth of the financial sector found a way to create fast gains, causing the 2008 crisis, while politicians focused on polarization to gain power. While the USA still has economic power, with 22% of nominal GDP and 14% of PPP, it is much less than it used to be.</p>
+<p>hear more on the power of usa economy <a href="https://www.youtube.com/watch?v=tUSUc5sz2lo">Economics Explained: The Rise and Fall of the USA </a></p>
+<hr>
+<h3 id="conclusion-lessons-from-the-long-arc-of-empire">Conclusion: Lessons from the Long Arc of Empire</h3>
+<p>From Rome&rsquo;s marble forums to Washington&rsquo;s marble halls, the rhythm is the same: rise through outward ambition, peak within a narrow band of global dominance, and decline as internal competition and complexity overtake expansion, those was only of few examples, when so many other empire see the same or worst destiny.</p>
+<p>Daniel&rsquo;s prophecy may have been theological, but its underlying truth endures: no empire is eternal. The fall is not a matter of if, but <strong>when</strong>—and <strong>how</strong>. Understanding these cycles doesn&rsquo;t just illuminate the past; it sharpens our awareness of the present. The lesson for smaller nations is clear: do not stake your future on a single hegemon. For investors, the same logic applies—corporate dominance follows the same curve. The rich get richer… until they don&rsquo;t.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  Complexity & Ecology Research 2025 
+  </a>
+    <div><div class="ananke-socials"><a href="https://github.com/yuvalbloch" target="_blank" rel="noopener me noopener"
+        class="ananke-social-link link-transition github link dib z-999 pt3 pt0-l mr1"
+        title="follow on GitHub - Opens in a new window"
+        aria-label="follow on GitHub - Opens in a new window">
+      <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+            
+          </span>
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+</a><a href="https://www.linkedin.com/in/yuval-bloch-191041192/" target="_blank" rel="noopener noopener"
+        class="ananke-social-link link-transition linkedin link dib z-999 pt3 pt0-l mr1"
+        title="follow on LinkedIn - Opens in a new window"
+        aria-label="follow on LinkedIn - Opens in a new window">
+      <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+            
+          </span>
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+</a></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

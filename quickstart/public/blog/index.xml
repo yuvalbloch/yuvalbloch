@@ -2,74 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Uncharted Life on Complexity &amp; Ecology Research</title>
-    <link>https://yuvalbloch.com/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content in Uncharted Life on Complexity &amp; Ecology Research</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 27 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yuvalbloch.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building Worlds: Why Our Realities Diverge</title>
-      <link>https://yuvalbloch.com/blog/building_worlds/</link>
+      <link>http://localhost:1313/blog/building_worlds/</link>
       <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/blog/building_worlds/</guid>
+      <guid>http://localhost:1313/blog/building_worlds/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s easy to feel that people who hold beliefs contradicting well-established facts are unintelligent. We&amp;rsquo;ve all met individuals who, despite overwhelming evidence, remain steadfast in their convictions. However, upon closer inspection, it often becomes clear that these individuals are far from unintelligent. This apparent paradox prompts a deeper examination of how we construct our understanding of reality and how people with similar cognitive abilities can arrive at vastly different conclusions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Curiosity and the Cat: Innovation, Exploration, and Assembly Theory</title>
-      <link>https://yuvalbloch.com/blog/curiosity/</link>
+      <link>http://localhost:1313/blog/curiosity/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/blog/curiosity/</guid>
+      <guid>http://localhost:1313/blog/curiosity/</guid>
       <description>&lt;p&gt;We&amp;rsquo;ve all heard the saying, &amp;ldquo;Curiosity killed the cat.&amp;rdquo; It may be time to flip the script. Without curiosity, cats—and every other living thing—might never have come into existence at all.&lt;/p&gt;&#xA;&lt;p&gt;Of course, curiosity alone doesn&amp;rsquo;t spark life. Complexity arises from a dynamic tension: the urge to explore new possibilities and the need to consolidate what has already been discovered. Innovation without a foundation leads nowhere. Consolidation without curiosity stalls progress. Life—and all complex systems—depend on the interplay between the two.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Ghost of Hari Seldon: Asimov&#39;s Foundation Revisited in the Light of Complexity Science</title>
-      <link>https://yuvalbloch.com/blog/asimovs-_foundation_-revisited/</link>
+      <link>http://localhost:1313/blog/asimovs-_foundation_-revisited/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/blog/asimovs-_foundation_-revisited/</guid>
+      <guid>http://localhost:1313/blog/asimovs-_foundation_-revisited/</guid>
       <description>&lt;h2 id=&#34;the-ghost-of-hari-seldon-asimovs-foundation-revisited-in-the-light-of-complexity-science&#34;&gt;The Ghost of Hari Seldon: Asimov&amp;rsquo;s Foundation Revisited in the Light of Complexity Science&lt;/h2&gt;&#xA;&lt;p&gt;As a child, no book shaped my worldview more than Isaac Asimov&amp;rsquo;s &lt;em&gt;Foundation&lt;/em&gt;. While others dreamed of studying at Hogwarts or exploring Narnia, I longed to shape the future of the galaxy as part of the First or Second Foundation. Years later, with a computer science degree in hand, I embarked on a search for my next intellectual challenge. That search led me to Stefano Allesina&amp;rsquo;s paper, &amp;ldquo;Going Big.&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Possible Me: Identity as a Path, Not a Point</title>
-      <link>https://yuvalbloch.com/blog/identity/</link>
+      <link>http://localhost:1313/blog/identity/</link>
       <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/blog/identity/</guid>
+      <guid>http://localhost:1313/blog/identity/</guid>
       <description>&lt;p&gt;With Pride around the corner here in my favorite desert town, Mitzpe Ramon, and following recent reflections on quench disorder, Life&amp;rsquo;s inherent instability, and the mind–matter dance, this feels like the right moment to turn our attention to something both deeply personal and profoundly collective: identity.&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-weve-learned-so-far&#34;&gt;What We&amp;rsquo;ve Learned So Far&lt;/h3&gt;&#xA;&lt;p&gt;In &lt;em&gt;Life on the Edge&lt;/em&gt;, we explored how living systems don&amp;rsquo;t just persist—they remember. DNA stores information structurally, while in more complex organisms, memory is also encoded neurologically. What&amp;rsquo;s vital here is that memory doesn&amp;rsquo;t endure by staying still, but by renewing itself. Life persists through motion, not stasis.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Life on the Edge: Facing Impermanence, Entropy, and Meaning</title>
-      <link>https://yuvalbloch.com/blog/life-on-the-edge/</link>
+      <link>http://localhost:1313/blog/life-on-the-edge/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/blog/life-on-the-edge/</guid>
+      <guid>http://localhost:1313/blog/life-on-the-edge/</guid>
       <description>&lt;p&gt;Here in Israel, the recent wave of Iranian missile attacks has forced many of us to confront a stark truth: we are mortal. While the awareness of death is always present, in peacetime, it rarely takes center stage. Its sudden reappearance can affect people in vastly different ways—some find a deeper appreciation for each moment, while others feel a creeping nihilism. Life begins to feel both &lt;strong&gt;fragile and fleeting&lt;/strong&gt; and, at times, less meaningful.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Eye of the Storm: Understanding Our Minds During Struggles</title>
-      <link>https://yuvalbloch.com/blog/eye_of_the_storm/</link>
+      <link>http://localhost:1313/blog/eye_of_the_storm/</link>
       <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/blog/eye_of_the_storm/</guid>
+      <guid>http://localhost:1313/blog/eye_of_the_storm/</guid>
       <description>&lt;p&gt;This morning, the stark reality of war struck close to home. Beersheba, a city that until now had remained relatively peaceful compared to central Israel, was hit by a bombing at our main hospital. The shockwave I felt  from the public shelter near my apartment served as a cruel reminder of humanity&amp;rsquo;s darkest capacities. This experience profoundly underscores the urgent importance of learning to manage our emotions in such circumstances—a challenge that, as I&amp;rsquo;ll argue, complexity theory can illuminate.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Empathy in the Emergent Storm: A Complex Systems Perspective on Conflict</title>
-      <link>https://yuvalbloch.com/blog/post-2/</link>
+      <link>http://localhost:1313/blog/complex-systems-perspective-on-conflict/</link>
       <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/blog/post-2/</guid>
+      <guid>http://localhost:1313/blog/complex-systems-perspective-on-conflict/</guid>
       <description>&lt;p&gt;My original vision for the upcoming blog posts was structured as follows: first, I would delve into the economic system as an emergent property of countless small interactions and its profound meaning for both investors and social activists. From there, I planned to transition to the emergence of consciousness, building a crucial background for a third post on the emergence of conflicts.&lt;/p&gt;&#xA;&lt;p&gt;But, as I&amp;rsquo;ve noted before, life rarely follows a script. This past Thursday night, the conflict between my home, &lt;strong&gt;Israel&lt;/strong&gt;, and &lt;strong&gt;Iran&lt;/strong&gt; escalated dramatically. In light of this, examining conflicts through the lens of complex systems is not just relevant but vital. It&amp;rsquo;s about empowering us to defend ourselves without being terrified, to fight without hatred, to navigate war while always ready for peace, and to find a sense of agency and logic amidst the chaos that has become our reality.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Unseen Architects: Exploring the Fundamental Properties of Life</title>
-      <link>https://yuvalbloch.com/blog/post-1/</link>
+      <link>http://localhost:1313/blog/the-unseen-architects/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/blog/post-1/</guid>
+      <guid>http://localhost:1313/blog/the-unseen-architects/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Before we dive into the fundamental principles that shape life, take a moment to pause and observe.&lt;/strong&gt;&lt;br&gt;&#xA;If you’re outside—or can step outside—lie beneath a tree and gaze up into its intricate canopy. Or look closely at the delicate structure of a flower, the organized chaos of an ant colony, or even the fractal spirals of a broccoli or cauliflower floret in your fridge. And if none of those are nearby, simply examine your fingerprint.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why Life Science? Why This Blog? Why Now?</title>
-      <link>https://yuvalbloch.com/blog/intro/</link>
+      <link>http://localhost:1313/blog/life-science-now/</link>
       <pubDate>Tue, 03 Jun 2025 12:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/blog/intro/</guid>
+      <guid>http://localhost:1313/blog/life-science-now/</guid>
       <description>&lt;p&gt;As a child, Disney&amp;rsquo;s movie Fantasia captivated me, especially &amp;ldquo;The Rite of Spring.&amp;rdquo;* Igor Stravinsky, the composer, originally conceived this ballet as an expression of primitive life, celebrating the intricate beauty of ancient rituals. Disney, however, reinterpreted it more literally: a cosmic dance of Earth&amp;rsquo;s violent birth, the silent lightning strike of first life, and evolution&amp;rsquo;s slow crescendo into dinosaurs. That vision—&lt;strong&gt;life-blazing order out of chaos&lt;/strong&gt;—never let go.&lt;/p&gt;&#xA;&lt;p&gt;Today, with fear and hate spreading and unsettling sounds from the border kept as a constant reminder, I wrestle with doubt: &lt;em&gt;Is studying biology a luxury while the world burns? Should I trade the microscope for the megaphone?&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rent-Seeking, Complexity, and the Fall of Empires</title>
+      <link>http://localhost:1313/blog/cycles-of-power/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/cycles-of-power/</guid>
+      <description>&lt;h3 id=&#34;the-long-shadow-of-babylon&#34;&gt;The Long Shadow of Babylon&lt;/h3&gt;&#xA;&lt;p&gt;The idea that an empire&amp;rsquo;s fall can be anticipated is not new. Over 2,500 years ago, Daniel&amp;rsquo;s prophecy foretold the rise of four beasts from a chaotic sea—each representing a great empire destined to dominate and then decline. His message was clear: Babylon&amp;rsquo;s reign would not last, nor would any that followed.&lt;/p&gt;&#xA;&lt;p&gt;This historical pattern has been repeatedly affirmed. But why do empires fall? Why has no civilization sustained supremacy forever? In this post, I will explore two powerful, complementary theories that explain this recurring cycle of rise and collapse, then examine them at work through a journey through history.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emergence on Complexity &amp; Ecology Research</title>
-    <link>https://yuvalbloch.com/tags/emergence/</link>
+    <link>http://localhost:1313/tags/emergence/</link>
     <description>Recent content in Emergence on Complexity &amp; Ecology Research</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yuvalbloch.com/tags/emergence/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/emergence/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Unseen Architects: Exploring the Fundamental Properties of Life</title>
-      <link>https://yuvalbloch.com/blog/post-1/</link>
+      <link>http://localhost:1313/blog/the-unseen-architects/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/blog/post-1/</guid>
+      <guid>http://localhost:1313/blog/the-unseen-architects/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Before we dive into the fundamental principles that shape life, take a moment to pause and observe.&lt;/strong&gt;&lt;br&gt;&#xA;If you’re outside—or can step outside—lie beneath a tree and gaze up into its intricate canopy. Or look closely at the delicate structure of a flower, the organized chaos of an ant colony, or even the fractal spirals of a broccoli or cauliflower floret in your fridge. And if none of those are nearby, simply examine your fingerprint.&lt;/p&gt;</description>
     </item>
   </channel>
