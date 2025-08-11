@@ -4,6 +4,9 @@ title: "Pandas תרגול ניתוח נתונים דרך ספריית "
 description: "בתרגול הזה נדגים כיצד ניתן להשתשמש בספריית פנדה כדי לנתח טבלאות נתונים גדולות בביולוגיה"
 omit_header_text: true
 language_direction: "rtl"
+featured_image: image_for_python_section/panda.jpg
+
+
 ---
 <div class="hebrew-text-rtl">
 

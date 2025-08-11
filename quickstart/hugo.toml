@@ -46,10 +46,6 @@ googleAnalytics = "G-G88CJRGNM1"
     url = "/research/"
     weight = 3
 
-  [[menu.main]]
-    name = "Presentations"
-    url = "/presentations/"
-    weight = 4
 
   [[menu.main]]
     name = "Blog"

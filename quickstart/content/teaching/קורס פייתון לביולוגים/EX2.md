@@ -4,6 +4,7 @@ title: " מבני נתונים בפייתון"
 description: "תרגול מעשי במבני נתונים בפייתון (רשימות, מילונים, סטים וזוגות) עם דוגמאות ממחקר אקולוגי וביולוגי. החומרים בעברית."
 omit_header_text: true
 language_direction: "rtl"
+featured_image: image_for_python_section/butterfly.jpg
 ---
 <div class="hebrew-text-rtl">
 

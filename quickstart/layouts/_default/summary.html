@@ -1,8 +1,16 @@
 <div class="w-100 mb4 bg-white shadow-hover" style="border-radius: 12px; overflow: hidden;">
   <a href="{{ .RelPermalink }}" class="db link black no-underline">
 
-    {{ with .Params.featured_image }}
-      <img src="{{ . }}" 
+    {{/* ✅ Fallback between featured_image and images[0] */}}
+    {{ $img := .Params.featured_image }}
+    {{ if not $img }}
+      {{ with .Params.images }}
+        {{ $img = index . 0 }}
+      {{ end }}
+    {{ end }}
+
+    {{ with $img }}
+      <img src="{{ . | relURL }}" 
            style="width: 100%; display: block; border-top-left-radius: 12px; border-top-right-radius: 12px; margin: 0;">
     {{ end }}
 

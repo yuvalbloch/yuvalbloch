@@ -4,6 +4,7 @@ title: "פונקציות פייתון - דוגמאות מדינימיקה של �
 description: "תרגול מעשי בפונקציות פייתון לפתרון בעיות ביולוגיות: מודלים של דינמיקת אוכלוסייה וסימולציות של חיידקים. חומרים בעברית."
 omit_header_text: true
 language_direction: "rtl"
+featured_image: image_for_python_section/wolf.jpg
 ---
 <div class="hebrew-text-rtl">
 # 🧬 תרגיל 5 - פוקציות 
