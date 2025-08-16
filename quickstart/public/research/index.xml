@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research on Complexity &amp; Ecology Research</title>
-    <link>http://localhost:1313/research/</link>
+    <link>https://yuvalbloch.com/research/</link>
     <description>Recent content in Research on Complexity &amp; Ecology Research</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 07 Jul 2025 10:00:00 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/research/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yuvalbloch.com/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sensitivity to Land Configuration</title>
-      <link>http://localhost:1313/research/sensitivity-to-land-configuration/</link>
+      <link>https://yuvalbloch.com/research/sensitivity-to-land-configuration/</link>
       <pubDate>Mon, 07 Jul 2025 10:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/research/sensitivity-to-land-configuration/</guid>
+      <guid>https://yuvalbloch.com/research/sensitivity-to-land-configuration/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Natural populations are influenced not only by the &lt;strong&gt;amount&lt;/strong&gt; of available habitat but also by its &lt;strong&gt;spatial configuration&lt;/strong&gt;. Factors such as &lt;strong&gt;edge effects&lt;/strong&gt;, &lt;strong&gt;habitat fragmentation&lt;/strong&gt;, and &lt;strong&gt;patch isolation&lt;/strong&gt; are critical in shaping population dynamics. These spatial processes are fundamental in ecology, and it&amp;rsquo;s essential that my model captures them accurately.&lt;/p&gt;&#xA;&lt;p&gt;While the total amount of habitat is relatively easy to quantify, capturing spatial configuration is far more complex. Traditional models often rely on a &lt;strong&gt;binary landscape&lt;/strong&gt;, classifying areas as either suitable or unsuitable for the organism. Metrics like &lt;strong&gt;edge length&lt;/strong&gt;, &lt;strong&gt;connectivity&lt;/strong&gt;, and &lt;strong&gt;mean patch size&lt;/strong&gt; are often used in these models. However, in my system, the landscape consists of multiple land cover types, each offering varying degrees of suitability for ticks. This complexity demands a more nuanced and flexible approach.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Finding Viable Parameter Spaces with Sensitivity Analysis</title>
-      <link>http://localhost:1313/research/senstiviy1/</link>
+      <link>https://yuvalbloch.com/research/senstiviy1/</link>
       <pubDate>Mon, 09 Jun 2025 10:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/research/senstiviy1/</guid>
+      <guid>https://yuvalbloch.com/research/senstiviy1/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Ecological models often depend on parameters that are difficult to measure precisely. &lt;strong&gt;Sensitivity analysis&lt;/strong&gt; helps us ask: &lt;em&gt;how much do these uncertainties matter?&lt;/em&gt; It allows us to explore:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Which parameters most strongly influence model outcomes&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;What combinations lead to persistence or extinction&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;How robust the system is to changes in key assumptions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;In this project, I go beyond simply measuring sensitivity. I use these tools to &lt;strong&gt;map the boundary between viable and non-viable ecological conditions&lt;/strong&gt;—the tipping points where tick populations either collapse or persist. By comparing these boundaries to patterns observed in real-world data, I can ask a deeper question: &lt;strong&gt;which combinations of parameters are not just viable, but actually relevant to the system I&amp;rsquo;m trying to model?&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Simulating Tick Life Cycles Across Landscapes</title>
-      <link>http://localhost:1313/research/tick-population-model/</link>
+      <link>https://yuvalbloch.com/research/tick-population-model/</link>
       <pubDate>Thu, 05 Jun 2025 18:31:05 +0300</pubDate>
-      <guid>http://localhost:1313/research/tick-population-model/</guid>
-      <description>&lt;h2 id=&#34;model&#34;&gt;Model&lt;/h2&gt;&#xA;&lt;p&gt;This model simulates tick population dynamics using a &lt;strong&gt;3-layer lattice&lt;/strong&gt;, where each layer corresponds to a life stage: &lt;strong&gt;larva&lt;/strong&gt;, &lt;strong&gt;nymph&lt;/strong&gt;, and &lt;strong&gt;adult&lt;/strong&gt;. Ticks move both &lt;strong&gt;vertically&lt;/strong&gt; between life stages and &lt;strong&gt;horizontally&lt;/strong&gt; between geographic locations by biting a host.&lt;/p&gt;&#xA;&lt;h3 id=&#34;lattice-and-tick-population&#34;&gt;Lattice and Tick Population&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Each land cell is denoted by $L_{i,j}$, with a tick-carrying capacity $K_{i,j}$.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The population at life stage $s$ in cell $L_{i,j}$ is represented by $P_{i,j,s}$.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div&gt;&#xD;&#xA;  &lt;figure style=&#34;flex: 1; min-width: 240px; max-width: 400px; text-align: center;&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:1313/assets/model.svg&#34; alt=&#34;Tick model diagram&#34; style=&#34;width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);&#34;&gt;&#xD;&#xA;    &lt;figcaption style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;&#xD;&#xA;      &lt;strong&gt;Figure 1.&lt;/strong&gt; Each life stage is represented as a 2D lattice layer. Bites cause vertical (stage) and horizontal (spatial) movement.&#xD;&#xA;    &lt;/figcaption&gt;&#xD;&#xA;  &lt;/figure&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h3 id=&#34;tick-movement-and-life-cycle&#34;&gt;Tick Movement and Life Cycle&lt;/h3&gt;&#xA;&lt;p&gt;To simplify, the model is first described in discrete steps:&lt;/p&gt;</description>
+      <guid>https://yuvalbloch.com/research/tick-population-model/</guid>
+      <description>&lt;h2 id=&#34;model&#34;&gt;Model&lt;/h2&gt;&#xA;&lt;p&gt;This model simulates tick population dynamics using a &lt;strong&gt;3-layer lattice&lt;/strong&gt;, where each layer corresponds to a life stage: &lt;strong&gt;larva&lt;/strong&gt;, &lt;strong&gt;nymph&lt;/strong&gt;, and &lt;strong&gt;adult&lt;/strong&gt;. Ticks move both &lt;strong&gt;vertically&lt;/strong&gt; between life stages and &lt;strong&gt;horizontally&lt;/strong&gt; between geographic locations by biting a host.&lt;/p&gt;&#xA;&lt;h3 id=&#34;lattice-and-tick-population&#34;&gt;Lattice and Tick Population&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Each land cell is denoted by $L_{i,j}$, with a tick-carrying capacity $K_{i,j}$.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The population at life stage $s$ in cell $L_{i,j}$ is represented by $P_{i,j,s}$.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div&gt;&#xD;&#xA;  &lt;figure style=&#34;flex: 1; min-width: 240px; max-width: 400px; text-align: center;&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;https://yuvalbloch.com/assets/model.svg&#34; alt=&#34;Tick model diagram&#34; style=&#34;width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);&#34;&gt;&#xD;&#xA;    &lt;figcaption style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;&#xD;&#xA;      &lt;strong&gt;Figure 1.&lt;/strong&gt; Each life stage is represented as a 2D lattice layer. Bites cause vertical (stage) and horizontal (spatial) movement.&#xD;&#xA;    &lt;/figcaption&gt;&#xD;&#xA;  &lt;/figure&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h3 id=&#34;tick-movement-and-life-cycle&#34;&gt;Tick Movement and Life Cycle&lt;/h3&gt;&#xA;&lt;p&gt;To simplify, the model is first described in discrete steps:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

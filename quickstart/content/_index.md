@@ -9,6 +9,7 @@ cascade:
     cover_dimming_class: ""        # disable Ananke's default dimming (e.g. bg-black-60)
     featured_image: '/assets/image_for_top1.png'
 ---
+
 <style>
   header.cover {
     background: none !important;
@@ -47,6 +48,7 @@ main.main-content,
     <img src="/assets/me.jpeg" alt="Yuval Bloch" style="border-radius: 50%; width: 300px; height: 300px; object-fit: cover; border: 4px solid #ccc; box-shadow: 0 0 12px rgba(0,0,0,0.15);">
   </div>
 
+  
   ## Yuval Bloch
 
   I'm a **computational ecologist** studying the dynamics of complex systems in nature.  
