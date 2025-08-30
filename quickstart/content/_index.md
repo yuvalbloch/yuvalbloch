@@ -1,13 +1,13 @@
 ---
-lang : "en"
-title: " "
+lang: en
+title: Complexity Theory in Ecology & Human Systems
 draft: false
-omit_header_text: false
-
+omit_header_text: true
 cascade:
   params:
-    cover_dimming_class: ""        # disable Ananke's default dimming (e.g. bg-black-60)
-    featured_image: '/assets/image_for_top1.png'
+    cover_dimming_class: ""
+    featured_image: /assets/image_for_top1.png
+description: Explore research and insights on applying complexity theory to ecology, human behavior, and various other systems. Learn how simple rules create complex patterns.
 ---
 
 <style>
