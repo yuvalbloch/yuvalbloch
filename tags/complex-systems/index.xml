@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Complex-Systems on Complexity &amp; Ecology Research</title>
-    <link>https://yuvalbloch.com/tags/complex-systems/</link>
+    <link>http://localhost:1313/tags/complex-systems/</link>
     <description>Recent content in Complex-Systems on Complexity &amp; Ecology Research</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 27 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yuvalbloch.com/tags/complex-systems/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/complex-systems/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building Worlds: Why Our Realities Diverge</title>
-      <link>https://yuvalbloch.com/blog/building_worlds/</link>
+      <link>http://localhost:1313/blog/building_worlds/</link>
       <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/blog/building_worlds/</guid>
+      <guid>http://localhost:1313/blog/building_worlds/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s easy to feel that people who hold beliefs contradicting well-established facts are unintelligent. We&amp;rsquo;ve all met individuals who, despite overwhelming evidence, remain steadfast in their convictions. However, upon closer inspection, it often becomes clear that these individuals are far from unintelligent. This apparent paradox prompts a deeper examination of how we construct our understanding of reality and how people with similar cognitive abilities can arrive at vastly different conclusions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Eye of the Storm: Understanding Our Minds During Struggles</title>
-      <link>https://yuvalbloch.com/blog/eye_of_the_storm/</link>
+      <link>http://localhost:1313/blog/eye_of_the_storm/</link>
       <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/blog/eye_of_the_storm/</guid>
+      <guid>http://localhost:1313/blog/eye_of_the_storm/</guid>
       <description>&lt;p&gt;This morning, the stark reality of war struck close to home. Beersheba, a city that until now had remained relatively peaceful compared to central Israel, was hit by a bombing at our main hospital. The shockwave I felt  from the public shelter near my apartment served as a cruel reminder of humanity&amp;rsquo;s darkest capacities. This experience profoundly underscores the urgent importance of learning to manage our emotions in such circumstances—a challenge that, as I&amp;rsquo;ll argue, complexity theory can illuminate.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Unseen Architects: Exploring the Fundamental Properties of Life</title>
-      <link>https://yuvalbloch.com/blog/the-unseen-architects/</link>
+      <link>http://localhost:1313/blog/the-unseen-architects/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/blog/the-unseen-architects/</guid>
+      <guid>http://localhost:1313/blog/the-unseen-architects/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Before we dive into the fundamental principles that shape life, take a moment to pause and observe.&lt;/strong&gt;&lt;br&gt;&#xA;If you’re outside—or can step outside—lie beneath a tree and gaze up into its intricate canopy. Or look closely at the delicate structure of a flower, the organized chaos of an ant colony, or even the fractal spirals of a broccoli or cauliflower floret in your fridge. And if none of those are nearby, simply examine your fingerprint.&lt;/p&gt;</description>
     </item>
   </channel>

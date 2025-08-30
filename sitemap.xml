@@ -3,133 +3,133 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yuvalbloch.com/blog/population-and-resources/</loc>
+    <loc>http://localhost:1313/blog/population-and-resources/</loc>
     <lastmod>2025-08-16T00:00:00&#43;00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yuvalbloch.com/blog/cycles-of-power/</loc>
+    <loc>http://localhost:1313/blog/cycles-of-power/</loc>
     <lastmod>2025-08-11T00:00:00&#43;00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yuvalbloch.com/blog/building_worlds/</loc>
+    <loc>http://localhost:1313/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/ex2/</loc>
+    <lastmod>2025-08-01T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/example-of-plots/</loc>
+    <lastmod>2025-08-01T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/%D7%A1%D7%98%D7%98%D7%99%D7%A1%D7%98%D7%99%D7%A7%D7%94-%D7%91%D7%90%D7%9E%D7%A6%D7%A2%D7%95%D7%AA-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F/</loc>
+    <lastmod>2025-08-01T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/ex5/</loc>
+    <lastmod>2025-08-01T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/blog/building_worlds/</loc>
     <lastmod>2025-07-27T00:00:00&#43;00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yuvalbloch.com/blog/curiosity/</loc>
+    <loc>http://localhost:1313/blog/curiosity/</loc>
     <lastmod>2025-07-14T00:00:00&#43;00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yuvalbloch.com/blog/asimovs-_foundation_-revisited/</loc>
+    <loc>http://localhost:1313/blog/asimovs-_foundation_-revisited/</loc>
     <lastmod>2025-07-14T00:00:00&#43;00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yuvalbloch.com/research/sensitivity-to-land-configuration/</loc>
+    <loc>http://localhost:1313/research/sensitivity-to-land-configuration/</loc>
     <lastmod>2025-07-07T10:00:00&#43;03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yuvalbloch.com/blog/identity/</loc>
+    <loc>http://localhost:1313/blog/identity/</loc>
     <lastmod>2025-07-03T00:00:00&#43;00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yuvalbloch.com/blog/life-on-the-edge/</loc>
+    <loc>http://localhost:1313/blog/life-on-the-edge/</loc>
     <lastmod>2025-06-25T00:00:00&#43;00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yuvalbloch.com/blog/eye_of_the_storm/</loc>
+    <loc>http://localhost:1313/blog/eye_of_the_storm/</loc>
     <lastmod>2025-06-19T00:00:00&#43;00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yuvalbloch.com/blog/complex-systems-perspective-on-conflict/</loc>
+    <loc>http://localhost:1313/blog/complex-systems-perspective-on-conflict/</loc>
     <lastmod>2025-06-15T00:00:00&#43;00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yuvalbloch.com/research/senstiviy1/</loc>
+    <loc>http://localhost:1313/research/senstiviy1/</loc>
     <lastmod>2025-06-09T10:00:00&#43;03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yuvalbloch.com/blog/the-unseen-architects/</loc>
+    <loc>http://localhost:1313/blog/the-unseen-architects/</loc>
     <lastmod>2025-06-06T00:00:00&#43;00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yuvalbloch.com/research/tick-population-model/</loc>
+    <loc>http://localhost:1313/research/tick-population-model/</loc>
     <lastmod>2025-06-05T18:31:05&#43;03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yuvalbloch.com/blog/life-science-now/</loc>
+    <loc>http://localhost:1313/blog/life-science-now/</loc>
     <lastmod>2025-06-03T12:00:00&#43;00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yuvalbloch.com/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/ex2/</loc>
-    <lastmod>0001-01-01T00:00:00&#43;00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuvalbloch.com/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/example-of-plots/</loc>
-    <lastmod>0001-01-01T00:00:00&#43;00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuvalbloch.com/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/%D7%AA%D7%A8%D7%92%D7%95%D7%9C-8-pandas/</loc>
-    <lastmod>0001-01-01T00:00:00&#43;00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuvalbloch.com/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/%D7%A1%D7%98%D7%98%D7%99%D7%A1%D7%98%D7%99%D7%A7%D7%94-%D7%91%D7%90%D7%9E%D7%A6%D7%A2%D7%95%D7%AA-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F/</loc>
-    <lastmod>0001-01-01T00:00:00&#43;00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuvalbloch.com/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/ex5/</loc>
+    <loc>http://localhost:1313/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/%D7%AA%D7%A8%D7%92%D7%95%D7%9C-8-pandas/</loc>
     <lastmod>0001-01-01T00:00:00&#43;00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
