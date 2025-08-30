@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Acadmic Portfolio</title>
-    <link>http://localhost:1313/he/categories/</link>
-    <description>Recent content in Categories on Acadmic Portfolio</description>
+    <title>Categories on מחקר מורכבות ואקולוגיה</title>
+    <link>https://yuvalbloch.com/he/categories/</link>
+    <description>Recent content in Categories on מחקר מורכבות ואקולוגיה</description>
     <generator>Hugo</generator>
-    <language>he-il</language>
-    <atom:link href="http://localhost:1313/he/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>he</language>
+    <atom:link href="https://yuvalbloch.com/he/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
