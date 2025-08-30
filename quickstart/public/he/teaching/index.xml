@@ -1,32 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Teachings on Acadmic Portfolio</title>
-    <link>http://localhost:1313/he/teaching/</link>
-    <description>Recent content in Teachings on Acadmic Portfolio</description>
+    <title>Teachings on מחקר מורכבות ואקולוגיה</title>
+    <link>https://yuvalbloch.com/he/teaching/</link>
+    <description>Recent content in Teachings on מחקר מורכבות ואקולוגיה</description>
     <generator>Hugo</generator>
-    <language>he-il</language>
-    <atom:link href="http://localhost:1313/he/teaching/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title> מבני נתונים בפייתון</title>
-      <link>http://localhost:1313/he/teaching/ex2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/he/teaching/ex2/</guid>
-      <description>&lt;h1 id=&#34;-תרגול-במבני-נתונים&#34;&gt;🔬 תרגול במבני נתונים&lt;/h1&gt;&#xA;&lt;p&gt;במשימות הבאות תתרגלו שימוש במבני הנתונים שלמדתם — רשימות, קבוצות, מילונים וזוגות — בהקשר של &lt;strong&gt;מחקר אקולוגי&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-חלק-1-רשימות-קבוצות-וגיוון-ביולוגי&#34;&gt;🐾 חלק 1: רשימות, קבוצות וגיוון ביולוגי&lt;/h2&gt;&#xA;&lt;p&gt;במהלך סקר טבע באזור מדברי תיעדתם את כל בעלי החיים שנצפו, לפי סדר ההיתקלות:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;porcupine&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;gazelle&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;spiny mouse&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;golden jackal&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ibis&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;lizard&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;gazelle&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;rock hyrax&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;spiny mouse&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;green toad&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ibis&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;jackal&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;fox&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Megabat&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Megabat&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;lizard&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ibis&amp;#34;&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;משימות&#34;&gt;משימות:&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;צרו רשימה בשם &lt;code&gt;animals&lt;/code&gt; שמכילה את כל בעלי החיים לפי סדר התיעוד.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;הדפיסו את הרשימה וודאו שהיא מוצגת כראוי.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;תיקון טעות בזיהוי: העטלף הראשון הוא בעצם &lt;code&gt;&amp;quot;Microbat&amp;quot;&lt;/code&gt; ולא &lt;code&gt;&amp;quot;Megabat&amp;quot;&lt;/code&gt;.&lt;br&gt;&#xA;השתמשו ב־&lt;code&gt;()index&lt;/code&gt; כדי לאתר ולתקן את הטעות.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Pandas תרגול ניתוח נתונים דרך ספריית </title>
-      <link>http://localhost:1313/he/teaching/%D7%AA%D7%A8%D7%92%D7%95%D7%9C-8-pandas/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/he/teaching/%D7%AA%D7%A8%D7%92%D7%95%D7%9C-8-pandas/</guid>
-      <description>&lt;div class=&#34;hebrew-text-rtl&#34;&gt;&#xA;&lt;h3 id=&#34;הערה-חשובה--יש-להריץ-בקובץ-הmain-בלבד&#34;&gt;הערה חשובה! – יש להריץ בקובץ ה־main בלבד&lt;/h3&gt;&#xA;&lt;p&gt;בשבוע הבא בתרגול תשתמשו בפונקציות שתכתבו הפעם, דרך &lt;code&gt;import&lt;/code&gt; של קובץ הקוד שאתם כותבים עכשיו אל הקוד שתכתבו בשבוע הבא.&lt;br&gt;&#xA;כשתעשו זאת, כל הקוד שבקובץ הנוכחי ירוץ בתחילת הקוד שלכם בשבוע הבא, וכך תהיה לכם גישה לפונקציות שכתבתם.&lt;/p&gt;&#xA;&lt;p&gt;עם זאת, קיימת בעיה: גם הקטעים בקוד שאינם פונקציות ירוצו וידפיסו פלט שעלול לבלבל אתכם.&lt;br&gt;&#xA;כדי למנוע זאת, יש להוסיף לכל קטע קוד שאינו הגדרת פונקציה את התנאי הבא:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>פונקציות פייתון - דוגמאות מדינימיקה של אוכלוסיות</title>
-      <link>http://localhost:1313/he/teaching/ex5/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/he/teaching/ex5/</guid>
-      <description>&lt;h1 id=&#34;-תרגיל-5---פוקציות&#34;&gt;🧬 תרגיל 5 - פוקציות&lt;/h1&gt;&#xA;&lt;h2 id=&#34;-הנחיות-כלליות&#34;&gt;🛠️ הנחיות כלליות:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;כדי לנסות את הפונקציות הריצו אתן אם קלטים שונים, במקרים מסוימים אני נותן לכם דוגמא לקלט, אל תספקו בה אלא הוסיפו קלטים משלכם כולל מקרי קצה (קלט לא תקין מחרוזת ריקה ואחרים)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;יש להוסיף &lt;strong&gt;תיעוד באנגלית&lt;/strong&gt; (&lt;code&gt;docstring&lt;/code&gt;) בראש כל פונקציה, שמסביר בקצרה את מטרתה, הקלט והפלט.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;במקרה של קלט לא תקין, יש להדפיס הודעת שגיאה ולהחזיר ערך מתאים.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;יש להימנע מחזרה על קוד - אם אתם מבצעים את אותה פעולה בפונקציות שונות צרו פונקציה נוספת וקיראו לה מתו הפונקציות השונות&lt;/p&gt;</description>
-    </item>
+    <language>he</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://yuvalbloch.com/he/teaching/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

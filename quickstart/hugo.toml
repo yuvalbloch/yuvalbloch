@@ -3,7 +3,8 @@ languageCode = "en-us"
 title = "Complexity & Ecology Research"
 theme = "ananke"
 googleAnalytics = "G-G88CJRGNM1"
-
+defaultContentLanguage = "en"  # Explicitly set the default language
+enableRobotsTXT = true         # Best practice to enable this here
 
 [params]
   author = "yuval bloch"
@@ -11,25 +12,20 @@ googleAnalytics = "G-G88CJRGNM1"
   custom_css = ["custom.css"]
   mainSections = ["posts"]
   ananke.show_recent_posts = true
-  omit_header_text = false 
+  omit_header_text = false
   summaryLength = 10  # reduce to 25 words instead of 70
-
-
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
 
-
-
-
 [menu]
- [[menu.main]]
-  name = "Blog"
-  url = "/posts/"
-  weight = 5
-
+  # We will add translations for menu items later using i18n
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 5
 
   [[menu.main]]
     name = "Home"
@@ -46,11 +42,6 @@ googleAnalytics = "G-G88CJRGNM1"
     url = "/research/"
     weight = 3
 
-
-  [[menu.main]]
-    name = "Blog"
-    url = "/blog/"
-    weight = 5
 
   [[menu.main]]
     name = "teaching"
@@ -74,21 +65,24 @@ googleAnalytics = "G-G88CJRGNM1"
 [languages]
   [languages.en]
     languageName = "English"
-    languageCode = "en-us"
+    languageCode = "en" # Changed to 'en' for consistency
     weight = 1
-    # REMOVE contentDir = "content" if it was here.
-    # Content will be identified by 'lang: "en"' or by being the default.
+    # You can add a title for this language, which might be different from the main title
+    # title = "My English Site"
 
-[outputFormats.RobotsTXT]
-mediaType = "text/plain"
-baseName = "robots"
-isPlainText = true
-notAlternative = true
+  [languages.he]
+    languageName = "עברית"
+    languageCode = "he"
+    languageDirection = "rtl" # Crucial for Hebrew
+    weight = 2
+    title = "מחקר מורכבות ואקולוגיה" # Hebrew translation of the site title
+
+# RobotsTXT and other output formats can be simplified by enabling them on a per-language basis if needed,
+# but for now, they are fine as is.
+[outputs]
+  home = ["HTML", "RSS", "Sitemap"] # Removed "RobotsTXT" from here
 
 [sitemap]
   changefreq = "weekly"
   priority = 0.5
   filename = "sitemap.xml"
-
-[outputs]
-home = ["HTML", "RSS", "RobotsTXT", "Sitemap"]

@@ -5,6 +5,7 @@ description: "תרגול מעשי בפונקציות פייתון לפתרון �
 omit_header_text: true
 language_direction: "rtl"
 featured_image: image_for_python_section/wolf.jpg
+date: 2025-08-01
 ---
 <div class="hebrew-text-rtl">
 # 🧬 תרגיל 5 - פוקציות 

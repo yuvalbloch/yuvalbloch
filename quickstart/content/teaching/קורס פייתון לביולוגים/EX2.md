@@ -5,6 +5,7 @@ description: "תרגול מעשי במבני נתונים בפייתון (רשי
 omit_header_text: true
 language_direction: "rtl"
 featured_image: image_for_python_section/butterfly.jpg
+date: 2025-08-01
 ---
 <div class="hebrew-text-rtl">
 

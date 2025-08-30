@@ -6,7 +6,7 @@ omit_header_text: true
 language_direction: "rtl"
 featured_image: image_for_python_section/panda.jpg
 
-
+date: 2025-08-01
 ---
 <div class="hebrew-text-rtl">
 
