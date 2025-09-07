@@ -67,11 +67,9 @@ Adaptation isn't only technological. The Taliban learn fast to use social media 
   <img src="/posts/cheos/drone.jpeg" alt="improvised isis drone"
        style="max-width: 60%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
 <figcaption style="font-size: 0.9em; color: #666; margin-top: 0.8rem; line-height: 1.5; padding: 0 1rem; text-align: center;"> An improvised combat drone used by ISIS in Iraq. This illustrates how decentralized organizations rapidly adapt new technologies, applying civilian drones for military objectives. </figcaption>
+</figure>
 
-
-
-
-## Speed of Adaptation
+##  Speed of Adaptation
 
 Nation-states are large, complex organizations with extensive supply chains, factories, and rigid command hierarchies. While this allows for sophisticated, large-scale strategies, it also slows down decision-making. For example, the **Afghanistan Papers**, a collection of interviews conducted by the Pentagon to document lessons from the war, revealed a significant flaw: it could take the U.S. command structure years to identify a strategic problem, revise the plan, and implement a change. This was often delayed further by political considerations, as commanders were sometimes reluctant to report failures up the chain.
 
@@ -84,7 +82,7 @@ This asymmetric adaptation is well known in biology. Phages—viruses that infec
 History shows similar dynamics between empires and tribes. Rome dominated Gaul for centuries, yet tribal groups could sometimes exploit weaknesses and inflict major defeats. The same applies in counterterrorism: powerful states achieve dominance most of the time, but prolonged wars give smaller groups windows to strike effectively.
 
 <figure>
-  <img src="/posts/cheos/phage.jpeg" alt="illustration of phage"
+  <img src="/posts/cheos/pahge.jpg" alt="illustration of phage"
        style="max-width: 60%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
 <figcaption style="font-size: 0.9em; color: #666; margin-top: 0.8rem; line-height: 1.5; padding: 0 1rem; text-align: center;"> An illustration of a bacteriophage. Its simple, tiny structure allows for rapid adaptation, though it limits the range of possible strategies. </figcaption>
 
