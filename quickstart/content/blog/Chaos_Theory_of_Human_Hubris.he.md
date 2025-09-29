@@ -37,7 +37,7 @@ lang: he
 
 ארגוני טרור לעומת זאת משתמשים לעתים קרובות בתכנון מבוזר. אם מפקד בדרג השטח הוגה אסטרטגיה חדשה, הוא יכול פשוט לנסות אותה. אם היא כושלת, היא כנראה תגווע יחד עם יוצרה והמחבלים שתחת פיקודו. אם היא טובה, יחידות אחרות יעתיקו אותה. לביזור יש מחיר: הוא מגביל את מורכבות מורכבות האסטרטגיה אבל מאפשר הסתגלות מהירה יותר.
 
-<figure>   <img src="/posts/cheos/drone.jpeg" alt="improvised isis drone" style="max-width: 60%; height: auto; display: block; margin: 0 auto; border-radius: 12px; object-fit: contain;"> <figcaption style="font-size: 0.9em; color: #666; margin-top: 0.8rem; line-height: 1.5; padding: 0 1rem; text-align: center;"> An improvised combat drone used by ISIS in Iraq. This illustrates how decentralized organizations rapidly adapt new technologies, applying civilian drones for military objectives. </figcaption> </figure>
+<figure>   <img src="/posts/cheos/drone.jpeg" alt="improvised isis drone" style="max-width: 60%; height: auto; display: block; margin: 0 auto; border-radius: 12px; object-fit: contain;"> <figcaption style="font-size: 0.9em; color: #666; margin-top: 0.8rem; line-height: 1.5; padding: 0 1rem; text-align: center;">רחפן מאולתר בשימוש דעאש, מדגים את המהירות בה ארגוני טרור לומדים לנצל טכונולגיות אזרחיות חדשות </figcaption> </figure>
 
 
 ## חיידקים ובקטריופאג'ים
