@@ -62,7 +62,7 @@
   <meta itemprop="description" content="To ensure that my model accurately captures the impact of land configuration, I incorporate the diamond-square algorithm and the concept of fractal dimensionality. While these tools are unconventional for this purpose, they provide a robust and meaningful way to model spatial complexity and the effects of landscape structure.">
   <meta itemprop="datePublished" content="2025-07-07T10:00:00+03:00">
   <meta itemprop="dateModified" content="2025-07-07T10:00:00+03:00">
-  <meta itemprop="wordCount" content="1282">
+  <meta itemprop="wordCount" content="1284">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Sensitivity to Land Configuration">
   <meta name="twitter:description" content="To ensure that my model accurately captures the impact of land configuration, I incorporate the diamond-square algorithm and the concept of fractal dimensionality. While these tools are unconventional for this purpose, they provide a robust and meaningful way to model spatial complexity and the effects of landscape structure.">
@@ -212,14 +212,12 @@
 <p>To quantify this complexity, we use the <strong>Hurst exponent (H)</strong> or the <strong>fractal dimension (Hausdorff dimension) (D)</strong>. These parameters describe how spatial roughness increases with resolution. Importantly, the <strong>H</strong> value also captures the degree of <strong>mixing</strong> between spatial domains.</p>
 <p>For example, when land and sea are clearly separated, the boundary is simple and H is low. As the boundary becomes more complex, with features like bays and estuaries, H increases. Hence, <strong>H</strong> serves as a proxy for <strong>spatial mixing or interlacing</strong>.</p>
 <p>This concept extends beyond coastlines to <strong>topographic variation</strong> (e.g., mountains vs. flatlands) and anthropogenic gradients (e.g., from natural forest to urbanized land). High H values reflect greater spatial complexity and aggregation, while low H values indicate fragmented or randomized patterns.</p>
-<div>
-  <figure style="flex: 1; min-width: 480px; max-width: 800px; text-align: center;">
-    <img src="/assets/coast_line.png" alt="Coastline" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+  <figure >
+    <img src="/assets/coast_line.png" alt="Coastline"        style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;" >
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
       <strong>Figure 1.</strong> <br> A coastline viewed from above. As the resolution increases, more intricate bays and inlets become visible.
     </figcaption>
   </figure>
-</div>
 <hr>
 <h2 id="generating-fractal-landscapes">Generating Fractal Landscapes</h2>
 <p>To produce landscapes with varying levels of spatial complexity, I use the <strong>diamond-square algorithm</strong>, a two-dimensional extension of the <strong>midpoint displacement algorithm</strong>. These methods generate fractal surfaces that mimic the irregularity and patchiness found in real-world habitats.</p>
@@ -287,26 +285,22 @@ y = (2 + 3.5 + 4 ) / 3 + random offset
 <li>The lowest 30% is <strong>semi-intact forest</strong>.</li>
 </ul>
 <p>In the generated maps, <strong>high H values</strong> lead to <strong>spatially clustered patches</strong> of the same land-use type, while <strong>low H values</strong> result in more scattered and mixed distributions.</p>
-<div>
-  <figure style="flex: 1; min-width: 480px; max-width: 800px; text-align: center;">
-    <img src="/assets/land_use_configuration.svg" alt="Land Use Configuration" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+  <figure >
+    <img src="/assets/land_use_configuration.svg" alt="Land Use Configuration"        style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">>
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
       <strong>Figure 2.</strong> <br> Different land-use configurations based on H values and land-use proportions.
     </figcaption>
   </figure>
-</div>
 <hr>
 <h2 id="simulation-results">Simulation Results</h2>
 <p>Below is a plot of the <strong>average tick abundance</strong> in each land-use type as a function of the <strong>H value</strong> used to generate the map. As expected, the <strong>total tick population increases with H</strong>, likely due to reduced fragmentation and better connectivity of suitable habitat.</p>
 <p>Interestingly, the <strong>average number of ticks in villages</strong> decreases as H increases. This result aligns with the <strong>edge effect hypothesis</strong>: in fragmented landscapes (low H), ticks spill over into marginal patches, while in aggregated landscapes (high H), the boundaries between suitable and unsuitable land-use types are reduced, leading to lower tick numbers in marginal areas.</p>
-<div>
-  <figure style="flex: 1; min-width: 480px; max-width: 800px; text-align: center;">
-    <img src="/assets/ticks_in_land_use.svg" alt="Tick Population in Land Use" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+  <figure>
+    <img src="/assets/ticks_in_land_use.svg" alt="Tick Population in Land Use"        style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">>
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
       <strong>Figure 3.</strong> <br> Tick abundance as a function of H, both in average and in each land-use type.
     </figcaption>
   </figure>
-</div>
 <hr>
 <h3 id="summary">Summary</h3>
 <p>These results confirm that the model is <strong>sensitive to spatial configuration</strong> and behaves in ways consistent with ecological theory. By using fractal geometry and varying H values, I can simulate more realistic landscape structures and test how fragmentation and habitat mixing impact tick populations.</p>

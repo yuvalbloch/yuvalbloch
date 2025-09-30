@@ -3,6 +3,13 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yuvalbloch.com/blog/remote_study/</loc>
+    <lastmod>2025-09-29T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://yuvalbloch.com/blog/chaos_theory_of_human_hubris/</loc>
     <lastmod>2025-09-06T00:00:00&#43;00:00</lastmod>
     <changefreq>weekly</changefreq>
