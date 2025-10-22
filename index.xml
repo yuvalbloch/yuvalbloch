@@ -6,8 +6,15 @@
     <description>Recent content in Complexity Theory in Ecology &amp; Human Systems on Complexity &amp; Ecology Research</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yuvalbloch.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Explaining the Lacunarity-Based Index for Spatial Heterogeneity</title>
+      <link>https://yuvalbloch.com/research/lacunirty/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/research/lacunirty/</guid>
+      <description>&lt;p&gt;In my research, I employ the measurement of &lt;strong&gt;lacunarity&lt;/strong&gt; based on the methodology described in Scott, R., et al. &lt;strong&gt;&amp;ldquo;A Lacunarity-based Index for Spatial Heterogeneity.&amp;rdquo;&lt;/strong&gt; &lt;em&gt;Earth and Space Science (Hoboken, N.J.)&lt;/em&gt;, vol. 9, no. 8, American Geophysical Union (AGU), Aug. 2022, &lt;a href=&#34;https://doi.org/10.1029/2021ea002180&#34;&gt;https://doi.org/10.1029/2021ea002180&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Here, I will provide a less formal description of the mathematics behind this method and its implementation in &lt;strong&gt;Julia&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-what-is-lacunarity-lambdar&#34;&gt;1. What is Lacunarity ($\Lambda(r)$)?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Lacunarity&lt;/strong&gt; is a measure of the &lt;strong&gt;heterogeneity&lt;/strong&gt; (gaps and clustering) of a spatial pattern across different scales. It quantifies how much the distribution of features differs from a homogeneous, uniform distribution.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My Focus Recovery Plan</title>
       <link>https://yuvalbloch.com/blog/my_focus_recovery_plan/</link>
