@@ -22,10 +22,10 @@ This model simulates tick population dynamics using a **3-layer lattice**, where
 - The population at life stage $s$ in cell $L_{i,j}$ is represented by $P_{i,j,s}$.
     
 
-<div>
 
-  <figure style="flex: 1; min-width: 240px; max-width: 400px; text-align: center;">
-    <img src="/assets/model.svg" alt="Tick model diagram" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+
+  <figure >
+    <img src="/assets/model.svg" alt="Tick model diagram"        style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
       <strong>Figure 1.</strong> Each life stage is represented as a 2D lattice layer. Bites cause vertical (stage) and horizontal (spatial) movement.
     </figcaption>
@@ -33,7 +33,7 @@ This model simulates tick population dynamics using a **3-layer lattice**, where
 
 
 
-</div>
+
 
 
 ### Tick Movement and Life Cycle
@@ -53,10 +53,10 @@ If the biting tick is an adult ($s = 3$), it reproduces by laying eggs, producin
 
 ---
 
-<div>
 
-  <figure style="flex: 1; min-width: 240px; max-width: 400px; text-align: center;">
-    <img src="/assets/one_time_step.png" alt="Tick model diagram" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+
+  <figure s>
+    <img src="/assets/one_time_step.png" alt="Tick model diagram"       style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
       <strong>Figure 2.</strong>tick dynamic in one ”time step”, assuming only one cell populated with larva’s, and the rest are
 empty
@@ -65,7 +65,7 @@ empty
 
 
 
-</div>
+
 
 ### Differential Equations
 

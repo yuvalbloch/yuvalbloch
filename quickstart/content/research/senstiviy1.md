@@ -71,14 +71,14 @@ I tried a few kernel functions and settled on a **polynomial kernel**, which cap
 
 ---
 
-<div>
+
   <figure style="flex: 1; min-width: 240px; max-width: 400px; text-align: center;">
     <img src="/assets/seapration_plane.gif" alt="SVM separation boundary" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
       <strong>Figure 1.</strong> SVM decision boundary separating viable (persistent) and non-viable (extinct) regions in parameter space.
     </figcaption>
   </figure>
-</div>
+
 
 ---
 

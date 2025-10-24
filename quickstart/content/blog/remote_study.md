@@ -1,6 +1,12 @@
 ---
-draft: true
+title: "My Journey at the an open University: A Candid Look at the Experience"
+date: 2025-09-29
+description: my experience at the Open University of Israel was a unique period in my life. It was filled with the wonderful feeling of freedom and fulfillment but also presented its own set of challenges. This text is meant to help people decide if this experience is right for them.
+featured_image: /posts/open_u/main.png 
+omit_header_text: true
+draft: false
 ---
+
 ## My Journey with Israel's Open University
 
 Open Universities are unique institutions that combines a long history of remote learning with an open admissions policy. they offers people from all walks of life the chance to earn a respected degree and is a well-established concept worldwide.
@@ -23,6 +29,15 @@ The best part of my experience was the incredible **freedom** it gave me. Not be
 
 The quality of the Open University's course books is also consistently high. While the quality of teachers can vary, the books maintain a high standard across the board. Every semester, I'd get a new batch in the mail. While a cheaper digital option is available, I highly recommend the paperbacks. They're what I used to read outside, even while sunbathing. Reading was often faster than listening to a lecture, allowing me free time to pursue other interests.
 
+<figure>
+  <img src="/posts/open_u/kimono.jpg" 
+       alt="painting of silk"
+       style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
+  <figcaption style="font-size: 0.9em; font-style: italic; color: #555; margin-top: 1.5rem; margin-bottom: 1.5rem; line-height: 1.4; text-align: center; border-top: 1px solid #ccc; padding-top: 1rem;">
+painting on silk to create a kimono. The efficiency of studying from books gave me the free time to pursue many hobbies.
+  </figcaption>
+</figure>
+
 ### The Bad: Isolation and Soft Skills
 
 During my master's studies at Ben-Gurion University, I noticed how different things were. The university made a real effort to help new students feel connected and supported through orientation and direct access to professors and teaching assistants.
@@ -39,7 +54,18 @@ Based on my experience, I have identified some key areas I believe could be help
 - **Take ownership.** No one will remind you about forgotten assignments or deadlines. You must be proactive and stay on top of everything.
 - **Ask for what you need.** The fact that you may not know your teacher personally doesn't mean they won't be flexible or helpful. Just be respectful and don't assume they owe you something.
 - **Find more than one place to study.** Remote learning allows you to sit at home all day, but you shouldn't. Changing your study location is a great way to maintain your emotional well-being. Find a nice cafe, park, or viewpoint and spend part of your study time there. Just don't study in your bedroom—it's unhealthy.
+
 - **Practice discipline.** You need both **work discipline** and **break discipline**. You should be passionate about what you're doing, but some discipline is still necessary since no one will tell you when to study. Similarly, no one will remind you to take a break or eat. I take many breaks to maintain high focus. In high school, you might have been told that working many hours shows strength, and needing a break shows weakness. That's a stupid idea. Your focus is limited, and if you don't take enough breaks, you'll be less efficient, not more.
+
+
+<figure>
+  <img src="/posts/open_u/out.jpg" 
+       alt="I study while sun bath"
+       style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
+  <figcaption style="font-size: 0.9em; font-style: italic; color: #555; margin-top: 1.5rem; margin-bottom: 1.5rem; line-height: 1.4; text-align: center; border-top: 1px solid #ccc; padding-top: 1rem;">
+    learning while sunbathing, learning from more then one place help keep mental health"
+  </figcaption>
+</figure>
 
 ### Who is the Open University For?
 
@@ -58,3 +84,12 @@ No matter your reason, the question you need to ask yourself is whether you're a
 and I think that no one explain the high demanding yet open to everyone nature of open universities then Anton Ego at the end of the movie Ratatouille
 
 "In the past, I have made no secret of my disdain for Chef Gusteau's famous motto, "Anyone can cook." But I realize, only now do I truly understand what he meant. Not everyone can become a great artist; but a great artist *can* come from *anywhere*."
+
+<figure>
+  <img src="/posts/open_u/rat.jpeg" 
+       alt="the movie Ratatouille"
+       style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
+  <figcaption style="font-size: 0.9em; font-style: italic; color: #555; margin-top: 1.5rem; margin-bottom: 1.5rem; line-height: 1.4; text-align: center; border-top: 1px solid #ccc; padding-top: 1rem;">
+     a great artist can come from anywhere. Ratatouille "
+  </figcaption>
+</figure>

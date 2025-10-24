@@ -210,16 +210,14 @@
 </li>
 <li>
 <p>The population at life stage $s$ in cell $L_{i,j}$ is represented by $P_{i,j,s}$.</p>
+<figure >
+  <img src="/assets/model.svg" alt="Tick model diagram"        style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
+    <strong>Figure 1.</strong> Each life stage is represented as a 2D lattice layer. Bites cause vertical (stage) and horizontal (spatial) movement.
+  </figcaption>
+</figure>
 </li>
 </ul>
-<div>
-  <figure style="flex: 1; min-width: 240px; max-width: 400px; text-align: center;">
-    <img src="/assets/model.svg" alt="Tick model diagram" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-    <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
-      <strong>Figure 1.</strong> Each life stage is represented as a 2D lattice layer. Bites cause vertical (stage) and horizontal (spatial) movement.
-    </figcaption>
-  </figure>
-</div>
 <h3 id="tick-movement-and-life-cycle">Tick Movement and Life Cycle</h3>
 <p>To simplify, the model is first described in discrete steps:</p>
 <p>At each time step:</p>
@@ -236,15 +234,13 @@
 </ul>
 <p>If the biting tick is an adult ($s = 3$), it reproduces by laying eggs, producing new larvae.</p>
 <hr>
-<div>
-  <figure style="flex: 1; min-width: 240px; max-width: 400px; text-align: center;">
-    <img src="/assets/one_time_step.png" alt="Tick model diagram" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+  <figure s>
+    <img src="/assets/one_time_step.png" alt="Tick model diagram"       style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
       <strong>Figure 2.</strong>tick dynamic in one ”time step”, assuming only one cell populated with larva’s, and the rest are
 empty
     </figcaption>
   </figure>
-</div>
 <h3 id="differential-equations">Differential Equations</h3>
 <p>The change in tick population at each life stage is modeled using the following differential equations:</p>
 <h4 id="for-nymphs-and-adults-s--1">For nymphs and adults ($s &gt; 1$):</h4>

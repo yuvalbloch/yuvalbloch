@@ -6,8 +6,57 @@
     <description>Recent content in Complexity Theory in Ecology &amp; Human Systems on Complexity &amp; Ecology Research</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 06 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yuvalbloch.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Focus Recovery - One Week In</title>
+      <link>https://yuvalbloch.com/blog/focus-plane---conclusion-from-week-1/</link>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/blog/focus-plane---conclusion-from-week-1/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m wrapping up my first week of &lt;strong&gt;intentionally improving my focus&lt;/strong&gt; based on my original &lt;a href=&#34;https://yuvalbloch.com/blog/my_focus_recovery_plan/&#34;&gt;focus recovery plan&lt;/a&gt;. The results are already remarkable, and frankly, stronger than I anticipated.&lt;/p&gt;&#xA;&lt;p&gt;I’ll start by presenting the initial results—how challenging it was to follow the plan, how well I focused on my work, and the impact on other elements of my life. Then I’ll interpret those results and decide on the necessary adjustments for next week.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Explaining the Lacunarity-Based Index for Spatial Heterogeneity</title>
+      <link>https://yuvalbloch.com/research/lacunirty/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/research/lacunirty/</guid>
+      <description>&lt;p&gt;In my research, I employ the measurement of &lt;strong&gt;lacunarity&lt;/strong&gt; based on the methodology described in Scott, R., et al. &lt;strong&gt;&amp;ldquo;A Lacunarity-based Index for Spatial Heterogeneity.&amp;rdquo;&lt;/strong&gt; &lt;em&gt;Earth and Space Science (Hoboken, N.J.)&lt;/em&gt;, vol. 9, no. 8, American Geophysical Union (AGU), Aug. 2022, &lt;a href=&#34;https://doi.org/10.1029/2021ea002180&#34;&gt;https://doi.org/10.1029/2021ea002180&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Here, I will provide a less formal description of the mathematics behind this method and its implementation in &lt;strong&gt;Julia&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-what-is-lacunarity-lambdar&#34;&gt;1. What is Lacunarity ($\Lambda(r)$)?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Lacunarity&lt;/strong&gt; is a measure of the &lt;strong&gt;heterogeneity&lt;/strong&gt; (gaps and clustering) of a spatial pattern across different scales. It quantifies how much the distribution of features differs from a homogeneous, uniform distribution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Focus Recovery Plan</title>
+      <link>https://yuvalbloch.com/blog/my_focus_recovery_plan/</link>
+      <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/blog/my_focus_recovery_plan/</guid>
+      <description>&lt;h2 id=&#34;the-challenge-focus-at-work-and-in-life&#34;&gt;The Challenge: Focus at Work and in Life&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve recently struggled with &lt;strong&gt;focus&lt;/strong&gt;, impacting me both professionally and personally. In the lab, my efficiency is reduced, and outside of work, I find it hard to truly &amp;ldquo;live in the moment&amp;rdquo; and enjoy my activities. This decline is fueled by several elements in my modern lifestyle—some familiar, others newly recognized.&lt;/p&gt;&#xA;&lt;p&gt;For years, I resisted imposing a strict &lt;strong&gt;rule system&lt;/strong&gt;, favoring dynamic self-control instead. However, the cumulative effect of these distractions has forced me to accept my limitations humbly. While a dynamic system feels intuitively right, I no longer believe I can harness the benefits of the modern world without being distracted, unless I follow strict, predefined rules.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Paradox of Mutualism</title>
+      <link>https://yuvalbloch.com/blog/paradox_of_mutualism/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/blog/paradox_of_mutualism/</guid>
+      <description>&lt;p&gt;Ever felt your productivity slip because of constant interruptions or misaligned priorities? Do persistent, off-track questions from colleagues sabotage your focus, or has your boss&amp;rsquo;s direction seemed to pull you away from the path you know is right?&lt;/p&gt;&#xA;&lt;p&gt;Working collaboratively is inherently challenging. For a long time, scientists viewed &lt;strong&gt;Mutualism&lt;/strong&gt;—the collaboration between different species that benefits both—as an evolutionary anomaly, predicting it would be exceedingly rare. Why would two organisms go out of their way to help one another when they could focus purely on themselves?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>personal mythology</title>
+      <link>https://yuvalbloch.com/blog/personal-mythology/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/blog/personal-mythology/</guid>
+      <description>&lt;p&gt;This text was published as an appendix a &lt;a href=&#34;https://yuvalbloch.com/blog/the-minds-native-tongue----myth-symbol-and-the-internal-map/&#34;&gt;post&lt;/a&gt;  and describes my personal mythology, as I explain in the post personal mythology isn&amp;rsquo;t just a story but a map of the mind in their native language. it recommended to read them together&lt;/p&gt;&#xA;&lt;p&gt;the picture I add showing character from classic mythology representing similar architype&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-original-sin-the-fractions&#34;&gt;The Original Sin: The Fractions&lt;/h2&gt;&#xA;&lt;p&gt;the story begins with a small number of minds sharing a single brain and a secret, a profound knowledge of how to create &lt;strong&gt;personality fractions&lt;/strong&gt;—new versions of ourselves with the capacity to do what we couldn&amp;rsquo;t. This secret brought boundless opportunity: new skills that promised to improve not only my personal life but also to influence the world itself. But with this power came peril. The more fractions we created, the less stable the system became, until we manifested something we could no longer control.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Mind&#39;s Native Tongue - Myth, Symbol, and the Internal Map</title>
+      <link>https://yuvalbloch.com/blog/the-minds-native-tongue----myth-symbol-and-the-internal-map/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/blog/the-minds-native-tongue----myth-symbol-and-the-internal-map/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;The Mind&amp;rsquo;s Native Tongue: Myth, Symbol, and the Internal Map&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;To navigate the complex internal landscape of the human psyche, we must understand the mind through its own language. &lt;strong&gt;Sigmund Freud&lt;/strong&gt; viewed symbols, dreams, and stories primarily as defense mechanisms—means by which the mind communicates content too frightening to be expressed directly. &lt;strong&gt;Carl Jung&lt;/strong&gt; offered a fundamentally different perspective: for him, symbols and stories are the inherent language of the &lt;strong&gt;collective and personal unconscious&lt;/strong&gt;, a vital means by which the psyche communicates with and explores its own internal reality. This contrast highlights a key insight into complex systems: the mind cannot be fully understood merely by analysis and fragmentation. It must also be approached through its own native languages—&lt;strong&gt;stories, symbols, spirituality, and mysticism.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Journey at the an open University: A Candid Look at the Experience</title>
+      <link>https://yuvalbloch.com/blog/remote_study/</link>
+      <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/blog/remote_study/</guid>
+      <description>&lt;h2 id=&#34;my-journey-with-israels-open-university&#34;&gt;My Journey with Israel&amp;rsquo;s Open University&lt;/h2&gt;&#xA;&lt;p&gt;Open Universities are unique institutions that combines a long history of remote learning with an open admissions policy. they offers people from all walks of life the chance to earn a respected degree and is a well-established concept worldwide.&lt;/p&gt;&#xA;&lt;p&gt;In Israel, the Open University has been making waves. Its computer science graduates now earn the highest salaries in the country, even surpassing those from the prestigious Technion. However, a degree from the Open University is earned in a very different way than at a traditional university, and it&amp;rsquo;s not the right fit for everyone.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Chaos Theory of Human Hubris: From Jurassic Park to Afghanistan</title>
       <link>https://yuvalbloch.com/blog/chaos_theory_of_human_hubris/</link>
@@ -118,7 +167,7 @@
       <link>https://yuvalbloch.com/research/tick-population-model/</link>
       <pubDate>Thu, 05 Jun 2025 18:31:05 +0300</pubDate>
       <guid>https://yuvalbloch.com/research/tick-population-model/</guid>
-      <description>&lt;h2 id=&#34;model&#34;&gt;Model&lt;/h2&gt;&#xA;&lt;p&gt;This model simulates tick population dynamics using a &lt;strong&gt;3-layer lattice&lt;/strong&gt;, where each layer corresponds to a life stage: &lt;strong&gt;larva&lt;/strong&gt;, &lt;strong&gt;nymph&lt;/strong&gt;, and &lt;strong&gt;adult&lt;/strong&gt;. Ticks move both &lt;strong&gt;vertically&lt;/strong&gt; between life stages and &lt;strong&gt;horizontally&lt;/strong&gt; between geographic locations by biting a host.&lt;/p&gt;&#xA;&lt;h3 id=&#34;lattice-and-tick-population&#34;&gt;Lattice and Tick Population&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Each land cell is denoted by $L_{i,j}$, with a tick-carrying capacity $K_{i,j}$.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The population at life stage $s$ in cell $L_{i,j}$ is represented by $P_{i,j,s}$.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div&gt;&#xD;&#xA;  &lt;figure style=&#34;flex: 1; min-width: 240px; max-width: 400px; text-align: center;&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;https://yuvalbloch.com/assets/model.svg&#34; alt=&#34;Tick model diagram&#34; style=&#34;width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);&#34;&gt;&#xD;&#xA;    &lt;figcaption style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;&#xD;&#xA;      &lt;strong&gt;Figure 1.&lt;/strong&gt; Each life stage is represented as a 2D lattice layer. Bites cause vertical (stage) and horizontal (spatial) movement.&#xD;&#xA;    &lt;/figcaption&gt;&#xD;&#xA;  &lt;/figure&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h3 id=&#34;tick-movement-and-life-cycle&#34;&gt;Tick Movement and Life Cycle&lt;/h3&gt;&#xA;&lt;p&gt;To simplify, the model is first described in discrete steps:&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;model&#34;&gt;Model&lt;/h2&gt;&#xA;&lt;p&gt;This model simulates tick population dynamics using a &lt;strong&gt;3-layer lattice&lt;/strong&gt;, where each layer corresponds to a life stage: &lt;strong&gt;larva&lt;/strong&gt;, &lt;strong&gt;nymph&lt;/strong&gt;, and &lt;strong&gt;adult&lt;/strong&gt;. Ticks move both &lt;strong&gt;vertically&lt;/strong&gt; between life stages and &lt;strong&gt;horizontally&lt;/strong&gt; between geographic locations by biting a host.&lt;/p&gt;&#xA;&lt;h3 id=&#34;lattice-and-tick-population&#34;&gt;Lattice and Tick Population&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Each land cell is denoted by $L_{i,j}$, with a tick-carrying capacity $K_{i,j}$.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The population at life stage $s$ in cell $L_{i,j}$ is represented by $P_{i,j,s}$.&lt;/p&gt;&#xA;&lt;figure &gt;&#xA;  &lt;img src=&#34;https://yuvalbloch.com/assets/model.svg&#34; alt=&#34;Tick model diagram&#34;        style=&#34;max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;&#34;&gt;&#xA;  &lt;figcaption style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;&#xA;    &lt;strong&gt;Figure 1.&lt;/strong&gt; Each life stage is represented as a 2D lattice layer. Bites cause vertical (stage) and horizontal (spatial) movement.&#xA;  &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;tick-movement-and-life-cycle&#34;&gt;Tick Movement and Life Cycle&lt;/h3&gt;&#xA;&lt;p&gt;To simplify, the model is first described in discrete steps:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why Life Science? Why This Blog? Why Now?</title>

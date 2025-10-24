@@ -29,14 +29,14 @@ To quantify this complexity, we use the **Hurst exponent (H)** or the **fractal 
 For example, when land and sea are clearly separated, the boundary is simple and H is low. As the boundary becomes more complex, with features like bays and estuaries, H increases. Hence, **H** serves as a proxy for **spatial mixing or interlacing**.
 
 This concept extends beyond coastlines to **topographic variation** (e.g., mountains vs. flatlands) and anthropogenic gradients (e.g., from natural forest to urbanized land). High H values reflect greater spatial complexity and aggregation, while low H values indicate fragmented or randomized patterns.
-<div>
-  <figure style="flex: 1; min-width: 480px; max-width: 800px; text-align: center;">
-    <img src="/assets/coast_line.png" alt="Coastline" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+
+  <figure >
+    <img src="/assets/coast_line.png" alt="Coastline"        style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;" >
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
       <strong>Figure 1.</strong> <br> A coastline viewed from above. As the resolution increases, more intricate bays and inlets become visible.
     </figcaption>
   </figure>
-</div>
+
 
 ---
 
@@ -133,14 +133,14 @@ Once the fractal landscape is generated, I convert the continuous values into a 
 
 In the generated maps, **high H values** lead to **spatially clustered patches** of the same land-use type, while **low H values** result in more scattered and mixed distributions.
 
-<div>
-  <figure style="flex: 1; min-width: 480px; max-width: 800px; text-align: center;">
-    <img src="/assets/land_use_configuration.svg" alt="Land Use Configuration" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+
+  <figure >
+    <img src="/assets/land_use_configuration.svg" alt="Land Use Configuration"        style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">>
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
       <strong>Figure 2.</strong> <br> Different land-use configurations based on H values and land-use proportions.
     </figcaption>
   </figure>
-</div>
+
 
 ---
 
@@ -150,14 +150,14 @@ Below is a plot of the **average tick abundance** in each land-use type as a fun
 
 Interestingly, the **average number of ticks in villages** decreases as H increases. This result aligns with the **edge effect hypothesis**: in fragmented landscapes (low H), ticks spill over into marginal patches, while in aggregated landscapes (high H), the boundaries between suitable and unsuitable land-use types are reduced, leading to lower tick numbers in marginal areas.
 
-<div>
-  <figure style="flex: 1; min-width: 480px; max-width: 800px; text-align: center;">
-    <img src="/assets/ticks_in_land_use.svg" alt="Tick Population in Land Use" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+
+  <figure>
+    <img src="/assets/ticks_in_land_use.svg" alt="Tick Population in Land Use"        style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">>
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
       <strong>Figure 3.</strong> <br> Tick abundance as a function of H, both in average and in each land-use type.
     </figcaption>
   </figure>
-</div>
+
 
 ---
 

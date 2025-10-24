@@ -250,14 +250,12 @@ Used to test how spatial patterns (e.g. land use maps) affect tick dynamics.<br>
 <p>To improve the SVM with fewer simulations, I used <strong>active learning</strong>. The model identified parameter sets near the decision boundary—where it was most uncertain—and I focused simulations there.</p>
 <p>I tried a few kernel functions and settled on a <strong>polynomial kernel</strong>, which captured the nonlinear shape of the viability boundary best.</p>
 <hr>
-<div>
   <figure style="flex: 1; min-width: 240px; max-width: 400px; text-align: center;">
     <img src="/assets/seapration_plane.gif" alt="SVM separation boundary" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
       <strong>Figure 1.</strong> SVM decision boundary separating viable (persistent) and non-viable (extinct) regions in parameter space.
     </figcaption>
   </figure>
-</div>
 <hr>
 <h2 id="beyond-viability-exploring-system-behavior">Beyond Viability: Exploring System Behavior</h2>
 <p>Once I mapped the viability zone, I looked more closely at <strong>how</strong> the model behaves across it. I used three summary statistics:</p>
