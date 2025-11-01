@@ -1,8 +1,8 @@
 ---
-title: Focus Recovery - One Week In 
+title: atteion restoration - One Week In
 date: 2025-10-24
-description: "That was the first week of reducing distractions and intentionally improving my focus, and the results are already remarkable. Read the results and insights."
-featured_image: /images/zen.jpeg 
+description: That was the first week of reducing distractions and intentionally improving my focus, and the results are already remarkable. Read the results and insights.
+featured_image: /images/zen.jpeg
 omit_header_text: true
 ---
 

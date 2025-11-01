@@ -1,8 +1,8 @@
 ---
-title: My Focus Recovery Plan
+title: My atteion restoration Plan
 date: 2025-10-18
-description: "I decided to tailor a focus plane for myself based on what I learned about focus and the human mind. Next week, I will report how well it worked."
-featured_image: /images/boat.jpg
+description: I decided to tailor a focus plane for myself based on what I learned about focus and the human mind. Next week, I will report how well it worked.
+featured_image: /images/zen.jpeg
 omit_header_text: true
 ---
 ## The Challenge: Focus at Work and in Life
