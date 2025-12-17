@@ -1,74 +1,81 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>מחקר מורכבות ואקולוגיה</title>
-    <link>https://yuvalbloch.com/he/</link>
-    <description>Recent content on מחקר מורכבות ואקולוגיה</description>
+    <title> מורכבות ואקולוגיה</title>
+    <link>http://localhost:1313/he/</link>
+    <description>Recent content on  מורכבות ואקולוגיה</description>
     <generator>Hugo</generator>
     <language>he</language>
-    <lastBuildDate>Thu, 09 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yuvalbloch.com/he/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/he/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>מסע לפאנגאיה - מדע בידיוני</title>
+      <link>http://localhost:1313/he/blog/fungaia/</link>
+      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/he/blog/fungaia/</guid>
+      <description>&lt;div class=&#34;hebrew-text-rtl&#34;&gt;&#xA;&lt;p&gt;אני רואה לנכון לספר את סיפור מסענו למערכת פאנגאיה, ראשית כדי לנקות את שמי ואת שמם של שותפיי למסע. מאז ששבנו, אנשים אומרים שהשתנינו, שנהיינו פטרייתיים יותר, אנושיים פחות, ואף הוטל ספק בנאמנותנו לאנושות. ברצוני ליישר את ההדורים: נאמנותי ונאמנות שותפיי למסע נתונה לאנושות ולתוכנית החלל הבין-לאומית, ואיש איש לארצו ולמולדתו. למענם, סיכנו את נפשנו במסע הארוך בחלל.&lt;/p&gt;&#xA;&lt;p&gt;אין ספק שהשתנינו. החוויות שחווינו במערכת פאנגאיה שינו את האופן שבו אנו רואים את עצמנו ואת המשמעות של דברים בסיסיים כמו אינטליגנציה או אינדיבידואליזם, את היחס בין גוף ראשון לגוף שני ושלישי, או היחס בין יחיד לרבים. האם נהיינו פטרייתיים? ייתכן, אבל עליי לכפור בטענה ש&amp;quot;פטרייתי יותר&amp;quot; פירושו &amp;ldquo;אנושי פחות&amp;rdquo;. פאנגאיה לימדה אותנו שההפרדות שבעינינו הן בסיסיות כל כך, יכולות בקלות לאבד משמעות.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>מסע אל תוך ה&#34;זיכרון הכפול&#34;: המיתוס האישי כשיקוף הנפש</title>
-      <link>https://yuvalbloch.com/he/blog/the-minds-native-tongue----myth-symbol-and-the-internal-map/</link>
+      <link>http://localhost:1313/he/blog/the-minds-native-tongue----myth-symbol-and-the-internal-map/</link>
       <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/he/blog/the-minds-native-tongue----myth-symbol-and-the-internal-map/</guid>
+      <guid>http://localhost:1313/he/blog/the-minds-native-tongue----myth-symbol-and-the-internal-map/</guid>
       <description>&lt;div class=&#34;hebrew-text-rtl&#34;&gt;&#xA;&lt;p&gt;אודה על האמת: תמיד חשתי הסתייגות, כמעט &lt;strong&gt;התנגדות פנימית לא-רציונלית&lt;/strong&gt;, כלפי אבחונים פסיכולוגיים. לכן, כאשר הפסיכולוגית שלי תיארה את הקשיים שאני מתמודד איתם כ&lt;strong&gt;הפרעת אישיות סכיזוטיפלית&lt;/strong&gt;, לא ייחסתי לכך חשיבות רבה.&lt;/p&gt;&#xA;&lt;p&gt;אף על פי כן, האבחון פתח צוהר לתובנה עמוקה: לחלק מהחוויות שחוויתי מאז ומתמיד יש שמות. למשל, המונח &lt;strong&gt;&amp;ldquo;זיכרון כפול&amp;rdquo; (Double Bookkeeping)&lt;/strong&gt;, שפירושו הוא חיים בשני עולמות במקביל תוך שמירה על הפרדה ברורה ביניהם: עולם אחד שבו מתרחשת המציאות המשותפת, ועולם שני המכיל ישויות, מקומות ומסעות שאינם מתקיימים במציאות הפיזית.&lt;/p&gt;</description>
     </item>
     <item>
       <title>תואר באוניברסיטה הפתוחה היתרונות החסרונות ולמי זה מתאים</title>
-      <link>https://yuvalbloch.com/he/blog/remote_study/</link>
+      <link>http://localhost:1313/he/blog/remote_study/</link>
       <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/he/blog/remote_study/</guid>
+      <guid>http://localhost:1313/he/blog/remote_study/</guid>
       <description>&lt;div class=&#34;hebrew-text-rtl&#34;&gt;&#xA;באביב האחרון, האוניברסיטה הפתוחה זכתה להישג יוקרתי. על פי נתוני משרד העבודה, בוגרי האוניברסיטה הפתוחה במדעי המחשב מרוויחים כעת בממוצע יותר מבוגרי כל אוניברסיטה אחרת בארץ, כולל הטכניון.&#xA;&lt;p&gt;בעוד שהנתונים עשויים להיות מוטים במידה מסוימת, ההישג הזה ממחיש שאין ספק שהאוניברסיטה הפתוחה טיפסה למעמד של אוניברסיטה מובילה. והכל, מבלי לדרוש תנאי קבלה מוקדמים. אף על פי כן האוניברסיטה היא בהחלט לא לכל אחד.&#xA;העדר תנאים מקדימים מציע הזדמנות לכולם אבל זה לא אומר יוכלו להצליח, כמו שאנטון אגו אומר בסיום הסרט &amp;ldquo;רטטוי&amp;rdquo;: &amp;ldquo;אולי לא כל אחד יכול להיות שף, אבל שף דגול יכול לצמוח מכל מקום&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>כאוס ויהירות  - מפארק היורה לאפגניסטן</title>
-      <link>https://yuvalbloch.com/he/blog/chaos_theory_of_human_hubris/</link>
+      <link>http://localhost:1313/he/blog/chaos_theory_of_human_hubris/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/he/blog/chaos_theory_of_human_hubris/</guid>
+      <guid>http://localhost:1313/he/blog/chaos_theory_of_human_hubris/</guid>
       <description>&lt;div class=&#34;hebrew-text-rtl&#34;&gt;&#xA;בתור ילד, ספק אם הייתי ניגש לספרו של מייקל קרייטון, &#34;פארק היורה&#34;, אלמלא מספרם המצומצם של הספרים בספריית בית הספר. בניגוד לסרט עתיר האפקטים הספר התנהל בקצב איטי בהרבה, והעניק משקל רב יותר לתאוריית הכאוס מאשר לסצנות פעולה. הספר מחולק לחלקים, שכל אחד מהם נפתח בציטוט הנוגע לתאוריית הכאוס, וכל חלק מחולק לאיטרציות אשר נפתחות בסרטוט של פרקטל המכונה &#34;עקומת הדרקון&#34;. מקטע למקטע, הקו הלך והסתעף, ובכך ייצג את האופן שבו המערכת הסדורה והמתוכננת של הפארק התפוררה לכדי באוס. הספר הסתיים כאשר ממשלת קוסטה ריקה הפעילה את האמצעי היחיד המוכר לבני האדם כאשר מערכת נעשית מורכבת יתר על המידה: כוח ברוטלי, באמצעות מטוסי קרב ופצצות נפאלם.&#xA;&lt;p&gt;שנים רבות לאחר מכן, בעודי מחפש טקסטים לתרגול לקראת הבחינה הפסיכומטרית באנגלית, נתקלתי במסמכי אפגניסטן, שורת ראיונות שבוצעו על הפנטגון במהלך המלחמה ואחריה בניסיון להפיק לקחים. ממשל אחר ממשל בארצות הברית ניסו לעמוד על טעויות קודמיהם, במטרה להבין היכן כשלו הממשלים שקדמו להם וכיצד הם יוכלו להגשים את מטרות המלחמה. אולם, ממשל אחר ממשל נחל כישלון, עד שלא נותרה ברירה אלא להסיק כי בדומה לניהול פארק מלא דינוזאורים, גם התוכנית ל&amp;quot;בניית מדינה&amp;quot; באפגניסטן נידונה לכישלון.&lt;/p&gt;</description>
     </item>
     <item>
       <title> חמלה, אמפתיה ושחיקה במאבק למען השלום</title>
-      <link>https://yuvalbloch.com/he/blog/compassion_empathy_and_activism/</link>
+      <link>http://localhost:1313/he/blog/compassion_empathy_and_activism/</link>
       <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/he/blog/compassion_empathy_and_activism/</guid>
+      <guid>http://localhost:1313/he/blog/compassion_empathy_and_activism/</guid>
       <description>&lt;div class=&#34;hebrew-text-rtl&#34;&gt;&#xA;&lt;p&gt;המלחמה בישראל נמשכת, ובתקופה האחרונה אני רואה בין חבריי הפעילים למען השבת החטופים וסיום המלחמה שחיקה נפשית גוברת. זה טבעי. המוכנות להישיר מבט לסבל שהמלחמה מביאה איתה יוצרת לחץ נפשי רב. עם זאת, זו אינה גזרת גורל. מחקרים פורצי דרך בנוירולוגיה, לצד ידע עתיק יומין, יכולים להראות לנו מסלול המאפשר לטפח חמלה ולפעול למען השלום מבלי לסכן את בריאותנו הנפשית. הבנת הכלים הללו יכולה לא רק להקל על הפעילים, אלא גם לאפשר לאנשים נוספים להצטרף למאבק.&lt;/p&gt;</description>
     </item>
     <item>
       <title>חוויות מהטיול לקפלוניה</title>
-      <link>https://yuvalbloch.com/he/blog/trip_to_keflonia/</link>
+      <link>http://localhost:1313/he/blog/trip_to_keflonia/</link>
       <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/he/blog/trip_to_keflonia/</guid>
+      <guid>http://localhost:1313/he/blog/trip_to_keflonia/</guid>
       <description>&lt;div class=&#34;hebrew-text-rtl&#34;&gt;&#xA;&lt;h2 id=&#34;חלק-ראשון-הסתגלות&#34;&gt;חלק ראשון: הסתגלות&lt;/h2&gt;&#xA;&lt;p&gt;אנחנו יוצאים מחיפה ביום ראשון מוקדם בבקור, שדה התעופה הקטן נותן תחושה קלילה ולא פורמלית ולמרות שהחליל של רייצל והמחשב שלי מעוררים חשדות קלים אנו מגיעים ללא בעיה אל המטוס. בדרך הדיילים מציעים לנו שוטים של ערק. ומזמינים את כל הנוסעים להרים כוסית. מצד אחד לחופש שבטיול ומצד שני לשיבתם של החטופים ובטוחנם של החיילים בחזית. המתח הזה בין הרצון להתנתק לבין הדאגה ילוו אותי לאורך המסע.&lt;/p&gt;</description>
     </item>
     <item>
       <title> מבני נתונים בפייתון</title>
-      <link>https://yuvalbloch.com/he/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/ex2/</link>
+      <link>http://localhost:1313/he/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/ex2/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/he/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/ex2/</guid>
+      <guid>http://localhost:1313/he/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/ex2/</guid>
       <description>&lt;div class=&#34;hebrew-text-rtl&#34;&gt;&#xA;&lt;h1 id=&#34;-תרגול-במבני-נתונים&#34;&gt;🔬 תרגול במבני נתונים&lt;/h1&gt;&#xA;&lt;p&gt;במשימות הבאות תתרגלו שימוש במבני הנתונים שלמדתם — רשימות, קבוצות, מילונים וזוגות — בהקשר של &lt;strong&gt;מחקר אקולוגי&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-חלק-1-רשימות-קבוצות-וגיוון-ביולוגי&#34;&gt;🐾 חלק 1: רשימות, קבוצות וגיוון ביולוגי&lt;/h2&gt;&#xA;&lt;p&gt;במהלך סקר טבע באזור מדברי תיעדתם את כל בעלי החיים שנצפו, לפי סדר ההיתקלות:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;porcupine&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;gazelle&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;spiny mouse&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;golden jackal&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ibis&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;lizard&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;gazelle&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;rock hyrax&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;spiny mouse&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;green toad&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ibis&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;jackal&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;fox&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Megabat&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Megabat&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;lizard&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ibis&amp;#34;&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;משימות&#34;&gt;משימות:&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;צרו רשימה בשם &lt;code&gt;animals&lt;/code&gt; שמכילה את כל בעלי החיים לפי סדר התיעוד.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;הדפיסו את הרשימה וודאו שהיא מוצגת כראוי.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;תיקון טעות בזיהוי: העטלף הראשון הוא בעצם &lt;code&gt;&amp;quot;Microbat&amp;quot;&lt;/code&gt; ולא &lt;code&gt;&amp;quot;Megabat&amp;quot;&lt;/code&gt;.&lt;br&gt;&#xA;השתמשו ב־&lt;code&gt;()index&lt;/code&gt; כדי לאתר ולתקן את הטעות.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pandas תרגול ניתוח נתונים דרך ספריית </title>
-      <link>https://yuvalbloch.com/he/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/%D7%AA%D7%A8%D7%92%D7%95%D7%9C-8-pandas/</link>
+      <link>http://localhost:1313/he/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/%D7%AA%D7%A8%D7%92%D7%95%D7%9C-8-pandas/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/he/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/%D7%AA%D7%A8%D7%92%D7%95%D7%9C-8-pandas/</guid>
+      <guid>http://localhost:1313/he/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/%D7%AA%D7%A8%D7%92%D7%95%D7%9C-8-pandas/</guid>
       <description>&lt;div class=&#34;hebrew-text-rtl&#34;&gt;&#xA;&lt;h3 id=&#34;הערה-חשובה--יש-להריץ-בקובץ-הmain-בלבד&#34;&gt;הערה חשובה! – יש להריץ בקובץ ה־main בלבד&lt;/h3&gt;&#xA;&lt;p&gt;בשבוע הבא בתרגול תשתמשו בפונקציות שתכתבו הפעם, דרך &lt;code&gt;import&lt;/code&gt; של קובץ הקוד שאתם כותבים עכשיו אל הקוד שתכתבו בשבוע הבא.&lt;br&gt;&#xA;כשתעשו זאת, כל הקוד שבקובץ הנוכחי ירוץ בתחילת הקוד שלכם בשבוע הבא, וכך תהיה לכם גישה לפונקציות שכתבתם.&lt;/p&gt;&#xA;&lt;p&gt;עם זאת, קיימת בעיה: גם הקטעים בקוד שאינם פונקציות ירוצו וידפיסו פלט שעלול לבלבל אתכם.&lt;br&gt;&#xA;כדי למנוע זאת, יש להוסיף לכל קטע קוד שאינו הגדרת פונקציה את התנאי הבא:&lt;/p&gt;</description>
     </item>
     <item>
       <title>סטטיסטיקה וניתוח נתונים</title>
-      <link>https://yuvalbloch.com/he/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/%D7%A1%D7%98%D7%98%D7%99%D7%A1%D7%98%D7%99%D7%A7%D7%94-%D7%91%D7%90%D7%9E%D7%A6%D7%A2%D7%95%D7%AA-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F/</link>
+      <link>http://localhost:1313/he/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/%D7%A1%D7%98%D7%98%D7%99%D7%A1%D7%98%D7%99%D7%A7%D7%94-%D7%91%D7%90%D7%9E%D7%A6%D7%A2%D7%95%D7%AA-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/he/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/%D7%A1%D7%98%D7%98%D7%99%D7%A1%D7%98%D7%99%D7%A7%D7%94-%D7%91%D7%90%D7%9E%D7%A6%D7%A2%D7%95%D7%AA-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F/</guid>
+      <guid>http://localhost:1313/he/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/%D7%A1%D7%98%D7%98%D7%99%D7%A1%D7%98%D7%99%D7%A7%D7%94-%D7%91%D7%90%D7%9E%D7%A6%D7%A2%D7%95%D7%AA-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F/</guid>
       <description>&lt;div class=&#34;hebrew-text-rtl&#34;&gt;&#xA;# תרגול  9 - סטטיסטיקה וניתוח נתונים: טבלאות, גרפים ומבחנים סטטיסטיים&#xA;&lt;h2 id=&#34;מבחנים-סטטיסטיים-בפייתון-כלים-להבנת-נתונים&#34;&gt;מבחנים סטטיסטיים בפייתון: כלים להבנת נתונים&lt;/h2&gt;&#xA;&lt;p&gt;בשיעור האחרון הכרנו שני מבחנים סטטיסטיים נפוצים: &lt;strong&gt;מתאם פירסון (Pearson correlation)&lt;/strong&gt; ו&lt;strong&gt;מבחן T (t-test)&lt;/strong&gt;. שניהם ניתנים ליישום בקלות באמצעות ספריית &lt;strong&gt;SciPy&lt;/strong&gt; בפייתון.&lt;/p&gt;&#xA;&lt;h3 id=&#34;מהו-מבחן-סטטיסטי&#34;&gt;מהו מבחן סטטיסטי?&lt;/h3&gt;&#xA;&lt;p&gt;מבחן סטטיסטי עוזר לנו להבין האם דפוסים שאנו רואים בנתונים – כמו הבדלים בין קבוצות או קשרים בין משתנים – הם &lt;strong&gt;אמיתיים&lt;/strong&gt; (מובהקים) או שפשוט הופיעו &lt;strong&gt;במקרה&lt;/strong&gt;. התוצאה העיקרית של מבחן כזה היא &lt;strong&gt;p-value&lt;/strong&gt; (ערך-p).&lt;/p&gt;</description>
     </item>
     <item>
       <title>פונקציות פייתון - דוגמאות מדינימיקה של אוכלוסיות</title>
-      <link>https://yuvalbloch.com/he/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/ex5/</link>
+      <link>http://localhost:1313/he/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/ex5/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/he/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/ex5/</guid>
+      <guid>http://localhost:1313/he/teaching/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A4%D7%99%D7%99%D7%AA%D7%95%D7%9F-%D7%9C%D7%91%D7%99%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%9D/ex5/</guid>
       <description>&lt;div class=&#34;hebrew-text-rtl&#34;&gt;&#xA;# 🧬 תרגיל 5 - פוקציות &#xA;&lt;h2 id=&#34;-הנחיות-כלליות&#34;&gt;🛠️ הנחיות כלליות:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;כדי לנסות את הפונקציות הריצו אתן אם קלטים שונים, במקרים מסוימים אני נותן לכם דוגמא לקלט, אל תספקו בה אלא הוסיפו קלטים משלכם כולל מקרי קצה (קלט לא תקין מחרוזת ריקה ואחרים)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;יש להוסיף &lt;strong&gt;תיעוד באנגלית&lt;/strong&gt; (&lt;code&gt;docstring&lt;/code&gt;) בראש כל פונקציה, שמסביר בקצרה את מטרתה, הקלט והפלט.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;במקרה של קלט לא תקין, יש להדפיס הודעת שגיאה ולהחזיר ערך מתאים.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;יש להימנע מחזרה על קוד - אם אתם מבצעים את אותה פעולה בפונקציות שונות צרו פונקציה נוספת וקיראו לה מתו הפונקציות השונות&lt;/p&gt;</description>
     </item>
   </channel>

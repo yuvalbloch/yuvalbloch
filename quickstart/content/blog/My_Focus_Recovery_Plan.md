@@ -60,3 +60,5 @@ I plan to implement two logistical tools:
 - Tomorrow, I will purchase a dedicated **alarm clock** to stop using my phone for waking up. This will reduce the temptation to start the day with immediate digital distraction.
 
 Wish me luck!
+
+next post [conclusion from week 1](https://yuvalbloch.com/blog/focus-plane---conclusion-from-week-1/)

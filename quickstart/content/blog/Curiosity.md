@@ -1,10 +1,18 @@
 ---
-lang: "en" 
-title: "The Curiosity and the Cat: Innovation, Exploration, and Assembly Theory" 
+lang: en
+title: "The Curiosity and the Cat: Innovation, Exploration, and Assembly Theory"
 date: 2025-07-14
-description: "Assembly theory offers a fresh perspective on curiosity, evolution,and innovation—revealing how systems grow not by leaps, but through balanced, layered progress." 
-tags: [assembly-theory, complexity, curiosity, evolution, innovation, soviet computing, ai, democracy, authoritarianism] 
-featured_image: /assets/cat.jpg 
+description: Assembly theory offers a fresh perspective on curiosity, evolution,and innovation—revealing how systems grow not by leaps, but through balanced, layered progress.
+tags:
+  - assembly-theory
+  - complexity
+  - curiosity
+  - evolution
+  - innovation
+  - ai
+  - democracy
+  - authoritarianism
+featured_image: /assets/cat.jpg
 omit_header_text: true
 ---
 

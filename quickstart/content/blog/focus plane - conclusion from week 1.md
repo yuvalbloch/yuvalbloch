@@ -87,6 +87,9 @@ Writing about my level of focus every day and summarizing it weekly was useful, 
 
 [2] Berman, Marc G., et al. “The Cognitive Benefits of Interacting with Nature.” _Psychological Science_, vol. 19, no. 12, SAGE Publications, Dec. 2008, pp. 1207–1212
 
+
+next post [conclusion from week two](https://yuvalbloch.com/blog/focus-plane-week-2/)
+
 ### 📬 Subscribe
 
 <form

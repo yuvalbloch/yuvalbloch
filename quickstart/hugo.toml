@@ -75,7 +75,7 @@ enableRobotsTXT = true         # Best practice to enable this here
     languageCode = "he"
     languageDirection = "rtl" # Crucial for Hebrew
     weight = 2
-    title = "מחקר מורכבות ואקולוגיה" # Hebrew translation of the site title
+    title = " מורכבות ואקולוגיה" # Hebrew translation of the site title
 
 # RobotsTXT and other output formats can be simplified by enabling them on a per-language basis if needed,
 # but for now, they are fine as is.

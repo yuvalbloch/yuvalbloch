@@ -51,6 +51,15 @@
       {{ end }}
     </header>
     <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | compare.Default "serif"}} f4 nested-links {{ $.Param "text_color" | compare.Default "mid-gray" }} {{ compare.Conditional (compare.Eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} w-100">
+     
+      {{/* START: Conditional Table of Contents Block */}}
+{{ if .Params.enable_toc }}
+    <aside class="toc-container mv4 pa3 bg-light-gray br2">
+        <h2 class="f5 athelas mt0 mb2">Quick Navigation</h2>
+        {{ .TableOfContents }}
+    </aside>
+{{ end }}
+{{/* END: Conditional Table of Contents Block */}}
       {{- .Content -}}
       {{- partials.Include "tags.html" . -}}
       <div class="mt6 instapaper_ignoref">
@@ -61,6 +70,7 @@
         {{- partials.Include "commento.html" . -}}
       {{ end }}
       </div>
+      
     </div>
 
 

@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on מחקר מורכבות ואקולוגיה</title>
-    <link>https://yuvalbloch.com/he/tags/</link>
-    <description>Recent content in Tags on מחקר מורכבות ואקולוגיה</description>
+    <title>Tags on  מורכבות ואקולוגיה</title>
+    <link>http://localhost:1313/he/tags/</link>
+    <description>Recent content in Tags on  מורכבות ואקולוגיה</description>
     <generator>Hugo</generator>
     <language>he</language>
     <lastBuildDate>Sat, 06 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yuvalbloch.com/he/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/he/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Complex-Systems</title>
-      <link>https://yuvalbloch.com/he/tags/complex-systems/</link>
+      <link>http://localhost:1313/he/tags/complex-systems/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/he/tags/complex-systems/</guid>
+      <guid>http://localhost:1313/he/tags/complex-systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Decentralized-Systems</title>
-      <link>https://yuvalbloch.com/he/tags/decentralized-systems/</link>
+      <link>http://localhost:1313/he/tags/decentralized-systems/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/he/tags/decentralized-systems/</guid>
+      <guid>http://localhost:1313/he/tags/decentralized-systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Democracy</title>
-      <link>https://yuvalbloch.com/he/tags/democracy/</link>
+      <link>http://localhost:1313/he/tags/democracy/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/he/tags/democracy/</guid>
+      <guid>http://localhost:1313/he/tags/democracy/</guid>
       <description></description>
     </item>
     <item>
       <title>Evolution</title>
-      <link>https://yuvalbloch.com/he/tags/evolution/</link>
+      <link>http://localhost:1313/he/tags/evolution/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/he/tags/evolution/</guid>
+      <guid>http://localhost:1313/he/tags/evolution/</guid>
       <description></description>
     </item>
     <item>
       <title>Predictability</title>
-      <link>https://yuvalbloch.com/he/tags/predictability/</link>
+      <link>http://localhost:1313/he/tags/predictability/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/he/tags/predictability/</guid>
+      <guid>http://localhost:1313/he/tags/predictability/</guid>
       <description></description>
     </item>
   </channel>

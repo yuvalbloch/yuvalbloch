@@ -77,3 +77,4 @@ Reading some papers lately, I came across a discussion of two crises: the **empa
 
 
 
+next post [working from remote place](https://yuvalbloch.com/blog/focus_plane_going_out/)
