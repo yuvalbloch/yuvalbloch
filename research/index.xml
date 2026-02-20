@@ -6,8 +6,15 @@
     <description>Recent content in Research on Complexity &amp; Ecology Research</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yuvalbloch.com/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>End of Greatness: Lacunarity and the Index of Transitional Homogeneity</title>
+      <link>https://yuvalbloch.com/research/index_of_transitnal_homginaty/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/research/index_of_transitnal_homginaty/</guid>
+      <description>&lt;p&gt;One of the best things about being an ecologist in this era is the constant opportunity to bridge different disciplines. Recently, my research led me to use a measure called &lt;strong&gt;transitional homogeneity&lt;/strong&gt;—a concept originally developed in cosmology to estimate how matter is spread throughout the universe. My journey to this point was a classic scientific process of trial and error.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-quest-for-a-multi-scale-metric&#34;&gt;The Quest for a Multi-Scale Metric&lt;/h3&gt;&#xA;&lt;p&gt;After building a cellular automata model to generate future land-use maps, I needed a way to quantify the structural differences between various scenarios. Traditional indices, such as &lt;strong&gt;edge density&lt;/strong&gt; (the total length of edges between different land uses), only provide a small part of the picture. They focus on local interactions—representing the contact between two land-use types—without considering the broader landscape context&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Devil Is in the Details: Modeling Small-Scale Land-Use Change in Madagascar</title>
       <link>https://yuvalbloch.com/research/extended_poster/</link>
