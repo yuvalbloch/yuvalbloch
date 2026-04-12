@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>How and Why I Built My News AI Agent | Complexity &amp; Ecology Research</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="I built an AI agent to read the news the way I did fifteen years ago — once a day, with focus, and then closing it. Here&#39;s how and why.">
+    <meta name="generator" content="Hugo 0.147.7">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    <meta name="author" content="yuval bloch">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.56458666750a9c98dc75b774efe632483aae77e5ec69ba8f520eab45fba54730.css" >
+
+
+
+  
+
+
+    
+<script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[','\\]']],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://yuvalbloch.com/blog/newsagent/">
+    
+
+    
+    <meta property="og:title" content="How and Why I Built My News AI Agent" />
+<meta property="og:description" content="I built an AI agent to read the news the way I did fifteen years ago — once a day, with focus, and then closing it. Here&#39;s how and why." />
+<meta property="og:image" content="/images/social-preview.png" />
+<meta property="og:url" content="https://yuvalbloch.com/blog/newsagent/" />
+<meta name="twitter:card" content="summary_large_image" />
+  <meta itemprop="name" content="How and Why I Built My News AI Agent">
+  <meta itemprop="description" content="I built an AI agent to read the news the way I did fifteen years ago — once a day, with focus, and then closing it. Here&#39;s how and why.">
+  <meta itemprop="datePublished" content="2026-04-12T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2026-04-12T00:00:00+00:00">
+  <meta itemprop="wordCount" content="2005">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="How and Why I Built My News AI Agent">
+  <meta name="twitter:description" content="I built an AI agent to read the news the way I did fifteen years ago — once a day, with focus, and then closing it. Here&#39;s how and why.">
+
+      
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-G88CJRGNM1"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-G88CJRGNM1');
+        }
+      </script>
+    
+    
+  </head><body dir="ltr" >
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('https://yuvalbloch.com/images/robodog.png');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Complexity &amp; Ecology Research
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/" title="Home page">
+              Home
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/research/" title="Research page">
+              Research
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/blog/" title="Blog page">
+              Blog
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/teaching/" title="teaching page">
+              teaching
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"><a href="https://github.com/yuvalbloch" target="_blank" rel="noopener me noopener"
+        class="ananke-social-link link-transition github link dib z-999 pt3 pt0-l mr1"
+        title="follow on GitHub - Opens in a new window"
+        aria-label="follow on GitHub - Opens in a new window">
+      <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+            
+          </span>
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+</a><a href="https://www.linkedin.com/in/yuval-bloch-191041192/" target="_blank" rel="noopener noopener"
+        class="ananke-social-link link-transition linkedin link dib z-999 pt3 pt0-l mr1"
+        title="follow on LinkedIn - Opens in a new window"
+        aria-label="follow on LinkedIn - Opens in a new window">
+      <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+            
+          </span>
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+</a></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Uncharted Life
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">How and Why I Built My News AI Agent</h1>
+      
+      <p class="tracked"><strong>yuval bloch</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2026-04-12T00:00:00Z">April 12, 2026</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100">
+     
+      
+
+<p>I fell for the trend. I built my own AI agent — and worse, I vibe-coded it. I suppose even I eventually surrendered to the spirit of the era. But I did so with a specific goal: to use modern tools to return to something older. To the era of print.</p>
+<h2 id="moving-forward-by-reaching-back">Moving Forward by Reaching Back</h2>
+<p>Let me describe how I consumed news fifteen years ago, when I was still a high school student. Every afternoon, after coming home, I&rsquo;d pick up the newspaper and spend about forty minutes reading what had happened in the world. I&rsquo;d focus, try to understand the context of events, read what interested me — and then close it and go do homework, hang out with friends, or read a book.</p>
+<p>When I was seventeen, I got my first smartphone. At first, the experience wasn&rsquo;t so different from print. If you opened a news app at a random hour, there was a clear hierarchy: a lead headline, a few secondary stories, maybe some opinion. The only real novelty was breaking news — events unfolding in something close to real time.</p>
+<p>But gradually, the logic of breaking news colonized everything. Headlines started changing every hour. The order of articles shifted constantly. Videos crept in. After a decade of this drift, opening a news app no longer gave me a clear summary of what had happened. It gave me an experience designed to keep me in a state of constant agitation — a hunger for more information that never resolved into better understanding.</p>
+<p>This is what Derek Thompson means when he writes that all media has converged on television&rsquo;s prime directive: never let the viewer look away. It&rsquo;s not a stream of information trying to create a coherent picture. It&rsquo;s a stream of information that replaces coherence with engagement.</p>
+<p>So I wanted to go back. To have one or two good summaries a day — something that highlighted what mattered and let me seek out more if I chose. My first instinct was to simply start reading a print newspaper again. But a few things about the new world were genuinely better, and I didn&rsquo;t want to give them up:</p>
+<ul>
+<li><strong>Sustainability and cost</strong> — print requires real resources, from me and from the planet.</li>
+<li><strong>Multiple perspectives</strong> — even the best newspaper has a tilt. Comparing viewpoints is hard in print, where you&rsquo;d need to buy several different papers.</li>
+</ul>
+<p>There was also something print never solved: the writing style. News writing has become increasingly emotional — and that clutters the information as much as the format does. This happens in print as much as it does online.</p>
+<p>So I designed my own AI agent to solve this for me. But before I explain what it does, let me explain what an AI agent actually is.</p>
+<h2 id="what-is-an-ai-agent">What Is an AI Agent?</h2>
+<p>The core of the AI revolution of the last few years is the large language model, or LLM. These models do one thing well: they take text as input and produce text as output. But not every task can be handled by a single send-and-receive exchange. An &ldquo;agent&rdquo; is a program that does something useful in the world — and along the way, calls an LLM one or more times as part of that process.</p>
+<h2 id="how-it-works">How It Works</h2>
+<p>First, I defined the subjects I care about and roughly how much space each should get.</p>
+<p>The pipeline runs like this:</p>
+<ol>
+<li>The program downloads RSS feeds from several news websites. (RSS is a format that lets software read news in a structured way.)</li>
+<li>It does an initial deduplication pass based on repeated keywords, to remove multiple articles covering the same story.</li>
+<li>It passes each remaining article to an LLM, which decides whether it meets my standards of relevance and significance.</li>
+<li>The articles that pass are collected into a single block of text, which becomes the context for the next LLM call.</li>
+<li>A second LLM call uses that context alongside a system prompt that instructs the model on tone, structure, and priorities.</li>
+<li>The LLM returns HTML. The program wraps it in a header and footer I wrote — a brief text I designed to put me in the right frame of mind for the serious activity of reading the news.</li>
+<li>The result is sent to me by email.</li>
+<li>This whole process runs on a schedule, twice a day: 6:45 in the morning and 6:00 in the evening.</li>
+</ol>
+<h2 id="future-development">Future Development</h2>
+<p>Below you&rsquo;ll find an example digest (text only, without the HTML wrapper). You&rsquo;ll notice it has some rough edges — it leans heavily on The Times of Israel, and the science section doesn&rsquo;t always surface the most important stories. I still need to refine the prompts. I also want to make it easier to adjust the prompt, the filtering logic, and the RSS feed list through some kind of simple dashboard, without touching the code directly.</p>
+<p>You might also notice that the digest is a little boring. That&rsquo;s not a bug — it&rsquo;s the point. The news should be boring. I&rsquo;m reading to understand what happened in the world, not to be pulled into a rabbit hole.</p>
+<p>One feature I&rsquo;m considering for the future is a crisis alert: a separate process that runs more frequently but only sends an email if something genuinely significant occurs. The tricky part is calibrating the threshold — too loose, and it just becomes inbox clutter all over again.</p>
+<hr>
+<h2 id="example-feed">Example Feed</h2>
+<p><em>Your morning digest</em></p>
+<h1 id="sunday-april-12">Sunday, April 12</h1>
+<p>Good morning, Yuval.</p>
+<p>You are about to read a summary of the current state of the world.</p>
+<blockquote>
+<p>Remember: The facts of the world do not change based on whether you like them or not. Your beliefs matter only through the actions you take.</p>
+<p>Approach this with a beginner&rsquo;s mind — aim for clarity, not certainty.</p>
+<p>You do not need to know every detail. Understand enough to see the bigger picture, so you can make better decisions and contribute in a meaningful way.</p></blockquote>
+<h3 id="israel">Israel</h3>
+<p>Prime Minister Netanyahu stated that Israel&rsquo;s campaign against Iran is &ldquo;not over&rdquo; while citing what he described as historic achievements. Opposition leaders responded that the war&rsquo;s goals remain unfulfilled, with one noting that &ldquo;when you win, you don&rsquo;t need to declare it every few days.&rdquo;</p>
+<p><em>Source: The Times of Israel</em></p>
+<p>The IDF reported striking over 200 targets in Lebanon over the past day, with two Israeli soldiers wounded in combat in south Lebanon. Lebanese sources reported 10 people killed in the strikes. Israel and Lebanon are preparing for direct negotiations, though Hezbollah has criticized the planned talks.</p>
+<p><em>Source: The Times of Israel</em></p>
+<p>Israeli leaders responded to reports that Turkey is seeking to jail them by criticizing Turkish President Erdogan. Netanyahu accused Erdogan of accommodating Iranian-backed groups, while other ministers issued statements condemning Turkish policy toward Kurds.</p>
+<p><em>Source: The Times of Israel</em></p>
+<p>The IDF conducted strikes in Gaza that Palestinian sources say killed several people. The military stated it targeted operatives planning attacks against troops. Separately, an Israeli soldier was seriously injured in an operational accident and hospitalized.</p>
+<p><em>Source: The Times of Israel</em></p>
+<p>Syrian authorities announced the arrest of five individuals allegedly connected to a Hezbollah-linked plot to kill a rabbi in Damascus. The suspects reportedly attempted to plant a bomb near the target&rsquo;s home. Syrian officials stated the arrests demonstrate protection of the Jewish community.</p>
+<p><em>Source: The Times of Israel</em></p>
+<h3 id="world">World</h3>
+<p>US-Iran direct talks in Pakistan concluded after 21 hours without reaching an agreement. Vice President Vance stated that Iranian negotiators refused to disavow a nuclear program that could enable weapons development. Iran cited disagreements over control of the Strait of Hormuz as another point of contention.</p>
+<p><em>Source: The Times of Israel</em></p>
+<p>Hungarians voted in an election that could end Prime Minister Viktor Orbán&rsquo;s 16-year rule. Most polls show challenger Péter Magyar, who leads a grassroots party, ahead of Orbán, though the outcome remains uncertain. The election is being watched by officials in the EU, Russia, the US, and Israel.</p>
+<p><em>Source: BBC News, The Times of Israel</em></p>
+<p>Germany&rsquo;s far-right Alternative for Germany party adopted what observers describe as a more radical manifesto ahead of upcoming elections. The party currently leads opinion polls in the eastern state of Saxony-Anhalt.</p>
+<p><em>Source: BBC News</em></p>
+<h3 id="science--economy">Science &amp; Economy</h3>
+<p>Scientists have confirmed a 67-year-old theory about vitamin B1&rsquo;s function in the body by stabilizing a highly reactive molecule in water. The research team achieved what was previously considered extremely difficult, and the findings may have applications for developing greener chemical manufacturing processes.</p>
+<p><em>Source: ScienceDaily</em></p>
+<p>Researchers discovered that loss of smell may indicate Alzheimer&rsquo;s disease years before cognitive symptoms appear. The study found that immune cells in the brain destroy smell-related nerve fibers after detecting abnormal signals, with this damage occurring in early disease stages. The finding could enable earlier identification of at-risk patients.</p>
+<p><em>Source: ScienceDaily</em></p>
+<h3 id="good-news">Good News</h3>
+<p>The Artemis crew returned safely to Earth after completing a nine-day mission to the Moon. The four astronauts splashed down in the Pacific Ocean, having traveled further from Earth than any humans in history.</p>
+<p><em>Source: BBC News</em></p>
+<p>Syrian authorities successfully prevented an attempted attack on a rabbi in Damascus, arresting five suspects before they could carry out their plan. Officials stated the operation demonstrates ongoing protection of religious minorities in Syria.</p>
+<p><em>Source: The Times of Israel</em></p>
+<hr>
+<p><em>Today&rsquo;s deep dive · ~15 min read · appeared in 5 sources</em></p>
+<h3 id="us-iran-direct-talks-in-pakistan">US-Iran Direct Talks in Pakistan</h3>
+<p><strong>Abstract</strong></p>
+<p>The United States and Iran held their first direct negotiations in years, meeting in Pakistan for over 21 hours before talks concluded without an agreement. The discussions centered on Iran&rsquo;s nuclear program and control of the Strait of Hormuz, with both sides maintaining their core positions. The outcome leaves open questions about the future of US-Iran relations and regional stability in the Persian Gulf.</p>
+<p><strong>Background</strong></p>
+<p>US-Iran relations have been characterized by tension and limited diplomatic contact for decades. The two countries have not had formal diplomatic relations since 1980, and negotiations have typically occurred through intermediaries or in multilateral formats. Recent military actions, including Israeli and US strikes on Iranian nuclear facilities and Iran&rsquo;s mining of the Strait of Hormuz, created both pressure and potential openings for direct engagement.</p>
+<p>The Strait of Hormuz represents one of the world&rsquo;s most significant maritime chokepoints, with approximately one-fifth of global oil supplies passing through its waters. Control over the strait has been a persistent source of tension, with Iran historically claiming the right to regulate traffic while the US maintains freedom of navigation principles.</p>
+<p><strong>What happened</strong></p>
+<p>US and Iranian negotiators met in Pakistan, with talks extending through the night for more than 21 hours. Iran reportedly demanded control over the Strait of Hormuz and a truce in Lebanon as conditions for any agreement. Vice President Vance led the US delegation and stated afterward that Iranian representatives refused to disavow nuclear weapons capability.</p>
+<p>During the negotiations, President Trump stated publicly that it made &ldquo;no difference&rdquo; to him whether a deal was reached, claiming the US had already won &ldquo;regardless&rdquo; of the outcome. The US military announced that Navy destroyers are working to clear mines from the Strait of Hormuz, with additional forces expected in coming days. Iranian media disputed Trump&rsquo;s claims about the destruction of Iranian mining vessels.</p>
+<p><strong>Perspective A:</strong> The talks represent a diplomatic opening after a period of military escalation. Even without an immediate agreement, direct communication between US and Iranian officials could reduce the risk of miscalculation and establish channels for future negotiations. The fact that both sides engaged for 21 hours suggests some willingness to find common ground.</p>
+<p><strong>Perspective B:</strong> The failure to reach any agreement, combined with both sides&rsquo; public statements maintaining their positions, suggests the talks may have been more about domestic political messaging than genuine negotiation. The ongoing US military operations to clear the strait and Trump&rsquo;s dismissive comments about the need for a deal indicate that the US may be pursuing a pressure strategy rather than seeking compromise.</p>
+<hr>
+<p><em>You have finished reading your summary of the world.</em></p>
+<p><em>Now step away, focus on what matters, and do your part to make it better.</em></p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+      
+    </div>
+
+
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://yuvalbloch.com/" >
+    &copy;  Complexity & Ecology Research 2026 
+  </a>
+    <div><div class="ananke-socials"><a href="https://github.com/yuvalbloch" target="_blank" rel="noopener me noopener"
+        class="ananke-social-link link-transition github link dib z-999 pt3 pt0-l mr1"
+        title="follow on GitHub - Opens in a new window"
+        aria-label="follow on GitHub - Opens in a new window">
+      <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+            
+          </span>
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+</a><a href="https://www.linkedin.com/in/yuval-bloch-191041192/" target="_blank" rel="noopener noopener"
+        class="ananke-social-link link-transition linkedin link dib z-999 pt3 pt0-l mr1"
+        title="follow on LinkedIn - Opens in a new window"
+        aria-label="follow on LinkedIn - Opens in a new window">
+      <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+            
+          </span>
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+</a></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

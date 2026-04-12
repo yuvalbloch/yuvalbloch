@@ -6,8 +6,15 @@
     <description>Recent content in Complexity Theory in Ecology &amp; Human Systems on Complexity &amp; Ecology Research</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yuvalbloch.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How and Why I Built My News AI Agent</title>
+      <link>https://yuvalbloch.com/blog/newsagent/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/blog/newsagent/</guid>
+      <description>&lt;p&gt;I fell for the trend. I built my own AI agent — and worse, I vibe-coded it. I suppose even I eventually surrendered to the spirit of the era. But I did so with a specific goal: to use modern tools to return to something older. To the era of print.&lt;/p&gt;&#xA;&lt;h2 id=&#34;moving-forward-by-reaching-back&#34;&gt;Moving Forward by Reaching Back&lt;/h2&gt;&#xA;&lt;p&gt;Let me describe how I consumed news fifteen years ago, when I was still a high school student. Every afternoon, after coming home, I&amp;rsquo;d pick up the newspaper and spend about forty minutes reading what had happened in the world. I&amp;rsquo;d focus, try to understand the context of events, read what interested me — and then close it and go do homework, hang out with friends, or read a book.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Is Life a Miracle or Inevitable?</title>
       <link>https://yuvalbloch.com/blog/the-miracle-of-life-or-is-it-plouisable-that-are-alone/</link>
