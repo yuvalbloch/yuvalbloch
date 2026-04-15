@@ -3,6 +3,34 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yuvalbloch.com/lean/what-is-lean/</loc>
+    <lastmod>2026-04-15T12:00:00&#43;03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/lean/project-philopsophy/</loc>
+    <lastmod>2026-04-15T11:00:00&#43;03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/lean/mailng-list/</loc>
+    <lastmod>2026-04-15T10:00:00&#43;03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/lean/repository/</loc>
+    <lastmod>2026-04-15T09:00:00&#43;03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://yuvalbloch.com/blog/newsagent/</loc>
     <lastmod>2026-04-12T00:00:00&#43;00:00</lastmod>
     <changefreq>weekly</changefreq>
