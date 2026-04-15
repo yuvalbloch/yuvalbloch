@@ -3,6 +3,83 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yuvalbloch.com/lean/what-is-lean/</loc>
+    <lastmod>2026-04-15T12:00:00&#43;03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/lean/project-philopsophy/</loc>
+    <lastmod>2026-04-15T11:00:00&#43;03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/lean/mailng-list/</loc>
+    <lastmod>2026-04-15T10:00:00&#43;03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/lean/repository/</loc>
+    <lastmod>2026-04-15T09:00:00&#43;03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/blog/newsagent/</loc>
+    <lastmod>2026-04-12T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/blog/the-miracle-of-life-or-is-it-plouisable-that-are-alone/</loc>
+    <lastmod>2026-03-09T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/blog/destruction_and_creativity/</loc>
+    <lastmod>2026-03-09T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/research/index_of_transitnal_homginaty/</loc>
+    <lastmod>2026-02-20T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/blog/snowflake_helping_people_in_dictatorships_bypass_internet_censorship_from_your_couch/</loc>
+    <lastmod>2026-01-23T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/blog/the_algorithem_of_the_ring/</loc>
+    <lastmod>2025-12-27T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yuvalbloch.com/blog/art/</loc>
+    <lastmod>2025-12-27T00:00:00&#43;00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://yuvalbloch.com/research/extended_poster/</loc>
     <lastmod>2025-12-07T00:00:00&#43;00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -201,20 +278,6 @@
   <url>
     <loc>https://yuvalbloch.com/blog/life-science-now/</loc>
     <lastmod>2025-06-03T12:00:00&#43;00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuvalbloch.com/blog/art/</loc>
-    <lastmod>0001-01-01T00:00:00&#43;00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yuvalbloch.com/blog/focus_plane_how_to_change_your_mind/</loc>
-    <lastmod>0001-01-01T00:00:00&#43;00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

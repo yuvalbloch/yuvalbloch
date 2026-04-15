@@ -6,21 +6,91 @@
     <description>Recent content in Complexity Theory in Ecology &amp; Human Systems on Complexity &amp; Ecology Research</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 12:00:00 +0300</lastBuildDate>
     <atom:link href="https://yuvalbloch.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>What is LEAN?</title>
+      <link>https://yuvalbloch.com/lean/what-is-lean/</link>
+      <pubDate>Wed, 15 Apr 2026 12:00:00 +0300</pubDate>
+      <guid>https://yuvalbloch.com/lean/what-is-lean/</guid>
+      <description>&lt;h2 id=&#34;low-engagement-ai-news&#34;&gt;Low Engagement AI News&lt;/h2&gt;&#xA;&lt;p&gt;LEAN stands for &lt;strong&gt;Low Engagement AI News&lt;/strong&gt;. It is a daily morning email digest that aggregates articles from professional news sources, summarizes them using AI, and delivers them in calm, neutral language — stripped of sensationalism, urgency bait, and emotional provocation.&lt;/p&gt;&#xA;&lt;p&gt;The goal is simple: &lt;strong&gt;stay informed without getting pulled in&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;how-it-works&#34;&gt;How It Works&lt;/h3&gt;&#xA;&lt;p&gt;Each edition is built automatically by an AI pipeline:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Articles are pulled from curated RSS feeds produced by professional journalists&lt;/li&gt;&#xA;&lt;li&gt;Duplicate and low-significance stories are filtered out&lt;/li&gt;&#xA;&lt;li&gt;Each remaining article is summarized and rewritten in calm, neutral language&lt;/li&gt;&#xA;&lt;li&gt;The digest is assembled and delivered by email every morning&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;The output follows strict editorial rules: no ALL CAPS, no exclamation marks, no sensational framing. The writing is designed to inform, not to provoke.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project Philosophy</title>
+      <link>https://yuvalbloch.com/lean/project-philopsophy/</link>
+      <pubDate>Wed, 15 Apr 2026 11:00:00 +0300</pubDate>
+      <guid>https://yuvalbloch.com/lean/project-philopsophy/</guid>
+      <description>&lt;h1 id=&#34;lean-philosophy&#34;&gt;LEAN Philosophy&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;Stay informed without getting engaged.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;LEAN — Low Engagement AI News — is a news feed produced by AI, built to summarize the news while removing emotional engagement and clutter. By doing so, it allows the reader to feel a sense of clarity without risking the doom-scrolling cycle.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;the-engagement-economy&#34;&gt;The Engagement Economy&lt;/h3&gt;&#xA;&lt;p&gt;The concept of the attention economy was first articulated by Nobel Laureate Herbert Simon in 1971, who observed that a wealth of information creates a poverty of attention — what was then a theoretical insight has since become a deliberate business model. Platforms offer &amp;ldquo;free&amp;rdquo; services but generate revenue by selling targeted advertising, with algorithms feeding users whatever content maximizes time spent and clicks. As researchers have noted, the most effective content for this purpose tends to be sensational, divisive, or outrage-inducing, because emotional responses are what keep us clicking and sharing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mailing List</title>
+      <link>https://yuvalbloch.com/lean/mailng-list/</link>
+      <pubDate>Wed, 15 Apr 2026 10:00:00 +0300</pubDate>
+      <guid>https://yuvalbloch.com/lean/mailng-list/</guid>
+      <description>&lt;h2 id=&#34;subscribe-to-lean&#34;&gt;Subscribe to LEAN&lt;/h2&gt;&#xA;&lt;p&gt;Receive one edition every morning — no sensationalism, no infinite scroll, no emotional bait. Just the news, summarized and delivered.&lt;/p&gt;&#xA;&lt;div style=&#34;max-width: 480px; margin: 2.5rem auto; padding: 2rem; background: #f9f9f7; border: 1px solid #e0e0da; border-radius: 10px;&#34;&gt;&#xA;&lt;form&#xA;  action=&#34;https://buttondown.com/api/emails/embed-subscribe/yuval&#34;&#xA;  method=&#34;post&#34;&#xA;  style=&#34;display: flex; flex-direction: column; gap: 1rem;&#34;&#xA;&gt;&#xA;  &lt;label for=&#34;bd-email&#34; style=&#34;font-weight: 600; font-size: 0.95rem; color: #333;&#34;&gt;Your email address&lt;/label&gt;&#xA;  &lt;input&#xA;    type=&#34;email&#34;&#xA;    name=&#34;email&#34;&#xA;    id=&#34;bd-email&#34;&#xA;    placeholder=&#34;you@example.com&#34;&#xA;    required&#xA;    style=&#34;&#xA;      padding: 0.65rem 1rem;&#xA;      border: 1px solid #ccc;&#xA;      border-radius: 6px;&#xA;      font-size: 1rem;&#xA;      width: 100%;&#xA;      box-sizing: border-box;&#xA;      outline: none;&#xA;    &#34;&#xA;  /&gt;&#xA;  &lt;button&#xA;    type=&#34;submit&#34;&#xA;    style=&#34;&#xA;      padding: 0.65rem 1rem;&#xA;      background-color: #333;&#xA;      color: #fff;&#xA;      border: none;&#xA;      border-radius: 6px;&#xA;      font-size: 1rem;&#xA;      cursor: pointer;&#xA;      transition: background-color 0.2s ease;&#xA;    &#34;&#xA;    onmouseover=&#34;this.style.backgroundColor=&#39;#555&#39;&#34;&#xA;    onmouseout=&#34;this.style.backgroundColor=&#39;#333&#39;&#34;&#xA;  &gt;&#xA;    Subscribe&#xA;  &lt;/button&gt;&#xA;  &lt;p style=&#34;font-size: 0.8rem; color: #888; margin: 0; text-align: center;&#34;&gt;&#xA;    &lt;a href=&#34;https://buttondown.com/refer/yuval&#34; target=&#34;_blank&#34; style=&#34;color: #888;&#34;&gt;Powered by Buttondown.&lt;/a&gt;&#xA;  &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Repository</title>
+      <link>https://yuvalbloch.com/lean/repository/</link>
+      <pubDate>Wed, 15 Apr 2026 09:00:00 +0300</pubDate>
+      <guid>https://yuvalbloch.com/lean/repository/</guid>
+      <description>&lt;h2 id=&#34;open-source&#34;&gt;Open Source&lt;/h2&gt;&#xA;&lt;p&gt;If you are interested in understanding how the system works, or want to run your own LEAN agent with a personalized configuration — focusing on a different country, language, or subject — the full source code is available on GitHub.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/yuvalbloch/LEAN&#34;&gt;View the LEAN repository on GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;what-the-code-does&#34;&gt;What the Code Does&lt;/h3&gt;&#xA;&lt;p&gt;The pipeline runs automatically each morning and covers five stages:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Fetch&lt;/strong&gt; — pull articles from a curated list of RSS feeds&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Deduplicate&lt;/strong&gt; — merge stories that share repeated keywords&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Filter&lt;/strong&gt; — score articles by relevance and significance, drop low-signal items&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Summarize&lt;/strong&gt; — rewrite each article using an AI model under strict editorial constraints&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Deliver&lt;/strong&gt; — assemble and send the final HTML digest by email&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;stack&#34;&gt;Stack&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Language&lt;/strong&gt;: Python&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;AI model&lt;/strong&gt;: Anthropic (Claude)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Delivery&lt;/strong&gt;: Buttondown&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Scheduling&lt;/strong&gt;: daily cron job&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;run-your-own&#34;&gt;Run Your Own&lt;/h3&gt;&#xA;&lt;p&gt;The system is designed to be configurable. You can point it at different RSS feeds, adjust the filtering rules, and run it on any topic or region — not just Israel. Instructions for setup are in the repository README.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How and Why I Built My News AI Agent</title>
+      <link>https://yuvalbloch.com/blog/newsagent/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/blog/newsagent/</guid>
+      <description>&lt;p&gt;I fell for the trend. I built my own AI agent — and worse, I vibe-coded it. I suppose even I eventually surrendered to the spirit of the era. But I did so with a specific goal: to use modern tools to return to something older. To the era of print.&lt;/p&gt;&#xA;&lt;h2 id=&#34;moving-forward-by-reaching-back&#34;&gt;Moving Forward by Reaching Back&lt;/h2&gt;&#xA;&lt;p&gt;Let me describe how I consumed news fifteen years ago, when I was still a high school student. Every afternoon, after coming home, I&amp;rsquo;d pick up the newspaper and spend about forty minutes reading what had happened in the world. I&amp;rsquo;d focus, try to understand the context of events, read what interested me — and then close it and go do homework, hang out with friends, or read a book.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Is Life a Miracle or Inevitable?</title>
+      <link>https://yuvalbloch.com/blog/the-miracle-of-life-or-is-it-plouisable-that-are-alone/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/blog/the-miracle-of-life-or-is-it-plouisable-that-are-alone/</guid>
+      <description>&lt;p&gt;The possibility of life on other planets has fascinated humanity for centuries. To make sense of the silence, we have long relied on the &lt;strong&gt;Drake Equation&lt;/strong&gt;—a mathematical framework for estimating the number of active, communicative civilizations in our galaxy.&lt;/p&gt;&#xA;&lt;p&gt;Conventional wisdom suggests the universe should be teeming with life. With trillions of stars and countless “Goldilocks” planets, the math implies that technologically advanced societies should be common. This brings us to the &lt;strong&gt;Fermi Paradox&lt;/strong&gt;: if the universe is a crowded party, why is it so quiet?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Song in the Dark: Why Culture Flourishes in Chaos</title>
+      <link>https://yuvalbloch.com/blog/destruction_and_creativity/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/blog/destruction_and_creativity/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Some birds sing when the sun shines bright,&lt;/em&gt;&#xA;&lt;em&gt;My praise is not for them.&lt;/em&gt;&#xA;&lt;em&gt;But the one who sings in the dead of night,&lt;/em&gt;&#xA;&lt;em&gt;I raise my cup to him.&lt;/em&gt;&#xA;— &lt;strong&gt;“I Raise My Cup,”&lt;/strong&gt; &lt;em&gt;&lt;strong&gt;Hadestown&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;There is a famous Latin adage: &lt;em&gt;“Inter arma enim silent Musae”&lt;/em&gt;—when the cannons roar, the muses are silent. It suggests that art is a luxury of peace and that creativity withers under the shadow of violence. Yet, viewed through the lens of history, we see a starkly different picture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>End of Greatness: Lacunarity and the Index of Transitional Homogeneity</title>
+      <link>https://yuvalbloch.com/research/index_of_transitnal_homginaty/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/research/index_of_transitnal_homginaty/</guid>
+      <description>&lt;p&gt;One of the best things about being an ecologist in this era is the constant opportunity to bridge different disciplines. Recently, my research led me to use a measure called &lt;strong&gt;transitional homogeneity&lt;/strong&gt;—a concept originally developed in cosmology to estimate how matter is spread throughout the universe. My journey to this point was a classic scientific process of trial and error.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-quest-for-a-multi-scale-metric&#34;&gt;The Quest for a Multi-Scale Metric&lt;/h3&gt;&#xA;&lt;p&gt;After building a cellular automata model to generate future land-use maps, I needed a way to quantify the structural differences between various scenarios. Traditional indices, such as &lt;strong&gt;edge density&lt;/strong&gt; (the total length of edges between different land uses), only provide a small part of the picture. They focus on local interactions—representing the contact between two land-use types—without considering the broader landscape context&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Snowflake: Helping people in dictatorships bypass internet censorship from your couch</title>
+      <link>https://yuvalbloch.com/blog/snowflake_helping_people_in_dictatorships_bypass_internet_censorship_from_your_couch/</link>
+      <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/blog/snowflake_helping_people_in_dictatorships_bypass_internet_censorship_from_your_couch/</guid>
+      <description>&lt;p&gt;This isn’t my usual type of post, and it’s certainly outside my area of expertise. However, after following the recent news from Iran, I found a tool that more people should know about, which allows us to help people whose voices are silenced by the government with almost no effort.&lt;/p&gt;&#xA;&lt;p&gt;If you want to help immediately without reading the technical details, just leave this page open and enable the  widget below it, which will act as a “bridge” for someone in a censored region as long as your tab is active:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Algorithm of the Ring - Why It’s Time to Quit Social media</title>
+      <link>https://yuvalbloch.com/blog/the_algorithem_of_the_ring/</link>
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/blog/the_algorithem_of_the_ring/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;“The world is changed.&lt;br&gt;&#xA;I feel it in the water.&lt;br&gt;&#xA;I feel it in the earth.&lt;br&gt;&#xA;I smell it in the air.&lt;br&gt;&#xA;Much that once was is lost, for none now live who remember it.”&lt;/em&gt;&lt;br&gt;&#xA;— Galadriel, &lt;em&gt;The Lord of the Rings&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;When something changes in my life, I tend to place the responsibility on myself—for better or worse. So when I recently decided to change my relationship with the digital world in order to improve my focus, I understood it as a sign of personal development: I had reached a point where I &lt;em&gt;needed&lt;/em&gt; this change.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Magic of Nature - Attention Restoration Theory and Fractals</title>
+      <link>https://yuvalbloch.com/blog/art/</link>
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/blog/art/</guid>
+      <description>&lt;h1 id=&#34;the-magic-of-nature-attention-restoration-theory-and-fractals&#34;&gt;The Magic of Nature: Attention Restoration Theory and Fractals&lt;/h1&gt;&#xA;&lt;p&gt;While learning—and practicing—how to improve my focus, I stumbled upon &lt;strong&gt;Kaplan’s Attention Restoration Theory&lt;/strong&gt; and the surprising power of nature to heal our attention. Along the way, I discovered the role of &lt;strong&gt;fractal patterns&lt;/strong&gt;—structures that repeat across scales and appear everywhere, from coastlines and trees to art and digital design.&lt;/p&gt;&#xA;&lt;p&gt;What struck me most is that this body of knowledge holds real, practical power. It can help people maintain well-being, sustain creativity, and do meaningful, focused work. Yet it remains far from common knowledge. Much of it is buried behind dense academic language, making it inaccessible to many who could benefit from it the most.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>The Devil Is in the Details: Modeling Small-Scale Land-Use Change in Madagascar</title>
-<<<<<<< HEAD
-      <link>http://localhost:1313/research/extended_poster/</link>
-      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research/extended_poster/</guid>
-      <description>&lt;h2 id=&#34;the-poster&#34;&gt;the poster&lt;/h2&gt;&#xA;&lt;iframe src=&#34;http://localhost:1313/reasrch/poster_website_version.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34; style=&#34;border: none;&#34;&gt;&lt;/iframe&gt;&#xA;&lt;h2 id=&#34;contact-info&#34;&gt;contact info&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;mailto:yuvalblo@postbgu.ac.il&#34;&gt;yuvalblo@postbgu.ac.il&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;background-and-reasrch-gap&#34;&gt;background and reasrch gap&lt;/h2&gt;&#xA;&lt;p&gt;Land use represents the fundamental interface between humanity and nature. Every human activity, from the urban centers of New York to the remote tribes of the Amazon, involves occupying and altering the environment to meet specific needs. This environment, in turn, critically impacts human well-being: our health, exposure to disease, and vulnerability to natural disasters are intrinsically linked to our surroundings and how we modify them. Land use change is a primary driver of global environmental crises, it the main cause of &lt;strong&gt;85% of endangered species&lt;/strong&gt; cases (Hald-Mortensen, 2023), the emergence of &lt;strong&gt;27% of vector-borne zoonotic diseases&lt;/strong&gt; (VBZD) (Swei, 2020), it is also the &lt;strong&gt;leading cause of soil loss&lt;/strong&gt; (Borrelli, 2017), and accounts for &lt;strong&gt;almost a quarter of greenhouse gases&lt;/strong&gt; (Smith, 2014). Predicting how different patterns of land-use change will unfold and affect these processes is crucial for policymakers and stakeholders to develop strategies that minimize negative consequences for both the environment and human populations.&lt;/p&gt;</description>
-=======
       <link>https://yuvalbloch.com/research/extended_poster/</link>
       <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://yuvalbloch.com/research/extended_poster/</guid>
       <description>&lt;h2 id=&#34;-the-poster&#34;&gt;🖼️ The Poster&lt;/h2&gt;&#xA;&lt;p&gt;If you are viewing this on a mobile device, you can view the full PDF below or &lt;a href=&#34;https://yuvalbloch.com/research/poster_website_version.pdf&#34;&gt;&lt;strong&gt;Download the PDF here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;iframe src=&#34;https://yuvalbloch.com/research/poster_website_version.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34; style=&#34;border: 2px solid #eee; border-radius: 8px;&#34;&gt;&lt;/iframe&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-introduction--research-gap&#34;&gt;📌 Introduction &amp;amp; Research Gap&lt;/h2&gt;&#xA;&lt;p&gt;Land use represents the fundamental interface between humanity and nature. From urban centers to remote tropical regions, environmental modification critically affects human health, disease exposure, and vulnerability to natural disasters.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Land-use change is a primary driver of global crises:&lt;/strong&gt;&lt;/p&gt;</description>
->>>>>>> 7e914b8f5a8eeae6fd20c9bb64ca7a43cd2de3b2
     </item>
     <item>
       <title>Intentional Emptiness - My First Month of Attention Restoration</title>
@@ -217,20 +287,6 @@
       <pubDate>Tue, 03 Jun 2025 12:00:00 +0000</pubDate>
       <guid>https://yuvalbloch.com/blog/life-science-now/</guid>
       <description>&lt;p&gt;As a child, Disney&amp;rsquo;s movie Fantasia captivated me, especially &amp;ldquo;The Rite of Spring.&amp;rdquo;* Igor Stravinsky, the composer, originally conceived this ballet as an expression of primitive life, celebrating the intricate beauty of ancient rituals. Disney, however, reinterpreted it more literally: a cosmic dance of Earth&amp;rsquo;s violent birth, the silent lightning strike of first life, and evolution&amp;rsquo;s slow crescendo into dinosaurs. That vision—&lt;strong&gt;life-blazing order out of chaos&lt;/strong&gt;—never let go.&lt;/p&gt;&#xA;&lt;p&gt;Today, with fear and hate spreading and unsettling sounds from the border kept as a constant reminder, I wrestle with doubt: &lt;em&gt;Is studying biology a luxury while the world burns? Should I trade the microscope for the megaphone?&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://yuvalbloch.com/blog/art/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/blog/art/</guid>
-      <description>&lt;h1 id=&#34;the-magic-of-nature---attention-restrtion-theory-and-fractels&#34;&gt;the magic of nature - attention restrtion theory and fractels&lt;/h1&gt;&#xA;&lt;p&gt;learning and practice how to improve my focus, I stummble upon kaplans attention restoretion theory, and the power of nature to heal our attention, further more I learn about the power of fractls design,  in this context, while this knowlege possess a great power to help pepole maintain both the well being, creativity and sucssefull work, it far from being common knowlege, and some elment of it are accessble only to those how possess deep mathmtic understanding, in this post I will bring some of the most influnicial paper in this field in a simplfy way, a uorny that will take us from encint greece to jecson polac, from botnic gradens to vidio games, into the depth of our brain in chasing the answer for one of humanity most vital qoustion how can we premote creativity and well being.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>atteion restoration - 2 month</title>
-      <link>https://yuvalbloch.com/blog/focus_plane_how_to_change_your_mind/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/blog/focus_plane_how_to_change_your_mind/</guid>
-      <description>&lt;h2 id=&#34;how-to-change-my-mind&#34;&gt;how to change my mind&lt;/h2&gt;&#xA;&lt;p&gt;Three days ago, I sat in a crowded bar in Be&amp;rsquo;er Sheva, listening to a neuroscience lecture. &amp;ldquo;Science at the Bar&amp;rdquo; has become a common trend in Israel, but for me, it was a first. The topic was trendy—psychedelics and their implications for psychiatric therapy—but the takeaway hit on something much deeper: &lt;strong&gt;the physics of personal change.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The lecturer described the brain through the lens of &lt;strong&gt;entropy&lt;/strong&gt;—a measure of disorder. Life exists on a delicate balance: too much order, and we lose the ability to adapt; too much chaos, and we fall apart.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

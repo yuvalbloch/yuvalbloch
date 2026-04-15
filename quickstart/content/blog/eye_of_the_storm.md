@@ -76,37 +76,3 @@ If we only focus on what we know we can do, we risk missing new possibilities an
 ## Getting Out of the Loop
 
 Another critical thing to notice about complex systems is that once they settle into a particular state, they might struggle to shift out of it on their own. If you find yourself stuck in a prolonged "bad mode"—a cycle of fear, anxiety, or despair—it's crucial to recognize this complexity and seek external support. Don't hesitate to ask for help, both from friends and from mental health professionals. Understanding our minds as complex, dynamic systems empowers us not only to navigate daily struggles but also to recognize when we need a helping hand to guide us back to a more adaptive state.
-
-<h3 style="font-size: 1.3em; margin-bottom: 0.4em;">📬 Subscribe</h3>
-<p style="font-size: 0.9em; margin-bottom: 0.8em;
-<form
-  action="https://buttondown.email/api/emails/embed-subscribe/yuval"
-  method="post"
-  target="popupwindow"
-  onsubmit="window.open('https://buttondown.email/yuval', 'popupwindow')"
-  style="display: flex; flex-direction: column; gap: 0.5em; max-width: 300px; font-size: 0.9em;"
->
-  <input
-    type="email"
-    name="email"
-    id="bd-email"
-    required
-    placeholder="your@email.com"
-    style="padding: 0.4em; border: 1px solid #ccc; border-radius: 4px; font-size: 0.9em;"
-  />
-
-  <input
-    type="submit"
-    value="Join"
-    style="padding: 0.4em; background-color: #222; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.9em;"
-  />
-
-  <p style="margin: 0; font-size: 0.75em; color: #777;">
-    <a href="https://buttondown.email/refer/yuval" target="_blank" style="text-decoration: none; color: inherit;">
-      Powered by Buttondown
-    </a>
-  </p>
-</form>
-
-
-

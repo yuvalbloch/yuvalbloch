@@ -47,6 +47,11 @@ enableRobotsTXT = true         # Best practice to enable this here
     name = "teaching"
     url = "/teaching/"
     weight = 5
+     
+  [[menu.main]]
+    name = "LEAN"
+    url = "/LEAN/"
+    weight = 5
 
 [params.ananke.social.follow]
   new_window_icon = true
