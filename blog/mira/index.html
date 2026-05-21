@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Complexity &amp; Ecology Research</title>
+    <title>Developing MIRA | Complexity &amp; Ecology Research</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Exploring the dynamics of ecological systems and biological complexity to uncover the hidden patterns shaping our world.">
+    <meta name="description" content="How we used AI to develop a visualization tool for our research field, and what I learned along the way.">
     <meta name="generator" content="Hugo 0.147.7">
     
     
@@ -47,29 +47,26 @@
     
 
     
+
     
-      <link href="/tags/spirituality/index.xml" rel="alternate" type="application/rss+xml" title="Complexity &amp; Ecology Research" />
-      <link href="/tags/spirituality/index.xml" rel="feed" type="application/rss+xml" title="Complexity &amp; Ecology Research" />
-    
+      <link rel="canonical" href="https://yuvalbloch.com/blog/mira/">
     
 
     
-      <link rel="canonical" href="https://yuvalbloch.com/tags/spirituality/">
-    
-
-    
-    <meta property="og:title" content="Spirituality" />
-<meta property="og:description" content="" />
+    <meta property="og:title" content="Developing MIRA" />
+<meta property="og:description" content="How we used AI to develop a visualization tool for our research field, and what I learned along the way." />
 <meta property="og:image" content="/images/social-preview.png" />
-<meta property="og:url" content="https://yuvalbloch.com/tags/spirituality/" />
+<meta property="og:url" content="https://yuvalbloch.com/blog/mira/" />
 <meta name="twitter:card" content="summary_large_image" />
-  <meta itemprop="name" content="Spirituality">
-  <meta itemprop="description" content="Exploring the dynamics of ecological systems and biological complexity to uncover the hidden patterns shaping our world.">
-  <meta itemprop="datePublished" content="2025-08-30T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-08-30T00:00:00+00:00">
+  <meta itemprop="name" content="Developing MIRA">
+  <meta itemprop="description" content="How we used AI to develop a visualization tool for our research field, and what I learned along the way.">
+  <meta itemprop="datePublished" content="2026-05-21T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2026-05-21T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1169">
+  <meta itemprop="keywords" content="AI,Vibe_coding,Mira,Multilayer_network">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Spirituality">
-  <meta name="twitter:description" content="Exploring the dynamics of ecological systems and biological complexity to uncover the hidden patterns shaping our world.">
+  <meta name="twitter:title" content="Developing MIRA">
+  <meta name="twitter:description" content="How we used AI to develop a visualization tool for our research field, and what I learned along the way.">
 
       
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-G88CJRGNM1"></script>
@@ -91,11 +88,13 @@
   </head><body dir="ltr" >
 
     
+   
+  
 
   
   
-  <header class="cover bg-top" style="background-image: url('https://yuvalbloch.com/assets/image_for_top1.png');">
-    
+  
+  <header class="cover bg-center" style="background-image: url('https://yuvalbloch.com/posts/mira/mira.png');">
     <div class="bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l center items-center justify-between">
@@ -178,112 +177,102 @@
   </div>
 </nav>
 
-      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
-          Spirituality
-        </h1>
+      <div class="tc-l pv6 ph3 ph4-ns">
         
       </div>
     </div>
   </header>
 
 
+
     <main class="pb7" role="main">
       
-  <article class="cf pa3 pa4-m pa4-l">
-    <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links mid-gray">
-      <p>Below you will find pages that utilize the taxonomy term “Spirituality”</p>
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Uncharted Life
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Developing MIRA</h1>
+      
+      <p class="tracked"><strong>yuval bloch</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2026-05-21T00:00:00Z">May 21, 2026</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100">
+     
+      
+
+<p>Three months ago, my PI Shai Pilosoph offered me a spot on a project he had already started: a new tool for visualizing multilayer ecological networks. I was skeptical. Already on an extension for my thesis, I was afraid to take on anything new when I was already stretched thin. But he showed me what he had built so far, and we talked about how publishing it could support the field in a meaningful way — and add something real to my résumé. So I decided to join, as second author, alongside my colleague Shir who stepped in as the lead writer.</p>
+<p>Three months later — none of it anyone&rsquo;s main job — we had a polished, running application called <strong>MIRA</strong> (Multilayer Interactive Rendering Application), deployed at <a href="https://mira.ecomplab.com/">mira.ecomplab.com</a>, and a paper currently in preprint, hopefully soon to appear in <em>Nature Methods</em>: <a href="https://arxiv.org/html/2605.09597v2">arxiv.org/html/2605.09597v2</a>.</p>
+<p>But as Cavafy wrote: <em>&ldquo;Ithaka gave you the marvelous journey.&rdquo;</em> This blog has always been about the journey. So here I want to describe my part in developing MIRA — the side quest, not the destination.</p>
+<figure> <img src="/posts/mira/mira.png" alt="MIRA application interface" style="max-width:100%; height:auto; display:block; margin: 0 auto; border-radius: 12px;"> <figcaption style="font-size: 0.9em; color: #666; margin-top: 0.8rem; line-height: 1.5; padding: 0 1rem; text-align: center;"> A screenshot of MIRA's features, taken from the paper. </figcaption> </figure>
+<hr>
+<h2 id="the-conflict">The Conflict</h2>
+<p>Like any good story, this one starts with a problem. Otherwise, three busy academics — one PI and two master&rsquo;s students — would probably never have embarked on building an AI-assisted app together.</p>
+<p>The challenge is multilayer network visualization. Over the past two decades, multilayer ecological networks have moved from the fringe to the mainstream of ecology. They let us capture the complexity of ecosystems in a way no other framework can. But while the ideas have become more widespread, the number of researchers actually using them remains limited — held back by complex mathematics, unclear definitions, and concepts that are genuinely hard to intuit. That high barrier turns many researchers away before they even begin.</p>
+<p>We believed there was a better entry point: if people could <em>see</em> an ecosystem as a multilayer network — really look at it — they could start appreciating its value before tackling the harder theoretical work. But visualization itself is difficult. It requires combining 3D projection with network layout algorithms in non-trivial ways, and the variety of multilayer network types demands a rich feature set to do them justice.</p>
+<p>A tool called Arena3D had done this before, but its missing features and unintuitive UI left it as a stepping stone rather than a destination.</p>
+<p>So here was the conflict: multilayer networks are vital for understanding and defending ecosystems in an age of rapid change, but without good enough tools, scientists struggle to enter the field.</p>
+<hr>
+<h2 id="the-superpower">The Superpower</h2>
+<p>Enter LLMs — in our case, Claude Code.</p>
+<p>All three of us do computational research that requires writing code and implementing complex algorithms. We all use AI in our workflows and had been watching it improve version by version, curious about how far it could go. But in im my individual work, AI assistance had always felt limited. Much of what I do involves designing simulations, where the implementation is only a small part — and the tools and methods I work with are highly niche.</p>
+<p>Building MIRA was different. Visualizing multilayer networks combines well-known algorithms: 3D projection, graph layout, UI frameworks. Most of the work is <em>implementation</em>, and it draws on a large body of common knowledge — exactly the kind of task where LLMs shine. It also required expertise in app development that none of us had in depth.</p>
+<p>We divided the work this way: Shai developed the core application; I used my background in computer science to ensure stability, handle edge cases, and apply good software practices; and Shir led the writing. Together we brainstormed and pitched new features. It worked well. Three months of part-time effort produced a finished app and a paper.</p>
+<hr>
+<h2 id="a-revolution-bigger-than-ai">A Revolution Bigger Than AI</h2>
+<p>Because I have some app development background — however dated — I could see something other might miss: how much the field itself had changed.</p>
+<p>Back in 2019, between finishing my military service and beginning my computer science degree, I took a full-stack development course. Even then, a revolution was already in motion. Libraries like React were making app development dramatically easier, which is why courses like mine were multiplying and so many new apps were appearing. What&rsquo;s happened since — modern browsers capable of running complex applications with no backend, better tooling, simpler deployment — is a continuation of that long arc.</p>
+<figure> <img src="/posts/mira/iceberg.png" alt="AI as the tip of the iceberg" style="max-width:100%; height:auto; display:block; margin: 0 auto; border-radius: 12px;"> <figcaption style="font-size: 0.9em; color: #666; margin-top: 0.8rem; line-height: 1.5; padding: 0 1rem; text-align: center;"> AI is the visible tip. The iceberg beneath it is a decade of democratized app development. </figcaption> </figure>
+<p>When I tell people how easy it has become to build an app, they point to AI. When I look at it, I see AI as the top of a much larger iceberg.</p>
+<p>And I call it a revolution for a reason. For the first time, <em>anyone</em> can build an app. As I wrote in <a href="https://yuvalbloch.com/blog/the_algorithem_of_the_ring/">a previous post</a>, many modern apps don&rsquo;t always serve our best interests — they trade in our attention and personal data, and are deliberately designed to be addictive. But now, anyone can build something tailored precisely to their own needs. That could be genuine democratization of the internet. The question is whether people will recognize what they actually need and act on it — or whether this new capability will simply give more power to those who already have it.</p>
+<hr>
+<h2 id="what-i-learned">What I Learned</h2>
+<p><strong>On teamwork:</strong> For the first time in a while, I worked as part of a team. And I discovered that teamwork is like a muscle — if you don&rsquo;t use it, it atrophies. At the start, I was constantly anxious. Every time someone opened a GitHub issue while I wasn&rsquo;t at my computer — and academics work strange hours — I felt an immediate pull to log on. Sometimes I didn&rsquo;t understand a colleague&rsquo;s decision, and it frustrated me. But I learned to trust the process, and my collaborators. By the time I joined the follow-up project (more on that below), I actually <em>enjoyed</em> working as a team.</p>
+<p><strong>On the state of LLMs for coding:</strong> I got a clear view of where things actually stand. And if you know me, you know I tend toward skepticism — I even <a href="https://yuvalbloch.com/blog/ai_and_proudoctivity/">wrote about it</a>. But I have to admit: what Claude Code can do today genuinely exceeded my expectations. It has moved far beyond what was possible even a year ago.</p>
+<p><strong>On side quests:</strong> I learned to appreciate their value. This project refreshed my thinking and let me return to my main work — predicting land use change in underdeveloped tropical countries — with a clearer head.</p>
+<hr>
+<h2 id="a-teaser-for-the-sequel">A Teaser for the Sequel</h2>
+<p>The good experience of building MIRA left us hungry for more. Shai reached a conclusion: every student in the lab should know how to build small apps to support their own research, so we&rsquo;re never blocked waiting for tools. To put that into practice, he organized a competition. My team built an app called <strong>Figro</strong>. What I learned through <em>that</em> process is the subject of my next post.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/ai/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">AI</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/vibe_coding/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Vibe_coding</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/mira/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Mira</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/multilayer_network/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Multilayer_network</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+      
     </div>
+
+
+
   </article>
-  <div class="mw8 center">
-    <section class="flex-ns mt5 flex-wrap justify-around">
-      
-        <div class="w-100 mb4 relative bg-white">
-          <div class="w-100 mb4 bg-white shadow-hover" style="border-radius: 12px; overflow: hidden;">
-  <a href="/blog/compassion_empathy_and_activism/" class="db link black no-underline">
-
-    
-    
-    
-
-    
-      <img src="/assets/budhu.jpeg" 
-           style="width: 100%; display: block; border-top-left-radius: 12px; border-top-right-radius: 12px; margin: 0;">
-    
-
-    
-    <div class="card-text">
-      <h2 style="margin: 0 0 0.5rem 0;">Compassion, Empathy, and Activism Without Burnout</h2>
-
-      
-        <p style="margin: 0;">When we witness suffering and injustice, we often feel guilt and distress. But basing activism on these emotions is unsustainable. This post explores how psychology, neuroscience, and ancient traditions can help us transform pain into the lasting power of compassion.</p>
-      
-    </div>
-    
-
-  </a>
-</div>
-
-        </div>
-      
-        <div class="w-100 mb4 relative bg-white">
-          <div class="w-100 mb4 bg-white shadow-hover" style="border-radius: 12px; overflow: hidden;">
-  <a href="/blog/life-on-the-edge/" class="db link black no-underline">
-
-    
-    
-    
-
-    
-      <img src="/assets/life_on_the_edge.jpg" 
-           style="width: 100%; display: block; border-top-left-radius: 12px; border-top-right-radius: 12px; margin: 0;">
-    
-
-    
-    <div class="card-text">
-      <h2 style="margin: 0 0 0.5rem 0;">Life on the Edge: Facing Impermanence, Entropy, and Meaning</h2>
-
-      
-        <p style="margin: 0;">Confronting the fragility of existence amidst global challenges, this post explores how impermanence, entropy, and life&#39;s inherent computational nature define our being. Discover how understanding these forces, from cellular memory to Earth&#39;s self-regulation, can lead to deeper meaning.</p>
-      
-    </div>
-    
-
-  </a>
-</div>
-
-        </div>
-      
-        <div class="w-100 mb4 relative bg-white">
-          <div class="w-100 mb4 bg-white shadow-hover" style="border-radius: 12px; overflow: hidden;">
-  <a href="/blog/complex-systems-perspective-on-conflict/" class="db link black no-underline">
-
-    
-    
-    
-
-    
-      <img src="/assets/image_post_2.jpeg" 
-           style="width: 100%; display: block; border-top-left-radius: 12px; border-top-right-radius: 12px; margin: 0;">
-    
-
-    
-    <div class="card-text">
-      <h2 style="margin: 0 0 0.5rem 0;">Empathy in the Emergent Storm: A Complex Systems Perspective on Conflict</h2>
-
-      
-        <p style="margin: 0;">Confronting the fragility of existence, this post explores the profound connection between life, entropy, and the search for meaning. From the microscopic dance of cells to the grand scale of planetary systems, uncover how impermanence can paradoxically enrich our understanding of being.</p>
-      
-    </div>
-    
-
-  </a>
-</div>
-
-        </div>
-      
-    </section>
-  </div>
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
