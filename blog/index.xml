@@ -2,213 +2,213 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Uncharted Life on Complexity &amp; Ecology Research</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://yuvalbloch.com/blog/</link>
     <description>Recent content in Uncharted Life on Complexity &amp; Ecology Research</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yuvalbloch.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Figaro - or how we create the app we need</title>
-      <link>http://localhost:1313/blog/figaro/</link>
+      <link>https://yuvalbloch.com/blog/figaro/</link>
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/figaro/</guid>
+      <guid>https://yuvalbloch.com/blog/figaro/</guid>
       <description>&lt;h1 id=&#34;a-hackathon-for-app-development&#34;&gt;A Hackathon for App Development&lt;/h1&gt;&#xA;&lt;p&gt;Over the last three months I&amp;rsquo;ve been part of developing &lt;strong&gt;MIRA&lt;/strong&gt; — a Multilayer Interactive Rendering Application — which we&amp;rsquo;ve already presented as a preprint on &lt;a href=&#34;https://arxiv.org/html/2605.09597v2&#34;&gt;arXiv&lt;/a&gt;. I wrote about how AI heavily shaped that development process on &lt;a href=&#34;https://yuvalbloch.com/blog/mira/&#34;&gt;my blog&lt;/a&gt;, but the most important conclusion from the whole experience is this: small-to-medium app development has become genuinely easy, thanks both to AI and to the modern ecosystem of browser deployment tools and JavaScript libraries.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Developing MIRA</title>
-      <link>http://localhost:1313/blog/mira/</link>
+      <link>https://yuvalbloch.com/blog/mira/</link>
       <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/mira/</guid>
+      <guid>https://yuvalbloch.com/blog/mira/</guid>
       <description>&lt;p&gt;Three months ago, my PI Shai Pilosoph offered me a spot on a project he had already started: a new tool for visualizing multilayer ecological networks. I was skeptical. Already on an extension for my thesis, I was afraid to take on anything new when I was already stretched thin. But he showed me what he had built so far, and we talked about how publishing it could support the field in a meaningful way — and add something real to my résumé. So I decided to join, as second author, alongside my colleague Shir who stepped in as the lead writer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How and Why I Built My News AI Agent</title>
-      <link>http://localhost:1313/blog/newsagent/</link>
+      <link>https://yuvalbloch.com/blog/newsagent/</link>
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/newsagent/</guid>
+      <guid>https://yuvalbloch.com/blog/newsagent/</guid>
       <description>&lt;p&gt;I fell for the trend. I built my own AI agent — and worse, I vibe-coded it. I suppose even I eventually surrendered to the spirit of the era. But I did so with a specific goal: to use modern tools to return to something older. To the era of print.&lt;/p&gt;&#xA;&lt;h2 id=&#34;moving-forward-by-reaching-back&#34;&gt;Moving Forward by Reaching Back&lt;/h2&gt;&#xA;&lt;p&gt;Let me describe how I consumed news fifteen years ago, when I was still a high school student. Every afternoon, after coming home, I&amp;rsquo;d pick up the newspaper and spend about forty minutes reading what had happened in the world. I&amp;rsquo;d focus, try to understand the context of events, read what interested me — and then close it and go do homework, hang out with friends, or read a book.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Is Life a Miracle or Inevitable?</title>
-      <link>http://localhost:1313/blog/the-miracle-of-life-or-is-it-plouisable-that-are-alone/</link>
+      <link>https://yuvalbloch.com/blog/the-miracle-of-life-or-is-it-plouisable-that-are-alone/</link>
       <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/the-miracle-of-life-or-is-it-plouisable-that-are-alone/</guid>
+      <guid>https://yuvalbloch.com/blog/the-miracle-of-life-or-is-it-plouisable-that-are-alone/</guid>
       <description>&lt;p&gt;The possibility of life on other planets has fascinated humanity for centuries. To make sense of the silence, we have long relied on the &lt;strong&gt;Drake Equation&lt;/strong&gt;—a mathematical framework for estimating the number of active, communicative civilizations in our galaxy.&lt;/p&gt;&#xA;&lt;p&gt;Conventional wisdom suggests the universe should be teeming with life. With trillions of stars and countless “Goldilocks” planets, the math implies that technologically advanced societies should be common. This brings us to the &lt;strong&gt;Fermi Paradox&lt;/strong&gt;: if the universe is a crowded party, why is it so quiet?&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Song in the Dark: Why Culture Flourishes in Chaos</title>
-      <link>http://localhost:1313/blog/destruction_and_creativity/</link>
+      <link>https://yuvalbloch.com/blog/destruction_and_creativity/</link>
       <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/destruction_and_creativity/</guid>
+      <guid>https://yuvalbloch.com/blog/destruction_and_creativity/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Some birds sing when the sun shines bright,&lt;/em&gt;&#xA;&lt;em&gt;My praise is not for them.&lt;/em&gt;&#xA;&lt;em&gt;But the one who sings in the dead of night,&lt;/em&gt;&#xA;&lt;em&gt;I raise my cup to him.&lt;/em&gt;&#xA;— &lt;strong&gt;“I Raise My Cup,”&lt;/strong&gt; &lt;em&gt;&lt;strong&gt;Hadestown&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;There is a famous Latin adage: &lt;em&gt;“Inter arma enim silent Musae”&lt;/em&gt;—when the cannons roar, the muses are silent. It suggests that art is a luxury of peace and that creativity withers under the shadow of violence. Yet, viewed through the lens of history, we see a starkly different picture.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Snowflake: Helping people in dictatorships bypass internet censorship from your couch</title>
-      <link>http://localhost:1313/blog/snowflake_helping_people_in_dictatorships_bypass_internet_censorship_from_your_couch/</link>
+      <link>https://yuvalbloch.com/blog/snowflake_helping_people_in_dictatorships_bypass_internet_censorship_from_your_couch/</link>
       <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/snowflake_helping_people_in_dictatorships_bypass_internet_censorship_from_your_couch/</guid>
+      <guid>https://yuvalbloch.com/blog/snowflake_helping_people_in_dictatorships_bypass_internet_censorship_from_your_couch/</guid>
       <description>&lt;p&gt;This isn’t my usual type of post, and it’s certainly outside my area of expertise. However, after following the recent news from Iran, I found a tool that more people should know about, which allows us to help people whose voices are silenced by the government with almost no effort.&lt;/p&gt;&#xA;&lt;p&gt;If you want to help immediately without reading the technical details, just leave this page open and enable the  widget below it, which will act as a “bridge” for someone in a censored region as long as your tab is active:&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Algorithm of the Ring - Why It’s Time to Quit Social media</title>
-      <link>http://localhost:1313/blog/the_algorithem_of_the_ring/</link>
+      <link>https://yuvalbloch.com/blog/the_algorithem_of_the_ring/</link>
       <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/the_algorithem_of_the_ring/</guid>
+      <guid>https://yuvalbloch.com/blog/the_algorithem_of_the_ring/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;“The world is changed.&lt;br&gt;&#xA;I feel it in the water.&lt;br&gt;&#xA;I feel it in the earth.&lt;br&gt;&#xA;I smell it in the air.&lt;br&gt;&#xA;Much that once was is lost, for none now live who remember it.”&lt;/em&gt;&lt;br&gt;&#xA;— Galadriel, &lt;em&gt;The Lord of the Rings&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;When something changes in my life, I tend to place the responsibility on myself—for better or worse. So when I recently decided to change my relationship with the digital world in order to improve my focus, I understood it as a sign of personal development: I had reached a point where I &lt;em&gt;needed&lt;/em&gt; this change.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Magic of Nature - Attention Restoration Theory and Fractals</title>
-      <link>http://localhost:1313/blog/art/</link>
+      <link>https://yuvalbloch.com/blog/art/</link>
       <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/art/</guid>
+      <guid>https://yuvalbloch.com/blog/art/</guid>
       <description>&lt;h1 id=&#34;the-magic-of-nature-attention-restoration-theory-and-fractals&#34;&gt;The Magic of Nature: Attention Restoration Theory and Fractals&lt;/h1&gt;&#xA;&lt;p&gt;While learning—and practicing—how to improve my focus, I stumbled upon &lt;strong&gt;Kaplan’s Attention Restoration Theory&lt;/strong&gt; and the surprising power of nature to heal our attention. Along the way, I discovered the role of &lt;strong&gt;fractal patterns&lt;/strong&gt;—structures that repeat across scales and appear everywhere, from coastlines and trees to art and digital design.&lt;/p&gt;&#xA;&lt;p&gt;What struck me most is that this body of knowledge holds real, practical power. It can help people maintain well-being, sustain creativity, and do meaningful, focused work. Yet it remains far from common knowledge. Much of it is buried behind dense academic language, making it inaccessible to many who could benefit from it the most.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Intentional Emptiness - My First Month of Attention Restoration</title>
-      <link>http://localhost:1313/blog/intended_life/</link>
+      <link>https://yuvalbloch.com/blog/intended_life/</link>
       <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/intended_life/</guid>
+      <guid>https://yuvalbloch.com/blog/intended_life/</guid>
       <description>&lt;p&gt;After a month of dedicated self-observation—tracking where my attention goes—I’ve learned a great deal about myself and refined my &lt;a href=&#34;https://yuvalbloch.com/blog/my_focus_recovery_plan/&#34;&gt;attention restoration plan&lt;/a&gt;. I&amp;rsquo;ve come to understand the profound power of intention and &amp;rsquo;empty spaces.&#39;&lt;/p&gt;&#xA;&lt;h2 id=&#34;no-secret-ingredient&#34;&gt;No Secret Ingredient&lt;/h2&gt;&#xA;&lt;p&gt;Ever since my time in &lt;a href=&#34;https://yuvalbloch.com/blog/focus_plane_going_out/&#34;&gt;Mitzpe Ramon&lt;/a&gt;, my routine has stabilized. Each workday begins with yoga and meditation, followed by the &lt;strong&gt;4-in-7 principle&lt;/strong&gt;:&#xA;four focused work sessions of 50–60 minutes, spread across seven hours, with walking breaks between them.&#xA;The rest of the day is free for climbing, meeting friends, or simply enjoying life.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Attention Restoration: Remote Place</title>
-      <link>http://localhost:1313/blog/focus_plane_going_out/</link>
+      <link>https://yuvalbloch.com/blog/focus_plane_going_out/</link>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/focus_plane_going_out/</guid>
+      <guid>https://yuvalbloch.com/blog/focus_plane_going_out/</guid>
       <description>&lt;p&gt;Two weeks into my &lt;a href=&#34;https://yuvalbloch.com/blog/my_focus_recovery_plan/&#34;&gt;Focus Restoration Plan&lt;/a&gt;, I decided to &lt;strong&gt;expand the experimental design&lt;/strong&gt; to incorporate new tools for enhancing &lt;strong&gt;focus and productivity&lt;/strong&gt;. My choice was a classic method: working from a &lt;strong&gt;remote location&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This technique of stepping away from one&amp;rsquo;s regular environment to boost concentration has been utilized by some of the greatest minds in history—from &lt;strong&gt;Bill Gates&lt;/strong&gt; to &lt;strong&gt;Charles Darwin&lt;/strong&gt;, and &lt;strong&gt;Agatha Christie&lt;/strong&gt; to &lt;strong&gt;Carl Jung&lt;/strong&gt;. This strategy clearly serves the finest intellectual traditions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Surprise: When AI Reduces Developer Productivity</title>
-      <link>http://localhost:1313/blog/ai_and_proudoctivity/</link>
+      <link>https://yuvalbloch.com/blog/ai_and_proudoctivity/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/ai_and_proudoctivity/</guid>
+      <guid>https://yuvalbloch.com/blog/ai_and_proudoctivity/</guid>
       <description>&lt;h1 id=&#34;the-surprise-when-ai-reduces-developer-productivity&#34;&gt;The Surprise: When AI Reduces Developer Productivity&lt;/h1&gt;&#xA;&lt;p&gt;Once in a while, I run into a paper that makes me say, &amp;ldquo;F*ck.&amp;rdquo; These papers often go under the radar, but their results truly &lt;strong&gt;revolutionize&lt;/strong&gt; how we look at something.&lt;/p&gt;&#xA;&lt;p&gt;The paper, with its perfectly non-appealing name, &amp;ldquo;Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity,&amp;rdquo; is one of those. The brilliant interpretation by Cal Newport (the writer of &lt;em&gt;Deep Work&lt;/em&gt;) in his podcast &lt;em&gt;Deep Questions&lt;/em&gt; adds even more power to this finding.&lt;/p&gt;</description>
     </item>
     <item>
       <title>atteion restoration- Two Weeks In Personal Look</title>
-      <link>http://localhost:1313/blog/focus-plane-week-2/</link>
+      <link>https://yuvalbloch.com/blog/focus-plane-week-2/</link>
       <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/focus-plane-week-2/</guid>
+      <guid>https://yuvalbloch.com/blog/focus-plane-week-2/</guid>
       <description>&lt;p&gt;Ending my second week of retrieving my attention, this experience started reshaping my worldview. In this text, I allow myself to write more personally, under the belief that documenting across time what retrieves my attention changes in my experience can contribute to the general discussion of attention.&lt;/p&gt;&#xA;&lt;h2 id=&#34;on-the-train&#34;&gt;on the train.&lt;/h2&gt;&#xA;&lt;p&gt;Sitting on the train heading south on a Sunday morning, returning home after a weekend with family, the coach is full. Forced to stand away from the window, my gaze sweeps across the passengers. The continuous motion of people pulling out and putting away their phones—checking updates, scrolling, or simply staring—strikes me as &lt;strong&gt;unusually strange&lt;/strong&gt;. I&amp;rsquo;ve always preferred avoiding eye contact on public transit, but now, the opposite feels jarring. Though a train coach has looked this way for years, it has never felt so unsettling as it does now.&lt;/p&gt;</description>
     </item>
     <item>
       <title>atteion restoration - One Week In</title>
-      <link>http://localhost:1313/blog/focus-plane---conclusion-from-week-1/</link>
+      <link>https://yuvalbloch.com/blog/focus-plane---conclusion-from-week-1/</link>
       <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/focus-plane---conclusion-from-week-1/</guid>
+      <guid>https://yuvalbloch.com/blog/focus-plane---conclusion-from-week-1/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m wrapping up my first week of &lt;strong&gt;intentionally improving my focus&lt;/strong&gt; based on my original &lt;a href=&#34;https://yuvalbloch.com/blog/my_focus_recovery_plan/&#34;&gt;focus recovery plan&lt;/a&gt;. The results are already remarkable, and frankly, stronger than I anticipated.&lt;/p&gt;&#xA;&lt;p&gt;I’ll start by presenting the initial results—how challenging it was to follow the plan, how well I focused on my work, and the impact on other elements of my life. Then I’ll interpret those results and decide on the necessary adjustments for next week.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My atteion restoration Plan</title>
-      <link>http://localhost:1313/blog/my_focus_recovery_plan/</link>
+      <link>https://yuvalbloch.com/blog/my_focus_recovery_plan/</link>
       <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/my_focus_recovery_plan/</guid>
+      <guid>https://yuvalbloch.com/blog/my_focus_recovery_plan/</guid>
       <description>&lt;h2 id=&#34;the-challenge-focus-at-work-and-in-life&#34;&gt;The Challenge: Focus at Work and in Life&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve recently struggled with &lt;strong&gt;focus&lt;/strong&gt;, impacting me both professionally and personally. In the lab, my efficiency is reduced, and outside of work, I find it hard to truly &amp;ldquo;live in the moment&amp;rdquo; and enjoy my activities. This decline is fueled by several elements in my modern lifestyle—some familiar, others newly recognized.&lt;/p&gt;&#xA;&lt;p&gt;For years, I resisted imposing a strict &lt;strong&gt;rule system&lt;/strong&gt;, favoring dynamic self-control instead. However, the cumulative effect of these distractions has forced me to accept my limitations humbly. While a dynamic system feels intuitively right, I no longer believe I can harness the benefits of the modern world without being distracted, unless I follow strict, predefined rules.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Paradox of Mutualism</title>
-      <link>http://localhost:1313/blog/paradox_of_mutualism/</link>
+      <link>https://yuvalbloch.com/blog/paradox_of_mutualism/</link>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/paradox_of_mutualism/</guid>
+      <guid>https://yuvalbloch.com/blog/paradox_of_mutualism/</guid>
       <description>&lt;p&gt;Ever felt your productivity slip because of constant interruptions or misaligned priorities? Do persistent, off-track questions from colleagues sabotage your focus, or has your boss&amp;rsquo;s direction seemed to pull you away from the path you know is right?&lt;/p&gt;&#xA;&lt;p&gt;Working collaboratively is inherently challenging. For a long time, scientists viewed &lt;strong&gt;Mutualism&lt;/strong&gt;—the collaboration between different species that benefits both—as an evolutionary anomaly, predicting it would be exceedingly rare. Why would two organisms go out of their way to help one another when they could focus purely on themselves?&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Journey at the an open University: A Candid Look at the Experience</title>
-      <link>http://localhost:1313/blog/remote_study/</link>
+      <link>https://yuvalbloch.com/blog/remote_study/</link>
       <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/remote_study/</guid>
+      <guid>https://yuvalbloch.com/blog/remote_study/</guid>
       <description>&lt;h2 id=&#34;my-journey-with-israels-open-university&#34;&gt;My Journey with Israel&amp;rsquo;s Open University&lt;/h2&gt;&#xA;&lt;p&gt;Open Universities are unique institutions that combines a long history of remote learning with an open admissions policy. they offers people from all walks of life the chance to earn a respected degree and is a well-established concept worldwide.&lt;/p&gt;&#xA;&lt;p&gt;In Israel, the Open University has been making waves. Its computer science graduates now earn the highest salaries in the country, even surpassing those from the prestigious Technion. However, a degree from the Open University is earned in a very different way than at a traditional university, and it&amp;rsquo;s not the right fit for everyone.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Chaos Theory of Human Hubris: From Jurassic Park to Afghanistan</title>
-      <link>http://localhost:1313/blog/chaos_theory_of_human_hubris/</link>
+      <link>https://yuvalbloch.com/blog/chaos_theory_of_human_hubris/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/chaos_theory_of_human_hubris/</guid>
+      <guid>https://yuvalbloch.com/blog/chaos_theory_of_human_hubris/</guid>
       <description>&lt;p&gt;I came across Michael Crichton&amp;rsquo;s &lt;em&gt;Jurassic Park&lt;/em&gt; by chance. The school I attended as a child had limited physical resources, and its small library didn&amp;rsquo;t offer many books. With so few options, I often ended up reading whatever I could get my hands on, even stories that didn&amp;rsquo;t immediately grab my interest. &lt;em&gt;Jurassic Park&lt;/em&gt; was one of them.&lt;/p&gt;&#xA;&lt;p&gt;Unlike the movie, which is remembered mainly for dinosaurs devouring people, Michael Crichton&amp;rsquo;s novel is about something deeper: chaos theory, complex systems, and the limits of human control. The book is divided into &amp;ldquo;iterations,&amp;rdquo; each beginning with a quote from Ian Malcolm about chaos theory. Every chapter opens with a fractal diagram that becomes more intricate as the story unfolds—mirroring how the park itself unravels, shifting from apparent order into uncontrollable chaos.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Compassion, Empathy, and Activism Without Burnout</title>
-      <link>http://localhost:1313/blog/compassion_empathy_and_activism/</link>
+      <link>https://yuvalbloch.com/blog/compassion_empathy_and_activism/</link>
       <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/compassion_empathy_and_activism/</guid>
+      <guid>https://yuvalbloch.com/blog/compassion_empathy_and_activism/</guid>
       <description>&lt;p&gt;As the war in Israel drags on, I see many friends—especially peace activists—feeling burned out. It&amp;rsquo;s not surprising. Carrying so much pain for so long takes a toll. But psychology, neuroscience, and ancient traditions offer an insight that can help: a deeper understanding of &lt;strong&gt;empathy&lt;/strong&gt; and &lt;strong&gt;compassion&lt;/strong&gt;, and how they shape our inner lives.&lt;/p&gt;&#xA;&lt;h4 id=&#34;the-problem-with-empathy&#34;&gt;The Problem with Empathy&lt;/h4&gt;&#xA;&lt;p&gt;Imagine this: you trip and hurt yourself, then a friend hugs you. Suddenly, you feel a little better. Simple enough, but your brain is doing something extraordinary. Professor Simone Shamay-Tsoory&amp;rsquo;s research helps explain it. By having people hold hands while one was in pain, and using fMRI to scan their brains, she found that their brain activity actually synchronized, lighting up the same neuron patterns in both sides. The closer their brains &amp;ldquo;mirrored&amp;rdquo; each other, the less pain the person felt. This is the neurological basis of empathy: we don&amp;rsquo;t just imagine another person&amp;rsquo;s feelings; we simulate them inside our own brain. We run their pain through our own neural circuits, and by doing so, reduce our partner&amp;rsquo;s suffering. This is why empathy motivates us to help and why it can alleviate feelings of isolation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Thanos&#39;s Flawed Premise: A Deeper Look at Population and Resources</title>
-      <link>http://localhost:1313/blog/population-and-resources/</link>
+      <link>https://yuvalbloch.com/blog/population-and-resources/</link>
       <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/population-and-resources/</guid>
+      <guid>https://yuvalbloch.com/blog/population-and-resources/</guid>
       <description>&lt;p&gt;In &lt;em&gt;Avengers: Infinity War&lt;/em&gt;, the villain Thanos offers a drastic and brutal &amp;ldquo;solution&amp;rdquo; to a universal problem: halve the population to prevent resource scarcity. While his methods are fictional, his reasoning echoes a real historical debate on the relationship between population growth and resource availability—a debate with deep intellectual roots.&lt;/p&gt;&#xA;&lt;p&gt;The first systematic exploration came from Thomas Malthus in his 1798 &lt;em&gt;Essay on the Principle of Population&lt;/em&gt;. Malthus argued that human populations grow exponentially, while the resources needed to sustain them—especially food—grow only linearly. This imbalance, he warned, would inevitably push societies beyond their limits, leading to famine, disease, and conflict—what he referred to as &lt;em&gt;&amp;ldquo;positive checks&lt;/em&gt;&amp;rdquo; on growth. His preferred solution was &lt;em&gt;preventive checks&lt;/em&gt;: delayed marriage and smaller families.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rent-Seeking, Complexity, and the Fall of Empires</title>
-      <link>http://localhost:1313/blog/cycles-of-power/</link>
+      <link>https://yuvalbloch.com/blog/cycles-of-power/</link>
       <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/cycles-of-power/</guid>
+      <guid>https://yuvalbloch.com/blog/cycles-of-power/</guid>
       <description>&lt;h3 id=&#34;the-long-shadow-of-babylon&#34;&gt;The Long Shadow of Babylon&lt;/h3&gt;&#xA;&lt;p&gt;The idea that an empire&amp;rsquo;s fall can be anticipated is not new. Over 2,500 years ago, Daniel&amp;rsquo;s prophecy foretold the rise of four beasts from a chaotic sea—each representing a great empire destined to dominate and then decline. His message was clear: Babylon&amp;rsquo;s reign would not last, nor would any that followed.&lt;/p&gt;&#xA;&lt;p&gt;This historical pattern has been repeatedly affirmed. But why do empires fall? Why has no civilization sustained supremacy forever? In this post, I will explore two powerful, complementary theories that explain this recurring cycle of rise and collapse, then examine them in a journey through history.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Building Worlds: Why Our Realities Diverge</title>
-      <link>http://localhost:1313/blog/building_worlds/</link>
+      <link>https://yuvalbloch.com/blog/building_worlds/</link>
       <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/building_worlds/</guid>
+      <guid>https://yuvalbloch.com/blog/building_worlds/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s easy to feel that people who hold beliefs contradicting well-established facts are unintelligent. We&amp;rsquo;ve all met individuals who, despite overwhelming evidence, remain steadfast in their convictions. However, upon closer inspection, it often becomes clear that these individuals are far from unintelligent. This apparent paradox prompts a deeper examination of how we construct our understanding of reality and how people with similar cognitive abilities can arrive at vastly different conclusions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Curiosity and the Cat: Innovation, Exploration, and Assembly Theory</title>
-      <link>http://localhost:1313/blog/curiosity/</link>
+      <link>https://yuvalbloch.com/blog/curiosity/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/curiosity/</guid>
+      <guid>https://yuvalbloch.com/blog/curiosity/</guid>
       <description>&lt;p&gt;We&amp;rsquo;ve all heard the saying, &amp;ldquo;Curiosity killed the cat.&amp;rdquo; It may be time to flip the script. Without curiosity, cats—and every other living thing—might never have come into existence at all.&lt;/p&gt;&#xA;&lt;p&gt;Of course, curiosity alone doesn&amp;rsquo;t spark life. Complexity arises from a dynamic tension: the urge to explore new possibilities and the need to consolidate what has already been discovered. Innovation without a foundation leads nowhere. Consolidation without curiosity stalls progress. Life—and all complex systems—depend on the interplay between the two.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Ghost of Hari Seldon: Asimov&#39;s Foundation Revisited in the Light of Complexity Science</title>
-      <link>http://localhost:1313/blog/asimovs-_foundation_-revisited/</link>
+      <link>https://yuvalbloch.com/blog/asimovs-_foundation_-revisited/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/asimovs-_foundation_-revisited/</guid>
+      <guid>https://yuvalbloch.com/blog/asimovs-_foundation_-revisited/</guid>
       <description>&lt;h2 id=&#34;the-ghost-of-hari-seldon-asimovs-foundation-revisited-in-the-light-of-complexity-science&#34;&gt;The Ghost of Hari Seldon: Asimov&amp;rsquo;s Foundation Revisited in the Light of Complexity Science&lt;/h2&gt;&#xA;&lt;p&gt;As a child, no book shaped my worldview more than Isaac Asimov&amp;rsquo;s &lt;em&gt;Foundation&lt;/em&gt;. While others dreamed of studying at Hogwarts or exploring Narnia, I longed to shape the future of the galaxy as part of the First or Second Foundation. Years later, with a computer science degree in hand, I embarked on a search for my next intellectual challenge. That search led me to Stefano Allesina&amp;rsquo;s paper, &amp;ldquo;Going Big.&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Possible Me: Identity as a Path, Not a Point</title>
-      <link>http://localhost:1313/blog/identity/</link>
+      <link>https://yuvalbloch.com/blog/identity/</link>
       <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/identity/</guid>
+      <guid>https://yuvalbloch.com/blog/identity/</guid>
       <description>&lt;p&gt;With Pride around the corner here in my favorite desert town, Mitzpe Ramon, and following recent reflections on quench disorder, Life&amp;rsquo;s inherent instability, and the mind–matter dance, this feels like the right moment to turn our attention to something both deeply personal and profoundly collective: identity.&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-weve-learned-so-far&#34;&gt;What We&amp;rsquo;ve Learned So Far&lt;/h3&gt;&#xA;&lt;p&gt;In &lt;em&gt;Life on the Edge&lt;/em&gt;, we explored how living systems don&amp;rsquo;t just persist—they remember. DNA stores information structurally, while in more complex organisms, memory is also encoded neurologically. What&amp;rsquo;s vital here is that memory doesn&amp;rsquo;t endure by staying still, but by renewing itself. Life persists through motion, not stasis.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Life on the Edge: Facing Impermanence, Entropy, and Meaning</title>
-      <link>http://localhost:1313/blog/life-on-the-edge/</link>
+      <link>https://yuvalbloch.com/blog/life-on-the-edge/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/life-on-the-edge/</guid>
+      <guid>https://yuvalbloch.com/blog/life-on-the-edge/</guid>
       <description>&lt;p&gt;Here in Israel, the recent wave of Iranian missile attacks has forced many of us to confront a stark truth: we are mortal. While the awareness of death is always present, in peacetime, it rarely takes center stage. Its sudden reappearance can affect people in vastly different ways—some find a deeper appreciation for each moment, while others feel a creeping nihilism. Life begins to feel both &lt;strong&gt;fragile and fleeting&lt;/strong&gt; and, at times, less meaningful.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Eye of the Storm: Understanding Our Minds During Struggles</title>
-      <link>http://localhost:1313/blog/eye_of_the_storm/</link>
+      <link>https://yuvalbloch.com/blog/eye_of_the_storm/</link>
       <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/eye_of_the_storm/</guid>
+      <guid>https://yuvalbloch.com/blog/eye_of_the_storm/</guid>
       <description>&lt;p&gt;This morning, the stark reality of war struck close to home. Beersheba, a city that until now had remained relatively peaceful compared to central Israel, was hit by a bombing at our main hospital. The shockwave I felt  from the public shelter near my apartment served as a cruel reminder of humanity&amp;rsquo;s darkest capacities. This experience profoundly underscores the urgent importance of learning to manage our emotions in such circumstances—a challenge that, as I&amp;rsquo;ll argue, complexity theory can illuminate.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Empathy in the Emergent Storm: A Complex Systems Perspective on Conflict</title>
-      <link>http://localhost:1313/blog/complex-systems-perspective-on-conflict/</link>
+      <link>https://yuvalbloch.com/blog/complex-systems-perspective-on-conflict/</link>
       <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/complex-systems-perspective-on-conflict/</guid>
+      <guid>https://yuvalbloch.com/blog/complex-systems-perspective-on-conflict/</guid>
       <description>&lt;p&gt;My original vision for the upcoming blog posts was structured as follows: first, I would delve into the economic system as an emergent property of countless small interactions and its profound meaning for both investors and social activists. From there, I planned to transition to the emergence of consciousness, building a crucial background for a third post on the emergence of conflicts.&lt;/p&gt;&#xA;&lt;p&gt;But, as I&amp;rsquo;ve noted before, life rarely follows a script. This past Thursday night, the conflict between my home, &lt;strong&gt;Israel&lt;/strong&gt;, and &lt;strong&gt;Iran&lt;/strong&gt; escalated dramatically. In light of this, examining conflicts through the lens of complex systems is not just relevant but vital. It&amp;rsquo;s about empowering us to defend ourselves without being terrified, to fight without hatred, to navigate war while always ready for peace, and to find a sense of agency and logic amidst the chaos that has become our reality.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Unseen Architects: Exploring the Fundamental Properties of Life</title>
-      <link>http://localhost:1313/blog/the-unseen-architects/</link>
+      <link>https://yuvalbloch.com/blog/the-unseen-architects/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/the-unseen-architects/</guid>
+      <guid>https://yuvalbloch.com/blog/the-unseen-architects/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Before we dive into the fundamental principles that shape life, take a moment to pause and observe.&lt;/strong&gt;&lt;br&gt;&#xA;If you’re outside—or can step outside—lie beneath a tree and gaze up into its intricate canopy. Or look closely at the delicate structure of a flower, the organized chaos of an ant colony, or even the fractal spirals of a broccoli or cauliflower floret in your fridge. And if none of those are nearby, simply examine your fingerprint.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why Life Science? Why This Blog? Why Now?</title>
-      <link>http://localhost:1313/blog/life-science-now/</link>
+      <link>https://yuvalbloch.com/blog/life-science-now/</link>
       <pubDate>Tue, 03 Jun 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/life-science-now/</guid>
+      <guid>https://yuvalbloch.com/blog/life-science-now/</guid>
       <description>&lt;p&gt;As a child, Disney&amp;rsquo;s movie Fantasia captivated me, especially &amp;ldquo;The Rite of Spring.&amp;rdquo;* Igor Stravinsky, the composer, originally conceived this ballet as an expression of primitive life, celebrating the intricate beauty of ancient rituals. Disney, however, reinterpreted it more literally: a cosmic dance of Earth&amp;rsquo;s violent birth, the silent lightning strike of first life, and evolution&amp;rsquo;s slow crescendo into dinosaurs. That vision—&lt;strong&gt;life-blazing order out of chaos&lt;/strong&gt;—never let go.&lt;/p&gt;&#xA;&lt;p&gt;Today, with fear and hate spreading and unsettling sounds from the border kept as a constant reminder, I wrestle with doubt: &lt;em&gt;Is studying biology a luxury while the world burns? Should I trade the microscope for the megaphone?&lt;/em&gt;&lt;/p&gt;</description>
     </item>
   </channel>
