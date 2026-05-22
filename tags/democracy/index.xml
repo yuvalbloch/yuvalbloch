@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Democracy on Complexity &amp; Ecology Research</title>
-    <link>https://yuvalbloch.com/tags/democracy/</link>
+    <link>http://localhost:1313/tags/democracy/</link>
     <description>Recent content in Democracy on Complexity &amp; Ecology Research</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 06 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yuvalbloch.com/tags/democracy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/democracy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chaos Theory of Human Hubris: From Jurassic Park to Afghanistan</title>
-      <link>https://yuvalbloch.com/blog/chaos_theory_of_human_hubris/</link>
+      <link>http://localhost:1313/blog/chaos_theory_of_human_hubris/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/blog/chaos_theory_of_human_hubris/</guid>
+      <guid>http://localhost:1313/blog/chaos_theory_of_human_hubris/</guid>
       <description>&lt;p&gt;I came across Michael Crichton&amp;rsquo;s &lt;em&gt;Jurassic Park&lt;/em&gt; by chance. The school I attended as a child had limited physical resources, and its small library didn&amp;rsquo;t offer many books. With so few options, I often ended up reading whatever I could get my hands on, even stories that didn&amp;rsquo;t immediately grab my interest. &lt;em&gt;Jurassic Park&lt;/em&gt; was one of them.&lt;/p&gt;&#xA;&lt;p&gt;Unlike the movie, which is remembered mainly for dinosaurs devouring people, Michael Crichton&amp;rsquo;s novel is about something deeper: chaos theory, complex systems, and the limits of human control. The book is divided into &amp;ldquo;iterations,&amp;rdquo; each beginning with a quote from Ian Malcolm about chaos theory. Every chapter opens with a fractal diagram that becomes more intricate as the story unfolds—mirroring how the park itself unravels, shifting from apparent order into uncontrollable chaos.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Curiosity and the Cat: Innovation, Exploration, and Assembly Theory</title>
-      <link>https://yuvalbloch.com/blog/curiosity/</link>
+      <link>http://localhost:1313/blog/curiosity/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/blog/curiosity/</guid>
+      <guid>http://localhost:1313/blog/curiosity/</guid>
       <description>&lt;p&gt;We&amp;rsquo;ve all heard the saying, &amp;ldquo;Curiosity killed the cat.&amp;rdquo; It may be time to flip the script. Without curiosity, cats—and every other living thing—might never have come into existence at all.&lt;/p&gt;&#xA;&lt;p&gt;Of course, curiosity alone doesn&amp;rsquo;t spark life. Complexity arises from a dynamic tension: the urge to explore new possibilities and the need to consolidate what has already been discovered. Innovation without a foundation leads nowhere. Consolidation without curiosity stalls progress. Life—and all complex systems—depend on the interplay between the two.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Philosophy-of-Mind on Complexity &amp; Ecology Research</title>
-    <link>https://yuvalbloch.com/tags/philosophy-of-mind/</link>
+    <link>http://localhost:1313/tags/philosophy-of-mind/</link>
     <description>Recent content in Philosophy-of-Mind on Complexity &amp; Ecology Research</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 03 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yuvalbloch.com/tags/philosophy-of-mind/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/philosophy-of-mind/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Possible Me: Identity as a Path, Not a Point</title>
-      <link>https://yuvalbloch.com/blog/identity/</link>
+      <link>http://localhost:1313/blog/identity/</link>
       <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/blog/identity/</guid>
+      <guid>http://localhost:1313/blog/identity/</guid>
       <description>&lt;p&gt;With Pride around the corner here in my favorite desert town, Mitzpe Ramon, and following recent reflections on quench disorder, Life&amp;rsquo;s inherent instability, and the mind–matter dance, this feels like the right moment to turn our attention to something both deeply personal and profoundly collective: identity.&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-weve-learned-so-far&#34;&gt;What We&amp;rsquo;ve Learned So Far&lt;/h3&gt;&#xA;&lt;p&gt;In &lt;em&gt;Life on the Edge&lt;/em&gt;, we explored how living systems don&amp;rsquo;t just persist—they remember. DNA stores information structurally, while in more complex organisms, memory is also encoded neurologically. What&amp;rsquo;s vital here is that memory doesn&amp;rsquo;t endure by staying still, but by renewing itself. Life persists through motion, not stasis.&lt;/p&gt;</description>
     </item>
   </channel>

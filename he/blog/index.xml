@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on  מורכבות ואקולוגיה</title>
-    <link>https://yuvalbloch.com/he/blog/</link>
+    <link>http://localhost:1313/he/blog/</link>
     <description>Recent content in Blogs on  מורכבות ואקולוגיה</description>
     <generator>Hugo</generator>
     <language>he</language>
     <lastBuildDate>Sat, 06 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yuvalbloch.com/he/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/he/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>מסע לפאנגאיה - מדע בידיוני</title>
-      <link>https://yuvalbloch.com/he/blog/fungaia/</link>
+      <link>http://localhost:1313/he/blog/fungaia/</link>
       <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/he/blog/fungaia/</guid>
+      <guid>http://localhost:1313/he/blog/fungaia/</guid>
       <description>&lt;div class=&#34;hebrew-text-rtl&#34;&gt;&#xA;&lt;p&gt;אני רואה לנכון לספר את סיפור מסענו למערכת פאנגאיה, ראשית כדי לנקות את שמי ואת שמם של שותפיי למסע. מאז ששבנו, אנשים אומרים שהשתנינו, שנהיינו פטרייתיים יותר, אנושיים פחות, ואף הוטל ספק בנאמנותנו לאנושות. ברצוני ליישר את ההדורים: נאמנותי ונאמנות שותפיי למסע נתונה לאנושות ולתוכנית החלל הבין-לאומית, ואיש איש לארצו ולמולדתו. למענם, סיכנו את נפשנו במסע הארוך בחלל.&lt;/p&gt;&#xA;&lt;p&gt;אין ספק שהשתנינו. החוויות שחווינו במערכת פאנגאיה שינו את האופן שבו אנו רואים את עצמנו ואת המשמעות של דברים בסיסיים כמו אינטליגנציה או אינדיבידואליזם, את היחס בין גוף ראשון לגוף שני ושלישי, או היחס בין יחיד לרבים. האם נהיינו פטרייתיים? ייתכן, אבל עליי לכפור בטענה ש&amp;quot;פטרייתי יותר&amp;quot; פירושו &amp;ldquo;אנושי פחות&amp;rdquo;. פאנגאיה לימדה אותנו שההפרדות שבעינינו הן בסיסיות כל כך, יכולות בקלות לאבד משמעות.&lt;/p&gt;</description>
     </item>
     <item>
       <title>תואר באוניברסיטה הפתוחה היתרונות החסרונות ולמי זה מתאים</title>
-      <link>https://yuvalbloch.com/he/blog/remote_study/</link>
+      <link>http://localhost:1313/he/blog/remote_study/</link>
       <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/he/blog/remote_study/</guid>
+      <guid>http://localhost:1313/he/blog/remote_study/</guid>
       <description>&lt;div class=&#34;hebrew-text-rtl&#34;&gt;&#xA;באביב האחרון, האוניברסיטה הפתוחה זכתה להישג יוקרתי. על פי נתוני משרד העבודה, בוגרי האוניברסיטה הפתוחה במדעי המחשב מרוויחים כעת בממוצע יותר מבוגרי כל אוניברסיטה אחרת בארץ, כולל הטכניון.&#xA;&lt;p&gt;בעוד שהנתונים עשויים להיות מוטים במידה מסוימת, ההישג הזה ממחיש שאין ספק שהאוניברסיטה הפתוחה טיפסה למעמד של אוניברסיטה מובילה. והכל, מבלי לדרוש תנאי קבלה מוקדמים. אף על פי כן האוניברסיטה היא בהחלט לא לכל אחד.&#xA;העדר תנאים מקדימים מציע הזדמנות לכולם אבל זה לא אומר יוכלו להצליח, כמו שאנטון אגו אומר בסיום הסרט &amp;ldquo;רטטוי&amp;rdquo;: &amp;ldquo;אולי לא כל אחד יכול להיות שף, אבל שף דגול יכול לצמוח מכל מקום&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>כאוס ויהירות  - מפארק היורה לאפגניסטן</title>
-      <link>https://yuvalbloch.com/he/blog/chaos_theory_of_human_hubris/</link>
+      <link>http://localhost:1313/he/blog/chaos_theory_of_human_hubris/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/he/blog/chaos_theory_of_human_hubris/</guid>
+      <guid>http://localhost:1313/he/blog/chaos_theory_of_human_hubris/</guid>
       <description>&lt;div class=&#34;hebrew-text-rtl&#34;&gt;&#xA;בתור ילד, ספק אם הייתי ניגש לספרו של מייקל קרייטון, &#34;פארק היורה&#34;, אלמלא מספרם המצומצם של הספרים בספריית בית הספר. בניגוד לסרט עתיר האפקטים הספר התנהל בקצב איטי בהרבה, והעניק משקל רב יותר לתאוריית הכאוס מאשר לסצנות פעולה. הספר מחולק לחלקים, שכל אחד מהם נפתח בציטוט הנוגע לתאוריית הכאוס, וכל חלק מחולק לאיטרציות אשר נפתחות בסרטוט של פרקטל המכונה &#34;עקומת הדרקון&#34;. מקטע למקטע, הקו הלך והסתעף, ובכך ייצג את האופן שבו המערכת הסדורה והמתוכננת של הפארק התפוררה לכדי באוס. הספר הסתיים כאשר ממשלת קוסטה ריקה הפעילה את האמצעי היחיד המוכר לבני האדם כאשר מערכת נעשית מורכבת יתר על המידה: כוח ברוטלי, באמצעות מטוסי קרב ופצצות נפאלם.&#xA;&lt;p&gt;שנים רבות לאחר מכן, בעודי מחפש טקסטים לתרגול לקראת הבחינה הפסיכומטרית באנגלית, נתקלתי במסמכי אפגניסטן, שורת ראיונות שבוצעו על הפנטגון במהלך המלחמה ואחריה בניסיון להפיק לקחים. ממשל אחר ממשל בארצות הברית ניסו לעמוד על טעויות קודמיהם, במטרה להבין היכן כשלו הממשלים שקדמו להם וכיצד הם יוכלו להגשים את מטרות המלחמה. אולם, ממשל אחר ממשל נחל כישלון, עד שלא נותרה ברירה אלא להסיק כי בדומה לניהול פארק מלא דינוזאורים, גם התוכנית ל&amp;quot;בניית מדינה&amp;quot; באפגניסטן נידונה לכישלון.&lt;/p&gt;</description>
     </item>
     <item>
       <title> חמלה, אמפתיה ושחיקה במאבק למען השלום</title>
-      <link>https://yuvalbloch.com/he/blog/compassion_empathy_and_activism/</link>
+      <link>http://localhost:1313/he/blog/compassion_empathy_and_activism/</link>
       <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/he/blog/compassion_empathy_and_activism/</guid>
+      <guid>http://localhost:1313/he/blog/compassion_empathy_and_activism/</guid>
       <description>&lt;div class=&#34;hebrew-text-rtl&#34;&gt;&#xA;&lt;p&gt;המלחמה בישראל נמשכת, ובתקופה האחרונה אני רואה בין חבריי הפעילים למען השבת החטופים וסיום המלחמה שחיקה נפשית גוברת. זה טבעי. המוכנות להישיר מבט לסבל שהמלחמה מביאה איתה יוצרת לחץ נפשי רב. עם זאת, זו אינה גזרת גורל. מחקרים פורצי דרך בנוירולוגיה, לצד ידע עתיק יומין, יכולים להראות לנו מסלול המאפשר לטפח חמלה ולפעול למען השלום מבלי לסכן את בריאותנו הנפשית. הבנת הכלים הללו יכולה לא רק להקל על הפעילים, אלא גם לאפשר לאנשים נוספים להצטרף למאבק.&lt;/p&gt;</description>
     </item>
     <item>
       <title>חוויות מהטיול לקפלוניה</title>
-      <link>https://yuvalbloch.com/he/blog/trip_to_keflonia/</link>
+      <link>http://localhost:1313/he/blog/trip_to_keflonia/</link>
       <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/he/blog/trip_to_keflonia/</guid>
+      <guid>http://localhost:1313/he/blog/trip_to_keflonia/</guid>
       <description>&lt;div class=&#34;hebrew-text-rtl&#34;&gt;&#xA;&lt;h2 id=&#34;חלק-ראשון-הסתגלות&#34;&gt;חלק ראשון: הסתגלות&lt;/h2&gt;&#xA;&lt;p&gt;אנחנו יוצאים מחיפה ביום ראשון מוקדם בבקור, שדה התעופה הקטן נותן תחושה קלילה ולא פורמלית ולמרות שהחליל של רייצל והמחשב שלי מעוררים חשדות קלים אנו מגיעים ללא בעיה אל המטוס. בדרך הדיילים מציעים לנו שוטים של ערק. ומזמינים את כל הנוסעים להרים כוסית. מצד אחד לחופש שבטיול ומצד שני לשיבתם של החטופים ובטוחנם של החיילים בחזית. המתח הזה בין הרצון להתנתק לבין הדאגה ילוו אותי לאורך המסע.&lt;/p&gt;</description>
     </item>
   </channel>
