@@ -1,9 +1,10 @@
 ---
-title: "personal mythology"
+title: personal mythology
 date: 2025-10-07
 description: an appendix to "The Mind's Native Tongue -  Myth, Symbol, and the Internal Map " describes my personal mythology"
 featured_image: /posts/mythology/two_side.jpg
 omit_header_text: true
+draft: true
 ---
 This text was published as an appendix a [post](https://yuvalbloch.com/blog/the-minds-native-tongue----myth-symbol-and-the-internal-map/)  and describes my personal mythology, as I explain in the post personal mythology isn't just a story but a map of the mind in their native language. it recommended to read them together 
 

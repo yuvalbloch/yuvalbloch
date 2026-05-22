@@ -2,472 +2,493 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Complexity &amp; Ecology Research</title>
-    <link>https://yuvalbloch.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Complexity &amp; Ecology Research</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yuvalbloch.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>http://localhost:1313/tags/ai/</link>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mira</title>
+      <link>http://localhost:1313/tags/mira/</link>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/mira/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multilayer_network</title>
+      <link>http://localhost:1313/tags/multilayer_network/</link>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/multilayer_network/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vibe_coding</title>
+      <link>http://localhost:1313/tags/vibe_coding/</link>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/vibe_coding/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Activism</title>
-      <link>https://yuvalbloch.com/tags/activism/</link>
+      <link>http://localhost:1313/tags/activism/</link>
       <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/activism/</guid>
+      <guid>http://localhost:1313/tags/activism/</guid>
       <description></description>
     </item>
     <item>
       <title>Internet Freedom</title>
-      <link>https://yuvalbloch.com/tags/internet-freedom/</link>
+      <link>http://localhost:1313/tags/internet-freedom/</link>
       <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/internet-freedom/</guid>
+      <guid>http://localhost:1313/tags/internet-freedom/</guid>
       <description></description>
     </item>
     <item>
       <title>Privacy</title>
-      <link>https://yuvalbloch.com/tags/privacy/</link>
+      <link>http://localhost:1313/tags/privacy/</link>
       <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/privacy/</guid>
+      <guid>http://localhost:1313/tags/privacy/</guid>
       <description></description>
     </item>
     <item>
       <title>Tor</title>
-      <link>https://yuvalbloch.com/tags/tor/</link>
+      <link>http://localhost:1313/tags/tor/</link>
       <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/tor/</guid>
+      <guid>http://localhost:1313/tags/tor/</guid>
       <description></description>
     </item>
     <item>
       <title>Digital-Detox</title>
-      <link>https://yuvalbloch.com/tags/digital-detox/</link>
+      <link>http://localhost:1313/tags/digital-detox/</link>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/digital-detox/</guid>
+      <guid>http://localhost:1313/tags/digital-detox/</guid>
       <description></description>
     </item>
     <item>
       <title>Experiment</title>
-      <link>https://yuvalbloch.com/tags/experiment/</link>
+      <link>http://localhost:1313/tags/experiment/</link>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/experiment/</guid>
+      <guid>http://localhost:1313/tags/experiment/</guid>
       <description></description>
     </item>
     <item>
       <title>Focus</title>
-      <link>https://yuvalbloch.com/tags/focus/</link>
+      <link>http://localhost:1313/tags/focus/</link>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/focus/</guid>
+      <guid>http://localhost:1313/tags/focus/</guid>
       <description></description>
     </item>
     <item>
       <title>Israel</title>
-      <link>https://yuvalbloch.com/tags/israel/</link>
+      <link>http://localhost:1313/tags/israel/</link>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/israel/</guid>
+      <guid>http://localhost:1313/tags/israel/</guid>
       <description></description>
     </item>
     <item>
       <title>Productivity</title>
-      <link>https://yuvalbloch.com/tags/productivity/</link>
+      <link>http://localhost:1313/tags/productivity/</link>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/productivity/</guid>
+      <guid>http://localhost:1313/tags/productivity/</guid>
       <description></description>
     </item>
     <item>
       <title>Remote-Work</title>
-      <link>https://yuvalbloch.com/tags/remote-work/</link>
+      <link>http://localhost:1313/tags/remote-work/</link>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/remote-work/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ai</title>
-      <link>https://yuvalbloch.com/tags/ai/</link>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/ai/</guid>
+      <guid>http://localhost:1313/tags/remote-work/</guid>
       <description></description>
     </item>
     <item>
       <title>Attention</title>
-      <link>https://yuvalbloch.com/tags/attention/</link>
+      <link>http://localhost:1313/tags/attention/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/attention/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Complexity</title>
-      <link>https://yuvalbloch.com/tags/complexity/</link>
-      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/complexity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Fluidity</title>
-      <link>https://yuvalbloch.com/tags/fluidity/</link>
-      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/fluidity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Identity</title>
-      <link>https://yuvalbloch.com/tags/identity/</link>
-      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/identity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Impermanence</title>
-      <link>https://yuvalbloch.com/tags/impermanence/</link>
-      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/impermanence/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Memory</title>
-      <link>https://yuvalbloch.com/tags/memory/</link>
-      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/memory/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Personal-Growth</title>
-      <link>https://yuvalbloch.com/tags/personal-growth/</link>
-      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/personal-growth/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Philosophy-of-Mind</title>
-      <link>https://yuvalbloch.com/tags/philosophy-of-mind/</link>
-      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/philosophy-of-mind/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Queer-Theory</title>
-      <link>https://yuvalbloch.com/tags/queer-theory/</link>
-      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/queer-theory/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Spirituality</title>
-      <link>https://yuvalbloch.com/tags/spirituality/</link>
-      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/spirituality/</guid>
+      <guid>http://localhost:1313/tags/attention/</guid>
       <description></description>
     </item>
     <item>
       <title>Complex-Systems</title>
-      <link>https://yuvalbloch.com/tags/complex-systems/</link>
+      <link>http://localhost:1313/tags/complex-systems/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/complex-systems/</guid>
+      <guid>http://localhost:1313/tags/complex-systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Decentralized-Systems</title>
-      <link>https://yuvalbloch.com/tags/decentralized-systems/</link>
+      <link>http://localhost:1313/tags/decentralized-systems/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/decentralized-systems/</guid>
+      <guid>http://localhost:1313/tags/decentralized-systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Democracy</title>
-      <link>https://yuvalbloch.com/tags/democracy/</link>
+      <link>http://localhost:1313/tags/democracy/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/democracy/</guid>
+      <guid>http://localhost:1313/tags/democracy/</guid>
       <description></description>
     </item>
     <item>
       <title>Evolution</title>
-      <link>https://yuvalbloch.com/tags/evolution/</link>
+      <link>http://localhost:1313/tags/evolution/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/evolution/</guid>
+      <guid>http://localhost:1313/tags/evolution/</guid>
       <description></description>
     </item>
     <item>
       <title>Predictability</title>
-      <link>https://yuvalbloch.com/tags/predictability/</link>
+      <link>http://localhost:1313/tags/predictability/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/predictability/</guid>
+      <guid>http://localhost:1313/tags/predictability/</guid>
       <description></description>
     </item>
     <item>
       <title>Compassion</title>
-      <link>https://yuvalbloch.com/tags/compassion/</link>
+      <link>http://localhost:1313/tags/compassion/</link>
       <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/compassion/</guid>
+      <guid>http://localhost:1313/tags/compassion/</guid>
       <description></description>
     </item>
     <item>
       <title>Meaning-of-Life</title>
-      <link>https://yuvalbloch.com/tags/meaning-of-life/</link>
+      <link>http://localhost:1313/tags/meaning-of-life/</link>
       <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/meaning-of-life/</guid>
+      <guid>http://localhost:1313/tags/meaning-of-life/</guid>
       <description></description>
     </item>
     <item>
       <title>Neuroscience</title>
-      <link>https://yuvalbloch.com/tags/neuroscience/</link>
+      <link>http://localhost:1313/tags/neuroscience/</link>
       <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/neuroscience/</guid>
+      <guid>http://localhost:1313/tags/neuroscience/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spirituality</title>
+      <link>http://localhost:1313/tags/spirituality/</link>
+      <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/spirituality/</guid>
       <description></description>
     </item>
     <item>
       <title>Cognitive-Bias</title>
-      <link>https://yuvalbloch.com/tags/cognitive-bias/</link>
+      <link>http://localhost:1313/tags/cognitive-bias/</link>
       <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/cognitive-bias/</guid>
+      <guid>http://localhost:1313/tags/cognitive-bias/</guid>
       <description></description>
     </item>
     <item>
       <title>Epistemology</title>
-      <link>https://yuvalbloch.com/tags/epistemology/</link>
+      <link>http://localhost:1313/tags/epistemology/</link>
       <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/epistemology/</guid>
+      <guid>http://localhost:1313/tags/epistemology/</guid>
       <description></description>
     </item>
     <item>
       <title>Misinformation</title>
-      <link>https://yuvalbloch.com/tags/misinformation/</link>
+      <link>http://localhost:1313/tags/misinformation/</link>
       <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/misinformation/</guid>
+      <guid>http://localhost:1313/tags/misinformation/</guid>
       <description></description>
     </item>
     <item>
       <title>Worldview</title>
-      <link>https://yuvalbloch.com/tags/worldview/</link>
+      <link>http://localhost:1313/tags/worldview/</link>
       <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/worldview/</guid>
+      <guid>http://localhost:1313/tags/worldview/</guid>
       <description></description>
     </item>
     <item>
       <title>Assembly-Theory</title>
-      <link>https://yuvalbloch.com/tags/assembly-theory/</link>
+      <link>http://localhost:1313/tags/assembly-theory/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/assembly-theory/</guid>
+      <guid>http://localhost:1313/tags/assembly-theory/</guid>
       <description></description>
     </item>
     <item>
       <title>Authoritarianism</title>
-      <link>https://yuvalbloch.com/tags/authoritarianism/</link>
+      <link>http://localhost:1313/tags/authoritarianism/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/authoritarianism/</guid>
+      <guid>http://localhost:1313/tags/authoritarianism/</guid>
       <description></description>
     </item>
     <item>
       <title>Chaos-Theory</title>
-      <link>https://yuvalbloch.com/tags/chaos-theory/</link>
+      <link>http://localhost:1313/tags/chaos-theory/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/chaos-theory/</guid>
+      <guid>http://localhost:1313/tags/chaos-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Complexity</title>
+      <link>http://localhost:1313/tags/complexity/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/complexity/</guid>
       <description></description>
     </item>
     <item>
       <title>Complexity-Science</title>
-      <link>https://yuvalbloch.com/tags/complexity-science/</link>
+      <link>http://localhost:1313/tags/complexity-science/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/complexity-science/</guid>
+      <guid>http://localhost:1313/tags/complexity-science/</guid>
       <description></description>
     </item>
     <item>
       <title>Curiosity</title>
-      <link>https://yuvalbloch.com/tags/curiosity/</link>
+      <link>http://localhost:1313/tags/curiosity/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/curiosity/</guid>
+      <guid>http://localhost:1313/tags/curiosity/</guid>
       <description></description>
     </item>
     <item>
       <title>Foundation</title>
-      <link>https://yuvalbloch.com/tags/foundation/</link>
+      <link>http://localhost:1313/tags/foundation/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/foundation/</guid>
+      <guid>http://localhost:1313/tags/foundation/</guid>
       <description></description>
     </item>
     <item>
       <title>Innovation</title>
-      <link>https://yuvalbloch.com/tags/innovation/</link>
+      <link>http://localhost:1313/tags/innovation/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/innovation/</guid>
+      <guid>http://localhost:1313/tags/innovation/</guid>
       <description></description>
     </item>
     <item>
       <title>Isaac-Asimov</title>
-      <link>https://yuvalbloch.com/tags/isaac-asimov/</link>
+      <link>http://localhost:1313/tags/isaac-asimov/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/isaac-asimov/</guid>
+      <guid>http://localhost:1313/tags/isaac-asimov/</guid>
       <description></description>
     </item>
     <item>
       <title>Network-Theory</title>
-      <link>https://yuvalbloch.com/tags/network-theory/</link>
+      <link>http://localhost:1313/tags/network-theory/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/network-theory/</guid>
+      <guid>http://localhost:1313/tags/network-theory/</guid>
       <description></description>
     </item>
     <item>
       <title>Psychohistory</title>
-      <link>https://yuvalbloch.com/tags/psychohistory/</link>
+      <link>http://localhost:1313/tags/psychohistory/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/psychohistory/</guid>
+      <guid>http://localhost:1313/tags/psychohistory/</guid>
       <description></description>
     </item>
     <item>
       <title>Science-Fiction</title>
-      <link>https://yuvalbloch.com/tags/science-fiction/</link>
+      <link>http://localhost:1313/tags/science-fiction/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/science-fiction/</guid>
+      <guid>http://localhost:1313/tags/science-fiction/</guid>
       <description></description>
     </item>
     <item>
       <title>Urban-Scaling-Laws</title>
-      <link>https://yuvalbloch.com/tags/urban-scaling-laws/</link>
+      <link>http://localhost:1313/tags/urban-scaling-laws/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/urban-scaling-laws/</guid>
+      <guid>http://localhost:1313/tags/urban-scaling-laws/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fluidity</title>
+      <link>http://localhost:1313/tags/fluidity/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/fluidity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Identity</title>
+      <link>http://localhost:1313/tags/identity/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/identity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Memory</title>
+      <link>http://localhost:1313/tags/memory/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/memory/</guid>
       <description></description>
     </item>
     <item>
       <title>Neuroplasticity</title>
-      <link>https://yuvalbloch.com/tags/neuroplasticity/</link>
+      <link>http://localhost:1313/tags/neuroplasticity/</link>
       <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/neuroplasticity/</guid>
+      <guid>http://localhost:1313/tags/neuroplasticity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal-Growth</title>
+      <link>http://localhost:1313/tags/personal-growth/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/personal-growth/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Philosophy-of-Mind</title>
+      <link>http://localhost:1313/tags/philosophy-of-mind/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/philosophy-of-mind/</guid>
       <description></description>
     </item>
     <item>
       <title>Pride</title>
-      <link>https://yuvalbloch.com/tags/pride/</link>
+      <link>http://localhost:1313/tags/pride/</link>
       <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/pride/</guid>
+      <guid>http://localhost:1313/tags/pride/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Queer-Theory</title>
+      <link>http://localhost:1313/tags/queer-theory/</link>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/queer-theory/</guid>
       <description></description>
     </item>
     <item>
       <title>Cellular-Computation</title>
-      <link>https://yuvalbloch.com/tags/cellular-computation/</link>
+      <link>http://localhost:1313/tags/cellular-computation/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/cellular-computation/</guid>
+      <guid>http://localhost:1313/tags/cellular-computation/</guid>
       <description></description>
     </item>
     <item>
       <title>Complexity-Theory</title>
-      <link>https://yuvalbloch.com/tags/complexity-theory/</link>
+      <link>http://localhost:1313/tags/complexity-theory/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/complexity-theory/</guid>
+      <guid>http://localhost:1313/tags/complexity-theory/</guid>
       <description></description>
     </item>
     <item>
       <title>Entropy</title>
-      <link>https://yuvalbloch.com/tags/entropy/</link>
+      <link>http://localhost:1313/tags/entropy/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/entropy/</guid>
+      <guid>http://localhost:1313/tags/entropy/</guid>
       <description></description>
     </item>
     <item>
       <title>Gaia-Hypothesis</title>
-      <link>https://yuvalbloch.com/tags/gaia-hypothesis/</link>
+      <link>http://localhost:1313/tags/gaia-hypothesis/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/gaia-hypothesis/</guid>
+      <guid>http://localhost:1313/tags/gaia-hypothesis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Impermanence</title>
+      <link>http://localhost:1313/tags/impermanence/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/impermanence/</guid>
       <description></description>
     </item>
     <item>
       <title>Mortality</title>
-      <link>https://yuvalbloch.com/tags/mortality/</link>
+      <link>http://localhost:1313/tags/mortality/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/mortality/</guid>
+      <guid>http://localhost:1313/tags/mortality/</guid>
       <description></description>
     </item>
     <item>
       <title>Philosophy-of-Science</title>
-      <link>https://yuvalbloch.com/tags/philosophy-of-science/</link>
+      <link>http://localhost:1313/tags/philosophy-of-science/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/philosophy-of-science/</guid>
+      <guid>http://localhost:1313/tags/philosophy-of-science/</guid>
       <description></description>
     </item>
     <item>
       <title>Brain</title>
-      <link>https://yuvalbloch.com/tags/brain/</link>
+      <link>http://localhost:1313/tags/brain/</link>
       <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/brain/</guid>
+      <guid>http://localhost:1313/tags/brain/</guid>
       <description></description>
     </item>
     <item>
       <title>DMN</title>
-      <link>https://yuvalbloch.com/tags/dmn/</link>
+      <link>http://localhost:1313/tags/dmn/</link>
       <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/dmn/</guid>
+      <guid>http://localhost:1313/tags/dmn/</guid>
       <description></description>
     </item>
     <item>
       <title>Emotional-Regulation</title>
-      <link>https://yuvalbloch.com/tags/emotional-regulation/</link>
+      <link>http://localhost:1313/tags/emotional-regulation/</link>
       <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/emotional-regulation/</guid>
+      <guid>http://localhost:1313/tags/emotional-regulation/</guid>
       <description></description>
     </item>
     <item>
       <title>Emotions</title>
-      <link>https://yuvalbloch.com/tags/emotions/</link>
+      <link>http://localhost:1313/tags/emotions/</link>
       <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/emotions/</guid>
+      <guid>http://localhost:1313/tags/emotions/</guid>
       <description></description>
     </item>
     <item>
       <title>Mind</title>
-      <link>https://yuvalbloch.com/tags/mind/</link>
+      <link>http://localhost:1313/tags/mind/</link>
       <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/mind/</guid>
+      <guid>http://localhost:1313/tags/mind/</guid>
       <description></description>
     </item>
     <item>
       <title>Mindfulness</title>
-      <link>https://yuvalbloch.com/tags/mindfulness/</link>
+      <link>http://localhost:1313/tags/mindfulness/</link>
       <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/mindfulness/</guid>
+      <guid>http://localhost:1313/tags/mindfulness/</guid>
       <description></description>
     </item>
     <item>
       <title>Resilience</title>
-      <link>https://yuvalbloch.com/tags/resilience/</link>
+      <link>http://localhost:1313/tags/resilience/</link>
       <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/resilience/</guid>
+      <guid>http://localhost:1313/tags/resilience/</guid>
       <description></description>
     </item>
     <item>
       <title>Emergence</title>
-      <link>https://yuvalbloch.com/tags/emergence/</link>
+      <link>http://localhost:1313/tags/emergence/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/emergence/</guid>
+      <guid>http://localhost:1313/tags/emergence/</guid>
       <description></description>
     </item>
     <item>
       <title>Life</title>
-      <link>https://yuvalbloch.com/tags/life/</link>
+      <link>http://localhost:1313/tags/life/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/life/</guid>
+      <guid>http://localhost:1313/tags/life/</guid>
       <description></description>
     </item>
     <item>
       <title>Love</title>
-      <link>https://yuvalbloch.com/tags/love/</link>
+      <link>http://localhost:1313/tags/love/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/love/</guid>
+      <guid>http://localhost:1313/tags/love/</guid>
       <description></description>
     </item>
     <item>
       <title>Philosophy</title>
-      <link>https://yuvalbloch.com/tags/philosophy/</link>
+      <link>http://localhost:1313/tags/philosophy/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/philosophy/</guid>
+      <guid>http://localhost:1313/tags/philosophy/</guid>
       <description></description>
     </item>
     <item>
       <title>Science</title>
-      <link>https://yuvalbloch.com/tags/science/</link>
+      <link>http://localhost:1313/tags/science/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/science/</guid>
+      <guid>http://localhost:1313/tags/science/</guid>
       <description></description>
     </item>
     <item>
       <title>Unpredictability</title>
-      <link>https://yuvalbloch.com/tags/unpredictability/</link>
+      <link>http://localhost:1313/tags/unpredictability/</link>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/tags/unpredictability/</guid>
+      <guid>http://localhost:1313/tags/unpredictability/</guid>
       <description></description>
     </item>
   </channel>

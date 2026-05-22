@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research on Complexity &amp; Ecology Research</title>
-    <link>https://yuvalbloch.com/research/</link>
+    <link>http://localhost:1313/research/</link>
     <description>Recent content in Research on Complexity &amp; Ecology Research</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 20 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yuvalbloch.com/research/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>End of Greatness: Lacunarity and the Index of Transitional Homogeneity</title>
-      <link>https://yuvalbloch.com/research/index_of_transitnal_homginaty/</link>
+      <link>http://localhost:1313/research/index_of_transitnal_homginaty/</link>
       <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/research/index_of_transitnal_homginaty/</guid>
+      <guid>http://localhost:1313/research/index_of_transitnal_homginaty/</guid>
       <description>&lt;p&gt;One of the best things about being an ecologist in this era is the constant opportunity to bridge different disciplines. Recently, my research led me to use a measure called &lt;strong&gt;transitional homogeneity&lt;/strong&gt;—a concept originally developed in cosmology to estimate how matter is spread throughout the universe. My journey to this point was a classic scientific process of trial and error.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-quest-for-a-multi-scale-metric&#34;&gt;The Quest for a Multi-Scale Metric&lt;/h3&gt;&#xA;&lt;p&gt;After building a cellular automata model to generate future land-use maps, I needed a way to quantify the structural differences between various scenarios. Traditional indices, such as &lt;strong&gt;edge density&lt;/strong&gt; (the total length of edges between different land uses), only provide a small part of the picture. They focus on local interactions—representing the contact between two land-use types—without considering the broader landscape context&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Devil Is in the Details: Modeling Small-Scale Land-Use Change in Madagascar</title>
-      <link>https://yuvalbloch.com/research/extended_poster/</link>
+      <link>http://localhost:1313/research/extended_poster/</link>
       <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/research/extended_poster/</guid>
-      <description>&lt;h2 id=&#34;-the-poster&#34;&gt;🖼️ The Poster&lt;/h2&gt;&#xA;&lt;p&gt;If you are viewing this on a mobile device, you can view the full PDF below or &lt;a href=&#34;https://yuvalbloch.com/research/poster_website_version.pdf&#34;&gt;&lt;strong&gt;Download the PDF here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;iframe src=&#34;https://yuvalbloch.com/research/poster_website_version.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34; style=&#34;border: 2px solid #eee; border-radius: 8px;&#34;&gt;&lt;/iframe&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-introduction--research-gap&#34;&gt;📌 Introduction &amp;amp; Research Gap&lt;/h2&gt;&#xA;&lt;p&gt;Land use represents the fundamental interface between humanity and nature. From urban centers to remote tropical regions, environmental modification critically affects human health, disease exposure, and vulnerability to natural disasters.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Land-use change is a primary driver of global crises:&lt;/strong&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/research/extended_poster/</guid>
+      <description>&lt;h2 id=&#34;-the-poster&#34;&gt;🖼️ The Poster&lt;/h2&gt;&#xA;&lt;p&gt;If you are viewing this on a mobile device, you can view the full PDF below or &lt;a href=&#34;http://localhost:1313/research/poster_website_version.pdf&#34;&gt;&lt;strong&gt;Download the PDF here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;iframe src=&#34;http://localhost:1313/research/poster_website_version.pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34; style=&#34;border: 2px solid #eee; border-radius: 8px;&#34;&gt;&lt;/iframe&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-introduction--research-gap&#34;&gt;📌 Introduction &amp;amp; Research Gap&lt;/h2&gt;&#xA;&lt;p&gt;Land use represents the fundamental interface between humanity and nature. From urban centers to remote tropical regions, environmental modification critically affects human health, disease exposure, and vulnerability to natural disasters.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Land-use change is a primary driver of global crises:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Explaining the Lacunarity-Based Index for Spatial Heterogeneity</title>
-      <link>https://yuvalbloch.com/research/lacunirty/</link>
+      <link>http://localhost:1313/research/lacunirty/</link>
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/research/lacunirty/</guid>
+      <guid>http://localhost:1313/research/lacunirty/</guid>
       <description>&lt;p&gt;In my research, I employ the measurement of &lt;strong&gt;lacunarity&lt;/strong&gt; based on the methodology described in Scott, R., et al. &lt;strong&gt;&amp;ldquo;A Lacunarity-based Index for Spatial Heterogeneity.&amp;rdquo;&lt;/strong&gt; &lt;em&gt;Earth and Space Science (Hoboken, N.J.)&lt;/em&gt;, vol. 9, no. 8, American Geophysical Union (AGU), Aug. 2022, &lt;a href=&#34;https://doi.org/10.1029/2021ea002180&#34;&gt;https://doi.org/10.1029/2021ea002180&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Here, I will provide a less formal description of the mathematics behind this method and its implementation in &lt;strong&gt;Julia&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-what-is-lacunarity-lambdar&#34;&gt;1. What is Lacunarity ($\Lambda(r)$)?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Lacunarity&lt;/strong&gt; is a measure of the &lt;strong&gt;heterogeneity&lt;/strong&gt; (gaps and clustering) of a spatial pattern across different scales. It quantifies how much the distribution of features differs from a homogeneous, uniform distribution.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sensitivity to Land Configuration</title>
-      <link>https://yuvalbloch.com/research/sensitivity-to-land-configuration/</link>
+      <link>http://localhost:1313/research/sensitivity-to-land-configuration/</link>
       <pubDate>Mon, 07 Jul 2025 10:00:00 +0300</pubDate>
-      <guid>https://yuvalbloch.com/research/sensitivity-to-land-configuration/</guid>
+      <guid>http://localhost:1313/research/sensitivity-to-land-configuration/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Natural populations are influenced not only by the &lt;strong&gt;amount&lt;/strong&gt; of available habitat but also by its &lt;strong&gt;spatial configuration&lt;/strong&gt;. Factors such as &lt;strong&gt;edge effects&lt;/strong&gt;, &lt;strong&gt;habitat fragmentation&lt;/strong&gt;, and &lt;strong&gt;patch isolation&lt;/strong&gt; are critical in shaping population dynamics. These spatial processes are fundamental in ecology, and it&amp;rsquo;s essential that my model captures them accurately.&lt;/p&gt;&#xA;&lt;p&gt;While the total amount of habitat is relatively easy to quantify, capturing spatial configuration is far more complex. Traditional models often rely on a &lt;strong&gt;binary landscape&lt;/strong&gt;, classifying areas as either suitable or unsuitable for the organism. Metrics like &lt;strong&gt;edge length&lt;/strong&gt;, &lt;strong&gt;connectivity&lt;/strong&gt;, and &lt;strong&gt;mean patch size&lt;/strong&gt; are often used in these models. However, in my system, the landscape consists of multiple land cover types, each offering varying degrees of suitability for ticks. This complexity demands a more nuanced and flexible approach.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Finding Viable Parameter Spaces with Sensitivity Analysis</title>
-      <link>https://yuvalbloch.com/research/senstiviy1/</link>
+      <link>http://localhost:1313/research/senstiviy1/</link>
       <pubDate>Mon, 09 Jun 2025 10:00:00 +0300</pubDate>
-      <guid>https://yuvalbloch.com/research/senstiviy1/</guid>
+      <guid>http://localhost:1313/research/senstiviy1/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Ecological models often depend on parameters that are difficult to measure precisely. &lt;strong&gt;Sensitivity analysis&lt;/strong&gt; helps us ask: &lt;em&gt;how much do these uncertainties matter?&lt;/em&gt; It allows us to explore:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Which parameters most strongly influence model outcomes&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;What combinations lead to persistence or extinction&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;How robust the system is to changes in key assumptions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;In this project, I go beyond simply measuring sensitivity. I use these tools to &lt;strong&gt;map the boundary between viable and non-viable ecological conditions&lt;/strong&gt;—the tipping points where tick populations either collapse or persist. By comparing these boundaries to patterns observed in real-world data, I can ask a deeper question: &lt;strong&gt;which combinations of parameters are not just viable, but actually relevant to the system I&amp;rsquo;m trying to model?&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Simulating Tick Life Cycles Across Landscapes</title>
-      <link>https://yuvalbloch.com/research/tick-population-model/</link>
+      <link>http://localhost:1313/research/tick-population-model/</link>
       <pubDate>Thu, 05 Jun 2025 18:31:05 +0300</pubDate>
-      <guid>https://yuvalbloch.com/research/tick-population-model/</guid>
-      <description>&lt;h2 id=&#34;model&#34;&gt;Model&lt;/h2&gt;&#xA;&lt;p&gt;This model simulates tick population dynamics using a &lt;strong&gt;3-layer lattice&lt;/strong&gt;, where each layer corresponds to a life stage: &lt;strong&gt;larva&lt;/strong&gt;, &lt;strong&gt;nymph&lt;/strong&gt;, and &lt;strong&gt;adult&lt;/strong&gt;. Ticks move both &lt;strong&gt;vertically&lt;/strong&gt; between life stages and &lt;strong&gt;horizontally&lt;/strong&gt; between geographic locations by biting a host.&lt;/p&gt;&#xA;&lt;h3 id=&#34;lattice-and-tick-population&#34;&gt;Lattice and Tick Population&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Each land cell is denoted by $L_{i,j}$, with a tick-carrying capacity $K_{i,j}$.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The population at life stage $s$ in cell $L_{i,j}$ is represented by $P_{i,j,s}$.&lt;/p&gt;&#xA;&lt;figure &gt;&#xA;  &lt;img src=&#34;https://yuvalbloch.com/assets/model.svg&#34; alt=&#34;Tick model diagram&#34;        style=&#34;max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;&#34;&gt;&#xA;  &lt;figcaption style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;&#xA;    &lt;strong&gt;Figure 1.&lt;/strong&gt; Each life stage is represented as a 2D lattice layer. Bites cause vertical (stage) and horizontal (spatial) movement.&#xA;  &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;tick-movement-and-life-cycle&#34;&gt;Tick Movement and Life Cycle&lt;/h3&gt;&#xA;&lt;p&gt;To simplify, the model is first described in discrete steps:&lt;/p&gt;</description>
+      <guid>http://localhost:1313/research/tick-population-model/</guid>
+      <description>&lt;h2 id=&#34;model&#34;&gt;Model&lt;/h2&gt;&#xA;&lt;p&gt;This model simulates tick population dynamics using a &lt;strong&gt;3-layer lattice&lt;/strong&gt;, where each layer corresponds to a life stage: &lt;strong&gt;larva&lt;/strong&gt;, &lt;strong&gt;nymph&lt;/strong&gt;, and &lt;strong&gt;adult&lt;/strong&gt;. Ticks move both &lt;strong&gt;vertically&lt;/strong&gt; between life stages and &lt;strong&gt;horizontally&lt;/strong&gt; between geographic locations by biting a host.&lt;/p&gt;&#xA;&lt;h3 id=&#34;lattice-and-tick-population&#34;&gt;Lattice and Tick Population&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Each land cell is denoted by $L_{i,j}$, with a tick-carrying capacity $K_{i,j}$.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The population at life stage $s$ in cell $L_{i,j}$ is represented by $P_{i,j,s}$.&lt;/p&gt;&#xA;&lt;figure &gt;&#xA;  &lt;img src=&#34;http://localhost:1313/assets/model.svg&#34; alt=&#34;Tick model diagram&#34;        style=&#34;max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;&#34;&gt;&#xA;  &lt;figcaption style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;&#xA;    &lt;strong&gt;Figure 1.&lt;/strong&gt; Each life stage is represented as a 2D lattice layer. Bites cause vertical (stage) and horizontal (spatial) movement.&#xA;  &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;tick-movement-and-life-cycle&#34;&gt;Tick Movement and Life Cycle&lt;/h3&gt;&#xA;&lt;p&gt;To simplify, the model is first described in discrete steps:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

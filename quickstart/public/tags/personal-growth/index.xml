@@ -2,24 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Personal-Growth on Complexity &amp; Ecology Research</title>
-    <link>https://yuvalbloch.com/tags/personal-growth/</link>
+    <link>http://localhost:1313/tags/personal-growth/</link>
     <description>Recent content in Personal-Growth on Complexity &amp; Ecology Research</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yuvalbloch.com/tags/personal-growth/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The Mind&#39;s Native Tongue - Myth, Symbol, and the Internal Map</title>
-      <link>https://yuvalbloch.com/blog/the-minds-native-tongue----myth-symbol-and-the-internal-map/</link>
-      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/blog/the-minds-native-tongue----myth-symbol-and-the-internal-map/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;The Mind&amp;rsquo;s Native Tongue: Myth, Symbol, and the Internal Map&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;To navigate the complex internal landscape of the human psyche, we must understand the mind through its own language. &lt;strong&gt;Sigmund Freud&lt;/strong&gt; viewed symbols, dreams, and stories primarily as defense mechanisms—means by which the mind communicates content too frightening to be expressed directly. &lt;strong&gt;Carl Jung&lt;/strong&gt; offered a fundamentally different perspective: for him, symbols and stories are the inherent language of the &lt;strong&gt;collective and personal unconscious&lt;/strong&gt;, a vital means by which the psyche communicates with and explores its own internal reality. This contrast highlights a key insight into complex systems: the mind cannot be fully understood merely by analysis and fragmentation. It must also be approached through its own native languages—&lt;strong&gt;stories, symbols, spirituality, and mysticism.&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Thu, 03 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/personal-growth/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Possible Me: Identity as a Path, Not a Point</title>
-      <link>https://yuvalbloch.com/blog/identity/</link>
+      <link>http://localhost:1313/blog/identity/</link>
       <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://yuvalbloch.com/blog/identity/</guid>
+      <guid>http://localhost:1313/blog/identity/</guid>
       <description>&lt;p&gt;With Pride around the corner here in my favorite desert town, Mitzpe Ramon, and following recent reflections on quench disorder, Life&amp;rsquo;s inherent instability, and the mind–matter dance, this feels like the right moment to turn our attention to something both deeply personal and profoundly collective: identity.&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-weve-learned-so-far&#34;&gt;What We&amp;rsquo;ve Learned So Far&lt;/h3&gt;&#xA;&lt;p&gt;In &lt;em&gt;Life on the Edge&lt;/em&gt;, we explored how living systems don&amp;rsquo;t just persist—they remember. DNA stores information structurally, while in more complex organisms, memory is also encoded neurologically. What&amp;rsquo;s vital here is that memory doesn&amp;rsquo;t endure by staying still, but by renewing itself. Life persists through motion, not stasis.&lt;/p&gt;</description>
     </item>
   </channel>

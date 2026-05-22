@@ -11,10 +11,28 @@
             "id": "84679faf50bc2f49",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/blog/figaro.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "figaro"
+            }
+          },
+          {
+            "id": "101b40eca851b953",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/blog/Mira.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Mira"
             }
           }
         ]
@@ -163,5 +181,33 @@
     }
   },
   "active": "84679faf50bc2f49",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "content/blog/Mira.md",
+    "content/blog/figaro.md",
+    "public/posts/figaro/example.png",
+    "static/posts/figaro/example.png",
+    "public/posts/figaro/Screenshot 2026-05-22 150050.png",
+    "static/posts/figaro/Screenshot 2026-05-22 150050.png",
+    "public/tags/scientific_tools/index.xml",
+    "public/tags/hackathon/index.xml",
+    "public/tags/figaro/index.xml",
+    "public/tags/scientific_tools/index.html",
+    "public/tags/scientific_tools",
+    "public/tags/hackathon/index.html",
+    "public/tags/hackathon",
+    "public/tags/figaro/index.html",
+    "public/tags/figaro",
+    "public/blog/figaro/index.html",
+    "public/posts/figaro/Picture2.png",
+    "public/posts/figaro/figaro_logo.png",
+    "static/posts/figaro/figaro_logo.png",
+    "static/posts/figaro/Picture2.png",
+    "static/posts/figaro/figaro_logo_v2.png",
+    "content/blog/Life on the edge.md",
+    "content/blog/Life Science Now.md",
+    "public/posts/mira/mira.png",
+    "content/blog/The Mind's Native Tongue -  Myth, Symbol, and the Internal Map.he.md",
+    "content/blog/The Mind's Native Tongue -  Myth, Symbol, and the Internal Map.md",
+    "content/blog/personal mythology.md"
+  ]
 }

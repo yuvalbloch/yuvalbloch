@@ -1,11 +1,12 @@
 ---
 lang: he
-language_direction: "rtl"
+language_direction: rtl
 title: 'מסע אל תוך ה"זיכרון הכפול": המיתוס האישי כשיקוף הנפש'
 date: 2025-10-09
-description: "על כוחם של סיפורים, התבוננות מהמיתולגיה האישית שלי, לצד מחקר פסיכולוגי"
-featured_image: /posts/mythology/jung.jpg 
+description: על כוחם של סיפורים, התבוננות מהמיתולגיה האישית שלי, לצד מחקר פסיכולוגי
+featured_image: /posts/mythology/jung.jpg
 omit_header_text: true
+draft: true
 ---
 <div class="hebrew-text-rtl">
 
