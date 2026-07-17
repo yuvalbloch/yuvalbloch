@@ -6,8 +6,15 @@
     <description>Recent content in Research on Complexity &amp; Ecology Research</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yuvalbloch.com/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Three lessons on Bayesian optimization, and one on humility</title>
+      <link>https://yuvalbloch.com/research/making-reproducible-science/</link>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://yuvalbloch.com/research/making-reproducible-science/</guid>
+      <description>&lt;p&gt;Two weeks ago, I told my advisor that my thesis was ready. We decided to delay the submission a little — partly so he could find a referee, and partly so I could keep my scholarship while I converted the thesis into a paper and made sure my code was reproducible.&lt;/p&gt;&#xA;&lt;p&gt;Three days ago, I finished building a simple pipeline that would let future researchers reproduce all of my results without needing me around. I ran a quick test to confirm that I could reproduce everything without diving back into the code myself — and when I ran a full reproduction through the pipeline, I got completely different results.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>End of Greatness: Lacunarity and the Index of Transitional Homogeneity</title>
       <link>https://yuvalbloch.com/research/index_of_transitnal_homginaty/</link>
