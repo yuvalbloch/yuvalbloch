@@ -166,3 +166,6 @@ The final question I need to answer before applying this model to real land use 
 In my [next post](https://yuvalbloch.com/research/sensitivity-to-land-configuration/), I’ll explore this by using a beautiful mathematical concept: **fractal dimensionality**. I’ll show how it reveals that the model isn’t just reacting to average conditions—it’s truly sensitive to the **spatial complexity** of the land.
 
 📢 **Stay tuned**—it gets surprisingly elegant.
+
+
+{{< repo >}}

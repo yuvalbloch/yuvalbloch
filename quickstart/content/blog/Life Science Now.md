@@ -7,6 +7,8 @@ featured_image: /assets/blog/rite_of_spring.jpeg
 description: "Here lies the power of life science: it doesn't promise a kind universe. Instead, it reveals how beauty and resilience erupt  within  the storm."
 tags: [complex-systems]
 omit_header_text: true
+featured: 1
+featured_label: "Why this blog"
 ---
 
 

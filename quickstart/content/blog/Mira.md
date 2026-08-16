@@ -5,6 +5,8 @@ description: "How we used AI to develop a visualization tool for our research fi
 tags: [ai-and-productivity, academic-life]
 featured_image: /posts/mira/mira.png 
 omit_header_text: true
+featured: 3
+featured_label: "Building things"
 ---
 
 Three months ago, my PI Shai Pilosoph offered me a spot on a project he had already started: a new tool for visualizing multilayer ecological networks. I was skeptical. Already on an extension for my thesis, I was afraid to take on anything new when I was already stretched thin. But he showed me what he had built so far, and we talked about how publishing it could support the field in a meaningful way — and add something real to my résumé. So I decided to join, as second author, alongside my colleague Shir who stepped in as the lead writer.

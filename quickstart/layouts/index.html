@@ -4,35 +4,61 @@
     {{ .Content }}
   </article>
 
-  {{ $mainSections := site.Params.mainSections | default (slice "post") }}
-  {{ $show_recent_posts := site.Params.ananke.show_recent_posts }}
-  {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
-  {{ $section_count := len $section }}
+  {{/* Curated front door: pages opt in with `featured: <n>` in their frontmatter.
+       The lowest number becomes the lead card; the rest fill the grid below. */}}
+  {{ $featured := sort (where site.RegularPages "Params.featured" "!=" nil) "Params.featured" }}
 
-  {{ if and $show_recent_posts (ge $section_count 1) }}
-    <div class="pa3 pa4-ns w-100 w-70-ns center home-recent-posts">
-      {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
+  {{ with $featured }}
+    <div class="yb-panel">
 
-      <section class="w-100 mw8">
-        {{ range first $n_posts $section }}
-          <div class="w-100 mb4 relative">
-            {{ .Render "summary-with-image" }}
-          </div>
+      {{ $lead := index . 0 }}
+      <h2 class="yb-heading">Start here</h2>
+      <a class="yb-card yb-card--lead" href="{{ $lead.RelPermalink }}">
+        {{ with $lead.Params.featured_image }}
+          <span class="yb-card-img" style="background-image:url('{{ . | relURL }}');" role="presentation"></span>
         {{ end }}
-      </section>
+        <span class="yb-card-body">
+          {{ with $lead.Params.featured_label }}<span class="yb-chip">{{ . }}</span>{{ end }}
+          <span class="yb-card-title">{{ $lead.Title }}</span>
+          <span class="yb-card-desc">{{ $lead.Description | default $lead.Summary }}</span>
+        </span>
+      </a>
 
-      {{ if ge $section_count (add $n_posts 1) }}
-        <section class="w-100">
-          <h1 class="f3">{{ i18n "more" }}</h1>
-          {{ range first 4 (after $n_posts $section) }}
-            <h2 class="f5 fw4 mb4 dib {{ if eq $.Site.Language.LanguageDirection "rtl" }}ml3{{ else }}mr3{{ end }}">
-              <a href="{{ .RelPermalink }}" class="link black dim">
-                {{ .Title }}
-              </a>
-            </h2>
+      {{ with after 1 . }}
+        <h2 class="yb-heading">Selected work</h2>
+        <div class="yb-grid">
+          {{ range . }}
+            <a class="yb-card" href="{{ .RelPermalink }}">
+              {{ with .Params.featured_image }}
+                <span class="yb-card-img" style="background-image:url('{{ . | relURL }}');" role="presentation"></span>
+              {{ end }}
+              <span class="yb-card-body">
+                {{ with .Params.featured_label }}<span class="yb-chip">{{ . }}</span>{{ end }}
+                <span class="yb-card-title">{{ .Title }}</span>
+                <span class="yb-card-desc">{{ .Description | default .Summary }}</span>
+              </span>
+            </a>
           {{ end }}
-        </section>
+        </div>
       {{ end }}
+
+      {{/* Recent posts, kept deliberately compact so the curated cards stay dominant. */}}
+      {{ $mainSections := site.Params.mainSections | default (slice "post") }}
+      {{ $recent := where site.RegularPages "Section" "in" $mainSections }}
+      {{ $recent = where $recent "Params.featured" "==" nil }}
+      {{ with first 5 $recent }}
+        <h2 class="yb-heading">Recent writing</h2>
+        <ul class="yb-recent">
+          {{ range . }}
+            <li>
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2006" }}</time>
+            </li>
+          {{ end }}
+        </ul>
+        <p class="yb-more"><a href="{{ "/blog/" | relURL }}">All posts &rarr;</a></p>
+      {{ end }}
+
     </div>
   {{ end }}
 

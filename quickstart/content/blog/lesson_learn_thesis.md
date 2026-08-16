@@ -1,4 +1,3 @@
-
 ---
 lang: en
 title: "Three Years, Six Semesters: What Writing My Thesis Actually Taught Me"
@@ -8,7 +7,8 @@ featured_image: /posts/images.jpeg
 tags: [academic-life]
 omit_header_text: true
 draft: false
-
+featured: 4
+featured_label: "Reflection"
 ---
 
 Today I submitted my thesis. It's the kind of milestone that should feel like a finish line, but it doesn't quite — I still have to defend it, and I'm in the middle of submitting a paper drawn from it to _Nature Communications Earth & Environment_. Still, by the time that review process wraps up, in this journal or another, I'll likely already be somewhere else in my life. So this feels like the right moment to look back at the continuous stretch of work that's ending today, even if fragments of it will follow me a while longer.

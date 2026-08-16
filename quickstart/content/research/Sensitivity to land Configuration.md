@@ -168,3 +168,6 @@ These results confirm that the model is **sensitive to spatial configuration** a
 
 In the next post, I will explore how spatial complexity further influences model behavior and provide additional insights into the ecological processes shaping these patterns.
 
+
+
+{{< repo >}}

@@ -1,6 +1,6 @@
 baseURL = "https://yuvalbloch.com/"
 languageCode = "en-us"
-title = "Complexity & Ecology Research"
+title = "Yuval Bloch — Complexity & Ecology"
 theme = "ananke"
 googleAnalytics = "G-G88CJRGNM1"
 defaultContentLanguage = "en"  # Explicitly set the default language
@@ -11,6 +11,9 @@ enableRobotsTXT = true         # Best practice to enable this here
   description = "Exploring the dynamics of ecological systems and biological complexity to uncover the hidden patterns shaping our world."
   custom_css = ["custom.css"]
   mainSections = ["blog"]
+  # Single source of truth for the {{< repo >}} shortcode used across content/research/
+  research_repo = "https://github.com/MadagascarEEID/LUC_Madagascar"
+  research_doi = "https://doi.org/10.5281/zenodo.21888470"
   ananke.show_recent_posts = true
   omit_header_text = false
   summaryLength = 10  # reduce to 25 words instead of 70
@@ -38,19 +41,24 @@ enableRobotsTXT = true         # Best practice to enable this here
     weight = 3
 
   [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 4
+
+  [[menu.main]]
     name = "Blog"
     url = "/blog/"
-    weight = 4
+    weight = 5
 
   [[menu.main]]
     name = "teaching"
     url = "/teaching/"
-    weight = 5
+    weight = 6
 
   [[menu.main]]
     name = "LEAN"
     url = "/LEAN/"
-    weight = 6
+    weight = 7
 
 [params.ananke.social.follow]
   new_window_icon = true
@@ -79,7 +87,7 @@ enableRobotsTXT = true         # Best practice to enable this here
     languageCode = "he"
     languageDirection = "rtl" # Crucial for Hebrew
     weight = 2
-    title = " מורכבות ואקולוגיה" # Hebrew translation of the site title
+    title = "יובל בלוך — מורכבות ואקולוגיה" # Hebrew translation of the site title
 
 # RobotsTXT and other output formats can be simplified by enabling them on a per-language basis if needed,
 # but for now, they are fine as is.

@@ -154,3 +154,5 @@ Email: [yuvalblo@postbgu.ac.il](mailto:yuvalblo@postbgu.ac.il)
 * **Mariel, J. et al. (2023).** From shifting rice cultivation (Tavy) to agroforestry systems. *Agroforestry Systems*, 97(3), 415–431.
 * **Smith, P., et al. (2014).** Agriculture, Forestry and Other Land Use (AFOLU). *IPCC AR5*.
 * **Swei, A., et al. (2020).** Patterns, drivers, and challenges of vector-borne disease emergence. *Vector-Borne and Zoonotic Diseases*, 20(3), 159–170.
+
+{{< repo >}}

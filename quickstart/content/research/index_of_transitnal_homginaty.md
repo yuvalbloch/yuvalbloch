@@ -5,6 +5,8 @@ featured_image: /research/night_sky.jpeg
 date: 2026-02-20
 tags: [ecological-modeling]
 omit_header_text: true
+featured: 2
+featured_label: "Research"
 ---
 
 One of the best things about being an ecologist in this era is the constant opportunity to bridge different disciplines. Recently, my research led me to use a measure called **transitional homogeneity**—a concept originally developed in cosmology to estimate how matter is spread throughout the universe. My journey to this point was a classic scientific process of trial and error.
@@ -82,3 +84,5 @@ This evolution—moving from simple interaction indices to complex, multidiscipl
 * **Scott, R., et al. (2022).** [A Lacunarity-based Index for Spatial Heterogeneity.](https://doi.org/10.1029/2021ea002180) *Earth and Space Science*.
 * **Taubert, F., et al. (2018).** Global patterns of tropical forest fragmentation. *Nature*, 554(7693), 519–522.
 * **Malhi, Y. & Román-Cuesta, R. M. (2008).** [Analysis of lacunarity and scales of spatial homogeneity in IKONOS images of Amazonian tropical forest canopies.](https://doi.org/10.1016/j.rse.2008.01.001) *Remote Sensing of Environment*.
+
+{{< repo >}}

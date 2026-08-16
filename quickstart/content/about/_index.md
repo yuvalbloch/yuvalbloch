@@ -16,8 +16,9 @@ cascade:
   </div>
 
   <div style="flex: 2 1 400px; font-size: 1.1rem; line-height: 1.6;">
-    <p><strong>I’m Yuval Bloch</strong>, a computational ecologist and M.Sc. student in the Department of Life Sciences at <strong>Ben-Gurion University of the Negev</strong>, working in the <strong>Ecological Complexity Lab</strong> under the supervision of Dr. Shai Pilosoph.</p>
-    <p>My research focuses on applying computational tools to understand and model complex ecological systems. With a background in computer science and a strong interest in ecological theory, I integrate approaches from machine learning, network science, and spatial modeling to explore biodiversity, disease dynamics, and ecosystem resilience.</p>
+    <p><strong>I’m Yuval Bloch</strong>, a computational ecologist. I completed my M.Sc. in the Department of Life Sciences at <strong>Ben-Gurion University of the Negev</strong> in 2026, in the <strong>Ecological Complexity Lab</strong> under the supervision of Prof. Shai Pilosof.</p>
+    <p>My research applies computational tools to understand and model complex ecological systems. With a background in computer science and a strong interest in ecological theory, I integrate approaches from machine learning, network science, and spatial modeling to explore biodiversity, disease dynamics, and ecosystem resilience.</p>
+    <p>A full list of papers, software, and my thesis is on the <a href="/publications/">publications page</a>.</p>
   </div>
 </div>
 
@@ -37,13 +38,13 @@ cascade:
   </div>
 
   <div style="flex: 2 1 400px; font-size: 1.1rem; line-height: 1.6;">
-    <h3>Current Work</h3>
-    <p>I'm currently developing a computational model that simulates tick population dynamics in relation to land-use patterns and economic scenarios. This work is part of the <strong>EEID Madagascar Project</strong>, and aims to predict future disease risks under changing ecological and socio-economic conditions.</p>
+    <h3>M.Sc. Research</h3>
+    <p>My thesis developed a multiscale cellular automata–Markov framework for modelling smallholder shifting cultivation and vanilla agroforestry landscapes in northeastern Madagascar, coupled to a stochastic agent-based tick population model to project disease exposure under different agroeconomic scenarios. The work was part of the <strong>EEID Madagascar Project</strong>. Code, thesis, and a manuscript in review are listed on the <a href="/publications/">publications page</a>.</p>
 
 <h3>Academic Background</h3>
 <ul>
-  <li><strong>M.Sc. in Biology and Ecology</strong>, Ben-Gurion University of the Negev<br>_2023 – Present_ | GPA: 95</li>
-  <li><strong>B.Sc. in Computer Science</strong>, The Open University of Israel<br>_2020 – 2023_ | GPA: 83</li>
+  <li><strong>M.Sc. in Biology and Ecology</strong>, Ben-Gurion University of the Negev<br><em>2023 – 2026</em> | GPA: 95</li>
+  <li><strong>B.Sc. in Computer Science</strong>, The Open University of Israel<br><em>2020 – 2023</em> | GPA: 83</li>
 </ul>
   </div>
 </div>

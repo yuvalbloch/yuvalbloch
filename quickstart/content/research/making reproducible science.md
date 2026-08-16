@@ -84,3 +84,5 @@ And, most importantly, it lets me report a genuinely meaningful parameter in my 
 So why didn't I think of all this earlier? Given what I know about my model and about parameter optimization, some of these decisions — especially the last one — look trivial in hindsight.
 
 But I think that while this was a lesson in humility, it also taught me something else: the solution to a riddle always looks trivial once you have it. The truth is that each of these fixes required a clear view of my system, a clear view of Bayesian optimization, and — most importantly — the ability to spot a needle in a haystack. There are millions of potential problems in complex ecological modeling, and when we try to work out what went wrong, we're searching an almost infinite space. I caught this one by accident. But I believe that true mastery of scientific modeling is being able to see these things coming in advance.
+
+{{< repo >}}

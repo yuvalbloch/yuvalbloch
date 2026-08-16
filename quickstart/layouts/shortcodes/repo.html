@@ -1,0 +1,12 @@
+{{- /* Code-repository callout.
+       Usage: {{< repo >}}                       -> site.Params.research_repo
+              {{< repo url="https://..." >}}      -> explicit repo
+              {{< repo text="Model + analysis" >}} -> custom lead-in text
+*/ -}}
+{{- $url := .Get "url" | default site.Params.research_repo -}}
+{{- with $url -}}
+<aside class="yb-repo">
+  <strong>Code</strong>
+  {{ with $.Get "text" }}{{ . }} &mdash; {{ end }}<a href="{{ . }}" rel="noopener" target="_blank">{{ replace . "https://github.com/" "" }}</a>{{ with site.Params.research_doi }} · archived at <a href="{{ . }}" rel="noopener" target="_blank">Zenodo</a>{{ end }}
+</aside>
+{{- end -}}

@@ -13,6 +13,8 @@ In my research, I employ the measurement of **lacunarity** based on the methodol
 
 Here, I will provide a less formal description of the mathematics behind this method and its implementation in **Julia**.
 
+**Note:** Since writing this post, subsequent analysis revealed a strong correlation between Scott’s (R) measure and edge density. To address this issue, I switched to the [Index of Transitional Homogeneity](https://yuvalbloch.com/research/index_of_transitnal_homginaty/), which provides a more appropriate measure of spatial structure.
+
 ---
 
 ## 1. What is Lacunarity ($\Lambda(r)$)?
@@ -325,4 +327,5 @@ function calcualte_index(B_map)
 end
 ```
 
-Next, I planned to combine this index with the **midpoint displacement algorithm** to explore the relation between lacunarity and fractal dimension—though it turned out this index itself had a deeper problem worth [chasing down first](https://yuvalbloch.com/research/index_of_transitnal_homginaty/).
+
+{{< repo >}}

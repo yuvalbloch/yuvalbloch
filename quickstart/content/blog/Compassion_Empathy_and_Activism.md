@@ -7,6 +7,8 @@ tags: [activism-and-compassion, mind-and-neuroscience, war-and-conflict]
 featured_image: /assets/blog/budhu.jpeg
 omit_header_text: true
 draft: false
+featured: 5
+featured_label: "Essay"
 ---
 As the war in Israel drags on — a strain on the mind [I write about before](https://yuvalbloch.com/blog/eye_of_the_storm/) — I see many friends—especially peace activists—feeling burned out. It's not surprising. Carrying so much pain for so long takes a toll. But psychology, neuroscience, and ancient traditions offer an insight that can help: a deeper understanding of **empathy** and **compassion**, and how they shape our inner lives.
 

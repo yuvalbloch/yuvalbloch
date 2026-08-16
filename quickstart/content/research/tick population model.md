@@ -110,3 +110,6 @@ Although the model does not explicitly include the **Rickettsia** pathogen, it a
 
 Before applying this model to real landscapes, I first needed to test how sensitive it is to its own parameters — see [Finding Viable Parameter Spaces with Sensitivity Analysis](https://yuvalbloch.com/research/senstiviy1/).
 
+
+
+{{< repo >}}
