@@ -1,3 +1,8 @@
+/* NOTE: the rules in this block target Bulma's .navbar classes, which the
+   ananke theme does not use (its header markup is Tachyons-based). They have
+   never had any effect and are kept only to avoid changing appearance
+   unintentionally — safe to delete. */
+
 /* Header background */
 nav.navbar {
   background-color: #ffeb3b !important; /* bright yellow */
@@ -33,12 +38,16 @@ nav.navbar {
    Home page: curated featured cards (see layouts/index.html)
    --------------------------------------------------------------- */
 
+/* The home page sets a full-bleed photo as the body background, so this
+   section needs its own opaque panel or the text sits straight on the image
+   and is unreadable. Matches the intro .overlay box in content/_index.md. */
 .yb-panel {
   max-width: 960px;
-  margin: 0 auto 4rem;
-  padding: 2rem 2rem 2.5rem;
-  background-color: rgba(255, 255, 255, 0.9);
+  margin: 2rem auto 4rem;
+  padding: 2.25rem 2.25rem 2.5rem;
+  background-color: rgba(255, 255, 255, 0.95);
   border-radius: 12px;
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.18);
 }
 
 .yb-heading {
