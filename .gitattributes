@@ -1,0 +1,7 @@
+# The published CNAME controls the custom domain (yuvalbloch.com). A stray CR
+# can break the domain binding on GitHub Pages, so keep it LF on every platform.
+CNAME text eol=lf
+
+# Keep the deploy workflow LF as well; it runs on ubuntu-latest.
+*.yml text eol=lf
+*.yaml text eol=lf
