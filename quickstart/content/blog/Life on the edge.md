@@ -5,7 +5,7 @@ title: "Life on the Edge: Facing Impermanence, Entropy, and Meaning"
 date: 2025-06-25
 description: "Confronting the fragility of existence amidst global challenges, this post explores how impermanence, entropy, and life's inherent computational nature define our being. Discover how understanding these forces, from cellular memory to Earth's self-regulation, can lead to deeper meaning."
 tags: [impermanence, entropy, meaning-of-life, complexity-theory, spirituality, mortality, gaia-hypothesis, cellular-computation, neuroscience, philosophy-of-science]
-featured_image: /assets/life_on_the_edge.jpg 
+featured_image: /assets/blog/life_on_the_edge.jpg 
 omit_header_text: true
 
 ---
@@ -99,7 +99,7 @@ Life is defined by its capacity to **remember and compute**—to build structure
 It may feel counterintuitive—how do organisms without brains perform computations? Recall from **[The Unseen Architects: Exploring the Fundamental Properties of Life](https://yuvalbloch.com/blog/post-1/)** how **cellular automata** create complex patterns from simple local rules. Though I didn't say it before (since math is a bit heavy), these patterns are mathematical solutions—many identical cells, guided by DNA, collectively solve complex problems.
 
 A perfect example is the slime mold _Physarum polycephalum_. Despite having no brain, it grows toward food sources in a way that optimally solves spatial problems. On a map of food sites, it constructs networks that rival human transport systems—many studies have shown it can outperform most metro networks, with Tokyo being a rare exception. This mold isn't learning in a neural sense—it is learned through evolution and computes via distributed cellular processes.
-<figure> <img src="/assets/mold.jpg" alt="Slime mold creating optimal networks" style="max-width:100%; height:auto; display:block; margin: 0 auto; border-radius: 12px;"> <figcaption style="font-size: 0.9em; color: #666; margin-top: 0.8rem; line-height: 1.5; padding: 0 1rem; text-align: center;">Physarum polycephalum, a simple mold with no brain, capable of designing traffic systems better than most governments. </figcaption> </figure>
+<figure> <img src="/assets/blog/mold.jpg" alt="Slime mold creating optimal networks" style="max-width:100%; height:auto; display:block; margin: 0 auto; border-radius: 12px;"> <figcaption style="font-size: 0.9em; color: #666; margin-top: 0.8rem; line-height: 1.5; padding: 0 1rem; text-align: center;">Physarum polycephalum, a simple mold with no brain, capable of designing traffic systems better than most governments. </figcaption> </figure>
 
 
 
@@ -128,7 +128,7 @@ But just as in the body, when one group of cells reproduces uncontrollably and c
 And we are not the first to take Earth down this path.
 
 Roughly 2.4 billion years ago, during the **Great Oxidation Event**, cyanobacteria released massive amounts of oxygen into the atmosphere. This radical transformation caused mass extinction and, at the same time, made complex life possible. It's a reminder that life can alter the planet on a planetary scale, both destructively and creatively.
-<figure> <img src="/assets/great_oxidiation.jpg" alt="The Great Oxidation Event" style="max-width:100%; height:auto; display:block; margin: 0 auto; border-radius: 12px;"> <figcaption style="font-size: 0.9em; color: #666; margin-top: 0.8rem; line-height: 1.5; padding: 0 1rem; text-align: center;"> The Great Oxidation Event: The emergence of cyanobacteria released so much oxygen that the oceans froze and most life disappeared; yet, this oxygen also allowed new levels of complex life to emerge. </figcaption> </figure>
+<figure> <img src="/assets/blog/great_oxidiation.jpg" alt="The Great Oxidation Event" style="max-width:100%; height:auto; display:block; margin: 0 auto; border-radius: 12px;"> <figcaption style="font-size: 0.9em; color: #666; margin-top: 0.8rem; line-height: 1.5; padding: 0 1rem; text-align: center;"> The Great Oxidation Event: The emergence of cyanobacteria released so much oxygen that the oceans froze and most life disappeared; yet, this oxygen also allowed new levels of complex life to emerge. </figcaption> </figure>
 
 ---
 

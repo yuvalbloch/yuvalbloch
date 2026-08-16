@@ -6,7 +6,7 @@ omit_header_text: true
 cascade:
   params:
     cover_dimming_class: ""
-    featured_image: /assets/image_for_top1.png
+    featured_image: /assets/site/image_for_top1.png
 description: Explore research and insights on applying complexity theory to ecology, human behavior, and various other systems. Learn how simple rules create complex patterns.
 ---
 
@@ -29,7 +29,7 @@ main.main-content,
   box-shadow: none !important;
 }
   body {
-    background: url('/assets/image_for_top1.png') no-repeat center center fixed;
+    background: url('/assets/site/image_for_top1.png') no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -45,7 +45,7 @@ main.main-content,
 
 <div class="overlay">
   <div style="text-align: center; margin-bottom: 2rem;">
-    <img src="/assets/me.jpeg" alt="Yuval Bloch" style="border-radius: 50%; width: 300px; height: 300px; object-fit: cover; border: 4px solid #ccc; box-shadow: 0 0 12px rgba(0,0,0,0.15);">
+    <img src="/assets/site/me.jpeg" alt="Yuval Bloch" style="border-radius: 50%; width: 300px; height: 300px; object-fit: cover; border: 4px solid #ccc; box-shadow: 0 0 12px rgba(0,0,0,0.15);">
   </div>
 
   

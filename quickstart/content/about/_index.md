@@ -7,12 +7,12 @@ omit_header_text: true
 lang: "en"
 cascade:
   params:
-    featured_image: '/assets/image_for_top1.png'
+    featured_image: '/assets/site/image_for_top1.png'
 ---
 
 <div style="display: flex; flex-wrap: wrap; flex-direction: row-reverse; gap: 2rem; align-items: flex-start; margin-bottom: 2.5rem;">
   <div style="flex: 1 1 350px; max-width: 400px;">
-    <img src="/assets/me.jpeg" alt="Yuval Bloch" style="width: 100%; height: auto;">
+    <img src="/assets/site/me.jpeg" alt="Yuval Bloch" style="width: 100%; height: auto;">
   </div>
 
   <div style="flex: 2 1 400px; font-size: 1.1rem; line-height: 1.6;">
@@ -33,7 +33,7 @@ cascade:
 
 <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; margin-bottom: 2rem;">
   <div style="flex: 1 1 300px; max-width: 400px;">
-    <img src="/assets/lab_image.png" alt="Ecological Complexity Lab" style="width: 100%; height: auto;">
+    <img src="/assets/site/lab_image.png" alt="Ecological Complexity Lab" style="width: 100%; height: auto;">
   </div>
 
   <div style="flex: 2 1 400px; font-size: 1.1rem; line-height: 1.6;">

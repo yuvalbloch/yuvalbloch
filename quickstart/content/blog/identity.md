@@ -3,16 +3,16 @@ title: "The Possible Me: Identity as a Path, Not a Point"
 date: 2025-07-03
 description: "Through the lens of assembly theory and personal reflection, this post explores identity as an evolving process shaped by memory, attention, and connection. From childhood development to queer becoming, it honors the dynamic, layered nature of the self—and the communities that allow it to grow."
 tags: [identity, fluidity, assembly-theory, neuroplasticity, pride, personal-growth, philosophy-of-mind, queer-theory, complexity, memory]
-featured_image: /assets/OogwayAscends.webp
+featured_image: /assets/blog/OogwayAscends.webp
 omit_header_text: true
 ---
 With Pride around the corner here in my favorite desert town, Mitzpe Ramon, and following recent reflections on quench disorder, Life's inherent instability, and the mind–matter dance, this feels like the right moment to turn our attention to something both deeply personal and profoundly collective: identity.
 
 ### What We've Learned So Far
 
-In _Life on the Edge_, we explored how living systems don't just persist—they remember. DNA stores information structurally, while in more complex organisms, memory is also encoded neurologically. What's vital here is that memory doesn't endure by staying still, but by renewing itself. Life persists through motion, not stasis.
+In [_Life on the Edge_](https://yuvalbloch.com/blog/life-on-the-edge/), we explored how living systems don't just persist—they remember. DNA stores information structurally, while in more complex organisms, memory is also encoded neurologically. What's vital here is that memory doesn't endure by staying still, but by renewing itself. Life persists through motion, not stasis.
 
-Then, in _Eye of the Storm_, we looked at the brain–mind relationship as a loop of mutual influence. The brain shapes the mind; the mind reshapes the brain. This interplay expands beyond the head—we are bodies, environments, and relationships. So from here on, I'll use the broader term: **mind and matter**.
+Then, in [_Eye of the Storm_](https://yuvalbloch.com/blog/eye_of_the_storm/), we looked at the brain–mind relationship as a loop of mutual influence. The brain shapes the mind; the mind reshapes the brain. This interplay expands beyond the head—we are bodies, environments, and relationships. So from here on, I'll use the broader term: **mind and matter**.
 
 ### So What _Is_ Identity?
 

@@ -4,11 +4,11 @@ title: "Compassion, Empathy, and Activism Without Burnout"
 date: 2025-08-30
 description: When we witness suffering and injustice, we often feel guilt and distress. But basing activism on these emotions is unsustainable. This post explores how psychology, neuroscience, and ancient traditions can help us transform pain into the lasting power of compassion.
 tags: [meaning-of-life, spirituality, neuroscience, compassion]
-featured_image: /assets/budhu.jpeg
+featured_image: /assets/blog/budhu.jpeg
 omit_header_text: true
 draft: false
 ---
-As the war in Israel drags on, I see many friends—especially peace activists—feeling burned out. It's not surprising. Carrying so much pain for so long takes a toll. But psychology, neuroscience, and ancient traditions offer an insight that can help: a deeper understanding of **empathy** and **compassion**, and how they shape our inner lives.
+As the war in Israel drags on — a strain on the mind [I write about before](https://yuvalbloch.com/blog/eye_of_the_storm/) — I see many friends—especially peace activists—feeling burned out. It's not surprising. Carrying so much pain for so long takes a toll. But psychology, neuroscience, and ancient traditions offer an insight that can help: a deeper understanding of **empathy** and **compassion**, and how they shape our inner lives.
 
 #### The Problem with Empathy
 
@@ -65,7 +65,7 @@ These ancient insights helped inspire modern research. The **Mind and Life Insti
 
 #### Toward Sustainable Activism
 
-So what if activism drew on this? Imagine movements not fueled by guilt, shame, or empathic distress, but by compassion, safety, and shared humanity. Activism that doesn't eat away at our mental health but sustains us—and makes it easier for others to join. We can't control every feeling. But we can create conditions that guide our emotions toward compassion rather than distress. That's how we stay whole and keep working for peace in the long run.
+So what if activism drew on this? Imagine movements not fueled by guilt, shame, or empathic distress, but by compassion, safety, and shared humanity — the same impulse to create rather than despair [that keeps culture alive in wartime](https://yuvalbloch.com/blog/destruction_and_creativity/). Activism that doesn't eat away at our mental health but sustains us—and makes it easier for others to join. We can't control every feeling. But we can create conditions that guide our emotions toward compassion rather than distress. That's how we stay whole and keep working for peace in the long run.
 
 #### Practicing Compassion Without Burning Out
 

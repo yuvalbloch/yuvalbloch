@@ -1,0 +1,16 @@
+# OS junk
+.DS_Store
+.Rhistory
+
+# Hugo build output and caches (quickstart/ is the Hugo site root)
+# CI rebuilds this fresh from source on every deploy — never a source of truth.
+quickstart/public/
+quickstart/resources/
+quickstart/.hugo_build.lock
+quickstart/hugo_stats.json
+
+# Obsidian per-device workspace state (this repo doubles as the vault; keep
+# shared vault config like app.json/community-plugins.json, drop local state)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace.json.bak

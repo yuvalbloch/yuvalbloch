@@ -1,5 +1,6 @@
 ---
 draft: true
+description: "How do you direct your attention during wartime? An ongoing, personal investigation drawing on cognitive science and Stoicism rather than offering a finished answer."
 ---
 in the last few month I put an effort to improve my ability to direct my attention that importent for avoiding falling to trap set to us by [media company](https://yuvalbloch.com/blog/the_algorithem_of_the_ring/) to improve my ability to create meaningfull work allow my mind the [rest in need](https://yuvalbloch.com/blog/art/) get [good habit](https://yuvalbloch.com/blog/intended_life/) and better [emotianl regulation](https://yuvalbloch.com/blog/eye_of_the_storm/). Over the last few months, I have dedicated myself to reclaiming my attention. This effort is more than just a productivity hack; it is a necessary defense against the traps set by media companies. It is the foundation for creating meaningful work, allowing my mind the rest it requires, and building better emotional regulation.
 

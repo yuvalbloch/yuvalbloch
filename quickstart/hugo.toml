@@ -10,7 +10,7 @@ enableRobotsTXT = true         # Best practice to enable this here
   author = "yuval bloch"
   description = "Exploring the dynamics of ecological systems and biological complexity to uncover the hidden patterns shaping our world."
   custom_css = ["custom.css"]
-  mainSections = ["posts"]
+  mainSections = ["blog"]
   ananke.show_recent_posts = true
   omit_header_text = false
   summaryLength = 10  # reduce to 25 words instead of 70
@@ -22,11 +22,6 @@ enableRobotsTXT = true         # Best practice to enable this here
 
 [menu]
   # We will add translations for menu items later using i18n
-  [[menu.main]]
-    name = "Blog"
-    url = "/blog/"
-    weight = 5
-
   [[menu.main]]
     name = "Home"
     url = "/"
@@ -42,16 +37,20 @@ enableRobotsTXT = true         # Best practice to enable this here
     url = "/research/"
     weight = 3
 
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
 
   [[menu.main]]
     name = "teaching"
     url = "/teaching/"
     weight = 5
-     
+
   [[menu.main]]
     name = "LEAN"
     url = "/LEAN/"
-    weight = 5
+    weight = 6
 
 [params.ananke.social.follow]
   new_window_icon = true

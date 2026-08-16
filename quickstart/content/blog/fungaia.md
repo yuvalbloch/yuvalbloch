@@ -1,5 +1,6 @@
 ---
 draft: true
+description: "A short story imagining an alien civilization built on fungal, parallel mycelium-style thinking instead of sequential, hierarchical neural networks."
 ---
 
 ## To Mayana

@@ -2,7 +2,7 @@
 lang: "en"
 title: "Sensitivity to Land Configuration"
 description: "To ensure that my model accurately captures the impact of land configuration, I incorporate the diamond-square algorithm and the concept of fractal dimensionality. While these tools are unconventional for this purpose, they provide a robust and meaningful way to model spatial complexity and the effects of landscape structure."
-featured_image: "/assets/fractal_landscape.jpeg"
+featured_image: "/assets/research/fractal_landscape.jpeg"
 omit_header_text: true
 draft: false
 date: '2025-07-07T10:00:00+03:00'
@@ -31,7 +31,7 @@ For example, when land and sea are clearly separated, the boundary is simple and
 This concept extends beyond coastlines to **topographic variation** (e.g., mountains vs. flatlands) and anthropogenic gradients (e.g., from natural forest to urbanized land). High H values reflect greater spatial complexity and aggregation, while low H values indicate fragmented or randomized patterns.
 
   <figure >
-    <img src="/assets/coast_line.png" alt="Coastline"        style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;" >
+    <img src="/assets/research/coast_line.png" alt="Coastline"        style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;" >
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
       <strong>Figure 1.</strong> <br> A coastline viewed from above. As the resolution increases, more intricate bays and inlets become visible.
     </figcaption>
@@ -135,7 +135,7 @@ In the generated maps, **high H values** lead to **spatially clustered patches**
 
 
   <figure >
-    <img src="/assets/land_use_configuration.svg" alt="Land Use Configuration"        style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">>
+    <img src="/assets/research/land_use_configuration.svg" alt="Land Use Configuration"        style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">>
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
       <strong>Figure 2.</strong> <br> Different land-use configurations based on H values and land-use proportions.
     </figcaption>
@@ -152,7 +152,7 @@ Interestingly, the **average number of ticks in villages** decreases as H increa
 
 
   <figure>
-    <img src="/assets/ticks_in_land_use.svg" alt="Tick Population in Land Use"        style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">>
+    <img src="/assets/research/ticks_in_land_use.svg" alt="Tick Population in Land Use"        style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">>
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
       <strong>Figure 3.</strong> <br> Tick abundance as a function of H, both in average and in each land-use type.
     </figcaption>

@@ -2,7 +2,7 @@
 lang: "en"
 title: "Finding Viable Parameter Spaces with Sensitivity Analysis"
 description: "Using machine learning to map the ecological conditions under which tick populations persist or collapse, across a range of ecological and behavioral parameters."
-featured_image: "/assets/seapration_plane.gif"
+featured_image: "/assets/research/seapration_plane.gif"
 omit_header_text: true
 draft: false
 date: '2025-06-09T10:00:00+03:00'
@@ -73,7 +73,7 @@ I tried a few kernel functions and settled on a **polynomial kernel**, which cap
 
 
   <figure style="flex: 1; min-width: 240px; max-width: 400px; text-align: center;">
-    <img src="/assets/seapration_plane.gif" alt="SVM separation boundary" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+    <img src="/assets/research/seapration_plane.gif" alt="SVM separation boundary" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
       <strong>Figure 1.</strong> SVM decision boundary separating viable (persistent) and non-viable (extinct) regions in parameter space.
     </figcaption>
@@ -96,7 +96,7 @@ Many parameter sets produced all-or-nothing results—either nearly all cells we
 
 <div>
   <figure style="flex: 1; min-width: 240px; max-width: 400px; text-align: center;">
-    <img src="/assets/1_historgrams.png" alt="Distribution of outcomes" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+    <img src="/assets/research/1_historgrams.png" alt="Distribution of outcomes" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
       <strong>Figure 2.</strong> Distribution of simulation outcomes across parameter space. Many combinations lead to near-total persistence or extinction.
     </figcaption>
@@ -124,7 +124,7 @@ Looking across the viable space, several patterns became clear:
 
 <div>
   <figure style="flex: 1; min-width: 240px; max-width: 400px; text-align: center;">
-    <img src="/assets/3.input_output_reltionship.png" alt="Input-output relationships" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+    <img src="/assets/research/3.input_output_reltionship.png" alt="Input-output relationships" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
       <strong>Figure 3.</strong> Relationships between model inputs and outputs. Adjusting both $d₀$ and $d_c$ allows control over tick density and landscape heterogeneity.
     </figcaption>
@@ -150,7 +150,7 @@ After testing many combinations, I identified one that struck a good balance. Ti
 
 <div>
   <figure style="flex: 1; min-width: 240px; max-width: 400px; text-align: center;">
-    <img src="/assets/2_ocupied_cell_proprtion_group.png" alt="Occupied cell proportion" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+    <img src="/assets/research/2_ocupied_cell_proprtion_group.png" alt="Occupied cell proportion" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
       <strong>Figure 4.</strong> Occupied cell proportions grouped by $k$ and a linear combination of $d₀$ and $d_c$. This tuning expands the range of $k$ values with realistic spatial heterogeneity.
     </figcaption>
@@ -162,6 +162,6 @@ After testing many combinations, I identified one that struck a good balance. Ti
 
 The final question I need to answer before applying this model to real land use scenarios is whether it responds only to **average carrying capacity**—or if it's also sensitive to the **structure of the landscape** itself. This matters because research shows that spatial structure can strongly influence tick populations, yet it’s much harder to capture in models.
 
-In my next post, I’ll explore this by using a beautiful mathematical concept: **fractal dimensionality**. I’ll show how it reveals that the model isn’t just reacting to average conditions—it’s truly sensitive to the **spatial complexity** of the land.
+In my [next post](https://yuvalbloch.com/research/sensitivity-to-land-configuration/), I’ll explore this by using a beautiful mathematical concept: **fractal dimensionality**. I’ll show how it reveals that the model isn’t just reacting to average conditions—it’s truly sensitive to the **spatial complexity** of the land.
 
 📢 **Stay tuned**—it gets surprisingly elegant.

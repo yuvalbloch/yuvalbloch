@@ -4,7 +4,7 @@ language_direction: "rtl"
 title: " חמלה, אמפתיה ושחיקה במאבק למען השלום"
 date: 2025-08-30
 description: המאבק למען סיום המלחמה והחזרת החטופים מעורר באופן טבעי רגשות קשים. כדי לנהל מאבק ממושך, עלינו ללמוד כיצד להתמודד עם רגשות אלו. פוסט זה מציג כיצד מחקרים פורצי דרך בנוירולוגיה וידע עתיק יכולים לעזור לנו בכך.
-featured_image: /assets/budhu.jpeg
+featured_image: /assets/blog/budhu.jpeg
 omit_header_text: true
 draft: false
 ---

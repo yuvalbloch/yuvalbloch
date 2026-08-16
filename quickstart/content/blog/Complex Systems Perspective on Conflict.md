@@ -15,7 +15,7 @@ tags:
   - neuroscience
   - philosophy-of-science
 omit_header_text: true
-featured_image: /assets/image_post_2.jpeg
+featured_image: /assets/blog/image_post_2.jpeg
 ---
 
 My original vision for the upcoming blog posts was structured as follows: first, I would delve into the economic system as an emergent property of countless small interactions and its profound meaning for both investors and social activists. From there, I planned to transition to the emergence of consciousness, building a crucial background for a third post on the emergence of conflicts.

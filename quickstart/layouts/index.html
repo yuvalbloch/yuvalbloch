@@ -10,7 +10,7 @@
   {{ $section_count := len $section }}
 
   {{ if and $show_recent_posts (ge $section_count 1) }}
-    <div class="pa3 pa4-ns w-100 w-70-ns center">
+    <div class="pa3 pa4-ns w-100 w-70-ns center home-recent-posts">
       {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
 
       <section class="w-100 mw8">

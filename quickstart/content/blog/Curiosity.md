@@ -12,7 +12,7 @@ tags:
   - ai
   - democracy
   - authoritarianism
-featured_image: /assets/cat.jpg
+featured_image: /assets/blog/cat.jpg
 omit_header_text: true
 ---
 
@@ -20,7 +20,7 @@ We've all heard the saying, "Curiosity killed the cat." It may be time to flip t
 
 Of course, curiosity alone doesn't spark life. Complexity arises from a dynamic tension: the urge to explore new possibilities and the need to consolidate what has already been discovered. Innovation without a foundation leads nowhere. Consolidation without curiosity stalls progress. Life—and all complex systems—depend on the interplay between the two.
 
-In this post, we'll revisit assembly theory to explore how this same balance plays out across biology, technology, and beyond—from evolution and immune responses to artificial intelligence and economics.
+In this post, we'll revisit assembly theory — the same lens I used [to look at psychohistory and predictability in Asimov's *Foundation*](https://yuvalbloch.com/blog/asimovs-_foundation_-revisited/) — to explore how this same balance plays out across biology, technology, and beyond—from evolution and immune responses to artificial intelligence and economics.
 
 
 > “Would you tell me, please, which way I ought to go from here?”  
@@ -30,7 +30,7 @@ In this post, we'll revisit assembly theory to explore how this same balance pla
 > — _Lewis Carroll, Alice’s Adventures in Wonderland_
 
 <figure>
-  <img src="/assets/cat.jpg" alt="Slime mold creating optimal networks"
+  <img src="/assets/blog/cat.jpg" alt="Slime mold creating optimal networks"
     style="max-width: 60%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
   <figcaption style="font-size: 0.9em; color: #666; margin-top: 0.8rem; line-height: 1.5; padding: 0 1rem; text-align: center;">
     The Cheshire Cat and Alice — a moment of pure exploration. Without a fixed destination, every path is possible.
@@ -45,7 +45,7 @@ Soon, you realize: a bicycle isn't a singular object. It's a layered constructio
 
 That's because complex systems aren't just assembled—they evolve. Bicycles didn’t appear fully formed. Simpler technologies like wheels, axles, and gears were built for other uses, then later recombined.
 
-This is the essence of **assembly theory**, which measures how many steps are required to build something from basic building blocks, reusing parts as you go. A higher **assembly index** means greater complexity—something unlikely to emerge by chance, shaped instead by history, selection, and reuse.
+This is the essence of **assembly theory**, which measures how many steps are required to build something from basic building blocks, reusing parts as you go — the same idea I later used to describe [identity as an assembled, ever-changing process](https://yuvalbloch.com/blog/identity/). A higher **assembly index** means greater complexity—something unlikely to emerge by chance, shaped instead by history, selection, and reuse.
 
 ## A Soviet Lesson in Skipping Steps
 
@@ -56,7 +56,7 @@ From the 1940s to 1960s, Soviet engineers made steady, iterative progress in dev
 At first, it seemed efficient. But reproducing the IBM system without having built the intermediate steps resulted in fragile, inflexible machines that weren’t well understood. By skipping the necessary layers of learning and iteration, the Soviets lost their innovative edge.
 
 The lesson? You can’t shortcut complexity. Real innovation only emerges through a layered process of exploration, feedback, and construction.
-<figure> <img src="/assets/computer.jpeg" alt="Slime mold creating optimal networks" style="max-width:40%; height:auto; display:block; margin: 0 auto; border-radius: 12px;"> <figcaption style="font-size: 0.9em; color: #666; margin-top: 0.8rem; line-height: 1.5; padding: 0 1rem; text-align: center;">The IBM System/360 — the Soviet Union knew exactly where it wanted to go, but left no room to explore how to get there..
+<figure> <img src="/assets/blog/computer.jpeg" alt="Slime mold creating optimal networks" style="max-width:40%; height:auto; display:block; margin: 0 auto; border-radius: 12px;"> <figcaption style="font-size: 0.9em; color: #666; margin-top: 0.8rem; line-height: 1.5; padding: 0 1rem; text-align: center;">The IBM System/360 — the Soviet Union knew exactly where it wanted to go, but left no room to explore how to get there..
 </figcaption> </figure>
 
 ## The Balance
@@ -87,7 +87,7 @@ But random combinations rarely produce long, complex sequences. To build meaning
 If reproduction dominates, the system repeats itself endlessly. If novelty dominates, it never builds anything coherent. But in the right **range of balance**, the system can generate and regenerate layered complexity—a hallmark of life, learning, and innovation.
 
 <figure>
-  <img src="/assets/graph.png" alt="Range of exploration and reproduction supporting innovation" 
+  <img src="/assets/blog/graph.png" alt="Range of exploration and reproduction supporting innovation" 
        style="max-width: 60%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
   <figcaption style="font-size: 0.9em; color: #666; margin-top: 0.8rem; line-height: 1.5; padding: 0 1rem; text-align: center;">
     The range of exploration and reproduction that enables innovation, adapted from the paper <em>Assembly Theory Explains and Quantifies Selection and Evolution</em>.

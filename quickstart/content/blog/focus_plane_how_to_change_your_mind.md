@@ -1,5 +1,6 @@
 ---
 title: atteion restoration - 2 month
+description: "Two months into an attention-recovery experiment, a neuroscience talk on entropy and the brain reframes personal change as a balance between order and chaos."
 draft: true
 ---
 last post: [[intended_life]]
@@ -84,5 +85,5 @@ This isn't limited to the news. Many of our primary tools for learning have been
 
 This suggests that reaching a "better state" is far from a static achievement. To borrow from evolutionary biology, we are living out the **Red Queen Hypothesis**: we must keep running just to stay in the same place. Stabilizing my mind is not a one-time fix; it is a dynamic process of constant adaptation as the tools around me continue to shift. For now, I am focusing on slowing down—but I know I can never truly stop moving.
 
-next post: https://yuvalbloch.com/blog/the_algorithem_of_the_ring/
+next post: [The Algorithm of the Ring](https://yuvalbloch.com/blog/the_algorithem_of_the_ring/)
 

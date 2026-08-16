@@ -2,7 +2,7 @@
 lang: "en"
 title: "Simulating Tick Life Cycles Across Landscapes"
 description: "A layered simulation that captures how ticks grow, move, and spread through space—combining life stages, host behavior, and landscape patterns into a predictive ecological framework."
-featured_image: "/assets/model.svg"
+featured_image: "/assets/research/model.svg"
 omit_header_text: true
 draft: false
 date: '2025-06-05T18:31:05+03:00'
@@ -25,7 +25,7 @@ This model simulates tick population dynamics using a **3-layer lattice**, where
 
 
   <figure >
-    <img src="/assets/model.svg" alt="Tick model diagram"        style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
+    <img src="/assets/research/model.svg" alt="Tick model diagram"        style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
       <strong>Figure 1.</strong> Each life stage is represented as a 2D lattice layer. Bites cause vertical (stage) and horizontal (spatial) movement.
     </figcaption>
@@ -56,7 +56,7 @@ If the biting tick is an adult ($s = 3$), it reproduces by laying eggs, producin
 
 
   <figure s>
-    <img src="/assets/one_time_step.png" alt="Tick model diagram"       style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
+    <img src="/assets/research/one_time_step.png" alt="Tick model diagram"       style="max-width: 80%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
     <figcaption style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
       <strong>Figure 2.</strong>tick dynamic in one ”time step”, assuming only one cell populated with larva’s, and the rest are
 empty
@@ -106,4 +106,6 @@ The simulation uses a **stochastic agent-based model** based on the **Gillespie 
 ### Infection Risk Estimation
 
 Although the model does not explicitly include the **Rickettsia** pathogen, it assumes a $>$50% infection rate in the study area. Therefore, **human bites** are used as a **proxy for infection risk**, weighted by average tick density and human visitation per cell.
+
+Before applying this model to real landscapes, I first needed to test how sensitive it is to its own parameters — see [Finding Viable Parameter Spaces with Sensitivity Analysis](https://yuvalbloch.com/research/senstiviy1/).
 

@@ -14,7 +14,7 @@ tags:
   - predictability
   - chaos-theory
   - decentralized-systems
-featured_image: /assets/foundation.jpg
+featured_image: /assets/blog/foundation.jpg
 omit_header_text: true
 draft: false
 ---
@@ -65,7 +65,7 @@ A researcher, Wayne Zachary, meticulously documented the social interactions bet
 This example of predictability on a small scale presents a subtle challenge to the "more people, easier prediction" axiom and highlights a key distinction between complexity science and psychohistory. Complex systems, due to their **fractal or self-similar nature**, often exhibit **scale invariance**. This means the underlying rules governing structure at one level can re-manifest across different scales—for instance, the organization of a house within a block, a block within a neighborhood, or a neighborhood within a city. Consequently, if a rule holds for a large population, it often applies to smaller ones as well, allowing insights from micro-scale interactions to inform macro-level understanding and vice versa.
 
 <figure>
-  <img src="/assets/karate_network.png" alt="Zachary's Karate Club network"
+  <img src="/assets/blog/karate_network.png" alt="Zachary's Karate Club network"
        style="max-width: 60%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
   <figcaption style="font-size: 0.9em; color: #666; margin-top: 0.8rem; line-height: 1.5; padding: 0 1rem; text-align: center;">
     The Zachary Karate Club network is split using network modularity (dashed lines) and based on the actual conflict-driven division (colors). The network structure accurately predicts the real-world split of the club.
@@ -94,7 +94,7 @@ While complex systems often thrive at the "edge of chaos"—a state of dynamic e
 When a system is genuinely chaotic, it means that even the tiniest, most imperceptible change in its current state will dramatically and fundamentally alter its behavior over time. Though deterministic (meaning they follow underlying rules), chaotic systems are, by their very nature, inherently unpredictable in the long term. This "butterfly effect" represents the ultimate boundary to any form of psychohistory, as even perfect knowledge of the present state would not guarantee accurate foresight into a distant future. Asimov, on some level, accounted for this with the creation of the Second Foundation, implying that some systems cannot be predicted, and thus their impact on the rest cannot be entirely foreseen. Therefore, a living, adapting system had to account for those events and direct the plan based on their results.
 
 <figure>
-  <img src="/assets/lorentz.jpg" alt="Phase diagram of the Lorenz equations"
+  <img src="/assets/blog/lorentz.jpg" alt="Phase diagram of the Lorenz equations"
        style="max-width: 60%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
   <figcaption style="font-size: 0.9em; color: #666; margin-top: 0.8rem; line-height: 1.5; padding: 0 1rem; text-align: center;">
     The Lorenz equations provide a classic example of chaos in a simple deterministic system. Tiny differences in initial conditions can lead to drastically different outcomes over time.

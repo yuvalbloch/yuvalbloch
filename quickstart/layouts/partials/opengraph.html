@@ -1,5 +1,18 @@
+{{ $image := .Params.featured_image | default "/assets/site/image_for_top1.png" }}
+{{ $description := "" }}
+{{ with .Description }}
+  {{ $description = . }}
+{{ else }}
+  {{ if .IsPage }}
+    {{ $description = .Summary }}
+  {{ else }}
+    {{ with .Site.Params.description }}{{ $description = . }}{{ end }}
+  {{ end }}
+{{ end }}
 <meta property="og:title" content="{{ .Title }}" />
-<meta property="og:description" content="{{ .Params.description }}" />
-<meta property="og:image" content="/images/social-preview.png" />
+<meta property="og:description" content="{{ $description }}" />
+<meta property="og:image" content="{{ $image | absURL }}" />
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="{{ $image | absURL }}" />

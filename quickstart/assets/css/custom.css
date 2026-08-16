@@ -16,7 +16,7 @@ body[data-page="home"] header.cover {
 }
 
 body[data-page="home"] {
-  background: url('/assets/image_for_top1.png') no-repeat center center fixed;
+  background: url('/assets/site/image_for_top1.png') no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   padding: 0;

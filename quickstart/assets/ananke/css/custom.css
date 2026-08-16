@@ -15,10 +15,22 @@ header.cover {
 
 /* Homepage header background */
 body[data-page="home"] {
-  background: url('/assets/image_for_top1.png') no-repeat center 10% fixed;
+  background: url('/assets/site/image_for_top1.png') no-repeat center 10% fixed;
   background-size: cover;
   margin: 0;
   padding: 0;
+}
+
+/* Recent-posts section sits directly on the fixed background photo below
+   the profile card — give it the same opaque backing so it doesn't look
+   translucent/washed-out against the image. */
+body[data-page="home"] .home-recent-posts {
+  background-color: rgba(255, 255, 255, 0.92);
+  border-radius: 12px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 /* Header overlay container for homepage (contains nav and title) */

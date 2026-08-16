@@ -8,7 +8,7 @@ tags:
   - cognitive-bias
   - misinformation
   - worldview
-featured_image: /assets/sherlok_holms.jpg # Assuming you'll use the generated image or a similar conceptual one as the main header
+featured_image: /assets/blog/sherlok_holms.jpg # Assuming you'll use the generated image or a similar conceptual one as the main header
 omit_header_text: true
 draft: false
 ---
@@ -32,7 +32,7 @@ So, let's adopt a different, more **functional definition of knowledge**. We don
 In this sense, knowledge is a **coherent set of beliefs that consistently align with our past experiences and, more importantly, produce accurate and successful predictions.** This is the working definition of knowledge we'll use moving forward.
 
 <figure>
-  <img src="/assets/phebe_meme.png" alt="Phoebe and Ross dialogue from Friends"
+  <img src="/assets/blog/phebe_meme.png" alt="Phoebe and Ross dialogue from Friends"
     style="max-width: 60%; height: auto; display: block; margin: 0 auto; border-radius: 12px;">
   <figcaption style="font-size: 0.9em; color: #666; margin-top: 0.8rem; line-height: 1.5; padding: 0 1rem; text-align: center;">
     This dialog between Ross Geller and Phoebe Buffay from the sitcom friend' highlights a crucial point: science doesn't claim absolute truth, but its models are far from arbitrary. Some ideas are demonstrably better than others because they consistently yield accurate predictions.
@@ -51,7 +51,7 @@ This sequential nature of learning has also inspired innovations in artificial i
 
 This kind of dynamic also lies at the heart of many popular cultural forms—for example, the **detective genre**. In these stories, you follow the detective step by step, often arriving at a perfectly reasonable yet completely wrong conclusion. Then, suddenly, a simple explanation emerges—one that makes sense of everything. These narratives often begin by gathering evidence that subtly points in the wrong direction. As more clues appear, you interpret them through the lens of your initial conclusion, reinforcing it, until you cannot see the obvious solution that appears until the end.
 
-<figure> <img src="/assets/sherlok_holms.jpg" alt="Sherlock Holmes" style="max-width: 60%; height: auto; display: block; margin: 0 auto; border-radius: 12px;"> <figcaption style="font-size: 0.9em; color: #666; margin-top: 0.8rem; line-height: 1.5; padding: 0 1rem; text-align: center;"> "It is a capital mistake to theorize before one has data. Insensibly one begins to twist facts to suit theories, instead of theories to suit facts." — Sherlock Holmes, the iconic detective from Arthur Conan Doyle's stories, often highlighted how our initial conclusions can bias our interpretation of observations, draws by Sidney Paget. </figcaption> </figure>
+<figure> <img src="/assets/blog/sherlok_holms.jpg" alt="Sherlock Holmes" style="max-width: 60%; height: auto; display: block; margin: 0 auto; border-radius: 12px;"> <figcaption style="font-size: 0.9em; color: #666; margin-top: 0.8rem; line-height: 1.5; padding: 0 1rem; text-align: center;"> "It is a capital mistake to theorize before one has data. Insensibly one begins to twist facts to suit theories, instead of theories to suit facts." — Sherlock Holmes, the iconic detective from Arthur Conan Doyle's stories, often highlighted how our initial conclusions can bias our interpretation of observations, draws by Sidney Paget. </figcaption> </figure>
 
 ## Key Conclusions So Far
 
