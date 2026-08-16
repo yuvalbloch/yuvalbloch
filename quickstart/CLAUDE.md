@@ -17,21 +17,34 @@ Obsidian, and `temporal stuff/` holds drafts that haven't been turned into Hugo 
 - **Local dev server (with drafts):** `hugo server -D`
 - **Local dev server (published content only):** `hugo server`
 - **Production build (matches CI):** `hugo --minify` → outputs to `public/`
-- Requires the **extended** Hugo binary (Sass support in the theme). CI pins `hugo-version: 'latest'`
-  with `extended: true`; a known-working local version is v0.147.7-extended.
+- Requires the **extended** Hugo binary (the theme calls `css.Sass`; LibSass is enough, Dart Sass is
+  not needed). CI and local are both on v0.147.7-extended.
 - No lint/test/format commands exist in this repo (no `package.json`, no CI test job).
+- **If a build appears to hang**, check for stale `hugo` processes (`Get-Process hugo`) and kill them.
+  Leftover processes deadlock new builds indefinitely at near-zero CPU. A clean full build of this
+  site takes ~0.5s in memory, ~2.5s to disk — anything longer is a stuck process, not a slow machine.
 
 ## Deployment
 
-`.github/workflows/hugo.yml` builds and deploys on every push to `main`:
-checkout (with submodules) → `hugo --minify` → publish `public/` to GitHub Pages via
-`peaceiris/actions-gh-pages`. There's no PR preview workflow — pushing to `main` ships to production.
+**The Hugo site root is `quickstart/`, not the repository root.** The git repo is one level up
+(it also holds `.github/`, the Obsidian vault config, and `CNAME`). Any CI step that runs Hugo must
+set `working-directory: ./quickstart` — a workflow that runs `hugo` at the repo root finds no config
+and fails. (This was broken from May–Aug 2026 for exactly that reason; every run failed and the site
+was updated by hand.)
 
-The `public/` directory is also committed on `main` (build output checked into the repo). It is *not*
-what actually serves the live site (the Actions workflow rebuilds fresh from source and pushes to
-`gh-pages`), so don't treat committed `public/` as a source of truth — it's just stale build residue.
-Content and template edits should always go through `content/`, `layouts/`, `assets/`, `static/`, or
-`hugo.toml`.
+`.github/workflows/hugo.yml` builds and deploys on every push to `main`:
+checkout (with submodules, for `themes/ananke`) → `peaceiris/actions-hugo` (pinned `0.147.7`,
+`extended: true`) → `hugo --minify` in `quickstart/` → publish `quickstart/public/` to the
+**`gh-pages` branch** via `peaceiris/actions-gh-pages`. GitHub Pages serves that branch. There's no
+PR preview workflow — pushing to `main` ships to production.
+
+**Custom domain:** `yuvalbloch.com` depends on a `CNAME` file existing in the published output.
+It comes from `static/CNAME`, and the workflow both asserts it survived the build and re-applies it
+via the `cname:` input. Never remove `static/CNAME` — publishing a build without it takes the domain
+offline.
+
+`quickstart/public/` and `quickstart/resources/` are gitignored build output, not source. Content and
+template edits should always go through `content/`, `layouts/`, `assets/`, `static/`, or `hugo.toml`.
 
 ## Configuration
 
