@@ -2,6 +2,7 @@
 title: "My Journey at the an open University: A Candid Look at the Experience"
 date: 2025-09-29
 description: my experience at the Open University of Israel was a unique period in my life. It was filled with the wonderful feeling of freedom and fulfillment but also presented its own set of challenges. This text is meant to help people decide if this experience is right for them.
+tags: [academic-life]
 featured_image: /posts/open_u/main.png 
 omit_header_text: true
 draft: false

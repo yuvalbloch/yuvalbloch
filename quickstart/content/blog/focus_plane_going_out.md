@@ -2,7 +2,7 @@
 draft: false
 date: 2025-11-11
 title: "Attention Restoration: Remote Place"
-tags: ["productivity", "focus", "remote-work", "experiment", "digital-detox", "israel"]
+tags: [attention-and-focus]
 description: "I tested a common productivity method — working in a remote environment and see if heightened focus could be maintained while preserving a vibrant social life. Here are the results from my desert retreat."
 featured_image: /images/zen.jpeg
 omit_header_text: true

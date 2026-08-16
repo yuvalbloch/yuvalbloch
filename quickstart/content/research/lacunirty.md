@@ -3,6 +3,7 @@ title: Explaining the Lacunarity-Based Index for Spatial Heterogeneity
 featured_image: /images/fractal.jpg
 date: 2025-10-22
 description: This technical post provides a comprehensive explanation of the Lacunarity-Based Index for Spatial Heterogeneity from Scott, R., et al. (2022). It covers the core concept of $\Lambda(r)$ (lacunarity at scale $r$), details the derivation of the standardized single index ($h$), presents a clear step-by-step toy example on binary maps, and provides a simple, functional Julia implementation for calculating the index across scales.
+tags: [ecological-modeling]
 draft: false
 omit_header_text: true
 ---
@@ -324,4 +325,4 @@ function calcualte_index(B_map)
 end
 ```
 
-Next post, I will show how I combine this index with the **midpoint displacement algorithm** to explore the relation between lacunarity and fractal dimension. Stay tuned!
+Next, I planned to combine this index with the **midpoint displacement algorithm** to explore the relation between lacunarity and fractal dimension—though it turned out this index itself had a deeper problem worth [chasing down first](https://yuvalbloch.com/research/index_of_transitnal_homginaty/).

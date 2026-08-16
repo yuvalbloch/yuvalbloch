@@ -5,6 +5,7 @@ title: 'מסע אל תוך ה"זיכרון הכפול": המיתוס האישי 
 date: 2025-10-09
 description: על כוחם של סיפורים, התבוננות מהמיתולגיה האישית שלי, לצד מחקר פסיכולוגי
 featured_image: /posts/mythology/jung.jpg
+tags: [meaning-and-identity, mind-and-neuroscience]
 omit_header_text: true
 draft: true
 ---

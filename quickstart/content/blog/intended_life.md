@@ -2,6 +2,7 @@
 title: Intentional Emptiness - My First Month of Attention Restoration
 date: 2025-11-16
 description: Finishing my first month of an intentional attention restoration plan, I've learned about the profound power of 'empty spaces' and deliberate intention.
+tags: [attention-and-focus, meaning-and-identity]
 featured_image: /images/zen.jpeg
 omit_header_text: true
 ---

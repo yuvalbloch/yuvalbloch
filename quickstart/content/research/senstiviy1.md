@@ -3,6 +3,7 @@ lang: "en"
 title: "Finding Viable Parameter Spaces with Sensitivity Analysis"
 description: "Using machine learning to map the ecological conditions under which tick populations persist or collapse, across a range of ecological and behavioral parameters."
 featured_image: "/assets/research/seapration_plane.gif"
+tags: [ecological-modeling]
 omit_header_text: true
 draft: false
 date: '2025-06-09T10:00:00+03:00'

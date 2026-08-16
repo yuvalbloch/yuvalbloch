@@ -1,6 +1,7 @@
 ---
 title: "The Devil Is in the Details: Modeling Small-Scale Land-Use Change in Madagascar"
 date: 2025-12-07
+tags: [ecological-modeling, academic-life]
 author:
   - "Yuval Bloch"
   - "Shai Pilosof"

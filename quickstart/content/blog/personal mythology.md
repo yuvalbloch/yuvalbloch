@@ -2,6 +2,7 @@
 title: personal mythology
 date: 2025-10-07
 description: an appendix to "The Mind's Native Tongue -  Myth, Symbol, and the Internal Map " describes my personal mythology"
+tags: [meaning-and-identity]
 featured_image: /posts/mythology/two_side.jpg
 omit_header_text: true
 draft: true

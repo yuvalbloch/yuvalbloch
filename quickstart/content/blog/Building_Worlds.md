@@ -4,10 +4,6 @@ date: 2025-07-27
 description: "Why do intelligent people hold seemingly strange beliefs? Can we ever be truly sure of what's right? And in an increasingly complex world, how do we navigate the pervasive spread of misinformation? This post explores these vital questions through the lenses of the philosophy of science and complex systems theory, offering insights into how our individual understandings of reality are constructed."
 tags:
   - complex-systems
-  - epistemology
-  - cognitive-bias
-  - misinformation
-  - worldview
 featured_image: /assets/blog/sherlok_holms.jpg # Assuming you'll use the generated image or a similar conceptual one as the main header
 omit_header_text: true
 draft: false

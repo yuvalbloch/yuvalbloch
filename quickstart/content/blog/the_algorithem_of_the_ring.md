@@ -2,6 +2,7 @@
 title: The Algorithm of the Ring - Why It’s Time to Quit Social media
 date: 2025-12-27
 description: If the digital world feels more draining and less connecting, it’s not just you. Over the past few years, major platforms have changed dramatically—shifting from social connection to endless engagement. As a result, setting boundaries and protecting our well-being has become both easier and essential.
+tags: [attention-and-focus, ai-and-productivity]
 featured_image: /images/ring.jpeg
 omit_header_text: true
 ---

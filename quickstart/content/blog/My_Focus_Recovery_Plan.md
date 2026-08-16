@@ -2,6 +2,7 @@
 title: My atteion restoration Plan
 date: 2025-10-18
 description: I decided to tailor a focus plane for myself based on what I learned about focus and the human mind. Next week, I will report how well it worked.
+tags: [attention-and-focus]
 featured_image: /images/zen.jpeg
 omit_header_text: true
 ---

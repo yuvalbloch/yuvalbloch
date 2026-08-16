@@ -4,16 +4,8 @@ title: "Empathy in the Emergent Storm: A Complex Systems Perspective on Conflict
 date: 2025-06-15
 description: Confronting the fragility of existence, this post explores the profound connection between life, entropy, and the search for meaning. From the microscopic dance of cells to the grand scale of planetary systems, uncover how impermanence can paradoxically enrich our understanding of being.
 tags:
-  - impermanence
-  - entropy
-  - meaning-of-life
-  - complexity-theory
-  - spirituality
-  - mortality
-  - gaia-hypothesis
-  - cellular-computation
-  - neuroscience
-  - philosophy-of-science
+  - complex-systems
+  - war-and-conflict
 omit_header_text: true
 featured_image: /assets/blog/image_post_2.jpeg
 ---

@@ -6,10 +6,7 @@ featured_image: /images/snow_flake.jpeg
 lang: en
 omit_header_text: true
 tags:
-  - Privacy
-  - Internet Freedom
-  - Tor
-  - Activism
+  - activism-and-compassion
 draft:
 ---
 
@@ -58,4 +55,4 @@ I was suspicious at first, too. Here is how I answered my own concerns:
 
 ### Conclusion
 
-If you believe that access to information is a human right, Snowflake is the easiest way to fight for it from your couch.
+If you believe that access to information is a human right, Snowflake is the easiest way to fight for it from your couch — no guilt, no burnout, just [quiet, sustainable action](https://yuvalbloch.com/blog/compassion_empathy_and_activism/).

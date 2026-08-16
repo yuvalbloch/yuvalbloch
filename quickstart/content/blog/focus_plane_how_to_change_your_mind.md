@@ -1,6 +1,7 @@
 ---
 title: atteion restoration - 2 month
 description: "Two months into an attention-recovery experiment, a neuroscience talk on entropy and the brain reframes personal change as a balance between order and chaos."
+tags: [attention-and-focus, mind-and-neuroscience]
 draft: true
 ---
 last post: [[intended_life]]

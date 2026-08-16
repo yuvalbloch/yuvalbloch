@@ -3,6 +3,7 @@ title: "Thanos's Flawed Premise: A Deeper Look at Population and Resources"
 featured_image: /posts/food/thanos.jpeg
 date: 2025-08-16
 description: In 1798, the well-known economist Thomas Malthus predicted that population growth would inevitably lead to scarcity and political collapse. Yet, 227 years and a tenfold population increase later, we produce more food than we need. This post explores how we have repeatedly succeeded in outsmarting this dire prophecy and asks if we can continue to dodge the bolt.
+tags: [civilizations-and-collapse, evolution-and-ecology]
 draft: false
 omit_header_text: true
 ---

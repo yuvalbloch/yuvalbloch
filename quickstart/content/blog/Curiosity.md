@@ -5,13 +5,7 @@ date: 2025-07-14
 description: Assembly theory offers a fresh perspective on curiosity, evolution,and innovation—revealing how systems grow not by leaps, but through balanced, layered progress.
 tags:
   - assembly-theory
-  - complexity
-  - curiosity
-  - evolution
-  - innovation
-  - ai
-  - democracy
-  - authoritarianism
+  - evolution-and-ecology
 featured_image: /assets/blog/cat.jpg
 omit_header_text: true
 ---

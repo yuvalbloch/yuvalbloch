@@ -7,8 +7,8 @@ featured_image: /images/AI.jpeg
 omit_header_text: true
 draft: false
 tags:
-  - ai
-  - attention
+  - ai-and-productivity
+  - attention-and-focus
 ---
 
 # The Surprise: When AI Reduces Developer Productivity

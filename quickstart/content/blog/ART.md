@@ -3,6 +3,7 @@ draft: false
 date: 2025-12-27
 title: The Magic of Nature - Attention Restoration Theory and Fractals
 description: "Have you ever noticed that you think more clearly after a walk in the park? Nature has a fascinating impact on the mind—partly through the fractal patterns we unconsciously perceive."
+tags: [attention-and-focus, mind-and-neuroscience]
 featured_image: /images/fractals.jpeg
 omit_header_text: true
 ---

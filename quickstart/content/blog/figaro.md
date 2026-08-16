@@ -2,7 +2,7 @@
 title: "Figaro - or how we create the app we need"
 date: 2026-05-22
 description: "How AI is democratizing app development — and how my team built Figaro, a tool to eliminate one of science's most tedious workflows."
-tags: [AI, vibe_coding, figaro, hackathon, scientific_tools]
+tags: [ai-and-productivity, academic-life]
 featured_image: "/posts/figaro/figaro_logo.png"
 omit_header_text: true
 ---

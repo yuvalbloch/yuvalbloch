@@ -2,7 +2,7 @@
 title: "The Possible Me: Identity as a Path, Not a Point"
 date: 2025-07-03
 description: "Through the lens of assembly theory and personal reflection, this post explores identity as an evolving process shaped by memory, attention, and connection. From childhood development to queer becoming, it honors the dynamic, layered nature of the self—and the communities that allow it to grow."
-tags: [identity, fluidity, assembly-theory, neuroplasticity, pride, personal-growth, philosophy-of-mind, queer-theory, complexity, memory]
+tags: [meaning-and-identity, assembly-theory, mind-and-neuroscience]
 featured_image: /assets/blog/OogwayAscends.webp
 omit_header_text: true
 ---

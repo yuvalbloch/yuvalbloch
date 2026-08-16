@@ -2,6 +2,7 @@
 title: The Paradox of Mutualism
 date: 2025-10-14
 description: "Working together is hard—in nature and in the office. We've only recently begun uncovering how evolution made it happen."
+tags: [evolution-and-ecology]
 featured_image: /posts/mutualism/pollination.jpg
 omit_header_text: true
 ---

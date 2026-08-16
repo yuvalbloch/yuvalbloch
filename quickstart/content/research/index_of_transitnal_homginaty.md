@@ -3,6 +3,7 @@ title: "End of Greatness: Lacunarity and the Index of Transitional Homogeneity"
 description: The scientific journey is built on trial and error. After finding that a standard land-use index wasn't sufficient, I discovered the Index of Transitional Homogeneity (ITH)—and learned a lesson in the beauty of multidisciplinary science.
 featured_image: /research/night_sky.jpeg
 date: 2026-02-20
+tags: [ecological-modeling]
 omit_header_text: true
 ---
 

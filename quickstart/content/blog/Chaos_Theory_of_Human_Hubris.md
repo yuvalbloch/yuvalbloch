@@ -5,11 +5,9 @@ omit_header_text: true
 draft:
 date: 2025-09-06
 tags:
-  - democracy
+  - war-and-conflict
+  - civilizations-and-collapse
   - complex-systems
-  - decentralized-systems
-  - evolution
-  - predictability
 featured_image: posts/cheos/jerustic_park.jpeg
 ---
 
@@ -23,7 +21,7 @@ At first, I found these digressions tedious. But over time, they fascinated me. 
 
 That instinct—to reach for overwhelming force when complexity exceeds our understanding—is not confined to fiction. It characterizes much of human history. Systems collapse when treated as predictable machines, yet instead of learning, we often respond with escalation.
 
-This pattern is clear in modern wars. The U.S. invasions of Iraq and Afghanistan began with simple plans: remove hostile regimes and impose order. But both quickly spiraled into chaotic, unpredictable struggles against insurgencies and fractured societies. Like the dinosaurs in _Jurassic Park_, these systems refused containment. And again, the human response was the same: more troops, more bombs, more force.
+This pattern is clear in modern wars, which behave less like planned campaigns and more like the emergent, [interaction-driven conflicts I've written about before](https://yuvalbloch.com/blog/complex-systems-perspective-on-conflict/). The U.S. invasions of Iraq and Afghanistan began with simple plans: remove hostile regimes and impose order. But both quickly spiraled into chaotic, unpredictable struggles against insurgencies and fractured societies. Like the dinosaurs in _Jurassic Park_, these systems refused containment. And again, the human response was the same: more troops, more bombs, more force.
 
 
 
@@ -79,7 +77,7 @@ By contrast, decentralized groups like terrorist organizations adapt almost inst
 
 This asymmetric adaptation is well known in biology. Phages—viruses that infect bacteria—mutate quickly to exploit bacterial defenses. Bacteria, being more complex, evolve more slowly but with a broader range of strategies. Most of the time, bacteria suppress phages. But occasionally, a phage finds a weakness and spreads explosively, devastating bacterial populations.
 
-History shows similar dynamics between empires and tribes. Rome dominated Gaul for centuries, yet tribal groups could sometimes exploit weaknesses and inflict major defeats. The same applies in counterterrorism: powerful states achieve dominance most of the time, but prolonged wars give smaller groups windows to strike effectively.
+History shows similar dynamics between empires and tribes — a pattern of imperial overreach [I explore more directly through rent-seeking and collapse](https://yuvalbloch.com/blog/cycles-of-power/). Rome dominated Gaul for centuries, yet tribal groups could sometimes exploit weaknesses and inflict major defeats. The same applies in counterterrorism: powerful states achieve dominance most of the time, but prolonged wars give smaller groups windows to strike effectively.
 
 <figure>
   <img src="/posts/cheos/pahge.jpg" alt="illustration of phage"

@@ -3,15 +3,8 @@ title: The Mind's Native Tongue - Myth, Symbol, and the Internal Map
 date: 2025-10-07
 description: Reflecting on my own mythology, this piece argues that pirituality and symbols are vital sense−making frameworks necessary for internal coherence and mental management.
 tags:
-  - impermanence
-  - spirituality
-  - identity
-  - fluidity
-  - personal-growth
-  - philosophy-of-mind
-  - queer-theory
-  - complexity
-  - memory
+  - meaning-and-identity
+  - mind-and-neuroscience
 featured_image: /posts/mythology/jung.jpg
 omit_header_text: true
 draft: true

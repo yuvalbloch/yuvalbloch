@@ -3,6 +3,7 @@ title: Three lessons on Bayesian optimization, and one on humility
 featured_image: /research/bysian.png
 date: 2026-07-17
 description: How a failed reproducibility test exposed three convergence bugs in my Bayesian optimization — stochastic simulations, unidentifiable parameters, and the wrong scale — and one lesson in humility I get in the way.
+tags: [ecological-modeling, academic-life]
 draft: false
 omit_header_text: true
 ---
@@ -22,7 +23,7 @@ In _Outliers_, Malcolm Gladwell popularized the idea that you need 10,000 hours 
 
 ## The problem: Bayesian optimization convergence
 
-My research uses a cellular automata–Markov (CA-Markov) model to simulate dynamic land use — specifically shifting cultivation — which is a fairly niche topic. But the problem I ran into is a common one: parameter optimization convergence.
+My research uses a cellular automata–Markov (CA-Markov) model to simulate dynamic land use — the same modeling pipeline behind [the lacunarity work](https://yuvalbloch.com/research/lacunirty/) and [the Madagascar poster](https://yuvalbloch.com/research/extended_poster/) — specifically shifting cultivation — which is a fairly niche topic. But the problem I ran into is a common one: parameter optimization convergence.
 
 In a stochastic cellular automaton — a tool that dynamically changes the state of each cell according to probabilities defined by the cell's state — the weight I give to the neighborhood effect matters enormously. It controls the model's behavior across a whole spectrum: high weights produce geometric patterns like spirals, while low weights produce an almost completely random mix.
 

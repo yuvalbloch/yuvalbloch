@@ -4,7 +4,7 @@
 title: "Life on the Edge: Facing Impermanence, Entropy, and Meaning"
 date: 2025-06-25
 description: "Confronting the fragility of existence amidst global challenges, this post explores how impermanence, entropy, and life's inherent computational nature define our being. Discover how understanding these forces, from cellular memory to Earth's self-regulation, can lead to deeper meaning."
-tags: [impermanence, entropy, meaning-of-life, complexity-theory, spirituality, mortality, gaia-hypothesis, cellular-computation, neuroscience, philosophy-of-science]
+tags: [complex-systems, evolution-and-ecology, meaning-and-identity]
 featured_image: /assets/blog/life_on_the_edge.jpg 
 omit_header_text: true
 

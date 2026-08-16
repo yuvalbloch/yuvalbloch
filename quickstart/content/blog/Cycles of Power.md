@@ -3,6 +3,7 @@ title: Rent-Seeking, Complexity, and the Fall of Empires
 description: Every dominant empire in history—from Song China to the British Empire—has peaked at a global economic share of roughly 15-25%. This post dives into the data and theories explaining this recurring ceiling, revealing how systems of growth inevitably turn into engines of decline.
 featured_image: /posts/empire/fall_of_rome.jpeg
 date: 2025-08-11
+tags: [civilizations-and-collapse, complex-systems]
 omit_header_text: true
 ---
 

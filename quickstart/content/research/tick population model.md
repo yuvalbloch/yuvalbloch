@@ -3,6 +3,7 @@ lang: "en"
 title: "Simulating Tick Life Cycles Across Landscapes"
 description: "A layered simulation that captures how ticks grow, move, and spread through space—combining life stages, host behavior, and landscape patterns into a predictive ecological framework."
 featured_image: "/assets/research/model.svg"
+tags: [ecological-modeling]
 omit_header_text: true
 draft: false
 date: '2025-06-05T18:31:05+03:00'

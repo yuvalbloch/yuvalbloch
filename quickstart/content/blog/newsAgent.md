@@ -3,6 +3,7 @@ draft: false
 date: 2026-04-12
 title: How and Why I Built My News AI Agent
 description: I built an AI agent to read the news the way I did fifteen years ago — once a day, with focus, and then closing it. Here's how and why.
+tags: [ai-and-productivity, attention-and-focus]
 featured_image: /images/robodog.png
 omit_header_text: true
 ---
@@ -17,7 +18,7 @@ When I was seventeen, I got my first smartphone. At first, the experience wasn't
 
 But gradually, the logic of breaking news colonized everything. Headlines started changing every hour. The order of articles shifted constantly. Videos crept in. After a decade of this drift, opening a news app no longer gave me a clear summary of what had happened. It gave me an experience designed to keep me in a state of constant agitation — a hunger for more information that never resolved into better understanding.
 
-This is what Derek Thompson means when he writes that all media has converged on television's prime directive: never let the viewer look away. It's not a stream of information trying to create a coherent picture. It's a stream of information that replaces coherence with engagement.
+This is what Derek Thompson means when he writes that all media has converged on television's prime directive: never let the viewer look away — [the same shift I traced in social feeds](https://yuvalbloch.com/blog/the_algorithem_of_the_ring/). It's not a stream of information trying to create a coherent picture. It's a stream of information that replaces coherence with engagement.
 
 So I wanted to go back. To have one or two good summaries a day — something that highlighted what mattered and let me seek out more if I chose. My first instinct was to simply start reading a print newspaper again. But a few things about the new world were genuinely better, and I didn't want to give them up:
 

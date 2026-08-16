@@ -4,16 +4,8 @@ title: "The Ghost of Hari Seldon: Asimov's Foundation Revisited in the Light of 
 date: 2025-07-14
 description: Explore how Isaac Asimov's psychohistory from Foundation anticipates modern complexity science, examining shared ideas and real-world limits.
 tags:
-  - science-fiction
-  - complexity-science
-  - psychohistory
-  - Isaac-Asimov
-  - Foundation
-  - urban-scaling-laws
-  - network-theory
-  - predictability
-  - chaos-theory
-  - decentralized-systems
+  - complex-systems
+  - civilizations-and-collapse
 featured_image: /assets/blog/foundation.jpg
 omit_header_text: true
 draft: false

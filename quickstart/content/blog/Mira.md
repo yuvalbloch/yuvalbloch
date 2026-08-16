@@ -2,7 +2,7 @@
 title: "Developing MIRA"
 date: 2026-05-21
 description: "How we used AI to develop a visualization tool for our research field, and what I learned along the way."
-tags: [AI, vibe_coding, mira, multilayer_network]
+tags: [ai-and-productivity, academic-life]
 featured_image: /posts/mira/mira.png 
 omit_header_text: true
 ---

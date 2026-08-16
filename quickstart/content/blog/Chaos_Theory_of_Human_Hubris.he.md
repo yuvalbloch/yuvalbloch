@@ -5,11 +5,9 @@ omit_header_text: true
 draft:
 date: 2025-09-06
 tags:
-  - democracy
+  - war-and-conflict
+  - civilizations-and-collapse
   - complex-systems
-  - decentralized-systems
-  - evolution
-  - predictability
 featured_image: posts/cheos/jerustic_park.jpeg
 lang: he
 ---

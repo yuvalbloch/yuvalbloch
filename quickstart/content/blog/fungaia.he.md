@@ -5,6 +5,7 @@ title: מסע לפאנגאיה - מדע בידיוני
 date: 2025-12-06
 description: סיפור מדע בידיוני העוסק בשאלה האם פטריות יכולות להיות תבוניות ודרכה בשאלה מהי תבונה
 featured_image: /images/fungai.jpeg
+tags: [fiction]
 omit_header_text: true
 draft: false
 ---

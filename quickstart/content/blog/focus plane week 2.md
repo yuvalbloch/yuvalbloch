@@ -2,6 +2,7 @@
 title: atteion restoration- Two Weeks In Personal Look
 date: 2025-10-31
 description: That was the second week of reducing distractions and intentionally improving my focus. In this text, I will explore the perspective this experience allows me.
+tags: [attention-and-focus]
 featured_image: /images/zen.jpeg
 omit_header_text: true
 ---

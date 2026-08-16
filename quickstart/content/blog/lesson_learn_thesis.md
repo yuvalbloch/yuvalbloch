@@ -5,6 +5,7 @@ title: "Three Years, Six Semesters: What Writing My Thesis Actually Taught Me"
 date: 2026-08-13
 description: My Master’s research was the center of my world for three years. Now that it's over, I look back and ask what I really learned in the process—not about modeling, but about life and work.
 featured_image: /posts/images.jpeg
+tags: [academic-life]
 omit_header_text: true
 draft: false
 
@@ -26,7 +27,7 @@ Walking into an almost-empty campus while sirens rose and the news kept getting 
 
 ## Spring 2024 — Keep It Simple
 
-By the end of that first semester, I knew what I wanted to research. My lab was part of a collaborative project in Madagascar, studying land use and the disease risks it created for local communities. I decided to build a model connecting land-use change to tick populations — first a tick population model suited to a tropical landscape, then coupled with cellular automata to capture spatial change.
+By the end of that first semester, I knew what I wanted to research. My lab was part of a collaborative project in Madagascar, studying land use and the disease risks it created for local communities. I decided to build a model connecting land-use change to tick populations — first [a tick population model](https://yuvalbloch.com/research/tick-population-model/) suited to a tropical landscape, then coupled with cellular automata to capture spatial change.
 
 It turned out to be a genuinely hard problem, mostly because the existing models had all been built for temperate, cool-climate systems. I started sketching equations and testing them in small Jupyter notebooks, watching how the dynamics behaved. But with each iteration, the model grew — three differential equations became twelve. Eventually I realized my instinct to force a metacommunity framework onto a system that wasn't clearly a metacommunity was the wrong move. The bigger lesson was more general: the question isn't whether a factor is technically relevant to your model, it's whether the model still holds value without it. If it does, drop it.
 
@@ -52,7 +53,7 @@ That semester I also started writing seriously, and the writing itself reshaped 
 
 ## Spring 2026 — Know When to Stop
 
-This is the hardest part. Research never really ends — there's always another angle, another test, another improvement. At some point you have to decide it's enough.
+This is the hardest part. Research never really ends — there's always another angle, another test, another improvement, [as one more reproducibility bug hunt proved right up to the very end](https://yuvalbloch.com/research/making-reproducible-science/). At some point you have to decide it's enough.
 
 I decided early on not to pursue a PhD in the same lab. I care about this research area, but I went into it knowing very little about what doing research actually meant. Maybe I'll come back to it someday. But now that I understand the process better, I want to look forward and ask what I actually want to study next — and to do that, I need to leave this project behind me.
 

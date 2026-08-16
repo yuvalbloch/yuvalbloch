@@ -3,6 +3,7 @@ title: "The Song in the Dark: Why Culture Flourishes in Chaos"
 draft: false
 description: How is it that humanity’s greatest masterpieces are born from our darkest moments, and what can they teach us about rebelling against the destructive forces of our own era?
 date: 2026-03-09
+tags: [war-and-conflict, meaning-and-identity]
 omit_header_text:
 featured_image: /images/simp.webp
 ---

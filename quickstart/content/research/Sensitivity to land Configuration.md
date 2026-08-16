@@ -3,6 +3,7 @@ lang: "en"
 title: "Sensitivity to Land Configuration"
 description: "To ensure that my model accurately captures the impact of land configuration, I incorporate the diamond-square algorithm and the concept of fractal dimensionality. While these tools are unconventional for this purpose, they provide a robust and meaningful way to model spatial complexity and the effects of landscape structure."
 featured_image: "/assets/research/fractal_landscape.jpeg"
+tags: [ecological-modeling]
 omit_header_text: true
 draft: false
 date: '2025-07-07T10:00:00+03:00'
