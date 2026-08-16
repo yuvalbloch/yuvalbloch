@@ -1,5 +1,4 @@
 ---
-lang: "en"
 title: 'Publications & Output'
 date: '2026-08-16'
 draft: false

@@ -1,5 +1,4 @@
 ---
-lang: en
 title: "The Ghost of Hari Seldon: Asimov's Foundation Revisited in the Light of Complexity Science"
 date: 2025-07-14
 description: Explore how Isaac Asimov's psychohistory from Foundation anticipates modern complexity science, examining shared ideas and real-world limits.

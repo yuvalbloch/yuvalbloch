@@ -1,5 +1,4 @@
 ---
-lang: he
 language_direction: "rtl"
 title: " חמלה, אמפתיה ושחיקה במאבק למען השלום"
 date: 2025-08-30

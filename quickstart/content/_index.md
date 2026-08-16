@@ -1,5 +1,4 @@
 ---
-lang: en
 title: Complexity Theory in Ecology & Human Systems
 draft: false
 omit_header_text: true

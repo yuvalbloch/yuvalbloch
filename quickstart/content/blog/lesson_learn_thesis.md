@@ -1,5 +1,4 @@
 ---
-lang: en
 title: "Three Years, Six Semesters: What Writing My Thesis Actually Taught Me"
 date: 2026-08-13
 description: My Master’s research was the center of my world for three years. Now that it's over, I look back and ask what I really learned in the process—not about modeling, but about life and work.

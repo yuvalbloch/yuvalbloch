@@ -1,5 +1,4 @@
 ---
-lang: he
 language_direction: "rtl"
 title: "חוויות מהטיול לקפלוניה"
 date: 2025-08-30

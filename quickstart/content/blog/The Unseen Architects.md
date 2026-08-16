@@ -1,5 +1,4 @@
 ---
-lang: "en"
 title: "The Unseen Architects: Exploring the Fundamental Properties of Life"
 date: 2025-06-06
 description: "A deep dive into the complexity, self-organization, and unpredictability that shape living systems."

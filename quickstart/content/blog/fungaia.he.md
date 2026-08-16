@@ -1,5 +1,4 @@
 ---
-lang: he
 language_direction: rtl
 title: מסע לפאנגאיה - מדע בידיוני
 date: 2025-12-06

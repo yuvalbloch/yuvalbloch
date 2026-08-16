@@ -1,5 +1,4 @@
 ---
-lang: en
 title: "The Curiosity and the Cat: Innovation, Exploration, and Assembly Theory"
 date: 2025-07-14
 description: Assembly theory offers a fresh perspective on curiosity, evolution,and innovation—revealing how systems grow not by leaps, but through balanced, layered progress.

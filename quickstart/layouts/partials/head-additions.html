@@ -1,0 +1,19 @@
+{{/*
+  head-additions.html — the override hook baseof.html's `head` block calls.
+
+  Why this exists: the ananke theme loads `site.Params.custom_css` through
+  `partials/func/style/GetResource.html`, which resolves names against the
+  *assets* directory (`assets/ananke/css/<name>`). This project's overrides
+  live in `static/css/custom.css`, which `resources.Get` cannot see, so the
+  theme silently found nothing and emitted no stylesheet link at all — the
+  file was published to /css/custom.css but never referenced by any page.
+
+  Linking it here is deliberate: it keeps the CSS as a plain static file
+  (no Sass pipeline, no fingerprinting) and does not depend on the theme's
+  asset-resolution rules. If you ever move it into
+  `assets/ananke/css/custom.css`, the theme will concatenate it into
+  main.min.css and this link should be removed to avoid loading it twice.
+*/}}
+{{ range site.Params.custom_css }}
+  <link rel="stylesheet" href="{{ printf "css/%s" . | relURL }}">
+{{ end }}

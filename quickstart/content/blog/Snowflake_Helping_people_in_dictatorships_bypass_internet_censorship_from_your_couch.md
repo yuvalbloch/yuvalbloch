@@ -3,7 +3,6 @@ title: "Snowflake: Helping people in dictatorships bypass internet censorship fr
 date: 2026-01-23
 description: Recent events in Iran remind us that millions live under regimes that block the free internet. Learn how you can help bridge that gap with Snowflake—a zero-cost, low-risk tool.
 featured_image: /images/snow_flake.jpeg
-lang: en
 omit_header_text: true
 tags:
   - activism-and-compassion

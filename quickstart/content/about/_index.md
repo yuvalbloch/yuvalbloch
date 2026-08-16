@@ -4,7 +4,6 @@ draft: false
 title: 'About'
 description: 'Yuval Bloch is a computational ecologist and M.Sc. student at Ben-Gurion University, working on ecological modeling and disease dynamics.'
 omit_header_text: true
-lang: "en"
 cascade:
   params:
     featured_image: '/assets/site/image_for_top1.png'

@@ -1,5 +1,4 @@
 ---
-lang: en
 title: "The Surprise: When AI Reduces Developer Productivity"
 date: 2025-11-07
 description: A surprising report from July 2025 challenges the idea that AI universally improves efficiency in complex programming work. Here, we dive into the implications.

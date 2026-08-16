@@ -1,5 +1,4 @@
 ---
-lang: he
 language_direction: rtl
 title: 'מסע אל תוך ה"זיכרון הכפול": המיתוס האישי כשיקוף הנפש'
 date: 2025-10-09

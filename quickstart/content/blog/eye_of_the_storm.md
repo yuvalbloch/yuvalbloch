@@ -1,5 +1,4 @@
 ---
-lang: "en"
 title: "The Eye of the Storm: Understanding Our Minds During Struggles"
 date: 2025-06-19
 description: "In times of conflict, learning to navigate our internal landscape is crucial. This post explores how complexity theory illuminates the mind's self-organizing nature, the power of attention, and strategies for emotional resilience amidst chaos."

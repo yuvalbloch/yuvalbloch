@@ -1,5 +1,4 @@
 ---
-lang: "en"
 date: '2026-04-15T11:00:00+03:00'
 draft: false
 title: 'Project Philosophy'

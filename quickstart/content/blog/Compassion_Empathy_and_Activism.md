@@ -1,5 +1,4 @@
 ---
-lang: en
 title: "Compassion, Empathy, and Activism Without Burnout"
 date: 2025-08-30
 description: When we witness suffering and injustice, we often feel guilt and distress. But basing activism on these emotions is unsustainable. This post explores how psychology, neuroscience, and ancient traditions can help us transform pain into the lasting power of compassion.

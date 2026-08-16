@@ -9,7 +9,6 @@ tags:
   - civilizations-and-collapse
   - complex-systems
 featured_image: posts/cheos/jerustic_park.jpeg
-lang: he
 ---
 
 <div class="hebrew-text-rtl">

@@ -1,5 +1,4 @@
 ---
-lang: "en"
 title: Why Life Science? Why This Blog? Why Now?
 date: 2025-06-03T12:00:00
 draft: false
