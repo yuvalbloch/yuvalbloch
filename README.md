@@ -43,8 +43,7 @@ manipulated. [Why I built it.](https://yuvalbloch.com/blog/newsagent/)
 ### Also here
 
 **[Medusa Resume](https://github.com/yuvalbloch/Medusa-Resume)** — a MERN resume-building
-application with a PDF editor and a job-listing crawler, built in 2019 during a full-stack
-bootcamp. Kept deliberately: it's six years old, and I like being able to show the distance.
+application with a PDF editor and a job-listing crawler, built at 2019.
 
 ---
 
