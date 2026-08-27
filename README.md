@@ -42,6 +42,12 @@ manipulated. [Why I built it.](https://yuvalbloch.com/blog/newsagent/)
 
 ### Also here
 
+**[Link prediction in plant–pollinator networks](https://github.com/yuvalbloch/link-prediction-in-plant-pollinator-)**
+— can you predict the interactions a pollination survey missed, from network structure alone?
+Power-law degree fitting and modularity analysis on the Doñana network, then a bake-off between
+Node2Vec, PCA, hand-built heuristics and a from-scratch SEAL graph neural network. Four simple
+heuristics beat the GNN, and the model transfers to an ecosystem thousands of kilometres away.
+
 **[Medusa Resume](https://github.com/yuvalbloch/Medusa-Resume)** — a MERN resume-building
 application with a PDF editor and a job-listing crawler, built at 2019.
 
@@ -54,3 +60,4 @@ actually use — including
 [what three years of thesis writing taught me](https://yuvalbloch.com/blog/lesson_learn_thesis/)
 and
 [running a censorship-circumvention proxy from a spare browser tab](https://yuvalbloch.com/blog/snowflake_helping_people_in_dictatorships_bypass_internet_censorship_from_your_couch/).
+
