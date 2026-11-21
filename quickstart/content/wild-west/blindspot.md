@@ -2,7 +2,7 @@
 date: '2026-11-21'
 draft: false
 title: 'Blindspot'
-weight: 1
+weight: 2
 number: '01'
 role: 'The scout'
 icon: 'compass'

@@ -2,7 +2,7 @@
 date: '2026-11-21'
 draft: false
 title: 'ESP32 Compatibility Table'
-weight: 2
+weight: 3
 number: '02'
 role: 'Project #1'
 icon: 'chip'
