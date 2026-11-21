@@ -5,6 +5,7 @@ title: 'ESP32 Compatibility Table'
 weight: 2
 number: '02'
 role: 'Project #1'
+icon: 'chip'
 status: 'In progress'
 description: 'Which community libraries still compile on the new ESP32 Arduino core? A public table built from real compile logs, plus a tool that tells you what to pin.'
 ---

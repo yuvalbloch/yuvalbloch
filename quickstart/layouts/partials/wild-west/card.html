@@ -1,0 +1,11 @@
+{{/* One tool/project card. Context: a page in the wild-west section. */}}
+<a class="ww-card" href="{{ .RelPermalink }}">
+  <div class="ww-card-top">
+    <span class="ww-card-icon">{{ partials.Include "wild-west/icon.html" (.Params.icon | default "star") }}</span>
+    {{ with .Params.status }}<span class="ww-pill ww-pill-{{ . | urlize }}">{{ . }}</span>{{ end }}
+  </div>
+  <span class="ww-eyebrow">{{ with .Params.number }}No. {{ . }}{{ end }}{{ with .Params.role }} · {{ . }}{{ end }}</span>
+  <h3 class="ww-card-title">{{ .Title }}</h3>
+  <p class="ww-card-desc">{{ .Description }}</p>
+  <span class="ww-card-more">Read more <span aria-hidden="true">&rarr;</span></span>
+</a>

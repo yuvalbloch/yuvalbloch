@@ -3,28 +3,22 @@
 
 {{ define "main" }}
 <div class="ww-page">
-  <article class="ww-wrap ww-paper ww-prose">
+  <article class="ww-wrap ww-prose">
     {{ if not .Date.IsZero }}
-      <p class="ww-dateline">{{ .Date | time.Format "January 2, 2006" }} &middot; {{ site.Params.author | title }}</p>
+      <p class="ww-dateline">{{ .Date | time.Format "January 2, 2006" }} · {{ site.Params.author | title }}</p>
     {{ end }}
     {{ .Content }}
   </article>
 
   {{ $others := where .CurrentSection.Pages.ByWeight "Permalink" "ne" .Permalink }}
-  <nav class="ww-wrap ww-tools" aria-label="More from the Wild West">
+  <nav class="ww-wrap-wide ww-tools ww-more" aria-label="More from the Wild West">
     {{ with $others }}
-    <h2 class="ww-section-title"><span>More from the trail</span></h2>
+    <div class="ww-section-head">
+      <span class="ww-eyebrow">Keep exploring</span>
+      <h2 class="ww-section-title">More from the Wild West</h2>
+    </div>
     <div class="ww-cards">
-      {{ range . }}
-      <a class="ww-card" href="{{ .RelPermalink }}">
-        <span class="ww-card-no">No. {{ .Params.number | default "—" }}</span>
-        {{ with .Params.status }}<span class="ww-stamp">{{ . }}</span>{{ end }}
-        {{ with .Params.role }}<span class="ww-label">{{ . }}</span>{{ end }}
-        <h3 class="ww-card-title">{{ .Title }}</h3>
-        <p class="ww-card-desc">{{ .Description }}</p>
-        <span class="ww-card-more">Read the dispatch &rarr;</span>
-      </a>
-      {{ end }}
+      {{ range . }}{{ partials.Include "wild-west/card.html" . }}{{ end }}
     </div>
     {{ end }}
     <p class="ww-back"><a href="{{ .CurrentSection.RelPermalink }}">&larr; Back to {{ .CurrentSection.Title }}</a></p>

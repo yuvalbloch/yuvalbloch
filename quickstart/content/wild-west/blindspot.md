@@ -5,6 +5,7 @@ title: 'Blindspot'
 weight: 1
 number: '01'
 role: 'The scout'
+icon: 'compass'
 status: 'Active'
 description: 'Mines public online communities for the questions people keep asking, and returns a ranked shortlist of problems worth solving.'
 ---
