@@ -1,0 +1,209 @@
+/* ---------------------------------------------------------------
+   Wild West landing page (layouts/wild-west/list.html) only.
+   The "frontier poster" look: dusk hero, mesas, wanted-poster cards.
+   Inner pages use the quieter static/css/wild-west.css instead.
+   --------------------------------------------------------------- */
+
+:root {
+  --wwp-paper: #f4e8cf;
+  --wwp-paper-deep: #ead8b2;
+  --wwp-ink: #3a2616;
+  --wwp-ink-soft: #5c4330;
+  --wwp-rust: #a8412a;
+  --wwp-rust-deep: #7c2e1c;
+  --wwp-leather: #8a5a34;
+  --wwp-display: 'Rye', Georgia, serif;
+  --wwp-type: 'Special Elite', 'Courier New', monospace;
+  --wwp-body: 'Lora', Georgia, serif;
+}
+
+body:has(.wwp-page) { background: var(--wwp-paper-deep); }
+main:has(.wwp-page) { padding-bottom: 0 !important; }
+
+.wwp-page {
+  background:
+    radial-gradient(ellipse at top, rgba(255, 255, 255, .35), transparent 60%),
+    var(--wwp-paper-deep);
+  color: var(--wwp-ink);
+  font-family: var(--wwp-body);
+  padding: 3rem 16px 4rem;
+}
+.wwp-wrap { max-width: 900px; margin: 0 auto; }
+
+/* ---------------- Hero ---------------- */
+.wwp-hero {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg,
+    #1f1420 0%, #3d1f2c 28%, #8a3a2c 58%, #d9733f 80%, #f0b46a 100%);
+  color: #f7ead0;
+  padding-bottom: 150px;
+}
+.wwp-hero::before {            /* the setting sun */
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  width: 340px;
+  height: 340px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffe3a3 0%, #f7b25a 45%, rgba(240, 140, 70, 0) 70%);
+  opacity: .9;
+}
+.wwp-hero > nav { position: relative; z-index: 2; }
+.wwp-hero-inner {
+  position: relative;
+  z-index: 2;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 3rem 16px 0;
+  text-align: center;
+}
+.wwp-kicker {
+  display: inline-block;
+  font-family: var(--wwp-type);
+  font-size: .95rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: #f2cf96;
+  margin-bottom: .75rem;
+}
+.wwp-title {
+  font-family: var(--wwp-display);
+  font-weight: 400;
+  font-size: clamp(2.6rem, 8vw, 5.2rem);
+  line-height: 1.05;
+  margin: 0 0 1rem;
+  color: #fbeed3;
+  text-shadow: 0 3px 0 var(--wwp-rust-deep), 0 8px 24px rgba(0, 0, 0, .45);
+}
+.wwp-lede {
+  font-size: clamp(1.05rem, 2.4vw, 1.3rem);
+  line-height: 1.55;
+  max-width: 640px;
+  margin: 0 auto 1.25rem;
+  color: #f7ead0;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, .5);
+}
+.wwp-tagline {
+  font-family: var(--wwp-type);
+  font-size: 1rem;
+  letter-spacing: .06em;
+  color: #ffe3a3;
+  margin: 0;
+}
+.wwp-landscape {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 200px;
+  z-index: 1;
+}
+
+/* ---------------- Section title ---------------- */
+.wwp-section-title {
+  font-family: var(--wwp-display);
+  font-weight: 400;
+  font-size: clamp(1.5rem, 4vw, 1.9rem);
+  color: var(--wwp-ink);
+  margin: 0 0 .25rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.wwp-section-title::before,
+.wwp-section-title::after {
+  content: "";
+  flex: 1;
+  border-top: 3px double var(--wwp-leather);
+}
+.wwp-section-sub {
+  text-align: center;
+  font-family: var(--wwp-type);
+  color: var(--wwp-ink-soft);
+  margin: 0 0 1.75rem;
+}
+
+/* ---------------- Wanted-poster cards (compact) ---------------- */
+.wwp-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr));
+  gap: 1.25rem;
+}
+.wwp-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--wwp-paper);
+  border: 2px solid var(--wwp-ink);
+  outline: 1px solid var(--wwp-ink);
+  outline-offset: -6px;
+  padding: 1.1rem 1.1rem 1rem;
+  color: var(--wwp-ink);
+  text-decoration: none;
+  box-shadow: 4px 4px 0 var(--wwp-leather);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.wwp-card:hover,
+.wwp-card:focus-visible {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--wwp-rust);
+}
+.wwp-card-no {
+  font-family: var(--wwp-type);
+  font-size: .75rem;
+  color: var(--wwp-ink-soft);
+  margin-bottom: .4rem;
+}
+.wwp-stamp {
+  position: absolute;
+  top: .85rem;
+  right: .85rem;
+  font-family: var(--wwp-type);
+  font-size: .65rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--wwp-rust);
+  border: 2px solid var(--wwp-rust);
+  border-radius: 3px;
+  padding: .12rem .45rem;
+  transform: rotate(-6deg);
+  opacity: .9;
+}
+.wwp-label {
+  font-family: var(--wwp-type);
+  font-size: .7rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--wwp-leather);
+}
+.wwp-card-title {
+  font-family: var(--wwp-display);
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.15;
+  margin: .25rem 0 .5rem;
+  color: var(--wwp-ink);
+}
+.wwp-card-desc {
+  font-size: .9rem;
+  line-height: 1.5;
+  margin: 0 0 .8rem;
+  color: var(--wwp-ink-soft);
+  flex: 1;
+}
+.wwp-card-more {
+  font-family: var(--wwp-type);
+  font-size: .8rem;
+  color: var(--wwp-rust);
+}
+
+.wwp-intro { margin-top: 2.5rem; text-align: center; color: var(--wwp-ink-soft); }
+
+@media (max-width: 640px) {
+  .wwp-hero { padding-bottom: 120px; }
+  .wwp-hero::before { width: 240px; height: 240px; }
+  .wwp-landscape { height: 140px; }
+}
