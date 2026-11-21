@@ -1,0 +1,29 @@
+{{ define "head" }}{{ partials.Include "wild-west/head.html" . }}{{ end }}
+{{ define "header" }}{{ partials.Include "wild-west/hero.html" . }}{{ end }}
+
+{{ define "main" }}
+<div class="ww-page">
+  {{ with .Pages.ByWeight }}
+  <section class="ww-wrap ww-tools" aria-labelledby="ww-tools-heading">
+    <h2 id="ww-tools-heading" class="ww-section-title"><span>The Outfit</span></h2>
+    <p class="ww-section-sub">Tools and projects built along the trail.</p>
+    <div class="ww-cards">
+      {{ range . }}
+      <a class="ww-card" href="{{ .RelPermalink }}">
+        <span class="ww-card-no">No. {{ .Params.number | default "—" }}</span>
+        {{ with .Params.status }}<span class="ww-stamp">{{ . }}</span>{{ end }}
+        {{ with .Params.role }}<span class="ww-label">{{ . }}</span>{{ end }}
+        <h3 class="ww-card-title">{{ .Title }}</h3>
+        <p class="ww-card-desc">{{ .Description }}</p>
+        <span class="ww-card-more">Read the dispatch &rarr;</span>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  <article class="ww-wrap ww-paper ww-prose">
+    {{ .Content }}
+  </article>
+</div>
+{{ end }}

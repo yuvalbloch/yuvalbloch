@@ -60,6 +60,11 @@ enableRobotsTXT = true         # Best practice to enable this here
     url = "/LEAN/"
     weight = 7
 
+  [[menu.main]]
+    name = "Wild West"
+    url = "/wild-west/"
+    weight = 8
+
 [params.ananke.social.follow]
   new_window_icon = true
   networks = ["github", "linkedin"]
