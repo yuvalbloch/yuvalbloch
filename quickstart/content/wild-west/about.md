@@ -1,7 +1,7 @@
 ---
 date: '2026-11-21'
 draft: false
-title: 'About the Wild West'
+title: 'About the Project'
 weight: 1
 number: '00'
 role: 'The idea'

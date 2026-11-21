@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------
    Wild West landing page (layouts/wild-west/list.html) only.
-   The "frontier poster" look: dusk hero, mesas, wanted-poster cards.
+   The wanted-poster cards. The hero comes from wild-west.css, shared with inner pages.
    Inner pages use the quieter static/css/wild-west.css instead.
    --------------------------------------------------------------- */
 
@@ -29,78 +29,6 @@ main:has(.wwp-page) { padding-bottom: 0 !important; }
   padding: 3rem 16px 4rem;
 }
 .wwp-wrap { max-width: 900px; margin: 0 auto; }
-
-/* ---------------- Hero ---------------- */
-.wwp-hero {
-  position: relative;
-  overflow: hidden;
-  background: linear-gradient(180deg,
-    #1f1420 0%, #3d1f2c 28%, #8a3a2c 58%, #d9733f 80%, #f0b46a 100%);
-  color: #f7ead0;
-  padding-bottom: 150px;
-}
-.wwp-hero::before {            /* the setting sun */
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: 40px;
-  width: 340px;
-  height: 340px;
-  transform: translateX(-50%);
-  border-radius: 50%;
-  background: radial-gradient(circle, #ffe3a3 0%, #f7b25a 45%, rgba(240, 140, 70, 0) 70%);
-  opacity: .9;
-}
-.wwp-hero > nav { position: relative; z-index: 2; }
-.wwp-hero-inner {
-  position: relative;
-  z-index: 2;
-  max-width: 860px;
-  margin: 0 auto;
-  padding: 3rem 16px 0;
-  text-align: center;
-}
-.wwp-kicker {
-  display: inline-block;
-  font-family: var(--wwp-type);
-  font-size: .95rem;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-  color: #f2cf96;
-  margin-bottom: .75rem;
-}
-.wwp-title {
-  font-family: var(--wwp-display);
-  font-weight: 400;
-  font-size: clamp(2.6rem, 8vw, 5.2rem);
-  line-height: 1.05;
-  margin: 0 0 1rem;
-  color: #fbeed3;
-  text-shadow: 0 3px 0 var(--wwp-rust-deep), 0 8px 24px rgba(0, 0, 0, .45);
-}
-.wwp-lede {
-  font-size: clamp(1.05rem, 2.4vw, 1.3rem);
-  line-height: 1.55;
-  max-width: 640px;
-  margin: 0 auto 1.25rem;
-  color: #f7ead0;
-  text-shadow: 0 1px 8px rgba(0, 0, 0, .5);
-}
-.wwp-tagline {
-  font-family: var(--wwp-type);
-  font-size: 1rem;
-  letter-spacing: .06em;
-  color: #ffe3a3;
-  margin: 0;
-}
-.wwp-landscape {
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  width: 100%;
-  height: 200px;
-  z-index: 1;
-}
 
 /* ---------------- Section title ---------------- */
 .wwp-section-title {
@@ -201,9 +129,3 @@ main:has(.wwp-page) { padding-bottom: 0 !important; }
 }
 
 .wwp-intro { margin-top: 2.5rem; text-align: center; color: var(--wwp-ink-soft); }
-
-@media (max-width: 640px) {
-  .wwp-hero { padding-bottom: 120px; }
-  .wwp-hero::before { width: 240px; height: 240px; }
-  .wwp-landscape { height: 140px; }
-}
