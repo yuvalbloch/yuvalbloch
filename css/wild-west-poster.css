@@ -1,83 +1,127 @@
 /* ---------------------------------------------------------------
    Wild West landing page (layouts/wild-west/list.html) only.
-   The wanted-poster cards. The hero comes from wild-west.css, shared with inner pages.
-   Inner pages use the quieter static/css/wild-west.css instead.
+   The area below the hero is a frontier notice board: wooden planks,
+   a carved sign, and the cards pinned on as paper notices.
+   The hero comes from wild-west.css, shared with the inner pages.
    --------------------------------------------------------------- */
 
 :root {
   --wwp-paper: #f4e8cf;
-  --wwp-paper-deep: #ead8b2;
   --wwp-ink: #3a2616;
   --wwp-ink-soft: #5c4330;
   --wwp-rust: #a8412a;
-  --wwp-rust-deep: #7c2e1c;
   --wwp-leather: #8a5a34;
+  --wwp-wood: #6a4429;
+  --wwp-wood-dark: #3e2716;
   --wwp-display: 'Rye', Georgia, serif;
   --wwp-type: 'Special Elite', 'Courier New', monospace;
   --wwp-body: 'Lora', Georgia, serif;
 }
 
-body:has(.wwp-page) { background: var(--wwp-paper-deep); }
-main:has(.wwp-page) { padding-bottom: 0 !important; }
+body:has(.wwp-page) { background: var(--wwp-wood-dark); overflow-x: hidden; }
+main:has(.wwp-page) { padding: 0 !important; }
 
+/* ---------------- The board ---------------- */
 .wwp-page {
-  background:
-    radial-gradient(ellipse at top, rgba(255, 255, 255, .35), transparent 60%),
-    var(--wwp-paper-deep);
+  /* full-bleed, independent of any width the theme puts on the container */
+  width: 100vw;
+  margin-left: calc(50% - 50vw) !important;
+  margin-right: 0 !important;
+  max-width: none !important;
+  box-sizing: border-box;
   color: var(--wwp-ink);
   font-family: var(--wwp-body);
-  padding: 3rem 16px 4rem;
+  padding: 3.5rem 16px 4.5rem;
+  background-color: var(--wwp-wood);
+  background-image:
+    /* plank seams */
+    repeating-linear-gradient(180deg, transparent 0 116px, rgba(20, 10, 4, .55) 116px 118px, rgba(255, 220, 170, .08) 118px 120px),
+    /* wood grain */
+    repeating-linear-gradient(90deg, rgba(255, 220, 170, .035) 0 1px, transparent 1px 9px, rgba(0, 0, 0, .05) 9px 10px, transparent 10px 23px),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='120'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.004 .25' numOctaves='3' seed='4'/%3E%3CfeColorMatrix values='0 0 0 0 .18 0 0 0 0 .1 0 0 0 0 .05 0 0 0 .45 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E"),
+    linear-gradient(180deg, #74492b, #5e3b22);
+  box-shadow: inset 0 14px 24px -12px rgba(0, 0, 0, .6);
 }
 .wwp-wrap { max-width: 900px; margin: 0 auto; }
 
-/* ---------------- Section title ---------------- */
+/* ---------------- Carved sign ---------------- */
 .wwp-section-title {
+  text-align: center;
+  margin: 0 0 .9rem;
+}
+.wwp-section-title span {
+  position: relative;
+  display: inline-block;
   font-family: var(--wwp-display);
   font-weight: 400;
-  font-size: clamp(1.5rem, 4vw, 1.9rem);
-  color: var(--wwp-ink);
-  margin: 0 0 .25rem;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
+  font-size: clamp(1.4rem, 4vw, 1.8rem);
+  color: #f3dfb8;
+  padding: .55rem 2.4rem .6rem;
+  background: linear-gradient(180deg, #4a2e1a, #3a2313);
+  border: 2px solid #2a190d;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 rgba(255, 220, 170, .15), 0 6px 14px rgba(0, 0, 0, .45);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .6);
 }
-.wwp-section-title::before,
-.wwp-section-title::after {
+.wwp-section-title span::before,
+.wwp-section-title span::after {     /* nails */
   content: "";
-  flex: 1;
-  border-top: 3px double var(--wwp-leather);
+  position: absolute;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #d9d2c4, #6d6458 70%);
 }
+.wwp-section-title span::before { left: .8rem; }
+.wwp-section-title span::after { right: .8rem; }
 .wwp-section-sub {
   text-align: center;
   font-family: var(--wwp-type);
-  color: var(--wwp-ink-soft);
-  margin: 0 0 1.75rem;
+  color: rgba(243, 223, 184, .8);
+  margin: 0 0 2.5rem;
 }
 
-/* ---------------- Wanted-poster cards (compact) ---------------- */
+/* ---------------- Pinned notices ---------------- */
 .wwp-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr));
-  gap: 1.25rem;
+  gap: 2rem 1.5rem;
 }
 .wwp-card {
   position: relative;
   display: flex;
   flex-direction: column;
-  background: var(--wwp-paper);
-  border: 2px solid var(--wwp-ink);
-  outline: 1px solid var(--wwp-ink);
-  outline-offset: -6px;
-  padding: 1.1rem 1.1rem 1rem;
+  background:
+    radial-gradient(ellipse at 30% 20%, rgba(255, 255, 255, .45), transparent 60%),
+    radial-gradient(ellipse at 80% 90%, rgba(160, 110, 50, .18), transparent 55%),
+    var(--wwp-paper);
+  padding: 1.6rem 1.15rem 1.05rem;
   color: var(--wwp-ink);
   text-decoration: none;
-  box-shadow: 4px 4px 0 var(--wwp-leather);
-  transition: transform .15s ease, box-shadow .15s ease;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .3), 0 12px 22px rgba(0, 0, 0, .35);
+  transition: transform .2s ease, box-shadow .2s ease;
 }
+.wwp-card:nth-child(3n+1) { transform: rotate(-1.6deg); }
+.wwp-card:nth-child(3n+2) { transform: rotate(1.1deg) translateY(6px); }
+.wwp-card:nth-child(3n)   { transform: rotate(-.6deg); }
 .wwp-card:hover,
 .wwp-card:focus-visible {
-  transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0 var(--wwp-rust);
+  transform: rotate(0) translateY(-4px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .3), 0 20px 34px rgba(0, 0, 0, .45);
+}
+.wwp-card::before {                   /* the pin */
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 50%;
+  width: 13px;
+  height: 13px;
+  margin-left: -6.5px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #e07a5a, #8e2f1a 65%, #5a1c0e);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
 }
 .wwp-card-no {
   font-family: var(--wwp-type);
@@ -87,7 +131,7 @@ main:has(.wwp-page) { padding-bottom: 0 !important; }
 }
 .wwp-stamp {
   position: absolute;
-  top: .85rem;
+  top: 1.35rem;
   right: .85rem;
   font-family: var(--wwp-type);
   font-size: .65rem;
@@ -98,7 +142,7 @@ main:has(.wwp-page) { padding-bottom: 0 !important; }
   border-radius: 3px;
   padding: .12rem .45rem;
   transform: rotate(-6deg);
-  opacity: .9;
+  opacity: .85;
 }
 .wwp-label {
   font-family: var(--wwp-type);
@@ -128,4 +172,8 @@ main:has(.wwp-page) { padding-bottom: 0 !important; }
   color: var(--wwp-rust);
 }
 
-.wwp-intro { margin-top: 2.5rem; text-align: center; color: var(--wwp-ink-soft); }
+.wwp-intro { margin-top: 2.5rem; text-align: center; color: rgba(243, 223, 184, .85); }
+
+@media (prefers-reduced-motion: reduce) {
+  .wwp-card { transition: none; }
+}
