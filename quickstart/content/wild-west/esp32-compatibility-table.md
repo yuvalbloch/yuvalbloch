@@ -63,4 +63,4 @@ I'll be measuring the hours I spent against the hours it would take by hand, how
 
 ## Status
 
-Under construction. The table will be published here on this website.
+**[Open the live table →](/wild-west/esp32-table/)** The compile farm is running on GitHub's machines and the first results are coming in. The code, every result and every compile log are public on [GitHub](https://github.com/yuvalbloch/esp32-library-compatibility).

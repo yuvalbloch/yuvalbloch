@@ -14,6 +14,8 @@ enableRobotsTXT = true         # Best practice to enable this here
   # Single source of truth for the {{< repo >}} shortcode used across content/research/
   research_repo = "https://github.com/MadagascarEEID/LUC_Madagascar"
   research_doi = "https://doi.org/10.5281/zenodo.21888470"
+  # Where the ESP32 compatibility table loads its script, style and daily-updated data from
+  esp32_compat_base = "https://yuvalbloch.github.io/esp32-library-compatibility/"
   ananke.show_recent_posts = true
   omit_header_text = false
   summaryLength = 10  # reduce to 25 words instead of 70
