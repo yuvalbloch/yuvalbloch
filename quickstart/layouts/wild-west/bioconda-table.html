@@ -1,0 +1,40 @@
+{{/*
+  Bioconda on Apple Silicon table: a standalone page with its own style
+  (deliberately not using baseof.html / the ananke theme), like esp32-table.html.
+
+  The page is only a shell. Its markup, stylesheet, script and data are loaded from the
+  project's GitHub Pages site (site.Params.bioconda_arm_base), so the table updates every
+  night without any change to this repository.
+  Source: https://github.com/yuvalbloch/bioconda-arm-readiness
+*/}}
+{{- $base := site.Params.bioconda_arm_base -}}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ .Title }} · {{ site.Params.author | title }}</title>
+<meta name="description" content="{{ .Description }}">
+<link rel="canonical" href="{{ .Permalink }}">
+{{ partial "opengraph.html" . }}
+{{ partials.IncludeCached "site-favicon.html" . }}
+<link rel="stylesheet" href="{{ $base }}style.css">
+<link rel="alternate" type="application/rss+xml" title="Bioconda on Apple Silicon: what's new" href="{{ $base }}feed.xml">
+{{ template "_internal/google_analytics.html" . }}
+</head>
+<body>
+<div id="app"><p style="padding:16px">Loading the table…</p></div>
+<script>
+  window.BIOARM = {
+    base: {{ $base }},
+    back: [
+      [{{ "/" | relURL }}, "yuvalbloch.com"],
+      [{{ "/wild-west/" | relURL }}, "The AI Wild West"],
+      [{{ "/wild-west/bioconda-apple-silicon/" | relURL }}, "About this project"],
+      ["https://github.com/yuvalbloch/bioconda-arm-readiness", "Source &amp; data on GitHub"]
+    ]
+  };
+</script>
+<script src="{{ $base }}app.js"></script>
+</body>
+</html>
